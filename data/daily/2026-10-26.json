@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
  "holdings_as_of": "23-oct-2026",
- "generated_at": "2026-10-26T20:50:08+00:00",
+ "generated_at": "2026-10-26T20:57:09+00:00",
  "xbi_close": 150.47,
  "xbi_return_pct": 0.62,
  "sum_contribution_bps": 62.6,
@@ -10,8 +10,88 @@
  "missing_tickers": [],
  "source": {
   "holdings": "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xbi.xlsx",
-  "prices": "Yahoo Finance via yfinance"
+  "prices": "Yahoo Finance via yfinance",
+  "news": "Yahoo Finance news via yfinance"
  },
+ "movers": [
+  {
+   "ticker": "ORIC",
+   "name": "Oric Pharmaceuticals Inc",
+   "return_pct": -32.0,
+   "contribution_bps": -10.44,
+   "headlines": []
+  },
+  {
+   "ticker": "AVBP",
+   "name": "Arrivent Biopharma Inc",
+   "return_pct": -26.86,
+   "contribution_bps": -5.31,
+   "headlines": []
+  },
+  {
+   "ticker": "XNCR",
+   "name": "Xencor Inc",
+   "return_pct": 15.89,
+   "contribution_bps": 5.34,
+   "headlines": []
+  },
+  {
+   "ticker": "CLYM",
+   "name": "Climb Bio Inc",
+   "return_pct": -13.54,
+   "contribution_bps": -1.52,
+   "headlines": []
+  },
+  {
+   "ticker": "ORKA",
+   "name": "Oruka Therapeutics Inc",
+   "return_pct": 12.7,
+   "contribution_bps": 16.84,
+   "headlines": []
+  },
+  {
+   "ticker": "REPL",
+   "name": "Replimune Group Inc",
+   "return_pct": 8.81,
+   "contribution_bps": 2.57,
+   "headlines": []
+  },
+  {
+   "ticker": "CABA",
+   "name": "Cabaletta Bio Inc",
+   "return_pct": -8.16,
+   "contribution_bps": -0.61,
+   "headlines": []
+  },
+  {
+   "ticker": "SVRA",
+   "name": "Savara Inc",
+   "return_pct": 7.11,
+   "contribution_bps": 0.98,
+   "headlines": []
+  },
+  {
+   "ticker": "GRAL",
+   "name": "Grail Inc",
+   "return_pct": 5.55,
+   "contribution_bps": 7.39,
+   "headlines": []
+  },
+  {
+   "ticker": "TWST",
+   "name": "Twist Bioscience Corp",
+   "return_pct": 3.81,
+   "contribution_bps": 6.43,
+   "headlines": []
+  },
+  {
+   "ticker": "IBRX",
+   "name": "Immunitybio Inc",
+   "return_pct": -4.99,
+   "contribution_bps": -4.91,
+   "headlines": []
+  }
+ ],
  "rows": [
   {
    "id": "ORKA-2026-10-26",
