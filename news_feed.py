@@ -27,14 +27,16 @@ DAYS_BACK = 3
 FEEDS = {
     "BioPharma Dive": "https://www.biopharmadive.com/feeds/news/",
     "Fierce Biotech": "https://www.fiercebiotech.com/rss/xml",
-    "Endpoints News": "https://endpts.com/feed/",
-    "GlobeNewswire (biotech)": "https://www.globenewswire.com/RssFeed/industry/4573-Biotechnology/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Biotechnology",
-    "GlobeNewswire (pharma)": "https://www.globenewswire.com/RssFeed/industry/4577-Pharmaceuticals/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Pharmaceuticals",
     "PR Newswire (health)": "https://www.prnewswire.com/rss/health-latest-news/health-latest-news-list.rss",
 }
 
-# Google News searches catch announcements the feeds above miss (e.g. Business Wire).
+# Google News searches catch announcements the feeds above miss, including sites that
+# block direct feed requests (Endpoints, GlobeNewswire, Business Wire).
 SEARCHES = [
+    "site:endpts.com deal OR licensing OR acquire OR raises",
+    "site:globenewswire.com therapeutics license agreement OR acquisition OR financing",
+    "site:businesswire.com therapeutics license agreement OR acquisition OR financing",
+    "site:biospace.com deal OR acquisition OR financing",
     "biotech license agreement upfront milestone",
     "pharma to acquire biotech per share",
     "biotech collaboration agreement upfront",
@@ -47,7 +49,9 @@ SEARCHES = [
 
 DEAL = re.compile(r"\b(acquir\w*|acquisition|merger|merge|buyout|take ?over|licen[cs]\w*|in-licens\w*|collaborat\w*|partner\w*|option|upfront|up-front|milestone|royalt\w*|rights to|deal)\b", re.I)
 FUND = re.compile(r"\b(series [a-h]\b|seed|financing|raises?|raised|funding|ipo|initial public offering|public offering|private placement|pipe|venture|round)\b", re.I)
-NOT_BIO = re.compile(r"\b(crypto|bitcoin|real estate|bank|insurance|mining|oil|gas|solar|retail|restaurant)\b", re.I)
+BIO = re.compile(r"\b(bio\w*|pharma\w*|therapeutic\w*|drug\w*|medicine\w*|oncology|cancer|tumou?r|antibod\w*|clinical|FDA|phase [1-3i]+|gene|cell therap\w*|rna\w*|sirna|vaccine\w*|obesity|glp-1|adc|bispecific|biologic\w*|molecule\w*|disease|rare|neuro\w*|immun\w*|life sciences?)\b", re.I)
+BIO_OUTLETS = ("BioPharma Dive", "Fierce Biotech", "Endpoints", "BioSpace", "Fierce Pharma", "Genetic Engineering", "GEN", "BioWorld", "STAT", "Pharmaceutical Executive", "pharmaphorum", "The Pharma Letter", "PharmaShots", "MedCity News", "Labiotech")
+NOT_BIO = re.compile(r"\b(crypto|bitcoin|real estate|bank|insurance|mining|oil|gas|solar|retail|restaurant|robotic\w*|cyber\w*|wealth|spacex|anthropic|openai|sheriff|county)\b", re.I)
 
 
 def parse_feed(xml: bytes) -> list[dict]:
@@ -113,9 +117,10 @@ def main() -> int:
                 continue
             text = it["title"] + " " + it["summary"]
             kinds = [k for k, pat in (("deal", DEAL), ("funding", FUND)) if pat.search(text)]
-            if not kinds or NOT_BIO.search(it["title"]):
-                continue
             publisher = it["publisher"] or (name if not name.startswith("Google News") else None)
+            from_bio_outlet = any(o.lower() in (publisher or name).lower() for o in BIO_OUTLETS)
+            if not kinds or NOT_BIO.search(it["title"]) or not (from_bio_outlet or BIO.search(text)):
+                continue
             title = it["title"]
             if it["publisher"] and title.endswith(" - " + it["publisher"]):
                 title = title[: -len(" - " + it["publisher"])]
