@@ -136,6 +136,8 @@ def recent_headlines(ticker: str, name: str, date: str, limit: int = 5) -> list[
             continue
         if not title or not (start <= ts <= end):
             continue
+        if re.search(r"stock price, news|quote (&|and) history", title, re.I):
+            continue  # skip generic quote pages
         # keep only headlines that actually name the company or ticker
         if not (re.search(rf"\b{re.escape(ticker)}\b", title) or short.lower() in title.lower()):
             continue
