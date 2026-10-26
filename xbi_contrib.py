@@ -55,9 +55,10 @@ def load_holdings() -> pd.DataFrame:
 
     # Pull the as-of date from the title rows if it is there (e.g. "As of 26-Oct-2026").
     as_of = None
-    for cell in raw.iloc[:header_row].astype(str).values.ravel():
-        if "as of" in cell.lower():
-            as_of = cell.split("of", 1)[-1].strip()
+    for cell in raw.iloc[:header_row].values.ravel():
+        text = str(cell)
+        if "as of" in text.lower():
+            as_of = text.lower().split("as of", 1)[-1].strip()
 
     df = df[["Name", "Ticker", "Weight"]].dropna(subset=["Ticker", "Weight"])
     df["Ticker"] = df["Ticker"].astype(str).str.strip()
