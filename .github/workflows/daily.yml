@@ -1,4 +1,4 @@
-name: Daily XBI contribution
+name: Daily XBI contribution + catalyst news
 
 on:
   schedule:
@@ -44,6 +44,13 @@ jobs:
           set -o pipefail
           python fda_outcomes.py 2>&1 | tee data/outcomes_log.txt
 
+      - name: Catalyst news and trial readout checks
+        id: catalysts
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python catalyst_news.py 2>&1 | tee data/catalyst_news_log.txt
+
       - name: Commit results (and the run log)
         run: |
           git config user.name "github-actions[bot]"
@@ -54,5 +61,5 @@ jobs:
           git push
 
       - name: Fail the run if the script failed
-        if: steps.compute.outcome == 'failure' || steps.outcomes.outcome == 'failure'
+        if: steps.compute.outcome == 'failure' || steps.outcomes.outcome == 'failure' || steps.catalysts.outcome == 'failure'
         run: exit 1
