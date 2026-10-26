@@ -33,3 +33,7 @@ Or open the **Actions** tab on GitHub and run **Daily XBI contribution** by hand
 ## Deal & funding news feed
 
 `news_feed.py` runs every morning (`.github/workflows/news.yml`). It collects the last three days of headlines from BioPharma Dive, Fierce Biotech, Endpoints, GlobeNewswire, PR Newswire and a few Google News searches, keeps the ones that look like deals or financings, and saves them to `data/news/latest.json` for the dashboard's morning update.
+
+## Catalyst news (`catalyst_news.py`)
+
+Runs in the after-close workflow. Searches the news for FDA approvals/CRLs and Phase 2 / Phase 3 results at public companies, and checks ~30 due or overdue trials from `data/catalysts.json` per run for results. Output: `data/catalyst_news/latest.json` (with each stock's move on the reaction day). The dashboard's evening task classifies each story (positive / negative / mixed). `newsrss.py` is the shared news search: Google News first, Bing News as a fallback when GitHub's servers get rate-limited.
