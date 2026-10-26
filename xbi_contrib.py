@@ -8,7 +8,7 @@ Each trading day this script:
   3. Computes each stock's contribution to XBI's move:
          contribution (bps) = weight (%) x daily return (%)
      e.g. a 0.8% holding that rises 10% adds about +8 bps to XBI.
-  4. Collects recent Yahoo Finance headlines for the biggest movers.
+  4. Collects recent Google News headlines for the biggest movers.
   5. Saves the results to data/latest.json and data/daily/<date>.json.
 
 The weights in the holdings file are as of the prior close, which is the
@@ -18,6 +18,10 @@ right starting point for measuring the day's contribution.
 from __future__ import annotations
 
 import io
+import re
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
+from urllib.parse import urlencode
 import json
 import sys
 from datetime import datetime, timezone
@@ -32,7 +36,6 @@ HOLDINGS_URL = (
     "fund-data/etfs/us/holdings-daily-us-en-xbi.xlsx"
 )
 DATA_DIR = Path(__file__).parent / "data"
-DEBUG_TICKERS = {"ORIC", "ORKA"}
 
 
 def load_holdings() -> pd.DataFrame:
@@ -94,34 +97,40 @@ def pick_movers(priced: pd.DataFrame, n_pct: int = 8, n_contrib: int = 3) -> pd.
     return pd.concat([by_move, top, bottom]).drop_duplicates("Ticker")
 
 
-def recent_headlines(ticker: str, date: str, limit: int = 5) -> list[dict]:
-    """Yahoo Finance headlines for a ticker published from the prior evening through `date`."""
+def recent_headlines(ticker: str, name: str, date: str, limit: int = 5) -> list[dict]:
+    """News headlines about a stock from the prior evening through the evening of `date`.
+
+    Uses Google News' public RSS search (free, no key). Best-effort: never fails the run.
+    """
     start = pd.Timestamp(date, tz="UTC") - pd.Timedelta(hours=28)  # ~prior day's close (ET) onward
     end = pd.Timestamp(date, tz="UTC") + pd.Timedelta(hours=30)  # through the evening after the close
+    short = re.sub(r"\b(INC|CORP|CORPORATION|LTD|PLC|N\.?V\.?|S\.?A\.?|SE|AG|HOLDINGS?|CO|LLC|CLASS [A-Z]|ADR|SPONS(ORED)?)\b\.?", "", name.upper())
+    short = re.sub(r"[^A-Z0-9 &-]", " ", short)
+    short = " ".join(short.split()).title()
+    query = f'"{short}" OR "{ticker} stock" when:3d'
+    url = "https://news.google.com/rss/search?" + urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
     try:
-        items = yf.Ticker(ticker.replace(".", "-")).news or []
-    except Exception as exc:  # news is best-effort; never fail the run over it
+        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+    except Exception as exc:
         print(f"News lookup failed for {ticker}: {exc}")
         return []
-    if ticker in DEBUG_TICKERS:
-        print(f"[news debug] {ticker}: {len(items)} items from Yahoo")
-        for it in items[:3]:
-            c = it.get("content", it)
-            print("   keys:", sorted(c.keys())[:15], "| pub:", c.get("pubDate") or c.get("displayTime") or c.get("providerPublishTime"), "|", str(c.get("title"))[:70])
     out = []
-    for item in items:
-        c = item.get("content", item)  # yfinance has used both a flat and a nested shape
-        title = c.get("title")
-        published = c.get("pubDate") or c.get("displayTime") or c.get("providerPublishTime")
-        if isinstance(published, (int, float)):
-            ts = pd.Timestamp(published, unit="s", tz="UTC")
-        else:
-            ts = pd.to_datetime(published, utc=True, errors="coerce")
-        link = (c.get("canonicalUrl") or {}).get("url") or (c.get("clickThroughUrl") or {}).get("url") or c.get("link")
-        publisher = (c.get("provider") or {}).get("displayName") or c.get("publisher")
-        if not title or ts is pd.NaT or ts is None or not (start <= ts <= end):
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = item.findtext("link")
+        publisher = item.findtext("source")
+        try:
+            ts = pd.Timestamp(parsedate_to_datetime(item.findtext("pubDate") or "")).tz_convert("UTC")
+        except Exception:
             continue
+        if not title or not (start <= ts <= end):
+            continue
+        if publisher and title.endswith(" - " + publisher):
+            title = title[: -len(" - " + publisher)]
         out.append({"title": title, "publisher": publisher, "link": link, "published": ts.isoformat()})
+    out.sort(key=lambda h: h["published"], reverse=True)
     return out[:limit]
 
 
@@ -138,7 +147,7 @@ def main() -> int:
 
     movers = []
     for r in pick_movers(priced).itertuples():
-        news = recent_headlines(r.Ticker, date)
+        news = recent_headlines(r.Ticker, str(r.Name), date)
         movers.append({
             "ticker": r.Ticker,
             "name": str(r.Name).title(),
@@ -172,7 +181,7 @@ def main() -> int:
         "holdings_count": len(df),
         "priced_count": len(priced),
         "missing_tickers": missing,
-        "source": {"holdings": HOLDINGS_URL, "prices": "Yahoo Finance via yfinance", "news": "Yahoo Finance news via yfinance"},
+        "source": {"holdings": HOLDINGS_URL, "prices": "Yahoo Finance via yfinance", "news": "Google News RSS search"},
         "movers": movers,
         "rows": rows,
     }
