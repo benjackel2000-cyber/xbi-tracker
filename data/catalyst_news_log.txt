@@ -1,36 +1,201 @@
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.rename(columns=ctx.isins, inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  data.sort_index(level=0, axis=1, inplace=True)
 Watching 191 tickers, 236 catalyst rows, 0 trials already reported.
-Broad 'FDA approves': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=FDA+approves+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'FDA approval biotech': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=FDA+approval+biotech+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'complete response letter FDA': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=complete+response+letter+FDA+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'Phase 3 topline results': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Phase+3+topline+results+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'Phase 3 trial met primary endpoint': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Phase+3+trial+met+primary+endpoint+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'Phase 3 did not meet primary endpoint': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Phase+3+did+not+meet+primary+endpoint+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'pivotal trial results biotech': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=pivotal+trial+results+biotech+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'Phase 2 topline data': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Phase+2+topline+data+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'Phase 2 trial results biotech': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Phase+2+trial+results+biotech+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'Phase 2b results primary endpoint': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Phase+2b+results+primary+endpoint+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'site:globenewswire.com topline results': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Aglobenewswire.com+topline+results+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'site:businesswire.com topline results': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Abusinesswire.com+topline+results+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'site:prnewswire.com topline results': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Aprnewswire.com+topline+results+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'site:biospace.com Phase 3 results': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Abiospace.com+Phase+3+results+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'site:fiercebiotech.com phase data': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Afiercebiotech.com+phase+data+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
-Broad 'site:endpts.com data': failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Aendpts.com+data+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen)
+Broad 'FDA approves': 80 items, 5 kept
+Broad 'FDA approval biotech': 16 items, 2 kept
+Broad 'complete response letter FDA': 9 items, 0 kept
+Broad 'Phase 3 topline results': 26 items, 0 kept
+Broad 'Phase 3 trial met primary endpoint': 40 items, 2 kept
+Broad 'Phase 3 did not meet primary endpoint': 46 items, 1 kept
+Broad 'pivotal trial results biotech': 39 items, 1 kept
+Broad 'Phase 2 topline data': 17 items, 1 kept
+Broad 'Phase 2 trial results biotech': 30 items, 0 kept
+Broad 'Phase 2b results primary endpoint': 14 items, 1 kept
+Broad 'site:globenewswire.com topline results': 16 items, 0 kept
+Broad 'site:businesswire.com topline results': 12 items, 0 kept
+Broad 'site:prnewswire.com topline results': 5 items, 0 kept
+Broad 'site:biospace.com Phase 3 results': 100 items, 7 kept
+Broad 'site:fiercebiotech.com phase data': 14 items, 0 kept
+Broad 'site:endpts.com data': 0 items, 0 kept
 17 trials due or overdue; checking 17 this run.
-Check NCT06951711-2026-11-02: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Bristol+Myers+Squibb%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-05&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT05646862-2026-11-13: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Roche%22+OR+%22Inavolisib%22+OR+%22Fulvestrant%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-16&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT05946941-2026-11-18: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Bristol+Myers+Squibb%22+OR+%22Deucravacitinib%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-21&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT04634877-2026-11-20: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Merck%22+OR+%22Pembrolizumab%22+OR+%22adjuvant%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-23&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT06585787-2026-11-24: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Bristol+Myers+Squibb%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-27&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT03815643-2026-11-24: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Merck%22+OR+%22Avelumab%22+OR+%22rollover%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-27&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT05239728-2026-10-28: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Merck%22+OR+%22Belzutifan%22+OR+%22Pembrolizumab%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-06-30&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT05115110-2026-10-28: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Roche%22+OR+%22RO7204239%22+OR+%22Risdiplam%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-06-30&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT06588855-2026-10-29: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Roche%22+OR+%22Afimkibart%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-01&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT04657991-2026-10-30: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Merck%22+OR+%22Encorafenib%22+OR+%22Binimetinib%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-02&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT05444257-2026-10-30: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Vertex%22+OR+%22VX-121%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-02&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT06136585-2026-10-31: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Merck%22+OR+%22Sugammadex%22+OR+%22neostigmine%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-03&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT03992430-2026-10-31: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Sarepta%22+OR+%22Eteplirsen%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-03&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT06951698-2026-11-01: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Bristol+Myers+Squibb%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-04&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT05066217-2026-11-01: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Harmony+Biosciences%22+OR+%22Clemizole%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-04&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT06829823-2026-11-01: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22ImmunityBio%22+OR+%22Gemcitabin%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-04&hl=en-US&gl=US&ceid=US%3Aen)
-Check NCT05834777-2026-11-01: failed (503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Pharvaris%22+OR+%22Icatibant%22%29+%28topline+OR+%22primary+endpoint%22+OR+results+OR+data%29+phase+after%3A2026-07-04&hl=en-US&gl=US&ceid=US%3Aen)
-Saved 0 catalyst stories; 0 trials marked reported.
+Check NCT06951711-2026-11-02 (BMY): nothing yet
+Check NCT05646862-2026-11-13 (RHHBY): nothing yet
+Check NCT05946941-2026-11-18 (BMY): reported -> Bristol Myers Squibb Presents Sotyktu (deucravacitinib) Data Showing Durable Efficacy, Con
+Check NCT04634877-2026-11-20 (MRK): nothing yet
+Check NCT06585787-2026-11-24 (BMY): nothing yet
+Check NCT03815643-2026-11-24 (MRK): nothing yet
+Check NCT05239728-2026-10-28 (MRK): nothing yet
+Check NCT05115110-2026-10-28 (RHHBY): nothing yet
+Check NCT06588855-2026-10-29 (RHHBY): nothing yet
+Check NCT04657991-2026-10-30 (MRK): reported -> Merck, Moderna Report Positive Results for Their Melanoma Vaccine
+Check NCT05444257-2026-10-30 (VRTX): nothing yet
+Check NCT06136585-2026-10-31 (MRK): nothing yet
+Check NCT03992430-2026-10-31 (SRPT): nothing yet
+Check NCT06951698-2026-11-01 (BMY): nothing yet
+Check NCT05066217-2026-11-01 (HRMY): nothing yet
+Check NCT06829823-2026-11-01 (IBRX): nothing yet
+Check NCT05834777-2026-11-01 (PHVS): nothing yet
+Saved 17 catalyst stories; 2 trials marked reported. (news searches: 33 via Google, 0 via Bing, 0 failed)

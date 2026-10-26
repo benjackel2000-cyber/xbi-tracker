@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
  "holdings_as_of": "23-oct-2026",
- "generated_at": "2026-10-26T22:14:05+00:00",
+ "generated_at": "2026-10-26T22:20:20+00:00",
  "xbi_close": 150.47,
  "xbi_return_pct": 0.62,
  "sum_contribution_bps": 62.6,
@@ -19,35 +19,172 @@
    "name": "Oric Pharmaceuticals Inc",
    "return_pct": -32.0,
    "contribution_bps": -10.44,
-   "headlines": []
+   "headlines": [
+    {
+     "title": "Oric Pharmaceuticals (NASDAQ:ORIC) Stock Price Down 13.7% - What's Next?",
+     "publisher": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOWJsOGJybG1zMlJCTGtLeTJHMXJGaFE1cVZUQ0k2bXh0LVZuc0VzQkxGYVI1NGxvYzh2NDdpekJoMm5wbzBSdEhFRUJ1QURxdFpGcFhNSlFtV2FkZURuS3FJRUZHUUhjRmVWT0x5Z0Vyb1hacWhlYzE1S0kxS2RRRXZyRVI3eHZWU25ydEwzR0V4Q3RrWkdCUnVGV21BOUNSaFJMdTFtaXhtY2lCQ2Nsb2FRZU1ZUDUtT0VibjdNNmctQQ?oc=5",
+     "published": "2026-10-26T16:44:41+00:00"
+    },
+    {
+     "title": "Oric Pharmaceuticals Falls 27% After J&J Prostate Cancer Data",
+     "publisher": "StocksToTrade",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPekJDdnFVR3p0bDRZY3JjM0I0a2dtZU1OWmNCa19wTFJETjBDUnJnaUU4MHRPUUNKd01IenZKWlZMS01ueFdEaHlIOTU3NnpfclpDd2pVQTJyVE5hS1B0X1NCLTY3NlVyUldCRE0zZjhpQktjM2V5MlJROGRNZmxCd04zMA?oc=5",
+     "published": "2026-10-26T15:06:00+00:00"
+    },
+    {
+     "title": "Stifel raises ORIC Pharmaceuticals price target to $18 on ESMO data",
+     "publisher": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM1B6UDNsaWZiazlXeVc5NG4xLVFIQzRieWFQMmMyYTFIcDNqcjlUVDdWNWcwblRjc1lZWWYwVXpaajFRbzd2Qkx0M0VaanJ3OVh6aUhBeS10VEM5LVIzanRjaVBfVF9CalF2YkppN29leEtRa3MzRWRiUXJLV193Y2dMWkR2T0xTOF8wbTNNQ3l6QXBoc3JxRGhXQU4teWw1SWlFU3ZmaWpRY1I1UVRVOTdHcUExd0NFNWVCcWlCUmczNVI5?oc=5",
+     "published": "2026-10-26T00:04:01+00:00"
+    },
+    {
+     "title": "ORIC Pharmaceuticals (ORIC) Could Be 36% Undervalued On New ESMO Data And Phase 3 Plans",
+     "publisher": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcEs3YmpqWkVHcjB0LVJHVmpQU0p0S0ZlWkFRYkFac1ZCOTZ0TjdBRUE3QXlQYWplYzNpVHlvRVVpanFjR0dVaFVlc2l2bVNyQmhrX2lJNDY1akhYQ05sRmRad0ZrZzl3dVRfMDQtTnZ4dDFnRG51QlVJTG94ZHRUN1c2RFUxdHBzRENKUDFOTXZqUEhZbVpaOENWemNTSGRQdXRXZlVLX3VUS3YyM2g4T1dFNHpuRzVkcGdFYTFoUHZsWFp5blh0Z21WckRuTkx0VjdMNS11Q05QUGNsZWQyMC01Q1NOclpycXfSAe8BQVVfeXFMTVVWYTdsVnRTSWp2QnBTdnIzMllxZzBlMk9WZjBLdjMtRE9KNnpsa3gzT2dzQlZ5Z0ZTQVhkQmRYVnRlRVRqRGV0VTVUU19XTVZEU0NtYmlzbFlzblF1dXJqUkQzb1ZYZzBHbHVqTG1wMnBCZmVoWG1mUjQ5b2JacHpjNFpXYzI2VGVSbTk2SWpvUDBoOG13cjJBSFVpVzNQSzJpVmtqTlFCOW9uQ09RVWtPbjNzRkl2TFFRN1pTOVNpYlRnUWpZX1NHU3oxVWNpa09HTGM5bUpIM0lVcDhHeVgwSzdIRlpUYVVad1FRTW8?oc=5",
+     "published": "2026-10-25T15:55:26+00:00"
+    }
+   ]
   },
   {
    "ticker": "AVBP",
    "name": "Arrivent Biopharma Inc",
    "return_pct": -26.86,
    "contribution_bps": -5.31,
-   "headlines": []
+   "headlines": [
+    {
+     "title": "What Sent ArriVent (NASDAQ:AVBP) Down 18.07% as Its ARR-217 Data Reached ESMO?",
+     "publisher": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa3lRZmZKbFNBZk5jU3lkalZUMTRCS3N5aE10M29OeGNfOTJvdHpieFUyZXNrRmNGV3ZCX192UDJ6WGpwZUx2ZmhZeFM1UkYycUFfSS1jQUlISGdjSHhMY0VfMFNzSTI0Qnp4MTlvbGl0WjdaTzhMeV9lem0zSHVHZEN0MGQ5dkFXbTZab25tVDFpZFR2bFUtZG5EZm1tQ3p6ajlfSm9DbHUyZm0yY0E?oc=5",
+     "published": "2026-10-26T17:04:00+00:00"
+    },
+    {
+     "title": "Why Are ArriVent (NASDAQ:AVBP), Agenus (NASDAQ:AGEN), Corvus (NASDAQ:CRVS) and Contineum (NASDAQ:CTNM) Rising In early trading indications?",
+     "publisher": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQbDRuNXVldDFLaFFsT0hJMlczSnBic09kaktNc2ZCQ095NnlVcGI1ZGluOGdUcE1zZFdac3cycFBtZTlsZjRfMXZhbFlRdHNOTkh3SkhsLWs5aGYzZjllQVI4MEhvRlczT0ZtUHZWZ3ZSdmVkMU9KMkRrWFFaVXB3WEVubGd3WjUwWGVYX1lZMVJyaHBoWVM0ODFVbjRYUGxoQkQ4ZUpVclF6U0hDZ0w0dE1BOFdJSnFUTV9ab1kyUVZEV1FTUWJidWtCbVZRZDEwakowb0VxSm5XNm5ESGVmeTM2NmVxWUpmQmF3emNIMmxUYzg?oc=5",
+     "published": "2026-10-26T13:19:00+00:00"
+    },
+    {
+     "title": "Why Are Surgery Partners (NASDAQ:SGRY), ArriVent (NASDAQ:AVBP), XMAX (NASDAQ:XMAX) and Agenus (NASDAQ:AGEN) Leading Premarket Gainers?",
+     "publisher": "Kalkine",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORXpseFJwSFVYMWJqdHZKanpfdHJ6SnFXc1pJeVdrNDg3UzhVLVRKQzlvR1FOTFpIOVJuSC03U0ZlV3pWbVV5N3J4eWFGVHVfSkg5X2lzYVZYNm5KbHNUa2NwUFN2Wm9DUS1heW9scHpjRFFhN0k0czh0VktQU195UHYzZk5ZZndwUmlGcnF1eTYwcDhlUDYweWhmLUlnLXNxWW1lV1Z3Wm45bHlXNm9EaTcyOENHeENtcnZ5eEgyMTBpTEgxaGlRNTJXQ1FCbVZKTUhleF9mUzFqbHBNWHZ1X0NkR3h1QkYxV21ldHNrZ2Nndw?oc=5",
+     "published": "2026-10-26T10:29:00+00:00"
+    },
+    {
+     "title": "ArriVent BioPharma Reports 44.8% Objective Response Rate for ARR-217 in Late-Line Colorectal Cancer Patients",
+     "publisher": "Quiver Quantitative",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdTZfSkxBMDdBVHY0eUFsRWVvdC13bl9SMmhMS0dFOTZiYldJVVB3VVZtdWxLSVA3YWNtenI1SzQ1ajBoMnpHVUJvZHlVNDJDSk9FYjQ0RlUyNG5zSXJxaFNNbTc0MVd2ZkkwTEdLS1ZoS2dTak9sNG1vdUZZYWg0Q2JiS1p1dlhYZEY0TEpadExhVFpZQ3pLeV81am9zZjI3UThwWjhuZTBYdUl2N1hoQ3lQWUItenJCZl9iTnIyeHlNZnBQX0gtVkNwYmdhV094dGppa3VfR0JRYmk5SkVr?oc=5",
+     "published": "2026-10-25T13:10:00+00:00"
+    },
+    {
+     "title": "Is ArriVent BioPharma (AVBP) Fully Valued After The FURVENT Trial Miss And Legal Probe?",
+     "publisher": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOajlRejluX29rOXlZblh5Mlc2SnplLU9ta1A2VFBCM1ZWQVNHRTNweXlacW1ZYVk4bklXdHpndlhiX0ZheGZhV25FU1dxOFJUOTV3NUpDMlgtV3hpckxzZGc1ZlNnM0Y2Z0ZLanRhM3AycjJoVGlNMlZJYndjQjdGX1RQa2Q0U0pXN0QzYWpraVJLVTV5ZlZqOE5UYnYyaG1PTUlmS3k4cEd3QkozS0NZeUVRNkFMcHUzbDFEOHJORDRrQTJYQ2dtWG5pRE9OUmpXM1VEVGtrNzMxdndQN2NSRXkwZlFoYUHSAewBQVVfeXFMUEktVDZmN3hXeVVQdk80aktPdWFZVndQZE1KcTdyeGFQaktXMV9RSWdkODNwdXloUFV4aGhoWE9CM1VXVDJuQVB6OTU3MGVRcjlsc2JIV0I1NmcwbWJuR3NkMUVGTU1sbEozYTZKWmxNLVpBNDBramJ0d2IyckxubzNVUDktaTZ0WDhPeFZ0OGs1dFFYSkpZb0NZSklNX2h1WFI1OGpPQXQyZGVTTzBjWWhBVkp2Rng3dWl0WEtjbDRBbkZjMEgzalF3dmg5YXZBODBqbjQxaTAyRkdGMTVwS0VsTlh1R3hMdlo4X3g?oc=5",
+     "published": "2026-10-25T10:13:12+00:00"
+    }
+   ]
   },
   {
    "ticker": "XNCR",
    "name": "Xencor Inc",
    "return_pct": 15.89,
    "contribution_bps": 5.34,
-   "headlines": []
+   "headlines": [
+    {
+     "title": "Xencor: 'Strong Buy' On Positive XmAb819 ESMO Data ccRCC And Potential For FDA Accelerated Approval Pathway",
+     "publisher": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaW5GVlpHbEZkV2U1NVVWNm1pZGEzcW5jNzdEdHJEQlRzR0prMVVJaml1VHVnWndzcHpzWHhtdjdzbGwyd0JudmhzOEdkOGNXRkxPTHh2VHJvNkE3UldSMHRsRmxBMExJQURRMktvVTl4V3g5cGZYSzQ5RmlibHJMLXJQVS1acWFGUmpCUnpnaDk1Q09OeUVOSnJ5ZTNUc0xaOXMwQjVRdWE?oc=5",
+     "published": "2026-10-26T19:22:34+00:00"
+    },
+    {
+     "title": "Why Is Xencor Stock Trading Higher Today? - Xencor (NASDAQ:XNCR)",
+     "publisher": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaWdQcDlDOFJzNFZFMTVXakIxMFBaWkJDdTk5OVFqcGxrY1JiQWhZVlBMZURvaTVFWk9xQk1tVlJzQlVDTE5YaEJVTmItTTQyY3hNcWVPM1A2Q2t5eExEOEg1U2RaNkJYRzI0aFE4UEUzM1VLRE8xWENrZGhwZjlUQkhMMmR4N3hTU2I4c1Q4SXZOQnhHNlVOVEt0YWhpOVZfQlY3X3dHUDFOLUlKWHhUTzB4YXd4Q2x4RjY2QnNvbXA5d0Y4WDhLNHZMSDFKNk5PLTU4NkhsZUYxYTdK?oc=5",
+     "published": "2026-10-26T17:00:46+00:00"
+    },
+    {
+     "title": "Xencor selects pivotal dose for kidney cancer bispecific XmAb819 after Phase I data",
+     "publisher": "AllSci",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV29SRVpIQnRXNS1KUkJLQTgybjZWbnNZc3hoRk50cEd1dnJfMlZNRXVtWENiZWVaQzExQjVpQUJadlQ5Tlo3REVZNm9aWkh4d040SzMyZi1ISVVmZnY0dlJGZmU2bzU5SG15Y0lvc192VkQ2SzRwemxWZkxyQVoyTXB5SEdBYjQ?oc=5",
+     "published": "2026-10-26T16:58:45+00:00"
+    },
+    {
+     "title": "Xencor shares jump as kidney cancer drug data support Phase 3 plans",
+     "publisher": "Proactive financial news",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbjVjeUk4T3ZzYTVGMVZHRDlsV0lUbFQweDlpcUVZZmVIUGVEQWxXVUw2THBoWTRCSlNJRldEZG1JM3huaDRLQVVXSDBOQXNSZExuaHg2NEVxOWp1amVuWXJMTVNLYWw0dk84SWwzUVUwUmtzSkFNeEpaRDIyOWxWX0pyWkUwOXZaamVMOTRpc2xkYmgzVUtLUnF4V0VFaHc3dFJRQmZhS2x1djhwcVYtd3YydVpFWUVpclhWdHhBeUVMeEZuc2tLS0NfajNuOEQ0Y056eA?oc=5",
+     "published": "2026-10-26T16:08:00+00:00"
+    },
+    {
+     "title": "Xencor stock surges on positive cancer drug trial data",
+     "publisher": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzZJME9zUm0tQVlEeVMtTkY1Y0RrTm1YTWNWZFNJdUR0Y3VoYWhVSWlkZnlpMnQtRU1YRWRGVGpKOWEwUWVIMnJHalhMUThkUHl2WEJ0WDJQdWRuZllPZjE0bkxuYkc0ZEFQazlHSHNSLVo5SVllaDAydUJJSHVWQktDOFE4NWh5VHEwNm5JSmtKRWlNSjZkYlhUMEFONzllLTlrSFh4VFpqZS1PZ2NwXw?oc=5",
+     "published": "2026-10-26T14:55:35+00:00"
+    }
+   ]
   },
   {
    "ticker": "CLYM",
    "name": "Climb Bio Inc",
    "return_pct": -13.54,
    "contribution_bps": -1.52,
-   "headlines": []
+   "headlines": [
+    {
+     "title": "Climb Bio reports 38% immunologic remission in kidney trial",
+     "publisher": "Mugglehead Investment Magazine",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBtYUZxS0M4eDNVTDJTUFJjN2drdklmd1Y1S3dKUkVFWGVrRDFYa3hjZzhzX0JNS3lESnpJNDZLUzVGMHlQanl4a1hGWTFpUmlxdXVVWFRGQXlGb0N6aHppSWlMTUhGcTRjbkRVUmFyQ3BOYnJEWnR5cnplSQ?oc=5",
+     "published": "2026-10-24T23:59:00+00:00"
+    },
+    {
+     "title": "Climb Bio reports early data on budoprutug for kidney diseases",
+     "publisher": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOS1hcXdtMTRQREo1ekw0QWIxSnVaUklMR0E2ckdHR1diTHlsUWJSQlZZcXVKaG43dlhkcEtUNjRkYUFVc2FZdmZPTjYwajVaUC0yOG9aZFo4enY3b1JzWjBPUXVUV29xUlNRbklCVVVMUTl3Q0tCelFTRldmbkt3Rkp2R0J3WjJLdGN2RlFPRXJJNDVvdTVFTU8wamVNTEFSenhTYXB5RDVmWkhySFkweGc2MDdTeGs0MWp3?oc=5",
+     "published": "2026-10-24T23:48:36+00:00"
+    },
+    {
+     "title": "Climb Bio Reports Encouraging Early PrisMN Data for Budoprutug in Primary Membranous Nephropathy and Steroid-Free Remission in MCD Case Study",
+     "publisher": "Quiver Quantitative",
+     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPdnVfTDV1VGZZaS1DMThIV1h5cEZCUlVMeUl0SGh6SUpnOGR0bElOS1FvWmVtOWNjczFUX0xmZ0I5ZF9oTTk1ejlfNjhhWkdFNjJESGY0bWtFc0JuazhVV1BTczRCdk1QcGJWVi0zZnpMbFpJWEphd3hac2NpUEp4emtOczhsZFIzWjk4M1NkTmhNLVpnSkR2ZUxuVm1vbTBrNXdxeldiS0FudU81ZWlka2wxcjF1R2dQQlVGRXppenh4MnF6a3ZfalB3V1lkdzVGdUdYWG9fYTQxSnFRSGJ5dE1mdkNSNHRxLU9NOFJGUkM5RC1kQzc4SUlxRjJib0NycFkxeA?oc=5",
+     "published": "2026-10-24T23:40:00+00:00"
+    }
+   ]
   },
   {
    "ticker": "ORKA",
    "name": "Oruka Therapeutics Inc",
    "return_pct": 12.7,
    "contribution_bps": 16.84,
-   "headlines": []
+   "headlines": [
+    {
+     "title": "ORKA Stock Grinds Higher As Cash War Chest Fuels Speculation",
+     "publisher": "Timothy Sykes",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUUV1WUxZNDUydUhrZmE3NEJvbkIzWHFqNEVoVE9hUjJwalg5OVdhVlh2YkE1M1RINFFvYVBjbDJod0ZCS2xLa3hucjJNSE5HQjJCNzNybWNYMW5sMHdJRXFMd3Brd3M3Z1YzamR4Q0g3NmR1SkFpY0Rrai1LVlI5UmtpSFY?oc=5",
+     "published": "2026-10-26T19:20:03+00:00"
+    },
+    {
+     "title": "Oruka Therapeutics, Inc. (ORKA) Discusses Interim EVERLAST-B Results for ORCA 001 in Plaque Psoriasis - Slideshow (NASDAQ:ORKA) 2026-10-26",
+     "publisher": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc2E5SmNVenQ1Tm5FcGRBOGY5QjV6ems0aDJTVENqV0p4T3VSZzQxYlhpQmVzNXR1OFBvaGdPU3NEcnhydXRDX0dVeGs4ZlF6U3J2UUk2b1o5Tms3Z211eGdzOUxjOEViTUtZdEJ5VktxSGJIbnpuZzh5aGVtem1sZ3B4UWdmSjZJUzAtYlpoeGVMTHNMc1pwUVcxTF9oUkF5cjZneHI0RUo4bHNaWnhQb1hNamJLQTNKUThacnVxX2hMeGl5WVVj?oc=5",
+     "published": "2026-10-26T16:50:27+00:00"
+    },
+    {
+     "title": "Oruka Therapeutics Stock Soars - Here's Why - Oruka Therapeutics (NASDAQ:ORKA)",
+     "publisher": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMmlfZnh1NVlFTjhVUXdSQnZNOWRDLTdKREF2dW82ZVJLNTFxUGdvNGdFLTU0Zm9PQVNjQ0dLRnhtazZBRG5rNVVFclM4NllwTnBPVzJmQjY2M2thVUF4WjJMZm1JdG1WUXl4VGpIMHJOaXpiaEEteW9rVmRHV092enZfRXl2alBhS21JaUQxZXJBalFyWUhubVJtMDl1RlN0UDhDY3IyN3JWRWNZdWExTW14eGN6bV9oZ3JrTk9FOFBDUlZRYjdF?oc=5",
+     "published": "2026-10-26T16:45:11+00:00"
+    },
+    {
+     "title": "Guggenheim reiterates Oruka Therapeutics stock rating on trial data By Investing.com",
+     "publisher": "Investing.com Nigeria",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMFF6THI5WjhhZ0NwTXNmLW5KN0ZyQTNoNGVsaUxxYzVjRG1RMUZ1QWxkWjFNenlmdEFITlI1VGdlX2M3Y0NnM3c3cWFfelBnQTVPWDFuV1lRUVpUaDJjLXZ4V2ltajR0UHJ5UU1ieUZEQ3BlMElPa0hleW1LX3BKTkNDckFzQTVxWVJiQUV0dkhuekVOa2plT00wVEY0cnVlS0pZSm9oa3BLTGozOGR3NHhlSmhnLTdIS3Y1eVNpamZ3NC13eXc4?oc=5",
+     "published": "2026-10-26T15:13:07+00:00"
+    },
+    {
+     "title": "Oruka Therapeutics Rises 12% on Psoriasis Trial Results",
+     "publisher": "StocksToTrade",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR2xVb3FkZzMyMjBHODZhZWVPdzRObHhpV2FVNDRKVWw3M3ZxWi1hM1B4NWZCdHhHUGpjWVhnZUh2WEpkd1RCVUNtY01YdVBhNkpDaVp1OVNwTjE2Ti1tQWllcGZzelNWeVp1ZWpNM2tkYTR4REtfMUpyX2o1MmFvVQ?oc=5",
+     "published": "2026-10-26T14:38:00+00:00"
+    }
+   ]
   },
   {
    "ticker": "REPL",
@@ -75,21 +212,72 @@
    "name": "Grail Inc",
    "return_pct": 5.55,
    "contribution_bps": 7.39,
-   "headlines": []
+   "headlines": [
+    {
+     "title": "GRAIL, Inc. (GRAL) Interactive Stock Chart - Yahoo Finance",
+     "publisher": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4cVl6dkoyOXF3aHQ3SEU5MHpSR2RvaWlHOEVCejFvM3hxZ09SRlRyZm9wZnBPd0NhX1FRMlR5d1NXblJjaUh4N2UyVVNqcVdiMC13TnFreFhJQQ?oc=5",
+     "published": "2026-10-24T22:14:15+00:00"
+    }
+   ]
   },
   {
    "ticker": "TWST",
    "name": "Twist Bioscience Corp",
    "return_pct": 3.81,
    "contribution_bps": 6.43,
-   "headlines": []
+   "headlines": [
+    {
+     "title": "Twist Bioscience to Report Fiscal 2026 Fourth Quarter and Full Year Financial Results on Thursday, November 12, 2026",
+     "publisher": "Business Wire",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOSnZEVzdSOS1CeGZKZ2pGeTI2TnBzRUZKNkh4QmdmbUROMVVWU0tUYzhHRDk4Y0xwNnBYOUNSQlFfcmZJY0NzdC1KZFhDbUlEUWt4bnJPQzR6MTNyT3NFbTdQRzhCQUFFTjVVeHZ1VDl2eWZxYm13d2p5SzBteXRBbUdEdHpvWDRONEswc2VZa09Za1pXamJ5ZFpaS3lRMjByNnh0SWt4MWtGbzhsd0tLZG9qZ0d0bUw1MVhhazZLVjJCVHIyRzJsM3BmSmh5cTl5ZnlwZWZna09VNFFZQ0VWdXVlWmprekhzQ3JuT09RRzhEWDN3VDZOSFFTcVFvZkd0?oc=5",
+     "published": "2026-10-26T12:00:00+00:00"
+    },
+    {
+     "title": "Twist Bioscience officer proposes 2,245-share sale of Twist Bioscience stock",
+     "publisher": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLXJGN0lhMlNRb2NZTGp5MURub0dTSnRLNHJSVlcwUUd6S2Z4c2VuRWFmRTlnU2hpUk95Y1praDVIdUxLbGozbXB6ZmZOd3I4T2RvUUxzRjVITlllcHlabGZOa2pfSm5wNldsYlh0Wk1oMUVTTFp5SFRLUm5tWFlCVU5Va0hfc1NxNHVadFZRWG9YMVkxT25ZQnVxLTdUVVo2WVlhMEMyM0JIekRVMXFaOW5ySXFaS0lJZmlxSUp5U0sycVQ3N3AwcFVmb1VrSUZrQkNfN2Nn?oc=5",
+     "published": "2026-10-25T12:18:16+00:00"
+    },
+    {
+     "title": "Missed Twist Bioscience's 332% Run? Here's The Bet Holders Made",
+     "publisher": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPV2dWU2YxenlIV050RVdpUnlzMTRhdkx1T3phYldnSVQ4ZUJKTTFwTlRkWjZEOFZwcEdtNXB1czZJNUVEZlROaGxBR1Z2emhaakxkNl95RHV1SmFLVXJhNTRhejB2d3Z2YzdaYjc1WjRXalpDd1ZsMC0tRk9vX1VtU2VXd1ZweVh6bk92N2IzT2FHeXZ3bFBFMkhhN2FsNE5hbVlCYWxqSllUeG5FNFhrY05lQnZiT19RLTRlSjh5eTd1ZWlObUhzNlJCMFkyeUFIWkRNMFo0Zml0dVB3SUFJMFVsS05rcEk30gHoAUFVX3lxTE9XZ1ZTZjF6eUhXTnRFV2lSeXMxNGF2THVPemFiV2dJVDhlQkpNMXBOVGRaNkQ4VnBwR201cHVzNkk1RURmVE5obEFHVnZ6aFpqTGQ2X3lEdXVKYUtVcmE1NGF6MHZ3dnZjN1piNzVaNFdqWkN3VmwwLS1GT29fVW1TZVd3VnB5WHpuT3Y3YjNPYUd5dndsUEUySGE3YWw0TmFtWUJhbGpKWVR4bkU0WGtjTmVCdmJPX1EtNGVKOHl5N3VlaU5tSHM2UkIwWTJ5QUhaRE0wWjRmaXR1UHdJQUkwVWxLTmtwSTc?oc=5",
+     "published": "2026-10-25T07:59:12+00:00"
+    },
+    {
+     "title": "Liquidity Mapping Around (TWST) Price Events",
+     "publisher": "Stock Traders Daily",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOXgxczZVbXpjd1VoTThmUHN4VHFpaVc1Sl9KRnZnbndoU21iYzdVYmpCdXE5Umc1UTY4XzMtTTBMRDE1TC01Vlc4WkxNNUxkWHdyNkt6VGt5QjlwZlkwbE1WWGlndjN0TngzTmZaUDZfSGhWNkpHbHdsM3lESUMxZlJucW44QmJvM2t4Y1IzTlQwTmVHcmpNQ0hldE4yZ2ZtaWJEbHh0cmVtU0tJeUJsQTA1azhMbFh6Y3NzbFhzdw?oc=5",
+     "published": "2026-10-25T00:14:02+00:00"
+    }
+   ]
   },
   {
    "ticker": "IBRX",
    "name": "Immunitybio Inc",
    "return_pct": -4.99,
    "contribution_bps": -4.91,
-   "headlines": []
+   "headlines": [
+    {
+     "title": "IBRX Stock Declines \u2014 ImmunityBio Resubmits Anktiva Application To FDA With Additional Data",
+     "publisher": "Stocktwits",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcWp2SVRmUXBHQjYyQVRaOHdNLXhyam5xZDdaOURRQllzZVNqUEdzdU5HRHFIX3J5SkxtVEx0M0ZqMnN3Q3FUVVJMRDBWTzEtYl8xVzB1TFdIcEpvcmNXb0wxSjhwb1VBQW80ODhlM0pNRjRFVUpyUU96bmtwOXplOFRDZThrejZNOWJOMnFyLTFfQ2hvdDNDZkk1b0FiRml3NDdYVWIwOEZMVmF2VW80d3I2T0lFeFcyenJBRDJMUUhKNGlfRjVtQ0YxV2k?oc=5",
+     "published": "2026-10-25T17:13:47+00:00"
+    },
+    {
+     "title": "Anktiva Vs Keytruda: ImmunityBio Exec Chair Slams FDA For Double Standards In Approvals",
+     "publisher": "Stocktwits",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORldXYlZySGRTVi1Neko5VUh4WXptMmFxY0hxc01DWGs3bmNrYVlHZ2NYTDNLSEs3NkxvOHZ3NVd1eloxQ0VPRndzeTJ2YnM4U2dMSTc3R3FMUjVsZi1LeWJGbC1lLW5ZREtKTFJjaFFHQTFIa25OTjJUQkltdnpEYjhnRnlyaTRzYmcyUFU0SU5RdjVUV2Y1bmwxcXl0S2FXRG5jNGFXNThBNGdYOG1QM3poNEJvVnhCS3dOQkg3WTFYRlB4eTB6SGlmcndrYmNzNUs5S1VrUl95ODV4bnhYTE8xNWhMdw?oc=5",
+     "published": "2026-10-25T00:14:04+00:00"
+    },
+    {
+     "title": "The Secret Biotech Billionaire Behind ImmunityBio (IBRX) Revealed Richarlison (8U3pwejyVu)",
+     "publisher": "Unisba Media",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNUNGOFlyWnFrTVo1MTJHX3JIZnpmcW9VX1NjSzlzWjRnclh3S3F6WEdsZW5MWEhoN1dDc3c2c2t3N1pxMFU4eUpRc2lfMVpYbXRKb1BqY0ROa28tMkRRSV9FeVZuclpLQlpyYmVHZ001UWF5MWZQZGNsX01DNjlqN01R?oc=5",
+     "published": "2026-10-24T20:44:43+00:00"
+    }
+   ]
   }
  ],
  "rows": [

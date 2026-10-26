@@ -1,3 +1,1 @@
-News lookup failed for INO: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Inovio%22+OR+%22INO%22+OR+%22INO-3107%22%29+FDA+after%3A2026-10-19+before%3A2026-10-27&hl=en-US&gl=US&ceid=US%3Aen
-News lookup failed for AGIO: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Agios%22+OR+%22AGIO%22+OR+%22Mitapivat%22%29+FDA+after%3A2026-10-21+before%3A2026-10-27&hl=en-US&gl=US&ceid=US%3Aen
-Checked 0 events; 1 outcomes saved.
+Checked 0 events; 1 outcomes saved. (news searches: 2 via Google, 0 via Bing, 0 failed)
