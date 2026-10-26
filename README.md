@@ -7,7 +7,7 @@ A 0.8% holding that rises 10% adds about +8 bps to XBI's move.
 
 ## How it works
 
-1. `xbi_contrib.py` downloads XBI's daily holdings and weights from State Street, pulls each holding's last two closes from Yahoo Finance, and computes each stock's contribution.
+1. `xbi_contrib.py` downloads XBI's daily holdings and weights from State Street, pulls each holding's last two closes from Yahoo Finance, and computes each stock's contribution. For the day's biggest movers it also collects recent news headlines, so each move can be explained.
 2. A GitHub Actions workflow (`.github/workflows/daily.yml`) runs it every weekday after the market closes and commits the results.
 3. Results land in `data/latest.json` (most recent day) and `data/daily/YYYY-MM-DD.json` (history), which feed the XBI tab of a Claude dashboard.
 

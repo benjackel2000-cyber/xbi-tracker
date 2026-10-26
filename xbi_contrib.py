@@ -8,7 +8,8 @@ Each trading day this script:
   3. Computes each stock's contribution to XBI's move:
          contribution (bps) = weight (%) x daily return (%)
      e.g. a 0.8% holding that rises 10% adds about +8 bps to XBI.
-  4. Saves the results to data/latest.json and data/daily/<date>.json.
+  4. Collects recent Yahoo Finance headlines for the biggest movers.
+  5. Saves the results to data/latest.json and data/daily/<date>.json.
 
 The weights in the holdings file are as of the prior close, which is the
 right starting point for measuring the day's contribution.
@@ -84,6 +85,40 @@ def load_returns(tickers: list[str]) -> pd.DataFrame:
     return out
 
 
+def pick_movers(priced: pd.DataFrame, n_pct: int = 8, n_contrib: int = 3) -> pd.DataFrame:
+    """The day's biggest % movers plus the biggest contributors/detractors."""
+    by_move = priced.reindex(priced["return_pct"].abs().sort_values(ascending=False).index).head(n_pct)
+    top = priced.sort_values("contribution_bps", ascending=False).head(n_contrib)
+    bottom = priced.sort_values("contribution_bps").head(n_contrib)
+    return pd.concat([by_move, top, bottom]).drop_duplicates("Ticker")
+
+
+def recent_headlines(ticker: str, date: str, limit: int = 5) -> list[dict]:
+    """Yahoo Finance headlines for a ticker published from the prior evening through `date`."""
+    start = pd.Timestamp(date, tz="UTC") - pd.Timedelta(hours=28)  # ~prior day's close (ET) onward
+    end = pd.Timestamp(date, tz="UTC") + pd.Timedelta(hours=30)  # through the evening after the close
+    try:
+        items = yf.Ticker(ticker.replace(".", "-")).news or []
+    except Exception as exc:  # news is best-effort; never fail the run over it
+        print(f"News lookup failed for {ticker}: {exc}")
+        return []
+    out = []
+    for item in items:
+        c = item.get("content", item)  # yfinance has used both a flat and a nested shape
+        title = c.get("title")
+        published = c.get("pubDate") or c.get("displayTime") or c.get("providerPublishTime")
+        if isinstance(published, (int, float)):
+            ts = pd.Timestamp(published, unit="s", tz="UTC")
+        else:
+            ts = pd.to_datetime(published, utc=True, errors="coerce")
+        link = (c.get("canonicalUrl") or {}).get("url") or (c.get("clickThroughUrl") or {}).get("url") or c.get("link")
+        publisher = (c.get("provider") or {}).get("displayName") or c.get("publisher")
+        if not title or ts is pd.NaT or ts is None or not (start <= ts <= end):
+            continue
+        out.append({"title": title, "publisher": publisher, "link": link, "published": ts.isoformat()})
+    return out[:limit]
+
+
 def main() -> int:
     holdings = load_holdings()
     print(f"Parsed {len(holdings)} holdings; weights sum to {holdings['Weight'].sum():.1f}%")
@@ -94,6 +129,18 @@ def main() -> int:
     df["contribution_bps"] = df["Weight"] * df["return_pct"]
     priced = df.dropna(subset=["return_pct"])
     missing = sorted(set(df["Ticker"]) - set(priced["Ticker"]))
+
+    movers = []
+    for r in pick_movers(priced).itertuples():
+        news = recent_headlines(r.Ticker, date)
+        movers.append({
+            "ticker": r.Ticker,
+            "name": str(r.Name).title(),
+            "return_pct": round(float(r.return_pct), 2),
+            "contribution_bps": round(float(r.contribution_bps), 2),
+            "headlines": news,
+        })
+    print(f"Movers with headlines: {sum(1 for m in movers if m['headlines'])}/{len(movers)}")
 
     xbi = returns.loc["XBI"] if "XBI" in returns.index else None
     rows = [
@@ -119,7 +166,8 @@ def main() -> int:
         "holdings_count": len(df),
         "priced_count": len(priced),
         "missing_tickers": missing,
-        "source": {"holdings": HOLDINGS_URL, "prices": "Yahoo Finance via yfinance"},
+        "source": {"holdings": HOLDINGS_URL, "prices": "Yahoo Finance via yfinance", "news": "Yahoo Finance news via yfinance"},
+        "movers": movers,
         "rows": rows,
     }
 
