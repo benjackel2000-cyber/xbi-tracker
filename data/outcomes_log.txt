@@ -1,22 +1,3 @@
-$NUVL: possibly delisted; no price data found  (1d 2026-09-01 -> 2026-09-23)
-
-1 Failed download:
-['NUVL']: possibly delisted; no price data found  (1d 2026-09-01 -> 2026-09-23)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  data.rename(columns=ctx.isins, inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  data.sort_index(level=0, axis=1, inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  data.rename(columns=ctx.isins, inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  data.sort_index(level=0, axis=1, inplace=True)
-NUVL   2026-09-18  No news found  reaction None%  window None%  | 
-IONS   2026-10-26  Approved       reaction -2.49%  window -1.59%  | FDA Approves Bepirovirsen for Chronic Hepatitis B
-Checked 2 events; 2 outcomes saved.
+News lookup failed for INO: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Inovio%22+OR+%22INO%22+OR+%22INO-3107%22%29+FDA+after%3A2026-10-19+before%3A2026-10-27&hl=en-US&gl=US&ceid=US%3Aen
+News lookup failed for AGIO: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%22Agios%22+OR+%22AGIO%22+OR+%22Mitapivat%22%29+FDA+after%3A2026-10-21+before%3A2026-10-27&hl=en-US&gl=US&ceid=US%3Aen
+Checked 0 events; 1 outcomes saved.
