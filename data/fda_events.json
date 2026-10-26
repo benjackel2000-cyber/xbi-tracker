@@ -1,14 +1,5 @@
 [
  {
-  "id": "NUVL-zidesamtinib-2026-09-18",
-  "date": "2026-09-18",
-  "ticker": "NUVL",
-  "company": "Nuvalent",
-  "drug": "Zidesamtinib",
-  "indication": "ROS1+ NSCLC",
-  "notes": ""
- },
- {
   "id": "IONS-bepirovirsen-2026-10-26",
   "date": "2026-10-26",
   "ticker": "IONS",
