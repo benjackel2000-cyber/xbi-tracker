@@ -78,6 +78,14 @@ def load_returns(tickers: list[str]) -> pd.DataFrame:
     """Last two daily closes for each ticker -> daily % return."""
     yf_tickers = [t.replace(".", "-") for t in tickers] + ["XBI"]
     prices = yf.download(yf_tickers, period="7d", interval="1d", auto_adjust=False, progress=False)["Close"]
+    failed = [t for t in yf_tickers if t not in prices.columns or prices[t].dropna().shape[0] < 2]
+    if failed:  # retry one at a time (yfinance's cache can lock under parallel downloads)
+        print("Retrying prices for:", ", ".join(failed))
+        for t in failed:
+            try:
+                prices[t] = yf.download(t, period="7d", interval="1d", auto_adjust=False, progress=False, threads=False)["Close"].squeeze()
+            except Exception as exc:
+                print(f"Price retry failed for {t}: {exc}")
     prices = prices.dropna(how="all")
     if len(prices) < 2:
         raise RuntimeError("Not enough price history returned.")
@@ -107,7 +115,8 @@ def recent_headlines(ticker: str, name: str, date: str, limit: int = 5) -> list[
     short = re.sub(r"\b(INC|CORP|CORPORATION|LTD|PLC|N\.?V\.?|S\.?A\.?|SE|AG|HOLDINGS?|CO|LLC|CLASS [A-Z]|ADR|SPONS(ORED)?)\b\.?", "", name.upper())
     short = re.sub(r"[^A-Z0-9 &-]", " ", short)
     short = " ".join(short.split()).title()
-    query = f'"{short}" OR "{ticker} stock" when:3d'
+    context = "(stock OR shares OR FDA OR trial OR data OR biotech OR Nasdaq OR therapeutics OR analyst)"
+    query = f'("{short}" {context}) OR "NASDAQ:{ticker}" OR "{ticker} stock" when:3d'
     url = "https://news.google.com/rss/search?" + urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
     try:
         resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
@@ -126,6 +135,9 @@ def recent_headlines(ticker: str, name: str, date: str, limit: int = 5) -> list[
         except Exception:
             continue
         if not title or not (start <= ts <= end):
+            continue
+        # keep only headlines that actually name the company or ticker
+        if not (re.search(rf"\b{re.escape(ticker)}\b", title) or short.lower() in title.lower()):
             continue
         if publisher and title.endswith(" - " + publisher):
             title = title[: -len(" - " + publisher)]
