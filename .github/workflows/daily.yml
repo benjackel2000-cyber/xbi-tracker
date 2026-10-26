@@ -5,6 +5,11 @@ on:
     # 22:30 UTC on weekdays = 3:30pm PT (PDT) / 2:30pm PT (PST), after the 1pm PT close
     - cron: "30 22 * * 1-5"
   workflow_dispatch: # lets you run it by hand from the Actions tab
+    inputs:
+      lookback_days:
+        description: "How many days back to check FDA outcomes (default 14)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -30,6 +35,15 @@ jobs:
           set -o pipefail
           python xbi_contrib.py 2>&1 | tee data/run_log.txt
 
+      - name: Check FDA decision outcomes
+        id: outcomes
+        continue-on-error: true
+        env:
+          LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days }}
+        run: |
+          set -o pipefail
+          python fda_outcomes.py 2>&1 | tee data/outcomes_log.txt
+
       - name: Commit results (and the run log)
         run: |
           git config user.name "github-actions[bot]"
@@ -39,5 +53,5 @@ jobs:
           git push
 
       - name: Fail the run if the script failed
-        if: steps.compute.outcome == 'failure'
+        if: steps.compute.outcome == 'failure' || steps.outcomes.outcome == 'failure'
         run: exit 1

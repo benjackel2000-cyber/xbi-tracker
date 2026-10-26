@@ -1,0 +1,551 @@
+[
+ {
+  "id": "NUVL-zidesamtinib-2026-09-18",
+  "date": "2026-09-18",
+  "ticker": "NUVL",
+  "company": "Nuvalent",
+  "drug": "Zidesamtinib",
+  "indication": "ROS1+ NSCLC",
+  "notes": ""
+ },
+ {
+  "id": "IONS-bepirovirsen-2026-10-26",
+  "date": "2026-10-26",
+  "ticker": "IONS",
+  "company": "Ionis",
+  "drug": "Bepirovirsen",
+  "indication": "Chronic hepatitis B",
+  "notes": "Priority review \u00b7 reported approved (pdufa.bio)"
+ },
+ {
+  "id": "INO-ino-3107-2026-10-30",
+  "date": "2026-10-30",
+  "ticker": "INO",
+  "company": "Inovio",
+  "drug": "INO-3107",
+  "indication": "Recurrent respiratory papillomatosis",
+  "notes": "Accelerated approval sought"
+ },
+ {
+  "id": "AGIO-mitapivat-2026-11-01",
+  "date": "2026-11-01",
+  "ticker": "AGIO",
+  "company": "Agios",
+  "drug": "Mitapivat",
+  "indication": "Sickle cell disease",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "BTAI-igalmi-2026-11-14",
+  "date": "2026-11-14",
+  "ticker": "BTAI",
+  "company": "BioXcel",
+  "drug": "IGALMI",
+  "indication": "Agitation in bipolar/schizophrenia, at-home use",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "CYTK-aficamten-2026-11-14",
+  "date": "2026-11-14",
+  "ticker": "CYTK",
+  "company": "Cytokinetics",
+  "drug": "Aficamten",
+  "indication": "Hypertrophic cardiomyopathy",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "SMMT-ivonescimab-2026-11-14",
+  "date": "2026-11-14",
+  "ticker": "SMMT",
+  "company": "Summit Therapeutics",
+  "drug": "Ivonescimab",
+  "indication": "EGFR-mutated NSCLC after 3rd-gen TKI",
+  "notes": ""
+ },
+ {
+  "id": "CAPR-deramiocel-2026-11-22",
+  "date": "2026-11-22",
+  "ticker": "CAPR",
+  "company": "Capricor",
+  "drug": "Deramiocel",
+  "indication": "Duchenne muscular dystrophy",
+  "notes": "Priority review \u00b7 resubmission \u00b7 extended"
+ },
+ {
+  "id": "SVRA-molgramostim-2026-11-22",
+  "date": "2026-11-22",
+  "ticker": "SVRA",
+  "company": "Savara",
+  "drug": "Molgramostim",
+  "indication": "Autoimmune pulmonary alveolar proteinosis",
+  "notes": "Priority review \u00b7 extended"
+ },
+ {
+  "id": "SNY-venglustat-2026-11-25",
+  "date": "2026-11-25",
+  "ticker": "SNY",
+  "company": "Sanofi",
+  "drug": "Venglustat",
+  "indication": "Type 3 Gaucher disease",
+  "notes": "Priority review"
+ },
+ {
+  "id": "BBIO-bbp-418-2026-11-27",
+  "date": "2026-11-27",
+  "ticker": "BBIO",
+  "company": "BridgeBio",
+  "drug": "BBP-418",
+  "indication": "LGMD2I/R9",
+  "notes": "Priority review"
+ },
+ {
+  "id": "RPRX-partner-drug-royalty-2026-11-27",
+  "date": "2026-11-27",
+  "ticker": "RPRX",
+  "company": "Royalty Pharma",
+  "drug": "Partner drug (royalty)",
+  "indication": "See filing",
+  "notes": "Royalty holder"
+ },
+ {
+  "id": "NUVL-see-filing-2026-11-27",
+  "date": "2026-11-27",
+  "ticker": "NUVL",
+  "company": "Nuvalent",
+  "drug": "Neladalkib",
+  "indication": "TKI-pretreated ALK+ NSCLC",
+  "notes": "Priority review \u00b7 BiopharmaWatch lists it under GSK"
+ },
+ {
+  "id": "PYPD-d-plex-100-2026-11-28",
+  "date": "2026-11-28",
+  "ticker": "PYPD",
+  "company": "PolyPid",
+  "drug": "D-PLEX 100",
+  "indication": "Surgical site infection, colorectal surgery",
+  "notes": "Priority review"
+ },
+ {
+  "id": "COGT-bezuclastinib-sunitinib-2026-11-30",
+  "date": "2026-11-30",
+  "ticker": "COGT",
+  "company": "Cogent",
+  "drug": "Bezuclastinib + sunitinib",
+  "indication": "GIST after imatinib",
+  "notes": "Priority review"
+ },
+ {
+  "id": "VRTX-povetacicept-2026-11-30",
+  "date": "2026-11-30",
+  "ticker": "VRTX",
+  "company": "Vertex",
+  "drug": "Povetacicept",
+  "indication": "IgA nephropathy",
+  "notes": "Partner: Zai Lab (ZLAB)"
+ },
+ {
+  "id": "RHHBY-giredestrant-2026-11-30",
+  "date": "2026-11-30",
+  "ticker": "RHHBY",
+  "company": "Roche",
+  "drug": "Giredestrant",
+  "indication": "Early breast cancer",
+  "notes": ""
+ },
+ {
+  "id": "VNDA-imsidolimab-2026-12-12",
+  "date": "2026-12-12",
+  "ticker": "VNDA",
+  "company": "Vanda",
+  "drug": "Imsidolimab",
+  "indication": "Generalized pustular psoriasis",
+  "notes": "Partner: AnaptysBio (ANAB)"
+ },
+ {
+  "id": "CORT-relacorilant-2026-12-17",
+  "date": "2026-12-17",
+  "ticker": "CORT",
+  "company": "Corcept",
+  "drug": "Relacorilant",
+  "indication": "Not stated in source",
+  "notes": "Resubmission"
+ },
+ {
+  "id": "RHHBY-giredestrant-everolimus-2026-12-18",
+  "date": "2026-12-18",
+  "ticker": "RHHBY",
+  "company": "Roche",
+  "drug": "Giredestrant + everolimus",
+  "indication": "ER+ advanced breast cancer",
+  "notes": ""
+ },
+ {
+  "id": "HNSA-imlifidase-2026-12-19",
+  "date": "2026-12-19",
+  "ticker": "HNSA",
+  "company": "Hansa Biopharma",
+  "drug": "Imlifidase",
+  "indication": "Not stated in source",
+  "notes": "BLA"
+ },
+ {
+  "id": "MLYS-lorundrostat-2026-12-22",
+  "date": "2026-12-22",
+  "ticker": "MLYS",
+  "company": "Mineralys",
+  "drug": "Lorundrostat",
+  "indication": "Hypertension",
+  "notes": ""
+ },
+ {
+  "id": "GILD-anito-cel-2026-12-23",
+  "date": "2026-12-23",
+  "ticker": "GILD",
+  "company": "Gilead",
+  "drug": "Anito-cel",
+  "indication": "Multiple myeloma",
+  "notes": "Partner: Arcellx (ACLX)"
+ },
+ {
+  "id": "PRAX-relutrigine-2026-12-27",
+  "date": "2026-12-27",
+  "ticker": "PRAX",
+  "company": "Praxis",
+  "drug": "Relutrigine",
+  "indication": "SCN2A/SCN8A epileptic encephalopathies",
+  "notes": "Extended"
+ },
+ {
+  "id": "VTRS-mr-107a-02-meloxicam-2026-12-27",
+  "date": "2026-12-27",
+  "ticker": "VTRS",
+  "company": "Viatris",
+  "drug": "MR-107A-02 (meloxicam)",
+  "indication": "Acute pain",
+  "notes": ""
+ },
+ {
+  "id": "COGT-bezuclastinib-2026-12-30",
+  "date": "2026-12-30",
+  "ticker": "COGT",
+  "company": "Cogent",
+  "drug": "Bezuclastinib",
+  "indication": "Non-advanced systemic mastocytosis",
+  "notes": ""
+ },
+ {
+  "id": "IBRX-see-filing-2027-01-06",
+  "date": "2027-01-06",
+  "ticker": "IBRX",
+  "company": "ImmunityBio",
+  "drug": "ANKTIVA + BCG",
+  "indication": "NMIBC with papillary lesions",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "DYN-dyne-251-2027-01-21",
+  "date": "2027-01-21",
+  "ticker": "DYN",
+  "company": "Dyne",
+  "drug": "DYNE-251",
+  "indication": "DMD (exon 51)",
+  "notes": "Priority review"
+ },
+ {
+  "id": "INSM-arikayce-2027-01-28",
+  "date": "2027-01-28",
+  "ticker": "INSM",
+  "company": "Insmed",
+  "drug": "ARIKAYCE",
+  "indication": "MAC lung disease",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "PRAX-ulixacaltamide-2027-01-29",
+  "date": "2027-01-29",
+  "ticker": "PRAX",
+  "company": "Praxis",
+  "drug": "Ulixacaltamide",
+  "indication": "Essential tremor",
+  "notes": ""
+ },
+ {
+  "id": "PHAR-joenja-2027-01-30",
+  "date": "2027-01-30",
+  "ticker": "PHAR",
+  "company": "Pharming",
+  "drug": "Joenja",
+  "indication": "APDS, younger children",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "GILD-lenacapavir-300-mg-tablets-2027-02-02",
+  "date": "2027-02-02",
+  "ticker": "GILD",
+  "company": "Gilead",
+  "drug": "Lenacapavir 300-mg tablets",
+  "indication": "HIV PrEP",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "BBIO-infigratinib-2027-02-04",
+  "date": "2027-02-04",
+  "ticker": "BBIO",
+  "company": "BridgeBio",
+  "drug": "Infigratinib",
+  "indication": "Achondroplasia",
+  "notes": "Priority review"
+ },
+ {
+  "id": "BLTE-tinlarebant-2027-02-12",
+  "date": "2027-02-12",
+  "ticker": "BLTE",
+  "company": "Belite Bio",
+  "drug": "Tinlarebant",
+  "indication": "Stargardt disease",
+  "notes": "Priority review"
+ },
+ {
+  "id": "ARGX-see-filing-2027-02-18",
+  "date": "2027-02-18",
+  "ticker": "ARGX",
+  "company": "argenx",
+  "drug": "See filing",
+  "indication": "See filing",
+  "notes": ""
+ },
+ {
+  "id": "ARQT-zoryve-cream-0-05-2027-02-23",
+  "date": "2027-02-23",
+  "ticker": "ARQT",
+  "company": "Arcutis",
+  "drug": "ZORYVE cream 0.05%",
+  "indication": "Atopic dermatitis, infants",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "CGEM-zipalertinib-2027-02-27",
+  "date": "2027-02-27",
+  "ticker": "CGEM",
+  "company": "Cullinan",
+  "drug": "Zipalertinib",
+  "indication": "EGFR exon 20 NSCLC",
+  "notes": ""
+ },
+ {
+  "id": "APMD-ad109-2027-02-28",
+  "date": "2027-02-28",
+  "ticker": "APMD",
+  "company": "APMD",
+  "drug": "AD109",
+  "indication": "Obstructive sleep apnea",
+  "notes": ""
+ },
+ {
+  "id": "BMRN-voxzogo-2027-02-28",
+  "date": "2027-02-28",
+  "ticker": "BMRN",
+  "company": "BioMarin",
+  "drug": "VOXZOGO",
+  "indication": "Achondroplasia",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "SRPT-amondys-45-vyondys-53-2027-02-28",
+  "date": "2027-02-28",
+  "ticker": "SRPT",
+  "company": "Sarepta",
+  "drug": "AMONDYS 45 / VYONDYS 53",
+  "indication": "Duchenne muscular dystrophy",
+  "notes": "sNDAs"
+ },
+ {
+  "id": "EXEL-zanzalintinib-atezolizumab-2027-03-03",
+  "date": "2027-03-03",
+  "ticker": "EXEL",
+  "company": "Exelixis",
+  "drug": "Zanzalintinib + atezolizumab",
+  "indication": "Metastatic colorectal cancer",
+  "notes": "Extended"
+ },
+ {
+  "id": "NTLA-lonvo-z-2027-03-10",
+  "date": "2027-03-10",
+  "ticker": "NTLA",
+  "company": "Intellia",
+  "drug": "Lonvo-z",
+  "indication": "Hereditary angioedema",
+  "notes": "Priority review"
+ },
+ {
+  "id": "BMY-see-filing-2027-03-11",
+  "date": "2027-03-11",
+  "ticker": "BMY",
+  "company": "Bristol Myers Squibb",
+  "drug": "Reblozyl (luspatercept) + JAK inhibitor",
+  "indication": "Anemia in myelofibrosis",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "AQST-anaphylm-2027-03-16",
+  "date": "2027-03-16",
+  "ticker": "AQST",
+  "company": "Aquestive",
+  "drug": "Anaphylm",
+  "indication": "Anaphylaxis",
+  "notes": "Resubmission"
+ },
+ {
+  "id": "MRK-enflonsia-2027-03-22",
+  "date": "2027-03-22",
+  "ticker": "MRK",
+  "company": "Merck",
+  "drug": "ENFLONSIA",
+  "indication": "RSV prevention, at-risk children",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "UNCY-oxylanthanum-carbonate-2027-03-25",
+  "date": "2027-03-25",
+  "ticker": "UNCY",
+  "company": "Unicycive",
+  "drug": "Oxylanthanum carbonate",
+  "indication": "See filing",
+  "notes": "Resubmission"
+ },
+ {
+  "id": "ETON-libervant-2027-03-29",
+  "date": "2027-03-29",
+  "ticker": "ETON",
+  "company": "Eton",
+  "drug": "LIBERVANT",
+  "indication": "Seizure clusters, ages 6\u201311",
+  "notes": "Label expansion"
+ },
+ {
+  "id": "ATRA-tabelecleucel-2027-03-31",
+  "date": "2027-03-31",
+  "ticker": "ATRA",
+  "company": "Atara",
+  "drug": "Tabelecleucel",
+  "indication": "EBV+ PTLD",
+  "notes": "Resubmission"
+ },
+ {
+  "id": "HRMY-see-filing-2027-04-01",
+  "date": "2027-04-01",
+  "ticker": "HRMY",
+  "company": "Harmony Biosciences",
+  "drug": "Pitolisant GR",
+  "indication": "Not stated in source",
+  "notes": "Extended"
+ },
+ {
+  "id": "INBX-see-filing-2027-04-14",
+  "date": "2027-04-14",
+  "ticker": "INBX",
+  "company": "Inhibrx Biosciences",
+  "drug": "Ozekibart",
+  "indication": "Conventional chondrosarcoma",
+  "notes": ""
+ },
+ {
+  "id": "PHVS-see-filing-2027-04-23",
+  "date": "2027-04-23",
+  "ticker": "PHVS",
+  "company": "Pharvaris",
+  "drug": "Deucrictibant IR",
+  "indication": "On-demand treatment of HAE attacks",
+  "notes": ""
+ },
+ {
+  "id": "RPRX-partner-drug-royalty-2027-04-23",
+  "date": "2027-04-23",
+  "ticker": "RPRX",
+  "company": "Royalty Pharma",
+  "drug": "Partner drug (royalty)",
+  "indication": "See filing",
+  "notes": "Royalty holder"
+ },
+ {
+  "id": "ORGO-see-filing-2027-04-24",
+  "date": "2027-04-24",
+  "ticker": "ORGO",
+  "company": "Organogenesis",
+  "drug": "ReNu",
+  "indication": "Symptomatic knee osteoarthritis",
+  "notes": "BLA"
+ },
+ {
+  "id": "IMNM-see-filing-2027-04-28",
+  "date": "2027-04-28",
+  "ticker": "IMNM",
+  "company": "Immunome",
+  "drug": "Varegacestat",
+  "indication": "Desmoid tumors",
+  "notes": ""
+ },
+ {
+  "id": "AXSM-see-filing-2027-05-01",
+  "date": "2027-05-01",
+  "ticker": "AXSM",
+  "company": "Axsome",
+  "drug": "AXS-12",
+  "indication": "Cataplexy in narcolepsy",
+  "notes": ""
+ },
+ {
+  "id": "BBIO-see-filing-2027-05-08",
+  "date": "2027-05-08",
+  "ticker": "BBIO",
+  "company": "BridgeBio",
+  "drug": "Encaleret",
+  "indication": "Autosomal dominant hypocalcemia type 1",
+  "notes": ""
+ },
+ {
+  "id": "BMY-see-filing-2027-05-13",
+  "date": "2027-05-13",
+  "ticker": "BMY",
+  "company": "Bristol Myers Squibb",
+  "drug": "Mezigdomide + carfilzomib + dex",
+  "indication": "Relapsed/refractory multiple myeloma",
+  "notes": ""
+ },
+ {
+  "id": "ZBIO-see-filing-2027-05-27",
+  "date": "2027-05-27",
+  "ticker": "ZBIO",
+  "company": "Zenas BioPharma",
+  "drug": "Obexelimab",
+  "indication": "IgG4-related disease",
+  "notes": "BLA"
+ },
+ {
+  "id": "URGN-ugn-103-2027-06-14",
+  "date": "2027-06-14",
+  "ticker": "URGN",
+  "company": "UroGen",
+  "drug": "UGN-103",
+  "indication": "Recurrent LG-IR-NMIBC",
+  "notes": "NDA accepted"
+ },
+ {
+  "id": "UTHR-ralinepag-2027-06-24",
+  "date": "2027-06-24",
+  "ticker": "UTHR",
+  "company": "United Therapeutics",
+  "drug": "Ralinepag",
+  "indication": "Pulmonary arterial hypertension",
+  "notes": "NDA accepted"
+ },
+ {
+  "id": "COGT-bezuclastinib-2027-06-29",
+  "date": "2027-06-29",
+  "ticker": "COGT",
+  "company": "Cogent",
+  "drug": "Bezuclastinib",
+  "indication": "Advanced systemic mastocytosis",
+  "notes": "NDA accepted"
+ }
+]

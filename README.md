@@ -25,3 +25,7 @@ Or open the **Actions** tab on GitHub and run **Daily XBI contribution** by hand
 - Weights come from the prior day's holdings file, the right basis for measuring a day's contribution.
 - The sum of all contributions should land close to XBI's actual daily return; small gaps come from cash, fees and timing.
 - Prices come from Yahoo Finance via the unofficial `yfinance` library, which is free but can occasionally fail or lag.
+
+## FDA decision outcomes
+
+`fda_outcomes.py` checks each FDA decision (PDUFA) date in `data/fda_events.json`. It searches the news from 10 days before to 3 days after the date to find what happened (Approved / CRL / Extended), uses the first headline to pin down the actual decision day, and measures the stock's reaction that day and over the whole window. Results go to `data/fda_outcomes.json`.
