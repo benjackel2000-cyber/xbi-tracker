@@ -27,6 +27,8 @@ from urllib.parse import urlencode
 
 import pandas as pd
 import requests
+
+import newsrss
 import yfinance as yf
 
 DATA_DIR = Path(__file__).parent / "data"
@@ -50,29 +52,24 @@ def headlines(company: str, ticker: str, drug: str, start: pd.Timestamp, end: pd
     if drug and not re.search(r"see filing|partner drug", drug, re.I):
         terms.append(f'"{drug.split(" ")[0]}"')
     query = f'({" OR ".join(terms)}) FDA after:{(start - pd.Timedelta(days=1)).date()} before:{(end + pd.Timedelta(days=1)).date()}'
-    url = "https://news.google.com/rss/search?" + urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
     try:
-        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
-        resp.raise_for_status()
-        root = ET.fromstring(resp.content)
+        items = newsrss.search(query)
     except Exception as exc:
         print(f"News lookup failed for {ticker}: {exc}")
         return []
     out = []
-    for item in root.iter("item"):
-        title = (item.findtext("title") or "").strip()
-        publisher = item.findtext("source")
-        try:
-            ts = pd.Timestamp(parsedate_to_datetime(item.findtext("pubDate") or "")).tz_convert("UTC")
-        except Exception:
+    for item in items:
+        title, publisher = item["title"], item["publisher"]
+        if item["published"] is None:
             continue
+        ts = pd.Timestamp(item["published"]).tz_convert("UTC")
         if not (start <= ts <= end + pd.Timedelta(days=1)):
             continue
         if publisher and title.endswith(" - " + publisher):
             title = title[: -len(" - " + publisher)]
         named = re.search(rf"\b{re.escape(ticker)}\b", title) or short.lower() in title.lower() or (drug and drug.split(" ")[0].lower() in title.lower())
         if named:
-            out.append({"title": title, "publisher": publisher, "link": item.findtext("link"), "published": ts})
+            out.append({"title": title, "publisher": publisher, "link": item["link"], "published": ts})
     return sorted(out, key=lambda h: h["published"])
 
 
@@ -158,7 +155,7 @@ def main() -> int:
         checked += 1
         print(f"{ev['ticker']:6} {ev['date']}  {outcome:14} reaction {rx['reaction_pct']}%  window {rx['window_pct']}%  | {hit['title'][:80] if hit else ''}")
     OUT.write_text(json.dumps(sorted(saved.values(), key=lambda o: o["pdufa_date"], reverse=True), indent=1))
-    print(f"Checked {checked} events; {len(saved)} outcomes saved.")
+    print(f"Checked {checked} events; {len(saved)} outcomes saved. ({newsrss.summary()})")
     return 0
 
 

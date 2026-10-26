@@ -29,6 +29,8 @@ from pathlib import Path
 
 import pandas as pd
 import requests
+
+import newsrss
 import yfinance as yf
 
 HOLDINGS_URL = (
@@ -117,23 +119,17 @@ def recent_headlines(ticker: str, name: str, date: str, limit: int = 5) -> list[
     short = " ".join(short.split()).title()
     context = "(stock OR shares OR FDA OR trial OR data OR biotech OR Nasdaq OR therapeutics OR analyst)"
     query = f'("{short}" {context}) OR "NASDAQ:{ticker}" OR "{ticker} stock" when:3d'
-    url = "https://news.google.com/rss/search?" + urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
     try:
-        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
-        resp.raise_for_status()
-        root = ET.fromstring(resp.content)
+        items = newsrss.search(query)
     except Exception as exc:
         print(f"News lookup failed for {ticker}: {exc}")
         return []
     out = []
-    for item in root.iter("item"):
-        title = (item.findtext("title") or "").strip()
-        link = item.findtext("link")
-        publisher = item.findtext("source")
-        try:
-            ts = pd.Timestamp(parsedate_to_datetime(item.findtext("pubDate") or "")).tz_convert("UTC")
-        except Exception:
+    for item in items:
+        title, link, publisher = item["title"], item["link"], item["publisher"]
+        if item["published"] is None:
             continue
+        ts = pd.Timestamp(item["published"]).tz_convert("UTC")
         if not title or not (start <= ts <= end):
             continue
         if re.search(r"stock price, news|quote (&|and) history", title, re.I):
@@ -169,7 +165,7 @@ def main() -> int:
             "contribution_bps": round(float(r.contribution_bps), 2),
             "headlines": news,
         })
-    print(f"Movers with headlines: {sum(1 for m in movers if m['headlines'])}/{len(movers)}")
+    print(f"Movers with headlines: {sum(1 for m in movers if m['headlines'])}/{len(movers)} ({newsrss.summary()})")
 
     xbi = returns.loc["XBI"] if "XBI" in returns.index else None
     rows = [

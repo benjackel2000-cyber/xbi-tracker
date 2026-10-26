@@ -33,6 +33,8 @@ import pandas as pd
 import requests
 import yfinance as yf
 
+import newsrss
+
 ROOT = Path(__file__).parent / "data"
 OUT_DIR = ROOT / "catalyst_news"
 RESULTS_FILE = ROOT / "trial_results.json"
@@ -78,22 +80,7 @@ POS = re.compile(r"\bmet\b|positive|success|approv|statistically significant|soa
 
 
 def fetch_rss(query: str) -> list[dict]:
-    url = "https://news.google.com/rss/search?" + urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
-    resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (xbi-tracker catalyst news)"}, timeout=30)
-    resp.raise_for_status()
-    out = []
-    for it in ET.fromstring(resp.content).iter("item"):
-        title = (it.findtext("title") or "").strip()
-        publisher = it.findtext("source")
-        if publisher and title.endswith(" - " + publisher):
-            title = title[: -len(" - " + publisher)]
-        try:
-            ts = parsedate_to_datetime(it.findtext("pubDate") or "").astimezone(timezone.utc)
-        except Exception:
-            ts = None
-        out.append({"title": title, "publisher": publisher, "link": (it.findtext("link") or "").strip(),
-                    "published": ts, "summary": re.sub(r"<[^>]+>", " ", it.findtext("description") or "")})
-    return out
+    return newsrss.search(query)
 
 
 def short_name(name: str) -> str:
@@ -304,7 +291,7 @@ def main() -> int:
                 old.unlink()
         except ValueError:
             pass
-    print(f"Saved {len(out)} catalyst stories; {len(results)} trials marked reported.")
+    print(f"Saved {len(out)} catalyst stories; {len(results)} trials marked reported. ({newsrss.summary()})")
     return 0
 
 

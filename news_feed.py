@@ -21,6 +21,8 @@ from urllib.parse import urlencode
 
 import requests
 
+import newsrss
+
 DATA_DIR = Path(__file__).parent / "data" / "news"
 DAYS_BACK = 3
 
@@ -100,12 +102,15 @@ def main() -> int:
     since = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
     collected, status = [], {}
     sources = list(FEEDS.items()) + [
-        (f"Google News: {q}", "https://news.google.com/rss/search?" + urlencode({"q": f"{q} when:{DAYS_BACK}d", "hl": "en-US", "gl": "US", "ceid": "US:en"}))
+        (f"Google News: {q}", f"gnews:{q} when:{DAYS_BACK}d")
         for q in SEARCHES
     ]
     for name, url in sources:
         try:
-            items = parse_feed(fetch(url))
+            items = newsrss.search(url[len("gnews:"):]) if url.startswith("gnews:") else parse_feed(fetch(url))
+            for it in items:
+                if isinstance(it.get("published"), datetime):
+                    it["published"] = it["pubDate"]
         except Exception as exc:
             status[name] = f"failed: {type(exc).__name__}"
             print(f"{name}: failed ({exc})")
@@ -164,7 +169,7 @@ def main() -> int:
                 old.unlink()
         except ValueError:
             pass
-    print(f"Saved {len(unique)} deal/funding headlines from the last {DAYS_BACK} days.")
+    print(f"Saved {len(unique)} deal/funding headlines from the last {DAYS_BACK} days. ({newsrss.summary()})")
     return 0
 
 
