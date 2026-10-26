@@ -1,0 +1,44 @@
+name: Daily biotech deal & funding news
+
+on:
+  schedule:
+    # 12:15 UTC daily = 5:15am PT (PDT) / 4:15am PT (PST), before the 6:41am dashboard update
+    - cron: "15 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Collect headlines
+        id: collect
+        continue-on-error: true
+        run: |
+          mkdir -p data/news
+          set -o pipefail
+          python news_feed.py 2>&1 | tee data/news/run_log.txt
+
+      - name: Commit results (and the run log)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news
+          git diff --cached --quiet || git commit -m "Deal & funding news $(date -u +%F)"
+          git pull --rebase
+          git push
+
+      - name: Fail the run if the script failed
+        if: steps.collect.outcome == 'failure'
+        run: exit 1

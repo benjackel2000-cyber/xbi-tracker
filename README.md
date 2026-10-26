@@ -29,3 +29,7 @@ Or open the **Actions** tab on GitHub and run **Daily XBI contribution** by hand
 ## FDA decision outcomes
 
 `fda_outcomes.py` checks each FDA decision (PDUFA) date in `data/fda_events.json`. It searches the news from 10 days before to 3 days after the date to find what happened (Approved / CRL / Extended), uses the first headline to pin down the actual decision day, and measures the stock's reaction that day and over the whole window. Results go to `data/fda_outcomes.json`.
+
+## Deal & funding news feed
+
+`news_feed.py` runs every morning (`.github/workflows/news.yml`). It collects the last three days of headlines from BioPharma Dive, Fierce Biotech, Endpoints, GlobeNewswire, PR Newswire and a few Google News searches, keeps the ones that look like deals or financings, and saves them to `data/news/latest.json` for the dashboard's morning update.
