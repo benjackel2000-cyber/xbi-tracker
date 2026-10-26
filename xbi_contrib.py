@@ -32,6 +32,7 @@ HOLDINGS_URL = (
     "fund-data/etfs/us/holdings-daily-us-en-xbi.xlsx"
 )
 DATA_DIR = Path(__file__).parent / "data"
+DEBUG_TICKERS = {"ORIC", "ORKA"}
 
 
 def load_holdings() -> pd.DataFrame:
@@ -102,6 +103,11 @@ def recent_headlines(ticker: str, date: str, limit: int = 5) -> list[dict]:
     except Exception as exc:  # news is best-effort; never fail the run over it
         print(f"News lookup failed for {ticker}: {exc}")
         return []
+    if ticker in DEBUG_TICKERS:
+        print(f"[news debug] {ticker}: {len(items)} items from Yahoo")
+        for it in items[:3]:
+            c = it.get("content", it)
+            print("   keys:", sorted(c.keys())[:15], "| pub:", c.get("pubDate") or c.get("displayTime") or c.get("providerPublishTime"), "|", str(c.get("title"))[:70])
     out = []
     for item in items:
         c = item.get("content", item)  # yfinance has used both a flat and a nested shape
