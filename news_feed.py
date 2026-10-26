@@ -157,6 +157,13 @@ def main() -> int:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     for path in (DATA_DIR / "latest.json", DATA_DIR / f"{now.date()}.json"):
         path.write_text(json.dumps(result, indent=1))
+    # Keep the repo small: drop dated snapshots older than 30 days.
+    for old in DATA_DIR.glob("20*.json"):
+        try:
+            if datetime.fromisoformat(old.stem).date() < (now - timedelta(days=30)).date():
+                old.unlink()
+        except ValueError:
+            pass
     print(f"Saved {len(unique)} deal/funding headlines from the last {DAYS_BACK} days.")
     return 0
 
