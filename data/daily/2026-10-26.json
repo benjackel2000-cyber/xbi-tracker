@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
  "holdings_as_of": "23-oct-2026",
- "generated_at": "2026-10-26T22:20:20+00:00",
+ "generated_at": "2026-10-26T23:05:18+00:00",
  "xbi_close": 150.47,
  "xbi_return_pct": 0.62,
  "sum_contribution_bps": 62.6,
@@ -91,6 +91,12 @@
    "contribution_bps": 5.34,
    "headlines": [
     {
+     "title": "Xencor soars 16% on encouraging early XmAb819 data (XNCR:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWG0tUE50REVNTldrSXJyOUpiRF9Sd3NLQmFUcXFkdlR5dnM0ZjNEVnRIOW43SXV0TjNhY3JfNFgtbjRBbXZyMFdrdFQwazR3THExa2V5UzRPR2pOV3l0dHp5X3dWTXp1bVpmOG8wTDIxbE9HUlk3dWpmejZzSTZ2YWxzUExRQ0F6Zkx3cjctV3E?oc=5",
+     "published": "2026-10-26T21:20:35+00:00"
+    },
+    {
      "title": "Xencor: 'Strong Buy' On Positive XmAb819 ESMO Data ccRCC And Potential For FDA Accelerated Approval Pathway",
      "publisher": "Seeking Alpha",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaW5GVlpHbEZkV2U1NVVWNm1pZGEzcW5jNzdEdHJEQlRzR0prMVVJaml1VHVnWndzcHpzWHhtdjdzbGwyd0JudmhzOEdkOGNXRkxPTHh2VHJvNkE3UldSMHRsRmxBMExJQURRMktvVTl4V3g5cGZYSzQ5RmlibHJMLXJQVS1acWFGUmpCUnpnaDk1Q09OeUVOSnJ5ZTNUc0xaOXMwQjVRdWE?oc=5",
@@ -107,12 +113,6 @@
      "publisher": "AllSci",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV29SRVpIQnRXNS1KUkJLQTgybjZWbnNZc3hoRk50cEd1dnJfMlZNRXVtWENiZWVaQzExQjVpQUJadlQ5Tlo3REVZNm9aWkh4d040SzMyZi1ISVVmZnY0dlJGZmU2bzU5SG15Y0lvc192VkQ2SzRwemxWZkxyQVoyTXB5SEdBYjQ?oc=5",
      "published": "2026-10-26T16:58:45+00:00"
-    },
-    {
-     "title": "Xencor shares jump as kidney cancer drug data support Phase 3 plans",
-     "publisher": "Proactive financial news",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbjVjeUk4T3ZzYTVGMVZHRDlsV0lUbFQweDlpcUVZZmVIUGVEQWxXVUw2THBoWTRCSlNJRldEZG1JM3huaDRLQVVXSDBOQXNSZExuaHg2NEVxOWp1amVuWXJMTVNLYWw0dk84SWwzUVUwUmtzSkFNeEpaRDIyOWxWX0pyWkUwOXZaamVMOTRpc2xkYmgzVUtLUnF4V0VFaHc3dFJRQmZhS2x1djhwcVYtd3YydVpFWUVpclhWdHhBeUVMeEZuc2tLS0NfajNuOEQ0Y056eA?oc=5",
-     "published": "2026-10-26T16:08:00+00:00"
     },
     {
      "title": "Xencor stock surges on positive cancer drug trial data",
@@ -173,16 +173,16 @@
      "published": "2026-10-26T16:45:11+00:00"
     },
     {
-     "title": "Guggenheim reiterates Oruka Therapeutics stock rating on trial data By Investing.com",
-     "publisher": "Investing.com Nigeria",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMFF6THI5WjhhZ0NwTXNmLW5KN0ZyQTNoNGVsaUxxYzVjRG1RMUZ1QWxkWjFNenlmdEFITlI1VGdlX2M3Y0NnM3c3cWFfelBnQTVPWDFuV1lRUVpUaDJjLXZ4V2ltajR0UHJ5UU1ieUZEQ3BlMElPa0hleW1LX3BKTkNDckFzQTVxWVJiQUV0dkhuekVOa2plT00wVEY0cnVlS0pZSm9oa3BLTGozOGR3NHhlSmhnLTdIS3Y1eVNpamZ3NC13eXc4?oc=5",
-     "published": "2026-10-26T15:13:07+00:00"
-    },
-    {
      "title": "Oruka Therapeutics Rises 12% on Psoriasis Trial Results",
      "publisher": "StocksToTrade",
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR2xVb3FkZzMyMjBHODZhZWVPdzRObHhpV2FVNDRKVWw3M3ZxWi1hM1B4NWZCdHhHUGpjWVhnZUh2WEpkd1RCVUNtY01YdVBhNkpDaVp1OVNwTjE2Ti1tQWllcGZzelNWeVp1ZWpNM2tkYTR4REtfMUpyX2o1MmFvVQ?oc=5",
      "published": "2026-10-26T14:38:00+00:00"
+    },
+    {
+     "title": "Guggenheim reiterates Oruka Therapeutics stock rating on trial data By Investing.com",
+     "publisher": "Investing.com India",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbmlweGkzZWdCVkJkaEJRMXZPcC1LVzZfQUtqTTJndG84Rk1YRzlHM0tZamVfSFNZb0xfTGh6SkxYM1lYRmxaTXhFNHd0d1JoSUZkMmhPOW1lU2hOeEJLeUZTendUdldYZUR3MUtDYXhKUkRvM3V6Rm1GRFBWTktoZEJVMVFtcEdpTkpLdVREamxOU0liTlZJcjlYTHNSQWt0Szd3Zm5lSTJjNzhxaTlQYnc5UjVsY1JZRGN1Z3kzY1lqY0FzczQw?oc=5",
+     "published": "2026-10-26T14:16:07+00:00"
     }
    ]
   },

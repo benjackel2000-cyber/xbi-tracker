@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T22:20:24+00:00",
- "covers_since": "2026-10-24T22:20:24+00:00",
+ "generated_at": "2026-10-26T23:05:22+00:00",
+ "covers_since": "2026-10-24T23:05:22+00:00",
  "trials_checked": [
   "NCT06951711-2026-11-02",
   "NCT05646862-2026-11-13",
@@ -20,7 +20,7 @@
   "NCT06829823-2026-11-01",
   "NCT05834777-2026-11-01"
  ],
- "count": 17,
+ "count": 14,
  "items": [
   {
    "ticker": "BMY",
@@ -37,20 +37,6 @@
    "close": 61.61
   },
   {
-   "ticker": "MRK",
-   "title": "Merck, Moderna Report Positive Results for Their Melanoma Vaccine",
-   "publisher": "Mexico Business News",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObG9BV05nYVByekRvLVk4ZG1tWF9MdDgxcmxhQXl4cEUtQUJyM2xGWkJDRFhhaUp3Y09pTzBUc2pLM3BvQW1YMkYyakJFVVhxLWhHa2R0SGRKbzV0RVFiMUdkZHk5M19pMFotdmhXejBack1wbUd2Y1dkbVFtdnpIcVRiUEJjX3E0MEowdE53Yy1CUWxnQWUxRTFnN0YzbTFOWEE?oc=5",
-   "published": "2026-08-19T07:00:00+00:00",
-   "type_guess": "Trial readout",
-   "result_guess": "positive",
-   "catalyst_id": "NCT04657991-2026-10-30",
-   "found_by": "trial check",
-   "move_date": "2026-10-07",
-   "move_pct": 0.6,
-   "close": 140.61
-  },
-  {
    "ticker": "ABBV",
    "title": "FDA approves at-home subcutaneous induction for AbbVie\u2019s Skyrizi in Crohn\u2019s disease",
    "publisher": "The Pharmaletter",
@@ -60,8 +46,8 @@
    "result_guess": "positive",
    "catalyst_id": null,
    "found_by": "search: FDA approves",
-   "move_date": "2026-10-26",
-   "move_pct": 0.39,
+   "move_date": "pending",
+   "move_pct": null,
    "close": 286.74
   },
   {
@@ -81,8 +67,8 @@
   {
    "ticker": "PFE",
    "title": "Pfizer\u2019s TALZENNA Plus XTANDI FDA-Approved for an Earlier Metastatic Prostate Cancer Treatment Setting",
-   "publisher": "Business Wire",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQV0Vkd1hvLVo0UnR1NjRSV1RnOVB1dkd0bG1RaHJiaTl0RDZMV2F6STV6TDB1MFlvZEJsWWdrTExDUEQ5UXdIUGFaR3pkbDN4TWcwOXV6M24tWHZ4WDNaZGJqOXF2c2g3NW9ZclpJOFFScFpldzQ1bk9NcnFSMERMQmFCQW1DRklXTzRHbXpyRmZwLWZiNEFEMU1DUm5YTGNJT0IzcEJEZGxwbGZSWXk4VzZQaDRMNi14cG9qaHNiTi01am9XWTB2RlJJYkw3YWlGY2tfcHBURkN5R3RXM2JibzZIT3NsUk9tNEljNnVrTQ?oc=5",
+   "publisher": "Yahoo Finance Australia",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUUd4S3BIM2VHZ0V0R2dDcTdnWUtkaEhNTGtjZ2lvcjlJQURoNVU3NUczblc3U3A4SEw3cTBROFdhSWtqT0RnYlR0anVFWEl5ckEyTkxDUk1xRV9EdUNLMm5EeXlYV1RJWXVjNzdGbjYtSU5pczRvUWdScDZRNmp1N0tidFV5c1k?oc=5",
    "published": "2026-10-26T17:41:00+00:00",
    "type_guess": "FDA approval",
    "result_guess": "positive",
@@ -231,34 +217,6 @@
    "move_date": "2026-10-26",
    "move_pct": 0.84,
    "close": 65.8
-  },
-  {
-   "ticker": "BMY",
-   "title": "Bristol Myers Squibb Presents Results from Phase 1 Breakfree-2 Study of Zolacabtagene Autoleucel (BMS-986353) in Patients with Highly Active Relapsing and Progressive Forms of Multiple Sclerosis at MSToronto 2026",
-   "publisher": "BioSpace",
-   "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOc2VRcm1NYTltMERqdGt1ZzJsV0Vjc3BSTjhhcTgwNzV3a0xHVVpwaU5CWTdvbTVxTjc4cXlfWDBsR2V0SWZsNXk0MUN5OU1JU2VMOEI5S055UmR4a1R3VEhyM0NMN3BqV241WFJQRlh0dWwzc3V4ekhWbGxWVWVETk9ZbE5SRWhZV0MzVlNLTXJKcnM0TjVRTUZTRWhFdU9pNzJFVm00dXJzcmVrM1BENFBRSXlaZjdiMlRxeU5OM3lybmtDOVRJMFZ5cjNHQzlGblFWRjVYcUxrVTJvSG1HNkRMeEZXOVNGY3JqNDAzdk5fQTE0RzJyLTZCUmVrRkp1TG9CWFJoaGtzbl80dTNqNkVfMnhWS21Zc3RtVGpEVlZTMmhVRUxyVDNMNWVRcWtEWkZkWE0yOW02MXRMM1dTWVNXN2laX3lZLTdjUEd1WVBwTWtQc2xZS053b0hMamZwNkVBbk1mM3Q0Zw?oc=5",
-   "published": "2026-10-26T01:55:56+00:00",
-   "type_guess": "Trial readout",
-   "result_guess": "mixed",
-   "catalyst_id": null,
-   "found_by": "search: Phase 2b results primary endpoint",
-   "move_date": "2026-10-26",
-   "move_pct": 0.21,
-   "close": 61.61
-  },
-  {
-   "ticker": "TAK",
-   "title": "Takeda to seek Japan approval for gastric cancer drug next year",
-   "publisher": "Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOU9XWDZnUDBPM2pyd0x3WFM0NXNUeHBYRnk3NmFra05tMTc0b25EVXd4U1dHemtycUplNFV5Mlc4bjlmS3RKRjVTYmR6UnRVWHdVS1g4OE1IdHlhNDhLLTZGSE9VQ003cU5SUl9lUUFtaFFWSnB6NWtkOTBnMFJLOHNPTVhNODg5cVE4WDFDb3lGRDN3Szl5TzU5SQ?oc=5",
-   "published": "2026-10-25T19:02:12+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: Phase 3 trial met primary endpoint",
-   "move_date": "2026-10-26",
-   "move_pct": 0.94,
-   "close": 20.43
   }
  ]
 }
