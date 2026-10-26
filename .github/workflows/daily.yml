@@ -23,12 +23,21 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Compute contributions
-        run: python xbi_contrib.py
+        id: compute
+        continue-on-error: true
+        run: |
+          mkdir -p data
+          set -o pipefail
+          python xbi_contrib.py 2>&1 | tee data/run_log.txt
 
-      - name: Commit results
+      - name: Commit results (and the run log)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "XBI contribution data $(date -u +%F)"
           git push
+
+      - name: Fail the run if the script failed
+        if: steps.compute.outcome == 'failure'
+        run: exit 1

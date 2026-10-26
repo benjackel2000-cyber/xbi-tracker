@@ -36,11 +36,20 @@ DATA_DIR = Path(__file__).parent / "data"
 def load_holdings() -> pd.DataFrame:
     """Download and parse SSGA's XBI holdings spreadsheet."""
     resp = requests.get(HOLDINGS_URL, headers={"User-Agent": "Mozilla/5.0"}, timeout=60)
+    print(f"Holdings download: HTTP {resp.status_code}, {resp.headers.get('content-type')}, {len(resp.content)} bytes")
     resp.raise_for_status()
+    if not resp.content.startswith(b"PK"):  # .xlsx files are zip archives starting with "PK"
+        raise RuntimeError("Holdings file is not a spreadsheet. First bytes: " + resp.content[:300].decode("utf-8", "replace"))
     raw = pd.read_excel(io.BytesIO(resp.content), header=None)
+    print("First rows of holdings sheet:")
+    print(raw.head(8).to_string())
 
     # The sheet has a few title rows on top; find the row that holds the column names.
-    header_row = next(i for i, row in raw.iterrows() if "Ticker" in row.astype(str).tolist())
+    header_row = next(
+        (i for i, row in raw.iterrows() if any(str(v).strip().lower() == "ticker" for v in row)), None
+    )
+    if header_row is None:
+        raise RuntimeError("Could not find a 'Ticker' column in the holdings sheet.")
     df = raw.iloc[header_row + 1 :].copy()
     df.columns = raw.iloc[header_row].astype(str).str.strip()
 
@@ -76,6 +85,7 @@ def load_returns(tickers: list[str]) -> pd.DataFrame:
 
 def main() -> int:
     holdings = load_holdings()
+    print(f"Parsed {len(holdings)} holdings; weights sum to {holdings['Weight'].sum():.1f}%")
     returns = load_returns(holdings["Ticker"].tolist())
     date = returns.attrs["date"]
 
