@@ -9,8 +9,8 @@ Runs after the market close. Two kinds of searches (Google News RSS):
   2. Targeted readout checks for trials on the catalyst calendar (data/catalysts.json)
      whose estimated completion date is close or has passed. About 30 trials are checked
      per run, rotating, so every due/overdue trial gets looked at every few days.
-     When a results headline is found the trial is recorded in data/trial_results.json
-     and is no longer re-checked.
+     A possible results headline is passed on (Claude confirms it in the evening update);
+     data/trial_results.json remembers headlines already passed on so they aren't repeated.
 
 Each story gets a rough type guess (FDA approval / CRL / Phase 3 readout / Phase 2
 readout) and the stock's move on the reaction day. The dashboard's evening update reads
@@ -74,7 +74,7 @@ CRL = re.compile(r"complete response letter|\bCRL\b|rejects|declines to approve|
 READOUT = re.compile(r"topline|top-line|primary endpoint|met (its|the) |fail(s|ed)? to|did not meet|missed|positive (results|data)|results from|data from|readout|reads? out|efficacy|statistically significant|interim analysis", re.I)
 PH3 = re.compile(r"phase (3|iii)\b|phase 2/3|pivotal|registrational", re.I)
 PH2 = re.compile(r"phase (2|ii)(b|a)?\b", re.I)
-NOT_EVENT = re.compile(r"accepts|acceptance|seeks|submits|submission|filing|PDUFA date|ahead of|awaits|could|will the|what to expect|preview|to present|will present|to host|conference call|enrol|initiat|first patient|doses first|begins|starts|launch(es)? (a )?phase", re.I)
+NOT_EVENT = re.compile(r"accepts|acceptance|seeks|to seek|plans to|submits|submission|filing|PDUFA date|ahead of|awaits|could|will the|what to expect|preview|to present|will present|to host|conference call|enrol|initiat|first patient|doses first|begins|starts|launch(es)? (a )?phase", re.I)
 NEG = re.compile(r"fail|did not meet|missed|discontinu|halt|crl|complete response|rejects|setback|disappoint|plunge|tumble|sink|tank", re.I)
 POS = re.compile(r"\bmet\b|positive|success|approv|statistically significant|soar|surge|jump|beats", re.I)
 
@@ -128,7 +128,12 @@ def match_ticker(text: str, names: dict[str, list[str]]) -> str | None:
     return best[0] if best else None
 
 
+PH1_ONLY = re.compile(r"phase (1|i)(a|b)?\b(?!\s*/\s*(2|ii))|phase 1/1b|first-in-human|preclinical", re.I)
+
+
 def guess_type(title: str) -> str | None:
+    if PH1_ONLY.search(title) and not re.search(r"phase (1|i)[ab]?\s*/\s*(2|ii)", title, re.I):
+        return None
     if CRL.search(title) and not NOT_EVENT.search(title):
         return "CRL"
     if APPROVED.search(title) and not NOT_EVENT.search(title):
@@ -169,9 +174,11 @@ def reaction(ticker: str, published: datetime | None) -> dict:
         day = pd.Timestamp(et.date())
         if et.hour >= 16:
             day += pd.Timedelta(days=1)
+    out["close"] = round(float(px.iloc[-1]), 2)
     after = rets[rets.index >= day].dropna() if day is not None else rets.dropna().tail(1)
-    if after.empty:
-        after = rets.dropna().tail(1)
+    if after.empty:  # news came after the last close: the reaction day hasn't traded yet
+        out["move_date"] = "pending"
+        return out
     out["move_date"] = after.index[0].strftime("%Y-%m-%d")
     out["move_pct"] = round(float(after.iloc[0]), 2)
     out["close"] = round(float(px.iloc[-1]), 2)
@@ -179,7 +186,7 @@ def reaction(ticker: str, published: datetime | None) -> dict:
 
 
 def drug_terms(drug: str) -> list[str]:
-    words = [w for w in re.split(r"[\s/,+()]+", drug or "") if len(w) >= 6 and not re.search(r"^(placebo|injection|tablet|capsule|matched|standard|biopsy|procedure|biospecimen|collection|therapy|radiation|chemotherapy|infusion|vaccine|dose)$", w, re.I)]
+    words = [w for w in re.split(r"[\s/,+()]+", drug or "") if len(w) >= 6 and not re.search(r"^(placebo|injection|tablet|capsule|matched|standard|biopsy|procedure|biospecimen|collection|therapy|radiation|chemotherapy|infusion|vaccine|dose|adjuvant|rollover|fulvestrant|gemcitabine?|cisplatin|carboplatin|paclitaxel|docetaxel|dexamethasone|letrozole|capecitabine|oxaliplatin|bevacizumab|rituximab|pemetrexed|hydroxyurea|immunoglobulin)$", w, re.I)]
     return words[:2]
 
 
@@ -189,7 +196,7 @@ def main() -> int:
     catalysts = json.loads((ROOT / "catalysts.json").read_text())
     results = json.loads(RESULTS_FILE.read_text()) if RESULTS_FILE.exists() else {}
     names = build_names(catalysts)
-    print(f"Watching {len(names)} tickers, {len(catalysts)} catalyst rows, {len(results)} trials already reported.")
+    print(f"Watching {len(names)} tickers, {len(catalysts)} catalyst rows.")
 
     items: list[dict] = []
     for q in BROAD:
@@ -214,7 +221,7 @@ def main() -> int:
 
     # Targeted readout checks, rotating through due and overdue trials.
     today = pd.Timestamp(now.date())
-    due = [r for r in catalysts if "readout" in r["kind"] and r["id"] not in results
+    due = [r for r in catalysts if "readout" in r["kind"]
            and -DUE_BEHIND_DAYS <= (pd.Timestamp(r["date"]) - today).days <= DUE_AHEAD_DAYS]
     due.sort(key=lambda r: r["date"])
     if due:
@@ -242,17 +249,21 @@ def main() -> int:
             if not typ or "readout" not in typ.lower():
                 continue
             named_co = any(re.search(rf"\b{re.escape(c)}\b", title, re.I) for c in comp) or any(re.search(rf"\b{re.escape(t)}\b", title) for t in tickers)
-            named_drug = any(d in title.lower() for d in dterms) or (r["indication"] and r["indication"].split(" ")[0].lower() in title.lower())
-            if named_co and named_drug:
+            named_drug = any(d in title.lower() for d in dterms)
+            if not dterms:  # no usable drug name: fall back to a distinctive word from the disease
+                ind_words = [w for w in re.split(r"[\s,()]+", r["indication"] or "") if len(w) >= 7][:2]
+                named_drug = any(w.lower() in title.lower() for w in ind_words)
+            key = re.sub(r"[^a-z0-9]", "", title.lower())[:60]
+            if named_co and named_drug and key not in results.get(r["id"], {}).get("seen", []):
                 hit = (it, typ)
                 break
         if hit:
             it, typ = hit
-            results[r["id"]] = {"found": now.date().isoformat(), "title": it["title"], "link": it["link"],
-                                "published": it["published"].isoformat() if it["published"] else None,
-                                "type_guess": typ, "result_guess": guess_result(it["title"], typ)}
+            rec = results.setdefault(r["id"], {"seen": []})
+            rec["seen"].append(re.sub(r"[^a-z0-9]", "", it["title"].lower())[:60])
+            rec["last_found"] = now.date().isoformat()
             items.append({**it, "ticker": tickers[0], "type_guess": typ, "found_by": "trial check", "catalyst_id": r["id"]})
-            print(f"Check {r['id']} ({r['ticker']}): reported -> {it['title'][:90]}")
+            print(f"Check {r['id']} ({r['ticker']}): possible results -> {it['title'][:90]}")
         else:
             print(f"Check {r['id']} ({r['ticker']}): nothing yet")
 
@@ -291,7 +302,7 @@ def main() -> int:
                 old.unlink()
         except ValueError:
             pass
-    print(f"Saved {len(out)} catalyst stories; {len(results)} trials marked reported. ({newsrss.summary()})")
+    print(f"Saved {len(out)} catalyst stories. ({newsrss.summary()})")
     return 0
 
 
