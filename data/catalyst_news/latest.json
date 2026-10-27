@@ -1,7 +1,11 @@
 {
- "generated_at": "2026-10-26T23:05:22+00:00",
- "covers_since": "2026-10-24T23:05:22+00:00",
+ "generated_at": "2026-10-27T23:05:38+00:00",
+ "covers_since": "2026-10-25T23:05:38+00:00",
  "trials_checked": [
+  "NCT06951698-2026-11-01",
+  "NCT05066217-2026-11-01",
+  "NCT06829823-2026-11-01",
+  "NCT05834777-2026-11-01",
   "NCT06951711-2026-11-02",
   "NCT05646862-2026-11-13",
   "NCT05946941-2026-11-18",
@@ -14,69 +18,121 @@
   "NCT04657991-2026-10-30",
   "NCT05444257-2026-10-30",
   "NCT06136585-2026-10-31",
-  "NCT03992430-2026-10-31",
-  "NCT06951698-2026-11-01",
-  "NCT05066217-2026-11-01",
-  "NCT06829823-2026-11-01",
-  "NCT05834777-2026-11-01"
+  "NCT03992430-2026-10-31"
  ],
- "count": 14,
+ "count": 17,
  "items": [
   {
-   "ticker": "BMY",
-   "title": "Bristol Myers Squibb Presents Sotyktu (deucravacitinib) Data Showing Durable Efficacy, Consistent Safety in Adults with Psoriatic Arthritis Over Two Years",
+   "ticker": "PFE",
+   "title": "Pfizer's ELREXFIO meets primary endpoint in Phase 3 MagnetisMM-32 myeloma trial",
+   "publisher": "Dealroom",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNnJOei1yUWtfa2NVWDNNZzlhQXNSQm0wLXVlcUtCOEZVU0VxU0FiVDRxWFVaQlVYQkVpY0ZwbFowRDRjb2w4SUZTdG94RklpbEZDemtLc1Fjb2w2Si0yWHZ3N1I0T2FmX1QwXy1VdkVZYkU4RHBGUFZVSnVjalJsb1VqUWpxcDExbEJ2eVZXbmF1OGdIWDFCTS1BVlRmQTB2ZnY1QXBuQlhTOUo5b3lBd0ZBNA?oc=5",
+   "published": "2026-10-27T16:08:16+00:00",
+   "type_guess": "Phase 3 readout",
+   "result_guess": "mixed",
+   "catalyst_id": null,
+   "found_by": "search: Phase 3 topline results",
+   "move_date": "2026-10-27",
+   "move_pct": 0.03,
+   "close": 29.8
+  },
+  {
+   "ticker": "VNDA",
+   "title": "Vanda Pharmaceuticals Announces Positive Results from Study 3601 of NEREUS\u2122 (tradipitant) for Prevention of GLP-1-Induced Vomiting",
    "publisher": "BioSpace",
-   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPS0dqRlZNNnRmMDY4dnZGcXlWQmxVTHBEVTBlMVVxRzg0QlZWUWJmU0RGWGVWb2U3R0JzUng5elZSa1VSYkhJLTM5djZURmtEbmpWQWR0ZUtWZWRma05fV2lLTm5HcEV5aXlINk1VQzNkak1yUmZHZHp6TkcwY1phVFlBZXZfaTVqOWhxZElnV004RXVCV3Y3M1hYdExXOXBocDJlRU9fdUViTjZRTmJrMERsWTkzLUVjT3FYaWF1S1JsUXNudzltNlV2Ykx0ZGMyVFpzanlITG9QbnBxQ2lqOF9seUd6V05uSGF1Q0JuenotWURDR0czTFF0OVRBWlY5RVJ4ekFnRk1HNVZ6bC1JSjVFOS0xQWFVTXE0?oc=5",
-   "published": "2026-09-17T07:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNek1ad3VUSUpMck5ZRXBkekZPYi0yb1VvYkpjbjg3cGNrQkdhci1xLUdyTG05QWUwdGNlS3JNWGhEeW1ialY4VXFFOU5RODgwWkVBbUJjMC1YVy1LbkpBNWZIVjNvalhSRnpBaVZfSmJwMHd4M1lhZWVCYVZKNmtmUGFWWC1JVlltM09zZGt6NC1PWktiYlpWSkJKVTVvMzFNdFVNUFJLMlgtbklQVmJpbG9DWGR3WEZTR2lwTFlaQzRKMlNJRXdLdFZJeEtfdTBMWnZHd19PdnEwMlZNaHp1X0tOaXh5REt4LTJwWWlYRUhEWGJQdjd1cFRKZw?oc=5",
+   "published": "2026-10-27T15:02:33+00:00",
+   "type_guess": "Trial readout",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: site:biospace.com Phase 3 results",
+   "move_date": "2026-10-27",
+   "move_pct": 1.27,
+   "close": 3.99
+  },
+  {
+   "ticker": "PFE",
+   "title": "Pfizer\u2019s ELREXFIO Outperforms Standard Regimens and Meets Primary Endpoint in Phase 3 Study in Relapsed or Refractory Multiple Myeloma",
+   "publisher": "BioSpace",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNVRsbGpvNU5zcGI3a2dKTS1qemcyek1FY3R4b1pENlR3Rl84bDJCZEJSMURyU3h3bk9jRjlyRlRmcHpBU0xhY1NhclptYWpFZGM3Vl9Yd3FGd20xYk5oU1plUDhWQlM3TElmNERZQkU0M1U3eVk2U3lyUGl2STN4WmVFU0d6WEtzOWFCMFJHdHBrRkJKSVQ4Z2lZTkItaEZIck1pSVhnX3NCM29ocmx1TGItWUtwak1VTWdUUnQ1QUZkMzhaSmFlczgxWF9JSXFiSGwyR1VPNHpRTE9kWkFVcjR0WWV6SURReTVQamI5OC02M1BaTmhFTjI1S19ka1IyU04w?oc=5",
+   "published": "2026-10-27T14:21:05+00:00",
+   "type_guess": "Phase 3 readout",
+   "result_guess": "mixed",
+   "catalyst_id": null,
+   "found_by": "search: site:biospace.com Phase 3 results",
+   "move_date": "2026-10-27",
+   "move_pct": 0.03,
+   "close": 29.8
+  },
+  {
+   "ticker": "PFE",
+   "title": "Pfizer says Phase 3 MagnetisMM-32 study met primary endpoint",
+   "publisher": "TipRanks",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLUc2OTllelVOVnpJejVMQXo3MkJOWjgxTndIczVRT0RJclltZGRkSDlkeDZscUtPb1ZZdFBVRERIZDVoWUN6WHNLczhXOVZUUGlIZmZySkJZaXZZb2RDN1hjOW5WZDNXa0NBZjBzNkE3MU4yYU1JNVYzN2lQQWJLZF9uSlNtN1pDd2lWTUQyUXVLeThTdHdpOHlRVy1oTWFEMnBJMFNfbGxXcmZFOWpn?oc=5",
+   "published": "2026-10-27T10:50:34+00:00",
+   "type_guess": "Phase 3 readout",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: Phase 3 topline results",
+   "move_date": "2026-10-27",
+   "move_pct": 0.03,
+   "close": 29.8
+  },
+  {
+   "ticker": "PHAR",
+   "title": "Pharming Group reports third quarter 2026 financial results; strong revenue growth, Joenja APDS expansion and CVID topline data in November",
+   "publisher": "Quantisnow",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM2h5bDNQWGpwMjdwNXNxb28tR0N2UVQ2bnhzVHp5S1pyVlBleVQwcGlsUFZEQlVVU2gxM0VTakN1Z1drbHZsMURRSUNLenlvUnNITnlndS1faDVtNEYtT0cyMEZuSlk2dHY0RTVCdlNiN1dmQjRQdmZmUmZiRkNtcE0tRENnWXdjTkdYNW5QbjJSdS0xc1VPUmVMM1VicGg3UzdMUEJPM210UlczY1RzLUdHVQ?oc=5",
+   "published": "2026-10-27T06:19:15+00:00",
    "type_guess": "Trial readout",
    "result_guess": "mixed",
-   "catalyst_id": "NCT05946941-2026-11-18",
-   "found_by": "trial check",
-   "move_date": "2026-10-07",
-   "move_pct": 0.18,
-   "close": 61.61
+   "catalyst_id": null,
+   "found_by": "search: Phase 2 topline data",
+   "move_date": "2026-10-27",
+   "move_pct": -0.25,
+   "close": 11.87
+  },
+  {
+   "ticker": "PFE",
+   "title": "Pfizer\u2019s TALZENNA Plus XTANDI FDA-Approved for an Earlier Metastatic Prostate Cancer Treatment Setting",
+   "publisher": "BioSpace",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbXVBQkd2N2N0Wl9tZ25aNThyenVMRTI2bmktWTRHMEIxWUkzU09yMzB6MXJBV0NxTjlDSk9FTHhWclBVVHR3UDhldlU0eTVVdnR0M1dsNzRYSmFWQmp6WFZWZi00NUQyUGhTbS1FY3BGdkd3U0puUTBkMkFWR0tJekxzc2tGeE4wN2RqSDhkZVNzZ011YzFFdXhHNXZXbUgyZG41X1VaVy1ZSGJlWFlZYjJYMzhvX1FUeG80UHhENnFXaEJybThqV3JSdXpPS2FjWU56Vk9qVFc?oc=5",
+   "published": "2026-10-27T01:42:35+00:00",
+   "type_guess": "FDA approval",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: site:biospace.com Phase 3 results",
+   "move_date": "2026-10-27",
+   "move_pct": 0.03,
+   "close": 29.8
+  },
+  {
+   "ticker": "PFE",
+   "title": "Pfizer wins FDA approval for Talzenna-Xtandi in earlier prostate cancer",
+   "publisher": "Financial-News.co.uk",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVFU3bU5HZ3h3eEtUY2w3c0FjeFZnTGdhVUNRdWxmS0djWllyQUh1VmNSanZLYzF1RG5feV9GMks3Ml81TFB5Xzl5ZGZvcS0zdG0yNndMVVV4Q1Y0TkplRUdrSU9rMkF0bWVHTWJMZHJ4VFVNZnBLbHU2MjVtZWptMm5qU1k0Z1RJd1dBcVh0S25yMjFHUHhaT0Y4bWVWa1A4SUFKbC1lOGE?oc=5",
+   "published": "2026-10-27T00:13:33+00:00",
+   "type_guess": "FDA approval",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: FDA approves",
+   "move_date": "2026-10-27",
+   "move_pct": 0.03,
+   "close": 29.8
   },
   {
    "ticker": "ABBV",
    "title": "FDA approves at-home subcutaneous induction for AbbVie\u2019s Skyrizi in Crohn\u2019s disease",
    "publisher": "The Pharmaletter",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0VwRVhZNWxEV0tXamtVdFlRcWdQSVJqZmVpNlpYNVVNc2ZfSXlucEdRSFVIeXA5bWhhNE92S19iLV9kanpiNTI0dkdiUll0M0VHbzVCd0NxZ1NQYmdrY1p6QWYzZFVPQ3R2NmpNSllNdmIyeVdUbnR6QlMyUmZqbndoWS1CaUlrTWgxN2twMThlTkVPRnRlbDV1eWJLS09jWVpoN25JTHpjRll2bWkwUVhQR2dCN05vZGdhNW00LWphb1AydjBJ?oc=5",
-   "published": "2026-10-26T21:33:45+00:00",
+   "published": "2026-10-26T21:36:59+00:00",
    "type_guess": "FDA approval",
    "result_guess": "positive",
    "catalyst_id": null,
    "found_by": "search: FDA approves",
-   "move_date": "pending",
-   "move_pct": null,
-   "close": 286.74
-  },
-  {
-   "ticker": "PFE",
-   "title": "Pfizer\u2019s Talzenna, Xtandi Expand Into Prostate Cancer With Another FDA Approval",
-   "publisher": "GenomeWeb",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWU5ZN1Q3RTFDZTNkZ1JPX3FHM0twMm96ZE0xaGVIMHBBNWRqQTlac1lGRHo2WlFGYlpUNW5BSTNtelZYcDhYVUlQRUxmejdJSExXRlpQMVpMdkI5N2ZyRTFJMVptSWE4bU1icW1qNlJnUl9YcU9BTGJLZ0FadnBEc2RGYWFLWkF6Mzh1cThJRGhacHZLTk9xTlNyd0t3TUlTTnZvSWpFNXp3RUJxWkFnUE1kUllPbDA?oc=5",
-   "published": "2026-10-26T19:04:00+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approves",
-   "move_date": "2026-10-26",
-   "move_pct": -0.8,
-   "close": 29.79
-  },
-  {
-   "ticker": "PFE",
-   "title": "Pfizer\u2019s TALZENNA Plus XTANDI FDA-Approved for an Earlier Metastatic Prostate Cancer Treatment Setting",
-   "publisher": "Yahoo Finance Australia",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUUd4S3BIM2VHZ0V0R2dDcTdnWUtkaEhNTGtjZ2lvcjlJQURoNVU3NUczblc3U3A4SEw3cTBROFdhSWtqT0RnYlR0anVFWEl5ckEyTkxDUk1xRV9EdUNLMm5EeXlYV1RJWXVjNzdGbjYtSU5pczRvUWdScDZRNmp1N0tidFV5c1k?oc=5",
-   "published": "2026-10-26T17:41:00+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approves",
-   "move_date": "2026-10-26",
-   "move_pct": -0.8,
-   "close": 29.79
+   "move_date": "2026-10-27",
+   "move_pct": -0.12,
+   "close": 286.39
   },
   {
    "ticker": "BAYRY",
@@ -90,7 +146,7 @@
    "found_by": "search: FDA approves",
    "move_date": "2026-10-26",
    "move_pct": 3.17,
-   "close": 12.69
+   "close": 12.81
   },
   {
    "ticker": "VRDN",
@@ -104,21 +160,7 @@
    "found_by": "search: FDA approval biotech",
    "move_date": "2026-10-26",
    "move_pct": 4.34,
-   "close": 23.34
-  },
-  {
-   "ticker": "MRNA",
-   "title": "FDA approves Moderna's mRNA seasonal flu vaccine",
-   "publisher": "ABC News - Breaking News, Latest News and Videos",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1BQaW1BVDVnZmczM0Z2LVJBR0RuZEFxc25uSW10QTIzSlhBX0VGQ282YU5EMWI2M3FoTnJmTGU0WGY2RVdFXzNoanREejdsUHVDWUZXMWdJUldzUHB0R1ZWYjUydHU1YTRfYnVqdnlZU0VsTXNjS203TG8zWDI4OHgtOFBqcXgxYUIzanBDU1h3WjFmdlhiUtIBngFBVV95cUxQbVdvZXgyUFJhSlVYU2c2UzlnTzJGY25ubnBHSlVLTGNWcnBzZm1rbktweEpjTURzRGIyQURmd2p4Q3V6eUthX3FBZnFRYmc0Mjk0NUlKaUZhRld1aVIyS01fNmJ1VVN3eE1PeS0wQmQtUnZ5LUJoMF9YZGt5TmV3MGc5UFJDQmRuRE42MkJ0TnhRUmZVYjJqbW5tM3RUdw?oc=5",
-   "published": "2026-10-26T15:06:49+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approves",
-   "move_date": "2026-10-26",
-   "move_pct": -0.62,
-   "close": 198.85
+   "close": 24.09
   },
   {
    "ticker": "NVS",
@@ -132,7 +174,7 @@
    "found_by": "search: Phase 3 trial met primary endpoint",
    "move_date": "2026-10-26",
    "move_pct": 1.78,
-   "close": 153.81
+   "close": 156.86
   },
   {
    "ticker": "CORT",
@@ -145,36 +187,36 @@
    "catalyst_id": null,
    "found_by": "search: site:biospace.com Phase 3 results",
    "move_date": "2026-10-26",
-   "move_pct": 1.47,
-   "close": 87.12
+   "move_pct": 1.48,
+   "close": 87.59
   },
   {
-   "ticker": "CLYM",
-   "title": "Climb Bio Presents Initial PrisMN Phase 2 Data from Budoprutug in pMN at an Oral Session at ASN Kidney Week 2026",
-   "publisher": "BioSpace",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVEdaQmU3bXNTWkF1anQtNlF0N24yRXZienJsWjNxbGp4VXY0aWVnMkdwQXUxWWI1cnZWejg5Vk1OTHcyV2RUVFBFVXp1VmdIY1R0WS1tNHV3bWgtRU5rM0YzSzdic3N3dWtOV1lJWTBZaHR3cU1fcTM2QXI5UmUxd3hneUFyeVNFVjROdWdiT3hxVHRvMXktenk2b1hiX0w2dXFqYVd5NE9pU0ctRFMwbVF6bjR0c2g0aDJYeGlwbTZ6OHZsSGEyNWFhY2t2ZDdJTFEwZG5FZlBKQmVMeG9lX1E5eHRsWGM?oc=5",
-   "published": "2026-10-26T06:32:58+00:00",
-   "type_guess": "Phase 2 readout",
-   "result_guess": "mixed",
+   "ticker": "MIRM",
+   "title": "Mirum Pharmaceuticals Announces Positive Results from Cohort 2 of the Pivotal PROGRESS Study of ATEBRIOZ\u2122 (zilurgisertib) in Pediatric Patients Aged 6 to",
+   "publisher": "Business Wire",
+   "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNbzcwTnhIb1JrYWJoNDFwYkZtUW1neWdSVE9PWXRhWDQzMVBkM00tYUhFVWlDRmJSUlllRnJSSkdhUFpDV0M3SjNPTE51MDNHUkUweW0zQUs2YjU3bGtkQWV1bjAwZlRpVmwtdTBueHVRdlNPblJ2ZTNiUFVaQlhhSWNQd2pxbFJtSTNvQWtKWWhYT0pFVmV6bVVOV1ZZM1RHUEc5YklXTU5kaW4wczN5eml4dTBSXzBBV0FwTkVlcmY5U21SLVhyV0xlOGZsTS1KUWlMOV9NeVhqOEZ5a3BKVThGT0pCZ3A0Smc3X1hFUTZCQmt4RGNZTTRxZVk5RHQxZ2xNYWxNOFdEcmhsb1hJMEZhbC13WGVNdldtbTlCYkJSdzJCZDhVOU9SREdRMkFhWHdOcktodVJGQU5ialZyaFZyN2ZKVXpsM3BvZ2hDNnE5Y081MGZGZUhMd0x4SFZEcEJNS294NWd3TkJNUF9KV3VkLVpkZw?oc=5",
+   "published": "2026-10-26T12:00:00+00:00",
+   "type_guess": "Phase 3 readout",
+   "result_guess": "positive",
    "catalyst_id": null,
-   "found_by": "search: site:biospace.com Phase 3 results",
+   "found_by": "search: Phase 2b results primary endpoint",
    "move_date": "2026-10-26",
-   "move_pct": -13.54,
-   "close": 8.81
+   "move_pct": 3.58,
+   "close": 85.56
   },
   {
-   "ticker": "RHHBY",
-   "title": "Roche\u2019s divarasib demonstrated best-in-class efficacy, advancing the standard of care in previously treated KRAS G12C-mutated lung cancer",
-   "publisher": "BioSpace",
-   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdDlNV3lYTXpWNTJQZzBOMVgyNXN4VTZSNGJ6MW92cVVLVU90YnlPZUVTcTlzVUZPQWRRNnJmQkR3ejZ2eUdscnhlNXFTZW1xNGE1T2twNmtvbHVMRkxiQTNDb3N0dExfaEVmUmNtMndOT3RjNjYyQ3dXdVdxRlZ6YkE4c21sbFF1UTg3SWtQbm9sVy1MMUp0MlhPYkl1Z1kyS2FFTy1jcURFbVRwZzMtakJEalNuMU5FLVQtR3JzRnpWZGtnVmdsTV9uTm92ZS16cGZUeEhmQVY1cm9fTy1vd2ZCWTdaZW5sS2pQRTc4QmZ3THB4Q2Z4OHFfMFZWQ3VFTHZHbTlB?oc=5",
-   "published": "2026-10-26T06:32:47+00:00",
+   "ticker": "ORKA",
+   "title": "Oruka Therapeutics announces results from EVERLAST trial of ORKA-001",
+   "publisher": "TipRanks",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd3hmT2twR1BnQ3l0aUJVSXhZUG9lY1plMXNKX09lbjVnN0tmNzJGWFgwN3NYSTQ0M2pCQWRXU1hSOTBIQXQ3VFNFNzQ1VTRVVnVvalY5V2dPbVdVX3dCUlFZTThjdm15YzE3c1NCQkRqOXVpZUthb0RmQlR3YXR4ZHZCaUtNeEFVbGNheXNRZnRKaDk4SGY1TzBwanRIVklyMVZIOEUzRnpOUzM3VEpaNUg3bzZIS0I3REE?oc=5",
+   "published": "2026-10-26T11:21:34+00:00",
    "type_guess": "Trial readout",
    "result_guess": "mixed",
    "catalyst_id": null,
-   "found_by": "search: site:biospace.com Phase 3 results",
+   "found_by": "search: Phase 2b results primary endpoint",
    "move_date": "2026-10-26",
-   "move_pct": -1.95,
-   "close": 59.98
+   "move_pct": 12.7,
+   "close": 95.81
   },
   {
    "ticker": "CELC",
@@ -188,7 +230,7 @@
    "found_by": "search: site:biospace.com Phase 3 results",
    "move_date": "2026-10-26",
    "move_pct": 0.84,
-   "close": 65.8
+   "close": 68.07
   },
   {
    "ticker": "ABBV",
@@ -202,7 +244,7 @@
    "found_by": "search: site:biospace.com Phase 3 results",
    "move_date": "2026-10-26",
    "move_pct": 0.39,
-   "close": 286.74
+   "close": 286.39
   },
   {
    "ticker": "CELC",
@@ -216,7 +258,7 @@
    "found_by": "search: site:biospace.com Phase 3 results",
    "move_date": "2026-10-26",
    "move_pct": 0.84,
-   "close": 65.8
+   "close": 68.07
   }
  ]
 }
