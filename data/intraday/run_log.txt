@@ -9,5 +9,4 @@ First rows of holdings sheet:
 5            MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.243974       -      1147754             USD
 6  TWIST BIOSCIENCE CORP                                  TWST   90184D100  BGKG6G7   1.86334       -      1239970             USD
 7             NATERA INC                                  NTRA   632307104  BYQRG48  1.819764       -       471189             USD
-  SLS: 0 search results, none recent and naming 'Sellas Life Sciences Group I'
-2026-10-28 11:51 AM PT: XBI 156.12 (+0.83%), 2 checkpoints, 11 movers (news searches: 11 via Google, 0 via Bing, 0 failed)
+2026-10-28 12:44 PM PT: XBI 157.09 (+1.45%), 3 checkpoints, 11 movers (news searches: 11 via Google, 0 via Bing, 0 failed)
