@@ -1,4 +1,4 @@
-name: Intraday XBI + catalyst news
+name: Intraday XBI snapshot
 
 on:
   schedule:
@@ -34,15 +34,6 @@ jobs:
           set -o pipefail
           python xbi_intraday.py 2>&1 | grep -v "Pandas4Warning\|inplace\|whatsnew\|sort_index\|rename(columns" | tee data/intraday/run_log.txt
 
-      - name: Catalyst news sweep
-        id: news
-        continue-on-error: true
-        env:
-          INTRADAY: "1"
-        run: |
-          set -o pipefail
-          python catalyst_news.py 2>&1 | grep -v "Pandas4Warning\|inplace\|whatsnew\|sort_index\|rename(columns" | tee data/catalyst_news/intraday_log.txt
-
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
@@ -52,5 +43,5 @@ jobs:
           for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
 
       - name: Fail the run if a script failed
-        if: steps.xbi.outcome == 'failure' || steps.news.outcome == 'failure'
+        if: steps.xbi.outcome == 'failure'
         run: exit 1
