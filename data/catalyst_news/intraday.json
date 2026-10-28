@@ -1,0 +1,36 @@
+{
+ "generated_at": "2026-10-28T18:49:55+00:00",
+ "covers_since": "2026-10-27T18:49:55+00:00",
+ "trials_checked": [],
+ "count": 2,
+ "items": [
+  {
+   "ticker": "RHHBY",
+   "title": "FDA Approves Satralizumab as At-Home Subcutaneous Treatment for Thyroid Eye Disease",
+   "publisher": "Medical Dialogues",
+   "link": "https://medicaldialogues.in/ophthalmology/news/fda-approves-satralizumab-as-at-home-subcutaneous-treatment-for-thyroid-eye-disease-182062",
+   "published": "2026-10-28T07:46:00+00:00",
+   "type_guess": "FDA approval",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: FDA approves",
+   "move_date": "intraday",
+   "move_pct": -0.35,
+   "close": 60.16
+  },
+  {
+   "ticker": "PFE",
+   "title": "Pfizer\u2019s Elrexfio meets primary endpoint in second Phase III myeloma trial, with higher infections",
+   "publisher": "The Pharma Letter",
+   "link": "https://www.thepharmaletter.com/biotech-news/pfizer-s-elrexfio-meets-primary-endpoint-in-second-phase-iii-myeloma-trial-with-higher-infections",
+   "published": "2026-10-28T06:18:00+00:00",
+   "type_guess": "Phase 3 readout",
+   "result_guess": "mixed",
+   "catalyst_id": null,
+   "found_by": "search: Phase 3 trial met primary endpoint",
+   "move_date": "intraday",
+   "move_pct": -1.73,
+   "close": 29.28
+  }
+ ]
+}

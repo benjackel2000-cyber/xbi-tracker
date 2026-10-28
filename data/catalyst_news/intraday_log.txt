@@ -1,0 +1,19 @@
+Watching 191 tickers, 236 catalyst rows.
+Broad 'FDA approves': 12 items, 1 kept
+Broad 'FDA approval biotech': 11 items, 0 kept
+Broad 'complete response letter FDA': 11 items, 0 kept
+Broad 'Phase 3 topline results': 7 items, 0 kept
+Broad 'Phase 3 trial met primary endpoint': 12 items, 1 kept
+Broad 'Phase 3 did not meet primary endpoint': 8 items, 0 kept
+Broad 'pivotal trial results biotech': 11 items, 0 kept
+Broad 'Phase 2 topline data': 8 items, 0 kept
+Broad 'Phase 2 trial results biotech': 12 items, 0 kept
+Broad 'Phase 2b results primary endpoint': 2 items, 0 kept
+Broad 'site:globenewswire.com topline results': 0 items, 0 kept
+Broad 'site:businesswire.com topline results': 1 items, 0 kept
+Broad 'site:prnewswire.com topline results': 2 items, 0 kept
+Broad 'site:biospace.com Phase 3 results': 2 items, 0 kept
+Broad 'site:fiercebiotech.com phase data': 2 items, 0 kept
+Broad 'site:endpts.com data': 0 items, 0 kept
+17 trials due or overdue; checking 0 this run.
+Saved 2 catalyst stories. (news searches: 0 via Google, 16 via Bing, 0 failed)

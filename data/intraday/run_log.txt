@@ -1,0 +1,12 @@
+Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29677 bytes
+First rows of holdings sheet:
+                       0                                     1           2        3         4       5            6               7
+0             Fund Name:  State Street® SPDR® S&P® Biotech ETF         NaN      NaN       NaN     NaN          NaN             NaN
+1         Ticker Symbol:                                   XBI         NaN      NaN       NaN     NaN          NaN             NaN
+2              Holdings:                     As of 27-Oct-2026         NaN      NaN       NaN     NaN          NaN             NaN
+3                    NaN                                   NaN         NaN      NaN       NaN     NaN          NaN             NaN
+4                   Name                                Ticker  Identifier    SEDOL    Weight  Sector  Shares Held  Local Currency
+5            MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.243974       -      1147754             USD
+6  TWIST BIOSCIENCE CORP                                  TWST   90184D100  BGKG6G7   1.86334       -      1239970             USD
+7             NATERA INC                                  NTRA   632307104  BYQRG48  1.819764       -       471189             USD
+2026-10-28 11:48 AM PT: XBI 156.79 (+1.26%), 1 checkpoints, 12 movers (news searches: 0 via Google, 12 via Bing, 0 failed)
