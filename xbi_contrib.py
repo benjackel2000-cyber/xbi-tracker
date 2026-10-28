@@ -117,6 +117,7 @@ def recent_headlines(ticker: str, name: str, date: str, limit: int = 5) -> list[
     short = re.sub(r"\b(INC|CORP|CORPORATION|LTD|PLC|N\.?V\.?|S\.?A\.?|SE|AG|HOLDINGS?|CO|LLC|CLASS [A-Z]|ADR|SPONS(ORED)?)\b\.?", "", name.upper())
     short = re.sub(r"[^A-Z0-9 &-]", " ", short)
     short = " ".join(short.split()).title()
+    short = re.sub(r"(\s\w)$", "", short)  # SSGA truncates long names ("Sellas Life Sciences Group I")
     context = "(stock OR shares OR FDA OR trial OR data OR biotech OR Nasdaq OR therapeutics OR analyst)"
     query = f'("{short}" {context}) OR "NASDAQ:{ticker}" OR "{ticker} stock" when:3d'
     try:
@@ -134,6 +135,8 @@ def recent_headlines(ticker: str, name: str, date: str, limit: int = 5) -> list[
             continue
         if re.search(r"stock price, news|quote (&|and) history", title, re.I):
             continue  # skip generic quote pages
+        if re.search(r"52-week (high|low)|1-year (high|low)|new (52-week|1-year|all-time) (high|low)|stake|position in|shares (sold|bought|acquired)|acquires .* shares|holdings? (in|of)|institutional|short interest|technical (analysis|chart)", title, re.I):
+            continue  # skip price-level and fund-holding filler that doesn't explain a move
         # keep only headlines that actually name the company or ticker
         if not (re.search(rf"\b{re.escape(ticker)}\b", title) or short.lower() in title.lower()):
             continue
