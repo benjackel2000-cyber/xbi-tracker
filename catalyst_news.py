@@ -21,6 +21,7 @@ data/catalyst_news/latest.json and has Claude write the final classification
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -38,8 +39,9 @@ import newsrss
 ROOT = Path(__file__).parent / "data"
 OUT_DIR = ROOT / "catalyst_news"
 RESULTS_FILE = ROOT / "trial_results.json"
-DAYS_BACK = 2
-CHECKS_PER_RUN = 30
+INTRADAY = os.environ.get("INTRADAY") == "1"   # daytime runs: quick news sweep, no trial checks
+DAYS_BACK = 1 if INTRADAY else 2
+CHECKS_PER_RUN = 0 if INTRADAY else 30
 DUE_AHEAD_DAYS = 30      # start checking a trial this long before its estimated completion
 DUE_BEHIND_DAYS = 365    # keep checking overdue trials for up to a year
 
@@ -180,6 +182,9 @@ def reaction(ticker: str, published: datetime | None) -> dict:
         out["move_date"] = "pending"
         return out
     out["move_date"] = after.index[0].strftime("%Y-%m-%d")
+    now_et = pd.Timestamp.now(tz="America/New_York")
+    if out["move_date"] == now_et.strftime("%Y-%m-%d") and now_et.hour < 16:
+        out["move_date"] = "intraday"  # today's move so far; the evening run replaces it with the close
     out["move_pct"] = round(float(after.iloc[0]), 2)
     out["close"] = round(float(px.iloc[-1]), 2)
     return out
@@ -224,7 +229,7 @@ def main() -> int:
     due = [r for r in catalysts if "readout" in r["kind"]
            and -DUE_BEHIND_DAYS <= (pd.Timestamp(r["date"]) - today).days <= DUE_AHEAD_DAYS]
     due.sort(key=lambda r: r["date"])
-    if due:
+    if due and CHECKS_PER_RUN:
         start = (now.timetuple().tm_yday * CHECKS_PER_RUN) % len(due)
         batch = (due[start:] + due[:start])[:CHECKS_PER_RUN]
     else:
@@ -293,7 +298,7 @@ def main() -> int:
     result = {"generated_at": now.isoformat(timespec="seconds"), "covers_since": since.isoformat(timespec="seconds"),
               "trials_checked": [r["id"] for r in batch], "count": len(out), "items": out}
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for path in (OUT_DIR / "latest.json", OUT_DIR / f"{now.date()}.json"):
+    for path in [OUT_DIR / ("intraday.json" if INTRADAY else "latest.json")] + ([] if INTRADAY else [OUT_DIR / f"{now.date()}.json"]):
         path.write_text(json.dumps(result, indent=1))
     RESULTS_FILE.write_text(json.dumps(results, indent=1))
     for old in OUT_DIR.glob("20*.json"):
