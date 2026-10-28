@@ -1,16 +1,16 @@
-BioPharma Dive: 10 items, 1 kept
+BioPharma Dive: 10 items, 2 kept
 Fierce Biotech: 25 items, 0 kept
-PR Newswire (health): 20 items, 4 kept
+PR Newswire (health): 20 items, 1 kept
 Google News: site:endpts.com deal OR licensing OR acquire OR raises: 0 items, 0 kept
-Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing: 19 items, 1 kept
-Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing: 16 items, 1 kept
-Google News: site:biospace.com deal OR acquisition OR financing: 77 items, 16 kept
-Google News: biotech license agreement upfront milestone: 4 items, 3 kept
-Google News: pharma to acquire biotech per share: 22 items, 6 kept
-Google News: biotech collaboration agreement upfront: 0 items, 0 kept
-Google News: biotech Series A financing: 31 items, 8 kept
-Google News: biotech Series B financing: 12 items, 6 kept
-Google News: biotech Series C financing: 8 items, 5 kept
-Google News: biotech IPO prices: 37 items, 11 kept
-Google News: biotech raises million financing: 25 items, 12 kept
-Saved 55 deal/funding headlines from the last 3 days. (news searches: 12 via Google, 0 via Bing, 0 failed)
+Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing: 33 items, 3 kept
+Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing: 20 items, 2 kept
+Google News: site:biospace.com deal OR acquisition OR financing: 93 items, 20 kept
+Google News: biotech license agreement upfront milestone: 5 items, 3 kept
+Google News: pharma to acquire biotech per share: 54 items, 10 kept
+Google News: biotech collaboration agreement upfront: 1 items, 0 kept
+Google News: biotech Series A financing: 22 items, 8 kept
+Google News: biotech Series B financing: 16 items, 8 kept
+Google News: biotech Series C financing: 14 items, 6 kept
+Google News: biotech IPO prices: 34 items, 13 kept
+Google News: biotech raises million financing: 49 items, 16 kept
+Saved 67 deal/funding headlines from the last 3 days. (news searches: 12 via Google, 0 via Bing, 0 failed)
