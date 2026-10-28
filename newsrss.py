@@ -64,8 +64,8 @@ def bing_query(q: str) -> str:
     return re.sub(r"\s+", " ", q).strip()
 
 
-def search(q: str) -> list[dict]:
-    """Return news items for a search, as dicts with title, publisher, link, published (UTC datetime or None), summary."""
+def search(q: str, bing_q: str | None = None) -> list[dict]:
+    """Return news items for a search (bing_q: a simpler query for the Bing fallback), as dicts with title, publisher, link, published (UTC datetime or None), summary."""
     global _google_down_until
     time.sleep(PAUSE)
     if time.time() >= _google_down_until:
@@ -85,7 +85,7 @@ def search(q: str) -> list[dict]:
                 break
         _google_down_until = time.time() + 120  # skip Google for 2 minutes
     try:
-        url = "https://www.bing.com/news/search?" + urlencode({"q": bing_query(q), "format": "rss", "setlang": "en-US", "cc": "US"})
+        url = "https://www.bing.com/news/search?" + urlencode({"q": bing_q or bing_query(q), "format": "rss", "setlang": "en-US", "cc": "US"})
         items = _parse(_get(url))
         stats["bing"] += 1
         return items

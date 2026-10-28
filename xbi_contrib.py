@@ -120,7 +120,7 @@ def recent_headlines(ticker: str, name: str, date: str, limit: int = 5) -> list[
     context = "(stock OR shares OR FDA OR trial OR data OR biotech OR Nasdaq OR therapeutics OR analyst)"
     query = f'("{short}" {context}) OR "NASDAQ:{ticker}" OR "{ticker} stock" when:3d'
     try:
-        items = newsrss.search(query)
+        items = newsrss.search(query, bing_q=f'"{short}" stock OR shares OR biotech')
     except Exception as exc:
         print(f"News lookup failed for {ticker}: {exc}")
         return []
@@ -141,6 +141,8 @@ def recent_headlines(ticker: str, name: str, date: str, limit: int = 5) -> list[
             title = title[: -len(" - " + publisher)]
         out.append({"title": title, "publisher": publisher, "link": link, "published": ts.isoformat()})
     out.sort(key=lambda h: h["published"], reverse=True)
+    if not out:
+        print(f"  {ticker}: {len(items)} search results, none recent and naming '{short}'" + (f" (e.g. {items[0]['title'][:70]!r})" if items else ""))
     return out[:limit]
 
 
