@@ -9,6 +9,6 @@ First rows of holdings sheet:
 5            MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.271532       -      1138558             USD
 6  TWIST BIOSCIENCE CORP                                  TWST   90184D100  BGKG6G7  1.987521       -      1230048             USD
 7             NATERA INC                                  NTRA   632307104  BYQRG48  1.848098       -       467427             USD
-  CBIO: 4 search results, none recent and naming 'Crescent Biopharma' (e.g. 'ArriVent BioPharma, Inc. (AVBP) stock price, news, quote and history')
-  EXEL: 5 search results, none recent and naming 'Exelixis' (e.g. 'Exelixis, Inc. (EXEL) stock price, news, quote and history')
-2026-10-29 8:51 AM PT: XBI 158.5 (+0.63%), 1 checkpoints, 12 movers (news searches: 12 via Google, 0 via Bing, 0 failed)
+  CABA: 2 search results, none recent and naming 'Cabaletta Bio' (e.g. 'BlackRock updates its Cabaletta Bio (CABA) stake report, with sole vot')
+  KOD: 3 search results, none recent and naming 'Kodiak Sciences' (e.g. 'Form 4 Kodiak Sciences Inc: Taiyin Yang (Director) For: 23 October')
+2026-10-29 10:45 AM PT: XBI 157.46 (-0.03%), 2 checkpoints, 12 movers (news searches: 12 via Google, 0 via Bing, 0 failed)
