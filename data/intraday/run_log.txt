@@ -9,4 +9,4 @@ First rows of holdings sheet:
 5            MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.357345       -      1169072             USD
 6  TWIST BIOSCIENCE CORP                                  TWST   90184D100  BGKG6G7  1.982953       -      1262971             USD
 7             NATERA INC                                  NTRA   632307104  BYQRG48  1.894048       -       479910             USD
-2026-10-30 8:48 AM PT: XBI 155.09 (-1.71%), 1 checkpoints, 12 movers (news searches: 12 via Google, 0 via Bing, 0 failed)
+2026-10-30 10:40 AM PT: XBI 155.12 (-1.69%), 2 checkpoints, 12 movers (news searches: 12 via Google, 0 via Bing, 0 failed)
