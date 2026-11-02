@@ -9,7 +9,8 @@ First rows of holdings sheet:
 5                MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.373981       -      1154024             USD
 6                 NATERA INC                                  NTRA   632307104  BYQRG48  1.821065       -       473754             USD
 7  HALOZYME THERAPEUTICS INC                                  HALO   40637H109  2975098  1.769851       -      1457157             USD
-  AKTS: 2 search results, none recent and naming 'Aktis Oncology' (e.g. 'Klein Hersh Recruits President and CEO for Shenandoah Therapeutics')
-  SLS: 10 search results, none recent and naming 'Sellas Life Sciences Group' (e.g. 'SELLAS Life Sciences Group, Inc. (SLS) Seasonal returns chart')
+  MDXG: 2 search results, none recent and naming 'Mimedx Group' (e.g. 'MiMedx (MDXG) Stock Slips As Q3 Earnings Leave Profit Questions')
+  SPRY: 1 search results, none recent and naming 'Ars Pharmaceuticals' (e.g. '80,000 shares are proposed for sale by ARS Pharmaceuticals (SPRY) offi')
+  RYTM: 1 search results, none recent and naming 'Rhythm Pharmaceuticals' (e.g. 'Rhythm outlines efforts to transform care for rare neuroendocrine dise')
   GRAL: 2 search results, none recent and naming 'Grail' (e.g. 'GRAIL (GRAL) Expands Galleri Access In Ontario, Is The Stock Trading A')
-2026-11-02 9:54 AM PT: XBI 152.9 (-1.97%), 2 checkpoints, 13 movers (news searches: 13 via Google, 0 via Bing, 0 failed)
+2026-11-02 11:51 AM PT: XBI 152.35 (-2.32%), 3 checkpoints, 13 movers (news searches: 13 via Google, 0 via Bing, 0 failed)
