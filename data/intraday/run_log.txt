@@ -1,6 +1,3 @@
-
-1 Failed download:
-['ALT']: OperationalError('database is locked')
 Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29726 bytes
 First rows of holdings sheet:
                            0                                     1           2        3         4       5            6               7
@@ -12,5 +9,4 @@ First rows of holdings sheet:
 5                MODERNA INC                                  MRNA   60770K107  BGSXTS3    2.4255       -      1138140             USD
 6               EXELIXIS INC                                  EXEL   30161Q104  2576941  1.790739       -      2645945             USD
 7  HALOZYME THERAPEUTICS INC                                  HALO   40637H109  2975098  1.788403       -      1437131             USD
-Retrying prices for: ALT
-2026-11-03 9:48 AM PT: XBI 155.27 (+2.12%), 2 checkpoints, 13 movers (news searches: 13 via Google, 0 via Bing, 0 failed)
+2026-11-03 11:50 AM PT: XBI 155.04 (+1.97%), 3 checkpoints, 13 movers (news searches: 13 via Google, 0 via Bing, 0 failed)
