@@ -1,3 +1,6 @@
+
+1 Failed download:
+['IMVT']: OperationalError('database is locked')
 Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29720 bytes
 First rows of holdings sheet:
                            0                                     1           2        3         4       5            6               7
@@ -9,4 +12,5 @@ First rows of holdings sheet:
 5                MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.464404       -      1141902             USD
 6               EXELIXIS INC                                  EXEL   30161Q104  2576941  1.813519       -      2654684             USD
 7  REGENERON PHARMACEUTICALS                                  REGN   75886F107  2730190  1.762943       -       191714             USD
-2026-11-04 7:53 AM PT: XBI 154.92 (-0.03%), 1 checkpoints, 12 movers (news searches: 12 via Google, 0 via Bing, 0 failed)
+Retrying prices for: IMVT
+2026-11-04 9:51 AM PT: XBI 157.24 (+1.46%), 2 checkpoints, 12 movers (news searches: 12 via Google, 0 via Bing, 0 failed)
