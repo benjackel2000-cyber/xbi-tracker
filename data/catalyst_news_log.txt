@@ -1,24 +1,31 @@
 Watching 191 tickers, 236 catalyst rows.
-Broad 'FDA approves': 12 items, 2 kept
-Broad 'FDA approval biotech': 10 items, 0 kept
-Broad 'complete response letter FDA': 6 items, 0 kept
-Broad 'Phase 3 topline results': 11 items, 0 kept
-Broad 'Phase 3 trial met primary endpoint': 9 items, 0 kept
-Broad 'Phase 3 did not meet primary endpoint': 6 items, 0 kept
-Broad 'pivotal trial results biotech': 7 items, 0 kept
-Broad 'Phase 2 topline data': 10 items, 0 kept
-Broad 'Phase 2 trial results biotech': 12 items, 0 kept
-Broad 'Phase 2b results primary endpoint': 2 items, 0 kept
-Broad 'site:globenewswire.com topline results': 0 items, 0 kept
-Broad 'site:businesswire.com topline results': 0 items, 0 kept
-Broad 'site:prnewswire.com topline results': 5 items, 0 kept
-Broad 'site:biospace.com Phase 3 results': 2 items, 0 kept
-Broad 'site:fiercebiotech.com phase data': 3 items, 0 kept
+Broad 'FDA approves': 25 items, 2 kept
+Broad 'FDA approval biotech': 11 items, 0 kept
+Broad 'complete response letter FDA': 16 items, 0 kept
+Broad 'Phase 3 topline results': 13 items, 1 kept
+Broad 'Phase 3 trial met primary endpoint': 19 items, 0 kept
+Broad 'Phase 3 did not meet primary endpoint': 19 items, 0 kept
+Broad 'pivotal trial results biotech': 15 items, 0 kept
+Broad 'Phase 2 topline data': 14 items, 0 kept
+Broad 'Phase 2 trial results biotech': 18 items, 0 kept
+Broad 'Phase 2b results primary endpoint': 15 items, 0 kept
+Broad 'site:globenewswire.com topline results': 40 items, 0 kept
+Broad 'site:businesswire.com topline results': 25 items, 0 kept
+Broad 'site:prnewswire.com topline results': 9 items, 0 kept
+Broad 'site:biospace.com Phase 3 results': 100 items, 0 kept
+Broad 'site:fiercebiotech.com phase data': 18 items, 0 kept
 Broad 'site:endpts.com data': 0 items, 0 kept
 37 trials due or overdue; checking 30 this run.
+Check NCT06568562-2026-12-01 (EXEL): nothing yet
+Check NCT04639986-2026-12-01 (GILD): nothing yet
+Check NCT05392114-2026-12-01 (IONS): nothing yet
+Check NCT07010471-2026-12-01 (PRAX): nothing yet
+Check NCT07019922-2026-12-01 (PRAX): nothing yet
+Check NCT07070466-2026-12-01 (SMMT): nothing yet
+Check NCT06838000-2026-12-01 (SNY): nothing yet
 Check NCT03683186-2026-12-01 (UTHR): nothing yet
-Check NCT07221578-2026-12-01 (VNDA): nothing yet
-Check NCT07446439-2026-12-01 (VNDA): nothing yet
+Check NCT07221578-2026-12-01 (VNDA): possible results -> Vanda’s VQW-765 Fails Primary Endpoint in Phase III Social Anxiety Trial
+Check NCT07446439-2026-12-01 (VNDA): possible results -> Vanda Pharmaceuticals Announces Positive Results from Study 3601 of NEREUS™ (tradipitant) 
 Check NCT05239728-2026-10-28 (MRK): nothing yet
 Check NCT05115110-2026-10-28 (RHHBY): nothing yet
 Check NCT06588855-2026-10-29 (RHHBY): nothing yet
@@ -37,13 +44,6 @@ Check NCT04634877-2026-11-20 (MRK): nothing yet
 Check NCT06585787-2026-11-24 (BMY): nothing yet
 Check NCT03815643-2026-11-24 (MRK): nothing yet
 Check NCT07103148-2026-11-28 (SNY): nothing yet
-Check NCT05438407-2026-11-30 (PHAR): nothing yet
+Check NCT05438407-2026-11-30 (PHAR): possible results -> Pharming presents positive Phase II topline data for leniolisib in genetic PIDs with immun
 Check NCT03148418-2026-11-30 (RHHBY): nothing yet
-Check NCT07216079-2026-11-30 (SNY): nothing yet
-Check NCT06170970-2026-12-01 (AXSM): nothing yet
-Check NCT06413433-2026-12-01 (AXSM): nothing yet
-Check NCT06568367-2026-12-01 (AXSM): nothing yet
-Check NCT03604198-2026-12-01 (CORT): nothing yet
-Check NCT05263050-2026-12-01 (EXEL): nothing yet
-Check NCT05425004-2026-12-01 (EXEL): nothing yet
-Saved 2 catalyst stories. (news searches: 0 via Google, 46 via Bing, 0 failed)
+Saved 6 catalyst stories. (news searches: 46 via Google, 0 via Bing, 0 failed)

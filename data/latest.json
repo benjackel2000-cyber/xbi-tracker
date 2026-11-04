@@ -1,10 +1,10 @@
 {
- "date": "2026-11-03",
- "holdings_as_of": "02-nov-2026",
- "generated_at": "2026-11-03T23:17:32+00:00",
- "xbi_close": 154.97,
- "xbi_return_pct": 1.92,
- "sum_contribution_bps": 181.4,
+ "date": "2026-11-04",
+ "holdings_as_of": "03-nov-2026",
+ "generated_at": "2026-11-04T23:16:01+00:00",
+ "xbi_close": 159.1,
+ "xbi_return_pct": 2.67,
+ "sum_contribution_bps": 280.6,
  "holdings_count": 157,
  "priced_count": 157,
  "missing_tickers": [],
@@ -15,1653 +15,1964 @@
  },
  "movers": [
   {
-   "ticker": "CAPR",
-   "name": "Capricor Therapeutics Inc",
-   "return_pct": 13.81,
-   "contribution_bps": 1.79,
-   "headlines": []
-  },
-  {
-   "ticker": "NBIX",
-   "name": "Neurocrine Biosciences Inc",
-   "return_pct": 13.42,
-   "contribution_bps": 18.72,
-   "headlines": []
-  },
-  {
-   "ticker": "BCAX",
-   "name": "Bicara Therapeutics Inc",
-   "return_pct": 12.99,
-   "contribution_bps": 1.13,
-   "headlines": []
-  },
-  {
-   "ticker": "INBX",
-   "name": "Inhibrx Biosciences Inc",
-   "return_pct": 12.36,
-   "contribution_bps": 2.92,
-   "headlines": []
-  },
-  {
-   "ticker": "PTCT",
-   "name": "Ptc Therapeutics Inc",
-   "return_pct": 11.89,
-   "contribution_bps": 15.96,
-   "headlines": []
-  },
-  {
-   "ticker": "IOVA",
-   "name": "Iovance Biotherapeutics Inc",
-   "return_pct": 10.1,
-   "contribution_bps": 9.19,
-   "headlines": []
-  },
-  {
-   "ticker": "SNDX",
-   "name": "Syndax Pharmaceuticals Inc",
-   "return_pct": 9.08,
-   "contribution_bps": 3.06,
-   "headlines": []
-  },
-  {
-   "ticker": "TWST",
-   "name": "Twist Bioscience Corp",
-   "return_pct": 8.73,
-   "contribution_bps": 13.36,
-   "headlines": []
-  },
-  {
-   "ticker": "MDGL",
-   "name": "Madrigal Pharmaceuticals Inc",
-   "return_pct": -8.08,
-   "contribution_bps": -9.49,
-   "headlines": []
+   "ticker": "NRIX",
+   "name": "Nurix Therapeutics Inc",
+   "return_pct": -38.23,
+   "contribution_bps": -21.43,
+   "headlines": [
+    {
+     "title": "NRIX Stock Clocks Worst Day Ever After Sanofi Discontinues Trial Of Licensed Drug: Wells Fargo Slashes Price Target",
+     "publisher": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUpkd1NZNHR3Z3hqT3k4aF9seVhjVU5fTzR1clZIT0NENWh1SDh3NnZTUExkTzhCdVJZcER6WjhPZDBIS1JaczFmWFYtWDAyd0xOZ1QxNUFMUDM3aGxfbWg5LWtmRjBlUzJWU1hlbUtQU0hjaGNiTE5vcjItV0RfYVNRNm9lZDdBbEhzMjVwRmlidWpUVHVr?oc=5",
+     "published": "2026-11-04T21:14:46+00:00"
+    },
+    {
+     "title": "Why Nurix Therapeutics (NRIX) stock is down today",
+     "publisher": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZmZZU1paeWItT2VCRkRTTmRuYWczWTNadzhCOWgwRTY0WDlyWE5oQ3BWQnNNTTRFaVFwSVlocXpBQVA0S29wa1RZVDRLQ3lnZjY3TmVMLW1qUVJFYWhHYnpENmRXOVBYQzhpeFZQX0VET0h0NnpfTHY1WXZ6TVNzQ0ptMk5mU1pkU09RdHBkb25BQUhrOFU4Z3J3dkprcUxQdTh3R3g2WnBxcEwy?oc=5",
+     "published": "2026-11-04T18:50:36+00:00"
+    },
+    {
+     "title": "Nurix Therapeutics (NASDAQ:NRIX) Shares Gap Down After Analyst Downgrade",
+     "publisher": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaTRMY2hZUzd1dUVSM2FhQ0FxdVpLcUt5eHNXbTYwMFpuMXVXeFNLNzJSUEJXUTVFZTB4aDVVbFdtaWM0ZG1JcnpyeUlKeHowcGJaYmo4YUsxdVptT3Uxc0NYb25NN0ZoeVZMZ3hocXpFVi1DZDRxMG81UUJRUnJDZU9WVFRCSVpPYUNFMC1SSThod08xUW9sbG5mb29ic0hmcUxMRU02VU92TGZFWmRZWUNBTUMzQS1Nck9vRWhSa0JsdllmNXhPcmdR?oc=5",
+     "published": "2026-11-04T18:14:01+00:00"
+    },
+    {
+     "title": "Why Is Nurix Therapeutics (NASDAQ:NRIX) Down 40.80% Even With a USD 700 Million Roche Payment?",
+     "publisher": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTEl6enViaEFPS0xvdURnWGQ0ZEhidTJxRlJNR1lOZ195cUNhZFJjU1VQZGZYWmVJZjJFMG9fT2RNWXVlUVJlNlJOUDlEeFFWMmxjU2dCNWszaWhHeXdUMWNFY2xrUnc0dHNZdHhrUjhpaW1MOXpUeTNVZ3VqQXB3SUNiYTNSSm1QdE9JUnQyb05UbkRnQ3ppRXloZlVNR29FdS1nZXVWV0dXT1ZjdTh0Y0hZMlB6X0F4dGVIek9wbVU?oc=5",
+     "published": "2026-11-04T16:54:00+00:00"
+    },
+    {
+     "title": "Which Healthcare Stocks Fell Most on November 4, 2026, Led by Nurix Therapeutics (NASDAQ:NRIX) Down 41.91%?",
+     "publisher": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZF9Vb3M0ZW5hNmU1V29JX25DNVFvbFZJU3pCdXY0WXp2LWh1ejhCVkgyaWRxZDNiUVRkQk5WbnBMMURDTkMzbWRvYkJJWnBKR3hRR3lqMTFteXMtUFJ2Y3hROUxDLUNBM1RTTF9vSjlKTHB1dTNRSXpfZGhpa3M2bjdoUnVXa0wxQmw2NEpadEFwQVRXbXk5c3ZwSENMb0xXZjllNXBldzlnaHpLSUVxakFhckdWVEhKam5TU0pVcFgzOFFuc2paUzZYX21VRjQ?oc=5",
+     "published": "2026-11-04T16:26:00+00:00"
+    }
+   ]
   },
   {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals Inc",
-   "return_pct": -7.49,
-   "contribution_bps": -8.36,
-   "headlines": []
+   "return_pct": 28.04,
+   "contribution_bps": 28.42,
+   "headlines": [
+    {
+     "title": "RYTM Stock Clocks Best Day In Nearly 16 Months On AstraZeneca $10B Bid Report",
+     "publisher": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOUtHeDJjRXMzZmh3T3lmSEczVjhmZnFDUDRfVzJucGVERHp6MlRXbkJzQk1OZVZudXVXZEhmVFRDVnhmNlJqc1hYUVdsSFZRcXZiN2t2SWxWTWZ4YWZpY0Vsd3ZzcnpkN19fU3dVYkgwLXVNZ3pEazNCS0kzLXo0QjU5a3VnT3R4QmlQZFkwU2tMMUVFd3c?oc=5",
+     "published": "2026-11-04T22:20:36+00:00"
+    },
+    {
+     "title": "Rhythm Pharmaceuticals Announces NICE Guidance for IMCIVREE\u00ae (Setmelanotide) Updated to Include Adults Living with Bardet-Biedl Syndrome",
+     "publisher": "The Manila Times",
+     "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNSTdYSi1lTGxqaG41WXY0ODJmT3RWcDVrSXluMzA4UFBreVdGR1VTdy1jeVI0Q2w1aG4tc0hXcTBxRkpwVy04TW9KeHV5ckM0bkNyclJvS245MzhoLUh4RTZLdU5jMURoeDNlYllfMEhUOUtiN05WUlVsdHdYX2x4ZVJ1eDBXaWJjbXZCR1ZUeTc0NDlLeUdQOXo0bDBOdTZlaDBKWVg5ZkRTVFFsNzUtR3BTRDgwYzF6ZkJnMzZlNHR5N2pnTzUwOWptei12Z0JVRm5FMGxZd090QzlSR3czcGhuR2lvSE14X2dQQ19SdUxNa3NTendRdWtoaXlldnJHVF9EaUZSNmR2Mll3bW1IaW8xamF4d2s0M282Z3UyeXM5QzRWNFZuZnBtQzJvTkRa0gG2AkFVX3lxTE4tQ0Yzb2xoV1VXbE1lMUYyRVZsUUhzSXMzZmtrbWdOQnRrZS1XOFpiSmhxTGd3LU9QQlFjaDc3Q25aNDduZU93Z0lHLS1xdkMzaE4wZEN2dWViTzNYTG9XVFVwUFhjcFlBdVF5b3p6bTVsUTJGTG1FbGZpc1UtX2xmQTR6WlNqZmlCdklmM0s1emRXREZLbG9PY2dUVEpVZmR6S1hXRktvSnlvejlmWUk1eTJzNl9BcFZPdWZaQTgzU3VtbG1sZXE5N2dSS0xtQ3FnYzVnZTI0MmJuX1U5ZEJsdXBTNnlxd2t4ZVFkamx3TVBaVVY4OElWaUJCaTlhVUZqd1RleEpLbkJjSUdyLUJvRkZWX2o2bG1pVXN0WVlOTEdxcGVaSlAtYkh1LU5tMUV0NjdYd2c?oc=5",
+     "published": "2026-11-04T13:01:39+00:00"
+    },
+    {
+     "title": "Oppenheimer reiterates Perform on Rhythm Pharmaceuticals stock By Investing.com",
+     "publisher": "Investing.com India",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON2l4Mlh5cTdWajJWLTdqamVMZ2tCNnEtRnA1N2NIdmtyQ1VjcmdhSGdOV3ZxNHNKLWZKTmtEQmdkMzlzaWxmWk9oME5ya1o4WnI2a1NweDdXeFYxdi1xR0czQ3ltV2JIbHpSQ0ZselY4Zzl3c1RpaE1uSTFfdkhibnBWeng4RFpzRlZwQjdhSk1MTEktX3A2bURaWmdNVmJjWWlSMXN0S3l4NE5MNE5zSUIyTXhDMDczbkRwZ2ZvNXg?oc=5",
+     "published": "2026-11-04T11:51:38+00:00"
+    },
+    {
+     "title": "Citizens raises Rhythm Pharmaceuticals price target on Imcivree launch",
+     "publisher": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWmNBVGZ5Ykh2ZVVzcG9mLU04MHBrTS1Oa21za2hET3RZeXlFYXRDM3gxT18xV1dITVozQWF0TUpjS0NwRTVhOTNBdm1UZFBmVGdHM3BxOVdvM3ZCUHk4SUVuc1BFcWdQSDYzSXVmaExCdGdKdkZSTmF6MVVnWGhOdDMzZ3AxUzNPbnhoamV3OXM3aEc4Z192ZGxoTGFkWkJfem5RSk4tWk82LTdRVUtocE9jYlN0ODVBUHd6VzhLOWV4Rko0ZXh1NXVB?oc=5",
+     "published": "2026-11-04T11:12:04+00:00"
+    },
+    {
+     "title": "Rhythm Pharmaceuticals Q3 2026 Results: Revenue Surges to $92.1M Amid Narrowed Net Loss",
+     "publisher": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTlNtcmlKSFRkVGJCc0FvMkpVT1d0eWx5Um0tNUZVWGUyVXdyVVRnaHhEUjBOU0lHTWVEWmV0SW8zb3NHV21qUk5XanJLVUNILXdnZ3J6V0M0TGE0d3lESUc4RFVBWDV1VmhQT3hEbENNdlNOOWJxRWMxU0lqeDVKWjV6TnZ6ZXZyeWxnakcwZmVPYm9GTHNJWHZjajhYcmI4ZlNHOVg3VUNDRkxYcjloRkpmbjRFVUxCbVktWjY5SGJaYVVLa3NRUlo2TQ?oc=5",
+     "published": "2026-11-04T11:10:10+00:00"
+    }
+   ]
   },
   {
-   "ticker": "VRTX",
-   "name": "Vertex Pharmaceuticals Inc",
-   "return_pct": -4.05,
-   "contribution_bps": -6.4,
-   "headlines": []
+   "ticker": "SNDX",
+   "name": "Syndax Pharmaceuticals Inc",
+   "return_pct": -26.87,
+   "contribution_bps": -9.69,
+   "headlines": [
+    {
+     "title": "Syndax Pharmaceuticals (SNDX) Stock Jumps After Q3 Results Expose Cash Strain",
+     "publisher": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVXpuRUJneTg0VlRMSlllMDRCU05EWWpQTXdKREE0TzNTTFFCY2JKQk1XOFhoYnFFTXVvWHl1bFJxbUFDaUlUTnIzQlNaYndOOHBCT2hzTVA1NlZ6WjZLZWRjMncyelUwVTZWZGcyZW04TWxoSWN1UW1oR3c5RWh5VEJDQ1hCYU5LMEFnTGR3MHpYOEtidmcyRTV4MUZGalBRb0JZMnZZQmJsVnFJZ0N5aXBkZ0g2VUlCcXM1c2ZMWlpnLWdVN1A5MlYtU0FDYm1aNmVGV3hISkVrSTRhU0s3Q3MzQ1UzbVlrcjV6VNIB8gFBVV95cUxOV2JCTmRjdmdTVUJlM2RERFhoNUQwSC1CWV9tbHNqZjFUbWZ1RC1kQzgtMGpiR0UzaXdxdHl1MF9EeVd0MjVnYi1wanAyYUZBYWR4LUdpX3kzTFYwaWtWNkpHMTh3RkE4NHBsdjFMRVIwZFR5bnJ5TjE1cW9nMDE4NjFtMjNITm4xODVPbzFZTnNaSGVnNnBSVjkxSTJMT0xXdU1kYnB0Y0JXNjRPbWJxcnB4dWl5Sk9YLUs0NzFFYmRtLXRSSnR1dmhWSkR5YUJOMDdabGVqNjd4dHl4Yk1uNXRaZ0oxY2w0a3lTNFpqcElGQQ?oc=5",
+     "published": "2026-11-04T09:30:03+00:00"
+    },
+    {
+     "title": "Syndax Pharmaceuticals, Inc. 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:SNDX) 2026-11-04",
+     "publisher": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMHlCZzdqT3gzZExfQjVaZW9PZjFHdXBQOUtJWGhScFdQZzlmZTd3dmZFb2E0VlgzbGJjQk1zUFYxX0V3MjVpZWwxRG5rWFZkaHdjZjdLcUhfM25fdlRvb2hCTUZYOUFmQW9NQUVhSXhxNE5VLXlLTUVOZ3dva2V0YW0zR29qNXVNM0lBZWRGR3B3S3Q2NDVjX1kwSDE2Zlh0SXBNaERNSElFV1hhSTN3?oc=5",
+     "published": "2026-11-04T07:02:19+00:00"
+    },
+    {
+     "title": "Syndax Pharmaceuticals (NASDAQ:SNDX) Stock Price Up 9.7% - Still a Buy?",
+     "publisher": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOV8zdzBuUjZ4TjFUbFpxWnVOaUkzY0FKTlItZXEwZUJCcDlnb0wxWUJJX201Z1JfLTRnaVFSMk9mb1ltWVlxX0t2dGotcE1ZQjZNZm5fV3ZuaWV6SjhRLUlPVUJaM3pZQWNuOEhvZWZMOE9uTUFOakR2M0d5ejRwT3ZJOHF0c1ZFLWRLalZtZ3FQR3U5NlM2ektCQnNFNjREaWVwYWFZSnlMVjBYM3F5U0FZcHNUM0F3YkdkVFZlZzIzZw?oc=5",
+     "published": "2026-11-03T18:04:36+00:00"
+    },
+    {
+     "title": "Top 5 Healthcare Sales Expansion Leaders: Hinge Health (NYSE:HNGE), Syndax Pharmaceuticals (NASDAQ:SNDX), Recursion Pharmaceuticals (NASDAQ:RXRX) and More",
+     "publisher": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQaDRYZTMwQnVnd3NTZjNlVEY5WEdkcFllUG9hM01SOEVrSmdYMm5LX3lVVmxLcjFpUnJ5N2cxUDgxYXV2aVJrd0QwZWZKN2RzTjJXSzh4WEo4NDR5dUxUdWhPbWtiT19uTVhVWHB2bk5aVkdFTGVqRlNKaGdGcXZBd1hYRTdUdlNjQUJaeHJsUGFkUE5oRUd5NUItMm5OUzFCa3BRMXJpMDIwRk1MaWtJdEVDYVo4a1A4UTV1bUYxZXFpbDQ1OWFITmtaT0FvbGxiT3kzeWQ2QVNRTk0yVUxQRTNsbExVbUlrX1EybnpSMU5BWUJmWk11Y2Z2OFJVS0s4ajRuZXByMmZWc1E?oc=5",
+     "published": "2026-11-03T13:26:00+00:00"
+    },
+    {
+     "title": "Syndax Pharmaceuticals (SNDX) Stock May Be Rich After Revuforj Award Win",
+     "publisher": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSy1SclZEUG45SW1UMWNKbDlmVk5kTkhDTG81ZV9BRU0zc2VUb1N2WmFlSnNGSFVsdjhuVkdrcXJSLUUtWExRbHhCb2lIOVJTTEVnLUFuYzBqMkN1bWh5VUpuTVJoZnozTTRyeGFZNmNyUGc1Ykc5WXZpREZzY0V0NXJNc25RbExhTGhHZXFua2tmMUVIM01ZamR3a1I0c0ttQm9RWQ?oc=5",
+     "published": "2026-11-03T08:08:41+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "KURA",
+   "name": "Kura Oncology Inc",
+   "return_pct": -22.98,
+   "contribution_bps": -5.71,
+   "headlines": [
+    {
+     "title": "Kura Oncology and Kyowa Kirin to Present First Ziftomenib-FLT3 Inhibitor Clinical Data at ASH 2026",
+     "publisher": "The Manila Times",
+     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYnNSUnhFMmVfNmhmZkUxclNlRWFTX1JtUUNTaFpKTm1uQWFSQ0xnOFRrYlp1OXIzakVvWElCMkZuMW5xeUk2RnoyTXQ2bnlOMFJpbl8yVFRZVVNDOG1vNTlacnVaRVlRampXZW5JYk5BWmsxZXROQ2hjT1pjc05qU0g1TWxQYlpvWTV6QVRScW9mWDZoR2x0NkZhRlMtbFl2T2E3TkpWM1hjby1DZkZsajZSb1JjNFl4bE0wYVRMZWYxVWVha3gxTkZVNVlDVjNVQ3hzYXNFVmRfY2NGUW91YzZlNW5UUlU1c1JZeGlSTTI5c3gyTmx4Z2hfU1hrVFYxT2fSAYcCQVVfeXFMT2RYUjBJbFp5Y19EZmhVdjJrNU9paFUyQXA0RjBzOU13azVxMlJmSTNtV2hzbzFoMGNFYXRScFJac24zTHAxaExXZEV3M1BfQ0NYNmp2Mk95SjJfVExaWkk0WUNaeTJRd3FpdkZTM1R6SGJZZHpMVnRPSXlHbGM4cXFESmx5ekNsWUF0X2xQXzFDaHp2ZURySzBNTDBmeFV6cW1RbTZlRkRmQlRLMGQtT0FCaXZqNkhBTTFXdUZ6M01jSC1PWXBGM1NqQmUyUE5xRXVLYl9MdkZuU1hMQklLU1QwRTh0OWxYYjdqQ2lCRUc3N19nVVJYUmhUY2tEd3lUZ0pxMklON0k?oc=5",
+     "published": "2026-11-04T14:24:56+00:00"
+    },
+    {
+     "title": "(KURA) Volatility Zones as Tactical Triggers",
+     "publisher": "Stock Traders Daily",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbzZ4c1FTRTRWYzA2Q0kzanJMTDF4NmNDZzdOLUtDaktnTjVTYVdpajE0U2JJaWdHeURxcWRDcFVkTDZnVm8tb0J5cDVuMkV3R2NoWEpWSG90WUwycHhvcl85YkJCMmg2emlkZFVoY3RkQnJ4cFNYUjZlX2x6SXUyMjlRd29HdVAzd0hkSjVCVUswNGVFcVNqWkd5bXRqcDcxU0IxM3dqbklOMzNldTZFYW9kTFVLM3EzZEFuMXU4cw?oc=5",
+     "published": "2026-11-04T13:48:02+00:00"
+    },
+    {
+     "title": "Kura Oncology to Report Third Quarter Financial Results on November 10",
+     "publisher": "GlobeNewswire",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZUdVSHV4ODNlWEtlRm43Wlo0NjdKVGllYU04VU0xcUFEbDBKaTFaN0JqaUFGb3RXNHY0NHhmeHRZVzVpLTZ0eDRUT2Zibzdla0pCLWx6S3k1czF1VVJVNGdKcTNXek5HYlgzemROS3hvY0FoM1Z5enljbjZDRXpFaVVGY0FGMW1qZE1CQjlValVMSHlzYnRjNFYtMWgtb0pWWkJ4M29SZndpVTNvdUdXemF6VHBOY0ZGekJNc245a3JWaEh2ZjJHcnN4Yk0tcXdmQmNPN0wycEhldw?oc=5",
+     "published": "2026-11-03T11:58:00+00:00"
+    },
+    {
+     "title": "Kura Oncology to Report Third Quarter Financial Results on November 10",
+     "publisher": "GlobeNewswire",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONDFzdnFWSDU2NjFQZkcwU0QxLWtQVmtwemFmSGN5Vl82QUVlQllzVXBZemJQTVUxYUhPdWZyaXhDLXdXT0xXamE2a2thOUlfbWtSNExsSUNpOVFOM3Qzd0xKMm5vX3RGTkEyZm9LTUh4cjFTTkE0YUJXOC1XOXY4MWVpM1pBLVBMMVhHeXRfRlVlQnB0b1FOQ19oT1Q4YWg5UjhMdGowQ1VTYlhfSVU3bU1pcEVpQ0ExWmgtS1VaQjVDazFhem9reUItaUF5cHh0bTdfYWZ4V3IxZEt0NnFNUlRKOA?oc=5",
+     "published": "2026-11-03T11:58:00+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "CGEM",
+   "name": "Cullinan Therapeutics Inc",
+   "return_pct": -20.7,
+   "contribution_bps": -3.96,
+   "headlines": [
+    {
+     "title": "Cullinan Therapeutics (NASDAQ:CGEM) Stock Falls 14.7% - Here's Why",
+     "publisher": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbEtQcG5Db2FDUjV5XzA4X3V4bjVveU9MWHZNSTE0N2ZNLXJtOFpxQ185Q0poTS1RbkdacC1ZbEs0X0F5bHpWU28yc3JzQmJEc1o3QjI2Y0xsSllFOU5GS3Y1dnN2U3ZYNE9wQUdzWU84cENsUF8tdlRLeE1PN245OHIxbkV5R0lrV3dzNk52UHlKb0pTUEw5eVZrUDR1SHpPQmMzV3ZyX0RJZFlMMVhPLS0waFBDczdvOXd3?oc=5",
+     "published": "2026-11-04T20:52:59+00:00"
+    },
+    {
+     "title": "BTIG raises Cullinan Therapeutics price target to $39 on Buy",
+     "publisher": "scanx.trade",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSEN6OUVzQ2JMRXZYT2tud2NWY1oxSUd6NXI4bFJKNk5FU1FzNV9GX0s2QVBxNG9LUkJpNUgxUjF6bk5lVUJQZTFvMW1uU25jYWE4eGFVNmsxaHAwR0RFdy1wTWF0SFdWczFMTHF6SFoyYkhiNkJzdXlHS1N2Y2RfUEZJVm1TSXVFVFBZZWh3M3RnRzluVmVGWjBTTHkxX19JTGdIMTg3T3Z0anZYRXNDcVA1NHp4RmNWalM3Z2lFQ2k?oc=5",
+     "published": "2026-11-02T23:34:17+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "OCGN",
+   "name": "Ocugen Inc",
+   "return_pct": 17.38,
+   "contribution_bps": 1.39,
+   "headlines": [
+    {
+     "title": "Ocugen Q3 Earnings Call Highlights",
+     "publisher": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQTJBbXdkdHZKeFI1N0ZIRmFZQUVCbXFjV2VhU2JrdmEwclNmc1lLMnMyeVFoNzdrWV9GSnMwTXRGSmFzeXBRZEtNNm5MdEVwYzhBaVZpT2haUk45Ry1hX0NITThpeXJya0dlVEM5aEFMNk1vdk9iT1JlZ2Y1elQ4ajhDTkdTRUNJMXVaa21WWjNZaUs2d1lERWc1dw?oc=5",
+     "published": "2026-11-04T19:14:50+00:00"
+    },
+    {
+     "title": "Ocugen Q3 2026 Earnings Call Transcript",
+     "publisher": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORVdlMi1idWVsOUZtX09rMWdxaVZuOHVsU0VxcHR3cDJTazhRUk9QTTFGUVY3dTgwY0lmTzZmcXVROEp0Tm5kZ3QtcDNHMlpCTFFwb3BzZmxwUWhBR2hOZ3lWMk9VMlc5OVBwZjUxMXFOdXhLYm1GbFJ4MHlFY2NMZEpNbzIybXpYZ1U4d1k3ekxVTG1ZeFpRQzY3OTkxR2lBWWd0ZDBiVERlU2s0dHc?oc=5",
+     "published": "2026-11-04T14:34:29+00:00"
+    },
+    {
+     "title": "Ocugen earnings beat by $0.05, revenue topped estimates",
+     "publisher": "Investing.com UK",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNG45YU1NT1lPMkt0TXRTX3NYTDNzSnJtQXFuTlFBTnZSSmxobldfY3BUWlUwdHlKMXkwT0h0VUpWUElsdUotTzhUcV9Hc3V4dTZsMk9mcGx1UzRVb3ROWjRsaGM4bWlqdEhvU2FKeHNQdG9BUWljUF9yTU1tR2NieHA5ZU5Eb3N0TGdtWDZ4b3g0bWJqaldBNXdnREcyUWJ6?oc=5",
+     "published": "2026-11-04T12:21:00+00:00"
+    },
+    {
+     "title": "Ocugen Provides Business Update with Third Quarter 2026 Financial Results",
+     "publisher": "Ocugen, Inc.",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQclNLTTBQQzd2aUlBcW44eWViMFBLaDBza1FzenlpY0VjcEZyNDhfMXp4M0FPYk5WdmFTME5iVUhReXRLUm1KTDBsRl8xOFdERU91d0hpamNCdXdVblNJU2VnSE5vWFVHcVF4ZWdIcWRPaU5ET0NuRzdkT2cwZjBQRENEY0RKMlhtWU10WmUzdzJpYnR1SW8wZXl5VXZHdllwWUhVYUJKX0Z1XzlpQUVLcVlNYUotTDhqRFE?oc=5",
+     "published": "2026-11-04T12:01:07+00:00"
+    },
+    {
+     "title": "Ocugen Targets Investors as Gene Therapy Programs Advance",
+     "publisher": "MyChesCo",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaVlnRkFhOTFEV19ya2dDU1V5cU9KbUs0eGdrb0dCTFgzZ2t0d3laeW1XZzZkdlZhTDdQZUhvRWNtMGduZHVqdUVLRkpQQ292UFd5dk0weGM3d1hUNmNfRWljUVRzRTN5dFFyemtmYzZZdEFCR3NhMDkwZHc2aGVhNXdqZ3BBWmJOcUFDZVN4aUs4Wl9zeUtPQVBlem5Hdlh3bUk2SUtPVUZhVmRvWHo3dmtvdFhmeE0?oc=5",
+     "published": "2026-11-04T00:11:30+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "GERN",
+   "name": "Geron Corp",
+   "return_pct": 16.13,
+   "contribution_bps": 2.68,
+   "headlines": [
+    {
+     "title": "How Close to Break-Even Is Geron (NASDAQ:GERN) After Rytelo Sales of USD 60.1 Million?",
+     "publisher": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRUtqRjJ4aE9YNjltVmN3dWFIYWZ2dXdXa0h3emN5NUYtWlZhcmdta0Nkcnh5djBmRHJLX0pQZzNxUTM2d3B1NElnTXVYVnljNEhXWHVVaHdsdmZvZlV3RXZJZzVIUUlvRmtWa0UxQnhCLS10Tk1vblFLWkxrOXNHaHVVZDBmUFhMVWZzNTRwZ1hXdVFFTWh3WTEwamx1ZVhFT0FJSjlVcno5T1lYb3c1WDQxQWRkbkk?oc=5",
+     "published": "2026-11-04T17:32:00+00:00"
+    },
+    {
+     "title": "Geron Corporation to Present Data Highlighting Clinical and Biological Activity of RYTELO\u00ae (imetelstat) at ASH 2026",
+     "publisher": "The Manila Times",
+     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOcGJQR2otb2w4WjhDQWpHS29jWEFUcldXUXl1VEVTelFwYVFTZkloanRqNkI3b2tNaW5VSTlLN2Z1SncwWnlDODVLdWVLWkF2eEFYeEd4LVMzMlVIeFk0eGtoblREU0J0dXlWVTkyUTdFYk0wSXRZZE03V2xZRU5WcTRvbVBIMUJySDdlbWlnay1CaW5xRXBUVHVmVDQ0WUVHR3VadmtiWTZqR1hBZk1tUWRTTHotbzJzX3AtblduSTRRNGZ2Qk5rR1B4NXNOc1NkTEJlRjNORF9fbHlFeUxKSmdoLUtzbGlMdDdSM3hYQlN2d1gzb3l6d2ViU0VYeWZhWld5NE45VEdlMHdRX3ZzV01RS2_SAZoCQVVfeXFMUFluQTNRSTI4UHh3OC1uek9Fc241M0dnamp1RlNmVHIyV2FvaGRhWFFGUzM0WWlmN2VoNmVwNHVfdjNtb05ncEt1WldXc1cwdk5sR05nLVFvZEhSYzMzcExtYzNtQXZPYmRkcExIN2V4YTFIdDMxeTFoN2dMalU0ZHRzY3FkLWJvUUhwLXU0WXFHRklXdkVJa1FreDBLeUpjNG5FTUVZMjR0MEpyRDQ5aGtJNW9RZENpVWI3OFl5UmhkOW5vcklrTWhtdjhOd0pQMjIwR0dHSXBPN0RjaktHNHV3WlBVR2VRbW13c3JfM3B0TjkzZUh4X1NOOGZGLVlQZFlpem1oeXdOVGJVbW9DVkplOVQzZE5FU2pR?oc=5",
+     "published": "2026-11-04T14:25:59+00:00"
+    },
+    {
+     "title": "Geron Q3 2026 Earnings Call Transcript",
+     "publisher": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX3ltNk9jVGJENjNrZTBmdVd1NUxnTkV5M2oyTXpBU2xQV2hoLS1uUURZNUNwdmlzdEhneXBQYXBZMWJSeGNocUszSFdDeWtJYzJ3UVNDeWRIanAzcFJ5cm9nNkVqa2VWYy1Ldlh1YWsyY00xLU1GUVdKUjY3OEpiNk84OUVnamktMmNj?oc=5",
+     "published": "2026-11-04T13:52:10+00:00"
+    },
+    {
+     "title": "What Investors Got Wrong About Geron Before The Drop",
+     "publisher": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdlJ3VkdDdVoyUnBacnotZ0tkZlU4ZERPblF3T1dzeXE3TEh4VE1xU0wyaGZjZDQ2c1RhdkNFMHY2YUF6TU1pSkxjQVdXR1djSi1VTGtPWExUNkFSeDRhNnItaHREN1IzbjlmbE1JUXdDUmFJbXZVTXppSF9fNXU2MXdUMUhzbF82YnVmWG1IUUpoNEpZT3lVX002WE5IVHpKcDN6c0pISFJKWlZpY2Z2N19BNzhMTWRLenJZN3hzd0FnMmlwVGJEaVZKb9IB0AFBVV95cUxPMHBIaXRvdzhqcHp2U3lEMFppM3d6VzRTNGxHVTVQa3pyQkdGLUFUOU1mR3BMUWdTYTVfdUtub01mM0k0TXcwRnhES2s5SlhfOWNwNE5WaFNtQ05TVTV2OW1vWmI3QU1YX2I3LTQxVWRPbjRzdGowcDd2M2k1a21aTG5BLXZSVjIzVFZLbmNlZ25yQW1JRGdNUWFLMVlwVEdWT3BTVDRhNU9FSEktRnp0cGpyNlNBeXlhWXp4T0I4YXNZa1JBVExpWk43bmVRb3pT?oc=5",
+     "published": "2026-11-04T05:34:44+00:00"
+    },
+    {
+     "title": "A live webcast will carry Geron\u2019s conference chat on Nov. 10.",
+     "publisher": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ3lsd2YxMnZXLTdrVzVDWWptbFJkNVRBbzJVemdLaWRUMnBSUE14UDJITmlWR1ZKWC04Wk41a2RXaEZyRWY3SUplZzdJZkJnVXVtVWViMDBxVE5NUHNQdVplQzRxRTBCUk9zcGVBUkcxdDAwbnpMLXI1azJES0xhQUZjQXEya0M3TUVTaXJTOEhfdjFyWlI3cXhoTTRKb3VyZ1RwOXd1WUhUM2Nrc01FQm5tclVMSlZN?oc=5",
+     "published": "2026-11-03T13:08:25+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "VRDN",
+   "name": "Viridian Therapeutics Inc",
+   "return_pct": 15.53,
+   "contribution_bps": 9.65,
+   "headlines": [
+    {
+     "title": "What Viridian Therapeutics (VRDN) Said on Its Q3 Earnings Call",
+     "publisher": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTEpqVVhiZzBxbVU0UXpnSTBrdVFha09lamwxMUVhSWxYWGdHYWN0a3pwMHcxbWI1TmRPNkFWeFpqZlFkWXhIZk9JaTFuZzBYdVlQcEdWb1hDdzRYT0ZRMjJvUThxLUt5Yi1LUGFQNGwwWFpfOUlnSnJNQXY5TndZWGs1ZEx0eGJiTlhKa0JqaHpQZjhvaGFtR005bw?oc=5",
+     "published": "2026-11-04T22:14:35+00:00"
+    },
+    {
+     "title": "Viridian Therapeutics (VRDN) Could Be 32% Undervalued Following Lumvoa FDA Approval",
+     "publisher": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMTRHWnEtV2RuS3N6Ul95bnYwcUdUeGZtanVrWVBuM3dma2RvNXdCcFh3c3llcVE5TkJQa1Nnc19SWDRIenlMZkVfTkRXYVM0aFYwU2NiSVZCeExNMnBHWE9FUzAydDdzZ1ZobUtOWHU5eWcyYkFzOEM1RUd6OXk2alN5ZWh2czNqdVJMamJFT1BEeU56MU9XMEpaWTRzNFhBbnNQcklERTFHU2tqNFpjclFvbkVsOWxZekJNY2lLaEt2WTVpTkxMNTFCNnp6dGxKaEMtaEM4UnhYWGZ3RmdscENzdUVTanY2Y0Zn0gHwAUFVX3lxTFBBV2xWOWRvTEpjM1NTWDZ4M2taTWVjekR0RW1tZEEyc1VRUV9TMnlpaWtLSGoxUk9Zc0NyeFJzeFM1VmtHUWlKVnBqUEVjdHNTUlZVSVMzR3ZQdlV6SGhpRTFIalpVVnJhU1RULXVKbGVvNldpTF83MWU3NU9NWG5GMi1uSGYyVnNhUG1FRkxLdFhXM2JiejU5SGxJNVNrYTdkLV9ocHNOa3NRRTV5OXhpRmRieDl4bWZ2c3I5TnExdHRBYmlVZVFvUFU0OGxiTWJWREZXWXhsVG1tYk96b2xld2dXWTJELTU3T3lkX2lhcw?oc=5",
+     "published": "2026-11-04T18:23:40+00:00"
+    },
+    {
+     "title": "Viridian Therapeutics Q3 2026 Earnings Call Transcript",
+     "publisher": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcHRsS2wwa1lLMGNycml2YWMyT3Yteng2c1ZhSy1MekdXVmF5ZmgtdGx4Rk1mY2V4MTk5UTg5dHVWNHlWdXVWOFhreW5YdWNXaTBOUlBtTHFmd1hQVzV0eUtpcG4zQlNSeG02ZWhJbWZUT1owZXgwc2xfYlRKbm5IZ2dRWERsa1JUcEU0SHRzNWU1N2IxanAtcmoyTzBna0hn?oc=5",
+     "published": "2026-11-04T13:44:29+00:00"
+    },
+    {
+     "title": "Viridian Therapeutics earnings beat by $0.21, revenue topped estimates",
+     "publisher": "Investing.com UK",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemQtU21NZFlrNXdOekg3TDJLdFVXSXM0TngtWVJKRGZWblJNUlVTbG5KdVZGRy04YlVnU1RWVm9iYjhEZmNpRmhIR0Y2bnVObWVwTFNhOE55SG53ZEhid0t5V29tdm5XaU9EZG9DbmtuVlJTYkQ3X2tGLTk5UnF3MWJQQjlZcUJkSzhLUzYyUXd3ZkVpb1EyR1RfdldEMkpIRTI2ZXI5aFEyWlY2clBpdElCWVk?oc=5",
+     "published": "2026-11-04T12:21:00+00:00"
+    },
+    {
+     "title": "Learn Why The Bull Case For Viridian Therapeutics Stock Could Change Following FDA Approval",
+     "publisher": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQR3I0MUdOSEd1ekRfcnNZWmJqWXpXc2lyQTlBUnBIdjQzQ3V3bktscjR0c18wc2xOTkZLRVFRVE9idDMxd0QyZzRpUmZXSzE5bnpCREFpNHNCeEJlbzc2b0JSRW81dXlPRzM2MDZOQ0dsRFhMXzhZZHNrWDBqaXlwTDM0OVdGOEc4WnZLRXc1by1pNEdIakNWa2dXMVJIRGxMeTNGemVZX0lTMHNMZEJUdHRvSm1aZ2Z0M2pYSVJnZTY2WXJLTkFnc3B5cmN3VWhOVGFCX3NJcGowdmRoWXlldjluZl9Pd095OTRZ0gHwAUFVX3lxTE9HcUg2Mm5sY1ExSFJickhMNTJNOUx4UzZ6N3hYWDNqTjdvcGExX2Vkdm0xQl9nams3LVdfRzZURmxQc2F4NWlIa1kwSVRhUVNIX1d2aHhLeDNhTG1DUHZyOTctR2lLTy1qMWRNQVJJR2NVZURJRGR5V1E3YWJtd0pxQzFyLWY1TW1MQzUyU0wtRkwwa0xDdU9WT1ZYc1VNaVNGRl9CQklXZjRZNldIQjl3d2ZUQ0VVWGpfTDFMWVRpT3lhOVgzbmhoR3JTUEhZRm12aUoxNHI3aWJvNUk3MUdZOUdnc1lEUmkxOUpGclM3bA?oc=5",
+     "published": "2026-11-03T17:28:48+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "MRNA",
+   "name": "Moderna Inc",
+   "return_pct": 13.11,
+   "contribution_bps": 32.3,
+   "headlines": [
+    {
+     "title": "Moderna (NASDAQ:MRNA) Shares Climb 13.1% - Here's Why",
+     "publisher": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSE83emdQZW5SZkczTzJSSFJCWE9nOVQ2QnRwUTNQRUtIWWVLTTM1TVVOVG1JU25MQ0NBblJ1XzR0WThVODNzQko0T3NzWk1Iay1aTWFyVGd3bWVjcnIzN1dSM1N4Um9HeGYwSTdGOXQ1bTA1aXdfNUtsTGs2RHZTbXFUN2s5ZFZMMll5THZ6NkgyNXhrd0EwT0QyX1ZPQk5pOXlWLUMzSmcxQQ?oc=5",
+     "published": "2026-11-04T22:27:23+00:00"
+    },
+    {
+     "title": "Moderna (MRNA) Advances Bundibugyo Ebola Vaccine To Phase 2 3 Trial",
+     "publisher": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVGhheE9pS1h4cGFURnBua0pteHZuaHZZNlByRUFWaXZRaVFsX29FV3U5WGhCajMxdTN3Vk1LLWY3NENHZVlIMHJiSjlrc0FuR2EyZ2UwN3FEbkdGM0NCbzdNMklHUm1CSl9BNDZvOEtJc0JUYVNCNlNwUk9MU2VIb2xCTnVPY3I0TTZudTExWWMySW1QSzZUV1A3cWt5TkMwSHdHYUFHY2JhMXZwOEpqa1Y4MThaNEZ1cHBYZnZUUFFTemppaERBTVhxMk00SE14WVlsZElTTdIB3AFBVV95cUxOd3ZMWjVFVk9HWEZMa1JmeFBvcmRFQTFKM2Fsd3JTWDRCMHdpOVV3ZTVmZTU4bkhTcUFJSHNBTGt2T3ktVHEwRS1LTzdHQTlrWFdROGZYYXFRMTAxbmJCbFE4MF9taW5XTGRLVTBoMGRidnVwazhMRFo3elhZc0xScXpYM3BxbXNuOVNQWUFyVUZ3MG51UC0zek51TGlWdk54aTk1YnZSTGp3azZrUi1TQmttWG9CcFV0ZTJCSjZNMjZZZXRlMUpLeFNjNi1QNS1PMEVHWXlPbTNaQ29G?oc=5",
+     "published": "2026-11-04T19:25:25+00:00"
+    },
+    {
+     "title": "Universal Health Services, Tenet Healthcare, Moderna, Novavax, and Intuitive Surgical stocks trade up, what you need to know",
+     "publisher": "StockStory",
+     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOS01UM2tNcXV0d3FwejNVaFJLdHN6MFdFYmtNRE9PUVVUbjMwV09jc1ZSRGplT0pKZ1VncDBINWVnN1ZSTzZSTGVtQ1JFWGQxRHVkSHQ0bmZWYm1RZ0Z3dWFXVXZuenptc2c4bS1FQWwtM2ZDX3lmVmVTS0U5TEh6djZfVUtzMkNsUXdzVUJBX1hoV1g1VWxqMzhoMHhVSGlBUWF0ZVVlMV93d0NYUFhSNmRRTDYxcUJoM0x5d01ZQ1VQaDhVblVsSUpYdm1qWkdzZ1JYSDRnR3lQeGJfYlVEdDA2M2VkZXZ3ZkdIeU5CV05mSzVLbDMtam5NWXlRMjJDM1NYS3ZrSjlVZw?oc=5",
+     "published": "2026-11-04T19:19:10+00:00"
+    },
+    {
+     "title": "Moderna Soars 8% on Early Multiple Myeloma Data for Its Three-in-One mRNA Therapy",
+     "publisher": "TIKR.com",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObjdjNEdIdDRQNzI1eW9Bd0dzNUk3VVVtR0oxU25MM3otVGZidUFqY19LeDNMTDExdGNuckthTWEtTnZqM0FUMzU1SWxIMTFGa2V0eGNZb3BqVC1iQ2x3QlJmUUdEVHJMZy1yTmJ5WlRReVBJa3RwcGtQd09RQkVLbXVmQXdUaEItWm56SjVXTGpEWE9rUUVxNW9ETXNKTmEwWEI4UXRhUDVBWk0?oc=5",
+     "published": "2026-11-04T16:57:11+00:00"
+    },
+    {
+     "title": "Moderna Ebola vaccine picked for Phase 2/3 trial (MRNA:NASDAQ)",
+     "publisher": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdVlzN2xzUW5DVnBqREpKVVZ0UGJlbHRXTEZ0T3dUUW1TUk9HUHV4UC0yOUwzaFlmdjZZNkVKVlZnVTBnWTdlMVh5bmJYOGtONk5nUVpXaUIwOWFZQkdqWi1yLWdRUWo3NEdfcmltVEJQZ1pZcURhcG9qTktMZXAtb21sVUpfd3At?oc=5",
+     "published": "2026-11-04T16:49:32+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "MIRM",
+   "name": "Mirum Pharmaceuticals Inc",
+   "return_pct": 11.42,
+   "contribution_bps": 12.09,
+   "headlines": [
+    {
+     "title": "Citizens raises Mirum Pharmaceuticals price target on pipeline progress By Investing.com",
+     "publisher": "Investing.com Australia",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTXZRQ2RsaEthTm82R3VsMzFQSWRoVHQta1pMWU9CTGdjbUlXR1JqbUc0bG4tNXBIM0JUa2RmZVI0TFdEY1phWHBsQ3I2eDJXV3VpZXZJOEVnZGcwQy15RzE0VXJEckFrb2xzWmktUkpXRFdXSklfZDU2bF81MlU4YVZEbTRMZ1ZJZ00yQ2RjNHQyN1ZWWVNxbWhrbTNYZmljS2NhU1BYUldIZU5wb0dXd3JuZ3plYndxb1RkWWRlU0N1QjZEaDZ3NG8zUlQ?oc=5",
+     "published": "2026-11-04T17:40:03+00:00"
+    },
+    {
+     "title": "What Sits Behind the USD 898.1 Million Nine-Month Net Loss at Mirum Pharmaceuticals (NASDAQ:MIRM)?",
+     "publisher": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSUliVWZSUnhoR3VNdXBEbVZFRUpaR3ZMNUNFMFA3QU8tQUg1MG4tVFhvdlZnZ0d2Umo3YThjdEcxbnR4aVBsTnh1UWVxakhWZzJ6anEyS1d5TjZMOU5wLXA5UG9oWm1iOW9Ocjc5UllZaDJiU3loTjR3bXFBbDhEa3N4NDk0SkhBMU11akQwZTRndXlhWU1Kd0lUaE5pb01KcGd6dGk4Ry00WW9UUC1Pal9qX0o4bjFzaWZab3UwempuQUlObnYw?oc=5",
+     "published": "2026-11-04T14:49:00+00:00"
+    },
+    {
+     "title": "Raymond James raises Mirum Pharmaceuticals price target on commercial strength",
+     "publisher": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX2Q3eHVfUXN2c0xsSThWMEVEV2FQM3lUR0hNSW1wTVFfNFdRZnVPSERKckxfYy1VNTJBV3B1TVVJekhoeGU3aGN0bGF6ZGJoZmg3QUcycElsdEtDQlQ5ajM1NW9GWE1uUEJXbnpHdnI2NWlxQmNqeTVXenpsWFg1cGFsMS1xZjhJNWstYjZuTzI0TTdlVzNxcUl4QWVWNUJncXZUY3NuVWRZUHFlX2NkSUdEbXhSdF9NQ1gzak00NXY5MG1VRkhRRW0wQjdWRlAtUTROSg?oc=5",
+     "published": "2026-11-04T12:12:58+00:00"
+    },
+    {
+     "title": "Mirum Pharmaceuticals Q3 2026 Earnings Call Transcript",
+     "publisher": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ0JBbUFXVXN5OC1zSEpKQXRpekVaaGZiMFF1TDZFQjdvYXVyUlppajh2VTYyeGR5NkxnRmFaaGRBNVpudWpYM1J2cmNhc003SnBCZ2wxaUJUZi1vQ3k5QVd0Q3dCNEZJOHBIWlEwZlZVTVVKbkJPUkNWZFVwRk9rN1FPSS1BM1RmOEJqYnEta3QxdTI5eWx2MHdPaVpTVkxF?oc=5",
+     "published": "2026-11-03T22:16:28+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "return_pct": -4.39,
+   "contribution_bps": -7.73,
+   "headlines": [
+    {
+     "title": "Regeneron Pharmaceuticals (NASDAQ:REGN) EVP Joseph Larosa Sells 4,466 Shares of Company Stock",
+     "publisher": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaVVfXy1XWmFQVlVXRFdjZTZPczRlTjVDeDhRMFF0Nk1oTTBNcE16V21XcTV0Y1NHXzdOY3dFSDA0dXlGRFRNNmNpLWhPUmNBQzZoVHlDak50ZkJXOXdiYm5remczdVdBUUl0RHE0bUtjVkpyMXdmeEluVlVvMEptZDhNT1ZGZExYZzdZdkRzUl9XaE1oMmNyTVkxN3c1aEFBY2toUncxUW04Q0xxMk1uaUFSTWNzRTRReHBGalZFV3BnRk5HSzJoUHd3MlRxbXRyTTZnVTBIcmxENk1UdjhCQnkwMVduR0E?oc=5",
+     "published": "2026-11-04T22:27:24+00:00"
+    },
+    {
+     "title": "Regeneron Pharmaceuticals (NASDAQ:REGN) Stock: Insider Christine Poon Sells 7,830 Shares",
+     "publisher": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSUk1ZDZKb3REaVBYd08zdksxV0p4WTZTRWNCcktXbVlsRjRIUTViMWtTWE8yMm4wbTA2M0Y2cEJ6WHkyV2pWX0Vocl8ybGlFOVhwSjNiSzdPRnByYzNFR1hNallmc1N5cWV4dFdUOFd2eTdVZkFLX00yWWRVcThMY1R6TDNVUWdEZmNuMVNqUjRhTll0XzF6UVNSTmp3a2ttM21UQUx5Z0d1Wm9HUVBwZTI2MmExTXVrYXVOSTlZUks3bUlCdFlaVW1Zb1lmR2V4SDVLMjd4TzMyYTluMVNn?oc=5",
+     "published": "2026-11-04T22:27:22+00:00"
+    },
+    {
+     "title": "Regeneron Pharmaceuticals, Inc. $REGN Stock Acquired by Factory Mutual Insurance Co.",
+     "publisher": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTkFpZzROOXZUMVlFTmZmdi1nMURVVjh3ZDMzTUdIYW1RakpRQXBpaUxvX202ZExFYUVqcXdpNklKVzdaZVhLXzQ5dlF3dlh1RHFybGc5VzNPYWxrRlcwcFo0S2E1ZzRTR250cmp3X3pUcmNRVlZGdy13REhNX1Q2LUJNaUJTeHl3QkN5WEpaRGZyQjg5dnVQTU16NGNwMlUxdXRBQ0lFY1h4X01OLUtwMlhIdl9sMVlWck9jYW1mXzE1REx6NVdhOERKcl9zRkVvVVBOdGVacEE?oc=5",
+     "published": "2026-11-04T09:07:18+00:00"
+    },
+    {
+     "title": "Regeneron Pharmaceuticals (NASDAQ:REGN) Director Sells 400 Shares of Company Stock",
+     "publisher": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPN3ZMY3U1WFNKdGl3Q1hmUzhHaWJjZ1g1QlhTRGRTSklQSmV2VVdjeHJTWjVXNnV0QkZsOFlPa1lKU2xiWDY5TzF6RUx3ZEt6SzBGd3gtYXJwNHNqTU5ITFVLOXVVY01YMGZreXZRM0tBaVpFczZtODczU2NaNmhobmtOQjVtNU1sb2hRdEJpZmJyQXI4OXMtbENuX0xQcnhuVlo0Y1ZCNTBSOVFIZ1BCREdUTTZBbE1zWHZuckJZU1pVaXg5bllnLWtDUGFuaEJnQnVyNkpJTWdHdw?oc=5",
+     "published": "2026-11-03T22:09:31+00:00"
+    },
+    {
+     "title": "REGN Stock Price Today (NASDAQ: REGN) \u2014 Live Chart & Levels",
+     "publisher": "JournalArta",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMR3lUdDNiazF0Y1lfV2NyR1piNnBXTks0dWZjRlRaRjB2Tmg1S2FiMEFwaGRRbDVPMjRlY2xxZGowbmNfeWF4WEpzWUZ5bFdTNVh1NjZmRmVxQXM?oc=5",
+     "published": "2026-11-03T16:45:42+00:00"
+    }
+   ]
   }
  ],
  "rows": [
   {
-   "id": "NBIX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "NBIX",
-   "name": "Neurocrine Biosciences Inc",
-   "weight_pct": 1.3954,
-   "close": 164.85,
-   "return_pct": 13.42,
-   "contribution_bps": 18.72
-  },
-  {
-   "id": "PTCT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "PTCT",
-   "name": "Ptc Therapeutics Inc",
-   "weight_pct": 1.342,
-   "close": 68.12,
-   "return_pct": 11.89,
-   "contribution_bps": 15.96
-  },
-  {
-   "id": "TWST-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "TWST",
-   "name": "Twist Bioscience Corp",
-   "weight_pct": 1.5312,
-   "close": 140.3,
-   "return_pct": 8.73,
-   "contribution_bps": 13.36
-  },
-  {
-   "id": "IOVA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "IOVA",
-   "name": "Iovance Biotherapeutics Inc",
-   "weight_pct": 0.9095,
-   "close": 8.83,
-   "return_pct": 10.1,
-   "contribution_bps": 9.19
-  },
-  {
-   "id": "MRNA-2026-11-03",
-   "date": "2026-11-03",
+   "id": "MRNA-2026-11-04",
+   "date": "2026-11-04",
    "ticker": "MRNA",
    "name": "Moderna Inc",
-   "weight_pct": 2.4255,
-   "close": 228.44,
-   "return_pct": 3.45,
-   "contribution_bps": 8.36
+   "weight_pct": 2.4644,
+   "close": 258.38,
+   "return_pct": 13.11,
+   "contribution_bps": 32.3
   },
   {
-   "id": "ORKA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ORKA",
-   "name": "Oruka Therapeutics Inc",
-   "weight_pct": 1.5534,
-   "close": 99.55,
-   "return_pct": 4.32,
-   "contribution_bps": 6.71
+   "id": "RYTM-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "RYTM",
+   "name": "Rhythm Pharmaceuticals Inc",
+   "weight_pct": 1.0135,
+   "close": 110.68,
+   "return_pct": 28.04,
+   "contribution_bps": 28.42
   },
   {
-   "id": "SYRE-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SYRE",
-   "name": "Spyre Therapeutics Inc",
-   "weight_pct": 1.6364,
-   "close": 99.27,
-   "return_pct": 3.94,
+   "id": "MIRM-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "MIRM",
+   "name": "Mirum Pharmaceuticals Inc",
+   "weight_pct": 1.0589,
+   "close": 96.97,
+   "return_pct": 11.42,
+   "contribution_bps": 12.09
+  },
+  {
+   "id": "KYMR-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "KYMR",
+   "name": "Kymera Therapeutics Inc",
+   "weight_pct": 1.3464,
+   "close": 136.25,
+   "return_pct": 7.21,
+   "contribution_bps": 9.7
+  },
+  {
+   "id": "VRDN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VRDN",
+   "name": "Viridian Therapeutics Inc",
+   "weight_pct": 0.6214,
+   "close": 29.06,
+   "return_pct": 15.53,
+   "contribution_bps": 9.65
+  },
+  {
+   "id": "PCVX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "PCVX",
+   "name": "Vaxcyte Inc",
+   "weight_pct": 1.1982,
+   "close": 65.68,
+   "return_pct": 8.01,
+   "contribution_bps": 9.6
+  },
+  {
+   "id": "ROIV-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ROIV",
+   "name": "Roivant Sciences Ltd",
+   "weight_pct": 1.261,
+   "close": 38.23,
+   "return_pct": 6.08,
+   "contribution_bps": 7.66
+  },
+  {
+   "id": "BBIO-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "BBIO",
+   "name": "Bridgebio Pharma Inc",
+   "weight_pct": 1.4235,
+   "close": 77.89,
+   "return_pct": 5.21,
+   "contribution_bps": 7.42
+  },
+  {
+   "id": "IBRX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "IBRX",
+   "name": "Immunitybio Inc",
+   "weight_pct": 0.9604,
+   "close": 8.93,
+   "return_pct": 7.72,
+   "contribution_bps": 7.41
+  },
+  {
+   "id": "GILD-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "GILD",
+   "name": "Gilead Sciences Inc",
+   "weight_pct": 1.6821,
+   "close": 174.48,
+   "return_pct": 4.19,
+   "contribution_bps": 7.04
+  },
+  {
+   "id": "TVTX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "TVTX",
+   "name": "Travere Therapeutics Inc",
+   "weight_pct": 1.0915,
+   "close": 52.42,
+   "return_pct": 6.09,
+   "contribution_bps": 6.65
+  },
+  {
+   "id": "AMGN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "AMGN",
+   "name": "Amgen Inc",
+   "weight_pct": 1.7248,
+   "close": 478.48,
+   "return_pct": 3.73,
    "contribution_bps": 6.44
   },
   {
-   "id": "TNGX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "TNGX",
-   "name": "Tango Therapeutics Inc",
-   "weight_pct": 0.8916,
-   "close": 23.17,
-   "return_pct": 6.48,
-   "contribution_bps": 5.78
+   "id": "VKTX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VKTX",
+   "name": "Viking Therapeutics Inc",
+   "weight_pct": 0.8898,
+   "close": 27.97,
+   "return_pct": 7.21,
+   "contribution_bps": 6.41
   },
   {
-   "id": "GRAL-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "GRAL",
-   "name": "Grail Inc",
-   "weight_pct": 1.3206,
-   "close": 139.44,
-   "return_pct": 4.25,
-   "contribution_bps": 5.61
+   "id": "INSM-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "INSM",
+   "name": "Insmed Inc",
+   "weight_pct": 1.1863,
+   "close": 110.0,
+   "return_pct": 5.32,
+   "contribution_bps": 6.32
   },
   {
-   "id": "EXEL-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "EXEL",
-   "name": "Exelixis Inc",
-   "weight_pct": 1.7907,
-   "close": 72.31,
-   "return_pct": 3.11,
+   "id": "ARQT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ARQT",
+   "name": "Arcutis Biotherapeutics Inc",
+   "weight_pct": 0.957,
+   "close": 34.05,
+   "return_pct": 6.41,
+   "contribution_bps": 6.13
+  },
+  {
+   "id": "INCY-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "INCY",
+   "name": "Incyte Corp",
+   "weight_pct": 1.3651,
+   "close": 122.85,
+   "return_pct": 4.47,
+   "contribution_bps": 6.11
+  },
+  {
+   "id": "XNCR-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "XNCR",
+   "name": "Xencor Inc",
+   "weight_pct": 0.3956,
+   "close": 35.03,
+   "return_pct": 14.33,
+   "contribution_bps": 5.67
+  },
+  {
+   "id": "CGON-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CGON",
+   "name": "Cg Oncology Inc",
+   "weight_pct": 0.9777,
+   "close": 67.71,
+   "return_pct": 5.7,
    "contribution_bps": 5.57
   },
   {
-   "id": "COGT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "COGT",
-   "name": "Cogent Biosciences Inc",
-   "weight_pct": 1.169,
-   "close": 31.06,
-   "return_pct": 4.47,
-   "contribution_bps": 5.23
+   "id": "ABBV-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ABBV",
+   "name": "Abbvie Inc",
+   "weight_pct": 1.6677,
+   "close": 294.83,
+   "return_pct": 3.09,
+   "contribution_bps": 5.15
   },
   {
-   "id": "ERAS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ERAS",
-   "name": "Erasca Inc",
-   "weight_pct": 1.1869,
-   "close": 14.64,
-   "return_pct": 4.2,
-   "contribution_bps": 4.98
+   "id": "VCYT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VCYT",
+   "name": "Veracyte Inc",
+   "weight_pct": 1.1611,
+   "close": 52.52,
+   "return_pct": 4.43,
+   "contribution_bps": 5.15
   },
   {
-   "id": "NTRA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "NTRA",
-   "name": "Natera Inc",
-   "weight_pct": 1.7086,
-   "close": 388.63,
-   "return_pct": 2.56,
-   "contribution_bps": 4.38
+   "id": "VRTX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VRTX",
+   "name": "Vertex Pharmaceuticals Inc",
+   "weight_pct": 1.4902,
+   "close": 549.04,
+   "return_pct": 3.44,
+   "contribution_bps": 5.13
   },
   {
-   "id": "RVMD-2026-11-03",
-   "date": "2026-11-03",
+   "id": "BEAM-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "BEAM",
+   "name": "Beam Therapeutics Inc",
+   "weight_pct": 0.8971,
+   "close": 27.79,
+   "return_pct": 5.55,
+   "contribution_bps": 4.97
+  },
+  {
+   "id": "CRSP-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CRSP",
+   "name": "Crispr Therapeutics Ag",
+   "weight_pct": 1.3443,
+   "close": 51.78,
+   "return_pct": 3.57,
+   "contribution_bps": 4.8
+  },
+  {
+   "id": "VCEL-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VCEL",
+   "name": "Vericel Corp",
+   "weight_pct": 0.449,
+   "close": 45.48,
+   "return_pct": 10.68,
+   "contribution_bps": 4.8
+  },
+  {
+   "id": "DNLI-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "DNLI",
+   "name": "Denali Therapeutics Inc",
+   "weight_pct": 0.5884,
+   "close": 20.96,
+   "return_pct": 7.76,
+   "contribution_bps": 4.57
+  },
+  {
+   "id": "NVAX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "NVAX",
+   "name": "Novavax Inc",
+   "weight_pct": 0.4412,
+   "close": 10.65,
+   "return_pct": 10.02,
+   "contribution_bps": 4.42
+  },
+  {
+   "id": "DNTH-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "DNTH",
+   "name": "Dianthus Therapeutics Inc",
+   "weight_pct": 1.1303,
+   "close": 85.81,
+   "return_pct": 3.76,
+   "contribution_bps": 4.25
+  },
+  {
+   "id": "GRAL-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "GRAL",
+   "name": "Grail Inc",
+   "weight_pct": 1.3522,
+   "close": 143.66,
+   "return_pct": 3.03,
+   "contribution_bps": 4.09
+  },
+  {
+   "id": "RVMD-2026-11-04",
+   "date": "2026-11-04",
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "weight_pct": 1.3497,
-   "close": 194.23,
-   "return_pct": 3.22,
-   "contribution_bps": 4.35
+   "weight_pct": 1.3683,
+   "close": 199.7,
+   "return_pct": 2.82,
+   "contribution_bps": 3.85
   },
   {
-   "id": "IBRX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "IBRX",
-   "name": "Immunitybio Inc",
-   "weight_pct": 0.9377,
-   "close": 8.29,
-   "return_pct": 4.28,
-   "contribution_bps": 4.01
+   "id": "BIIB-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "BIIB",
+   "name": "Biogen Inc",
+   "weight_pct": 1.7281,
+   "close": 254.46,
+   "return_pct": 2.22,
+   "contribution_bps": 3.84
   },
   {
-   "id": "KRYS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "KRYS",
-   "name": "Krystal Biotech Inc",
-   "weight_pct": 1.2662,
-   "close": 305.03,
-   "return_pct": 3.09,
-   "contribution_bps": 3.91
+   "id": "SRRK-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SRRK",
+   "name": "Scholar Rock Holding Corp",
+   "weight_pct": 0.7939,
+   "close": 46.09,
+   "return_pct": 4.8,
+   "contribution_bps": 3.81
   },
   {
-   "id": "SMMT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SMMT",
-   "name": "Summit Therapeutics Inc",
-   "weight_pct": 0.5424,
-   "close": 15.8,
-   "return_pct": 6.76,
-   "contribution_bps": 3.66
+   "id": "ARWR-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ARWR",
+   "name": "Arrowhead Pharmaceuticals In",
+   "weight_pct": 1.054,
+   "close": 61.65,
+   "return_pct": 3.56,
+   "contribution_bps": 3.75
   },
   {
-   "id": "CDNA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CDNA",
-   "name": "Caredx Inc",
-   "weight_pct": 1.1439,
-   "close": 88.47,
-   "return_pct": 3.02,
-   "contribution_bps": 3.45
+   "id": "PVLA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "PVLA",
+   "name": "Palvella Therapeutics Inc",
+   "weight_pct": 0.5486,
+   "close": 162.28,
+   "return_pct": 6.11,
+   "contribution_bps": 3.35
   },
   {
-   "id": "DYN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "DYN",
-   "name": "Dyne Therapeutics Inc",
-   "weight_pct": 0.7586,
-   "close": 18.05,
-   "return_pct": 4.34,
+   "id": "BMRN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "BMRN",
+   "name": "Biomarin Pharmaceutical Inc",
+   "weight_pct": 1.2642,
+   "close": 57.13,
+   "return_pct": 2.64,
+   "contribution_bps": 3.34
+  },
+  {
+   "id": "RXRX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "RXRX",
+   "name": "Recursion Pharmaceuticals A",
+   "weight_pct": 0.6053,
+   "close": 3.88,
+   "return_pct": 5.43,
    "contribution_bps": 3.29
   },
   {
-   "id": "CGON-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CGON",
-   "name": "Cg Oncology Inc",
-   "weight_pct": 0.9628,
-   "close": 64.06,
-   "return_pct": 3.39,
-   "contribution_bps": 3.26
+   "id": "PTGX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "PTGX",
+   "name": "Protagonist Therapeutics Inc",
+   "weight_pct": 1.4071,
+   "close": 143.37,
+   "return_pct": 2.23,
+   "contribution_bps": 3.14
   },
   {
-   "id": "CELC-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CELC",
-   "name": "Celcuity Inc",
-   "weight_pct": 0.8093,
-   "close": 69.72,
-   "return_pct": 3.95,
-   "contribution_bps": 3.2
+   "id": "ORKA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ORKA",
+   "name": "Oruka Therapeutics Inc",
+   "weight_pct": 1.5916,
+   "close": 101.41,
+   "return_pct": 1.87,
+   "contribution_bps": 2.97
   },
   {
-   "id": "SNDX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SNDX",
-   "name": "Syndax Pharmaceuticals Inc",
-   "weight_pct": 0.3364,
-   "close": 14.29,
-   "return_pct": 9.08,
-   "contribution_bps": 3.06
+   "id": "RLAY-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "RLAY",
+   "name": "Relay Therapeutics Inc",
+   "weight_pct": 0.8396,
+   "close": 18.03,
+   "return_pct": 3.38,
+   "contribution_bps": 2.84
   },
   {
-   "id": "VCYT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VCYT",
-   "name": "Veracyte Inc",
-   "weight_pct": 1.1518,
-   "close": 50.29,
-   "return_pct": 2.63,
-   "contribution_bps": 3.03
+   "id": "GERN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "GERN",
+   "name": "Geron Corp",
+   "weight_pct": 0.1663,
+   "close": 1.08,
+   "return_pct": 16.13,
+   "contribution_bps": 2.68
   },
   {
-   "id": "INBX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "INBX",
-   "name": "Inhibrx Biosciences Inc",
-   "weight_pct": 0.2363,
-   "close": 81.08,
-   "return_pct": 12.36,
-   "contribution_bps": 2.92
+   "id": "RARE-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "RARE",
+   "name": "Ultragenyx Pharmaceutical In",
+   "weight_pct": 0.8391,
+   "close": 17.16,
+   "return_pct": 3.19,
+   "contribution_bps": 2.67
   },
   {
-   "id": "REPL-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "REPL",
-   "name": "Replimune Group Inc",
-   "weight_pct": 0.4888,
-   "close": 20.65,
-   "return_pct": 5.95,
-   "contribution_bps": 2.91
+   "id": "TWST-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "TWST",
+   "name": "Twist Bioscience Corp",
+   "weight_pct": 1.6352,
+   "close": 142.58,
+   "return_pct": 1.63,
+   "contribution_bps": 2.66
   },
   {
-   "id": "PRAX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "PRAX",
-   "name": "Praxis Precision Medicines I",
-   "weight_pct": 1.1819,
-   "close": 280.51,
-   "return_pct": 2.38,
-   "contribution_bps": 2.81
+   "id": "CYTK-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CYTK",
+   "name": "Cytokinetics Inc",
+   "weight_pct": 1.23,
+   "close": 63.6,
+   "return_pct": 2.07,
+   "contribution_bps": 2.55
   },
   {
-   "id": "PURR-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "PURR",
-   "name": "Hyperliquid Strategies",
-   "weight_pct": 0.5866,
-   "close": 10.16,
-   "return_pct": 4.63,
-   "contribution_bps": 2.72
+   "id": "KRYS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "KRYS",
+   "name": "Krystal Biotech Inc",
+   "weight_pct": 1.2821,
+   "close": 310.84,
+   "return_pct": 1.9,
+   "contribution_bps": 2.44
   },
   {
-   "id": "ALKS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ALKS",
-   "name": "Alkermes Plc",
-   "weight_pct": 1.4727,
-   "close": 45.69,
-   "return_pct": 1.78,
-   "contribution_bps": 2.62
-  },
-  {
-   "id": "PVLA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "PVLA",
-   "name": "Palvella Therapeutics Inc",
-   "weight_pct": 0.5344,
-   "close": 152.93,
-   "return_pct": 4.51,
-   "contribution_bps": 2.41
-  },
-  {
-   "id": "ARQT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ARQT",
-   "name": "Arcutis Biotherapeutics Inc",
-   "weight_pct": 0.9518,
-   "close": 32.0,
-   "return_pct": 2.37,
-   "contribution_bps": 2.25
-  },
-  {
-   "id": "REGN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "REGN",
-   "name": "Regeneron Pharmaceuticals",
-   "weight_pct": 1.7726,
-   "close": 973.36,
-   "return_pct": 1.26,
-   "contribution_bps": 2.23
-  },
-  {
-   "id": "BCRX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "BCRX",
-   "name": "Biocryst Pharmaceuticals Inc",
-   "weight_pct": 0.5728,
-   "close": 8.57,
-   "return_pct": 3.88,
-   "contribution_bps": 2.22
-  },
-  {
-   "id": "RCUS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "RCUS",
-   "name": "Arcus Biosciences Inc",
-   "weight_pct": 0.3727,
-   "close": 18.91,
-   "return_pct": 5.94,
-   "contribution_bps": 2.21
-  },
-  {
-   "id": "TGTX-2026-11-03",
-   "date": "2026-11-03",
+   "id": "TGTX-2026-11-04",
+   "date": "2026-11-04",
    "ticker": "TGTX",
    "name": "Tg Therapeutics Inc",
-   "weight_pct": 1.6339,
-   "close": 60.75,
-   "return_pct": 1.33,
-   "contribution_bps": 2.18
+   "weight_pct": 1.6262,
+   "close": 61.63,
+   "return_pct": 1.45,
+   "contribution_bps": 2.36
   },
   {
-   "id": "AGIO-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "AGIO",
-   "name": "Agios Pharmaceuticals Inc",
-   "weight_pct": 0.5143,
-   "close": 31.2,
-   "return_pct": 4.17,
-   "contribution_bps": 2.15
+   "id": "ABSI-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ABSI",
+   "name": "Absci Corp",
+   "weight_pct": 0.4898,
+   "close": 10.48,
+   "return_pct": 4.8,
+   "contribution_bps": 2.35
   },
   {
-   "id": "SRRK-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SRRK",
-   "name": "Scholar Rock Holding Corp",
-   "weight_pct": 0.7886,
-   "close": 43.98,
-   "return_pct": 2.49,
-   "contribution_bps": 1.97
+   "id": "HALO-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "HALO",
+   "name": "Halozyme Therapeutics Inc",
+   "weight_pct": 1.7521,
+   "close": 130.34,
+   "return_pct": 1.34,
+   "contribution_bps": 2.34
   },
   {
-   "id": "QURE-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "QURE",
-   "name": "Uniqure Nv",
-   "weight_pct": 0.4704,
-   "close": 23.87,
-   "return_pct": 3.92,
+   "id": "TRAX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "TRAX",
+   "name": "First Tracks Biotherapeu W/I",
+   "weight_pct": 0.4011,
+   "close": 49.04,
+   "return_pct": 5.83,
+   "contribution_bps": 2.34
+  },
+  {
+   "id": "VERA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VERA",
+   "name": "Vera Therapeutics Inc",
+   "weight_pct": 0.5578,
+   "close": 31.97,
+   "return_pct": 4.1,
+   "contribution_bps": 2.29
+  },
+  {
+   "id": "ERAS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ERAS",
+   "name": "Erasca Inc",
+   "weight_pct": 1.2147,
+   "close": 14.91,
+   "return_pct": 1.84,
+   "contribution_bps": 2.24
+  },
+  {
+   "id": "ACAD-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ACAD",
+   "name": "Acadia Pharmaceuticals Inc",
+   "weight_pct": 0.5036,
+   "close": 21.47,
+   "return_pct": 4.38,
+   "contribution_bps": 2.2
+  },
+  {
+   "id": "DYN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "DYN",
+   "name": "Dyne Therapeutics Inc",
+   "weight_pct": 0.7774,
+   "close": 18.54,
+   "return_pct": 2.71,
+   "contribution_bps": 2.11
+  },
+  {
+   "id": "UTHR-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "UTHR",
+   "name": "United Therapeutics Corp",
+   "weight_pct": 1.7359,
+   "close": 608.49,
+   "return_pct": 1.19,
+   "contribution_bps": 2.07
+  },
+  {
+   "id": "NTLA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "NTLA",
+   "name": "Intellia Therapeutics Inc",
+   "weight_pct": 0.5034,
+   "close": 12.31,
+   "return_pct": 3.79,
+   "contribution_bps": 1.91
+  },
+  {
+   "id": "ARDX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ARDX",
+   "name": "Ardelyx Inc",
+   "weight_pct": 0.2182,
+   "close": 3.29,
+   "return_pct": 8.58,
+   "contribution_bps": 1.87
+  },
+  {
+   "id": "PTCT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "PTCT",
+   "name": "Ptc Therapeutics Inc",
+   "weight_pct": 1.4748,
+   "close": 68.97,
+   "return_pct": 1.25,
    "contribution_bps": 1.84
   },
   {
-   "id": "IRON-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "IRON",
-   "name": "Disc Medicine Inc",
-   "weight_pct": 0.5705,
-   "close": 81.16,
-   "return_pct": 3.23,
-   "contribution_bps": 1.84
-  },
-  {
-   "id": "SLS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SLS",
-   "name": "Sellas Life Sciences Group I",
-   "weight_pct": 0.4884,
-   "close": 8.87,
-   "return_pct": 3.74,
+   "id": "INBX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "INBX",
+   "name": "Inhibrx Biosciences Inc",
+   "weight_pct": 0.2608,
+   "close": 86.76,
+   "return_pct": 7.01,
    "contribution_bps": 1.83
   },
   {
-   "id": "DNLI-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "DNLI",
-   "name": "Denali Therapeutics Inc",
-   "weight_pct": 0.5809,
-   "close": 19.45,
-   "return_pct": 3.13,
-   "contribution_bps": 1.82
+   "id": "PRAX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "PRAX",
+   "name": "Praxis Precision Medicines I",
+   "weight_pct": 1.1884,
+   "close": 284.79,
+   "return_pct": 1.53,
+   "contribution_bps": 1.81
   },
   {
-   "id": "CAPR-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CAPR",
-   "name": "Capricor Therapeutics Inc",
-   "weight_pct": 0.1299,
-   "close": 8.24,
-   "return_pct": 13.81,
+   "id": "IMVT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "IMVT",
+   "name": "Immunovant Inc",
+   "weight_pct": 0.6059,
+   "close": 29.9,
+   "return_pct": 2.96,
    "contribution_bps": 1.79
   },
   {
-   "id": "RARE-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "RARE",
-   "name": "Ultragenyx Pharmaceutical In",
-   "weight_pct": 0.8374,
-   "close": 16.63,
-   "return_pct": 2.02,
-   "contribution_bps": 1.7
+   "id": "COGT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "COGT",
+   "name": "Cogent Biosciences Inc",
+   "weight_pct": 1.1995,
+   "close": 31.49,
+   "return_pct": 1.38,
+   "contribution_bps": 1.66
   },
   {
-   "id": "BHVN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "BHVN",
-   "name": "Biohaven Ltd",
-   "weight_pct": 0.5654,
-   "close": 15.61,
-   "return_pct": 2.97,
-   "contribution_bps": 1.68
+   "id": "IDYA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "IDYA",
+   "name": "Ideaya Biosciences Inc",
+   "weight_pct": 0.4922,
+   "close": 32.36,
+   "return_pct": 3.29,
+   "contribution_bps": 1.62
   },
   {
-   "id": "KOD-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "KOD",
-   "name": "Kodiak Sciences Inc",
-   "weight_pct": 1.2616,
-   "close": 98.89,
-   "return_pct": 1.29,
-   "contribution_bps": 1.63
+   "id": "SLS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SLS",
+   "name": "Sellas Life Sciences Group I",
+   "weight_pct": 0.4976,
+   "close": 9.14,
+   "return_pct": 3.04,
+   "contribution_bps": 1.51
   },
   {
-   "id": "MIRM-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "MIRM",
-   "name": "Mirum Pharmaceuticals Inc",
-   "weight_pct": 1.0621,
-   "close": 87.03,
-   "return_pct": 1.5,
-   "contribution_bps": 1.6
+   "id": "IRON-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "IRON",
+   "name": "Disc Medicine Inc",
+   "weight_pct": 0.5784,
+   "close": 83.28,
+   "return_pct": 2.61,
+   "contribution_bps": 1.51
   },
   {
-   "id": "BEAM-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "BEAM",
-   "name": "Beam Therapeutics Inc",
-   "weight_pct": 0.8974,
-   "close": 26.33,
-   "return_pct": 1.78,
-   "contribution_bps": 1.6
+   "id": "PRME-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "PRME",
+   "name": "Prime Medicine Inc",
+   "weight_pct": 0.163,
+   "close": 4.97,
+   "return_pct": 9.23,
+   "contribution_bps": 1.5
   },
   {
-   "id": "ABSI-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ABSI",
-   "name": "Absci Corp",
-   "weight_pct": 0.4832,
-   "close": 10.0,
-   "return_pct": 3.2,
-   "contribution_bps": 1.55
-  },
-  {
-   "id": "CADL-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CADL",
-   "name": "Candel Therapeutics Inc",
-   "weight_pct": 0.1784,
-   "close": 8.82,
-   "return_pct": 8.62,
-   "contribution_bps": 1.54
-  },
-  {
-   "id": "UTHR-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "UTHR",
-   "name": "United Therapeutics Corp",
-   "weight_pct": 1.7521,
-   "close": 601.32,
-   "return_pct": 0.87,
-   "contribution_bps": 1.53
-  },
-  {
-   "id": "ANNX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ANNX",
-   "name": "Annexon Inc",
-   "weight_pct": 0.2323,
-   "close": 4.19,
-   "return_pct": 6.35,
+   "id": "MLYS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "MLYS",
+   "name": "Mineralys Therapeutics Inc",
+   "weight_pct": 0.2325,
+   "close": 17.0,
+   "return_pct": 6.32,
    "contribution_bps": 1.47
   },
   {
-   "id": "IMNM-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "IMNM",
-   "name": "Immunome Inc",
-   "weight_pct": 0.3854,
-   "close": 20.31,
-   "return_pct": 3.68,
+   "id": "MNKD-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "MNKD",
+   "name": "Mannkind Corp",
+   "weight_pct": 0.2647,
+   "close": 3.93,
+   "return_pct": 5.36,
    "contribution_bps": 1.42
   },
   {
-   "id": "IMVT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "IMVT",
-   "name": "Immunovant Inc",
-   "weight_pct": 0.6035,
-   "close": 29.04,
-   "return_pct": 2.22,
-   "contribution_bps": 1.34
+   "id": "OCGN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "OCGN",
+   "name": "Ocugen Inc",
+   "weight_pct": 0.0799,
+   "close": 0.87,
+   "return_pct": 17.38,
+   "contribution_bps": 1.39
   },
   {
-   "id": "XNCR-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "XNCR",
-   "name": "Xencor Inc",
-   "weight_pct": 0.3899,
-   "close": 30.64,
-   "return_pct": 3.3,
-   "contribution_bps": 1.29
+   "id": "VIR-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VIR",
+   "name": "Vir Biotechnology Inc",
+   "weight_pct": 0.2829,
+   "close": 11.77,
+   "return_pct": 4.9,
+   "contribution_bps": 1.39
   },
   {
-   "id": "ORIC-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ORIC",
-   "name": "Oric Pharmaceuticals Inc",
-   "weight_pct": 0.2211,
-   "close": 9.59,
-   "return_pct": 5.73,
-   "contribution_bps": 1.27
+   "id": "TSHA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "TSHA",
+   "name": "Taysha Gene Therapies Inc",
+   "weight_pct": 0.2081,
+   "close": 4.36,
+   "return_pct": 6.6,
+   "contribution_bps": 1.37
   },
   {
-   "id": "TRAX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "TRAX",
-   "name": "First Tracks Biotherapeu W/I",
-   "weight_pct": 0.397,
-   "close": 46.34,
-   "return_pct": 2.86,
+   "id": "SMMT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SMMT",
+   "name": "Summit Therapeutics Inc",
+   "weight_pct": 0.5687,
+   "close": 16.17,
+   "return_pct": 2.34,
+   "contribution_bps": 1.33
+  },
+  {
+   "id": "CRVS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CRVS",
+   "name": "Corvus Pharmaceuticals Inc",
+   "weight_pct": 0.1763,
+   "close": 10.57,
+   "return_pct": 7.53,
+   "contribution_bps": 1.33
+  },
+  {
+   "id": "SRPT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SRPT",
+   "name": "Sarepta Therapeutics Inc",
+   "weight_pct": 0.5433,
+   "close": 18.99,
+   "return_pct": 2.43,
+   "contribution_bps": 1.32
+  },
+  {
+   "id": "CAPR-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CAPR",
+   "name": "Capricor Therapeutics Inc",
+   "weight_pct": 0.1452,
+   "close": 8.92,
+   "return_pct": 8.25,
+   "contribution_bps": 1.2
+  },
+  {
+   "id": "RIGL-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "RIGL",
+   "name": "Rigel Pharmaceuticals Inc",
+   "weight_pct": 0.2292,
+   "close": 51.29,
+   "return_pct": 4.97,
    "contribution_bps": 1.14
   },
   {
-   "id": "BCAX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "BCAX",
-   "name": "Bicara Therapeutics Inc",
-   "weight_pct": 0.0873,
-   "close": 8.96,
-   "return_pct": 12.99,
+   "id": "NBIX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "NBIX",
+   "name": "Neurocrine Biosciences Inc",
+   "weight_pct": 1.5545,
+   "close": 166.05,
+   "return_pct": 0.73,
    "contribution_bps": 1.13
   },
   {
-   "id": "JBIO-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "JBIO",
-   "name": "Jade Biosciences Inc",
-   "weight_pct": 0.2408,
-   "close": 14.57,
-   "return_pct": 4.59,
-   "contribution_bps": 1.11
+   "id": "EXEL-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "EXEL",
+   "name": "Exelixis Inc",
+   "weight_pct": 1.8135,
+   "close": 72.75,
+   "return_pct": 0.61,
+   "contribution_bps": 1.1
   },
   {
-   "id": "ALNY-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ALNY",
-   "name": "Alnylam Pharmaceuticals Inc",
-   "weight_pct": 0.9121,
-   "close": 159.89,
-   "return_pct": 1.2,
-   "contribution_bps": 1.09
+   "id": "MDGL-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "MDGL",
+   "name": "Madrigal Pharmaceuticals Inc",
+   "weight_pct": 1.0607,
+   "close": 400.43,
+   "return_pct": 1.04,
+   "contribution_bps": 1.1
   },
   {
-   "id": "CLDX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CLDX",
-   "name": "Celldex Therapeutics Inc",
-   "weight_pct": 0.4693,
-   "close": 29.71,
-   "return_pct": 2.31,
-   "contribution_bps": 1.08
+   "id": "NTRA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "NTRA",
+   "name": "Natera Inc",
+   "weight_pct": 1.7212,
+   "close": 391.03,
+   "return_pct": 0.62,
+   "contribution_bps": 1.06
   },
   {
-   "id": "CGEM-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CGEM",
-   "name": "Cullinan Therapeutics Inc",
-   "weight_pct": 0.1846,
-   "close": 15.75,
-   "return_pct": 5.49,
+   "id": "COAG-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "COAG",
+   "name": "Hemab Therapeutics Holdings",
+   "weight_pct": 0.2197,
+   "close": 45.09,
+   "return_pct": 4.62,
    "contribution_bps": 1.01
   },
   {
-   "id": "COAG-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "COAG",
-   "name": "Hemab Therapeutics Holdings",
-   "weight_pct": 0.2137,
-   "close": 43.1,
-   "return_pct": 4.66,
-   "contribution_bps": 1.0
-  },
-  {
-   "id": "RGNX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "RGNX",
-   "name": "Regenxbio Inc",
-   "weight_pct": 0.143,
-   "close": 7.63,
-   "return_pct": 6.56,
-   "contribution_bps": 0.94
-  },
-  {
-   "id": "IMMX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "IMMX",
-   "name": "Immix Biopharma Inc",
-   "weight_pct": 0.1506,
-   "close": 7.71,
-   "return_pct": 6.2,
+   "id": "OVID-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "OVID",
+   "name": "Ovid Therapeutics Inc",
+   "weight_pct": 0.066,
+   "close": 2.74,
+   "return_pct": 14.17,
    "contribution_bps": 0.93
   },
   {
-   "id": "PTGX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "PTGX",
-   "name": "Protagonist Therapeutics Inc",
-   "weight_pct": 1.4237,
-   "close": 140.24,
-   "return_pct": 0.62,
+   "id": "IRWD-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "IRWD",
+   "name": "Ironwood Pharmaceuticals Inc",
+   "weight_pct": 0.1151,
+   "close": 3.77,
+   "return_pct": 7.71,
    "contribution_bps": 0.89
   },
   {
-   "id": "NTLA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "NTLA",
-   "name": "Intellia Therapeutics Inc",
-   "weight_pct": 0.5038,
-   "close": 11.86,
-   "return_pct": 1.72,
-   "contribution_bps": 0.86
-  },
-  {
-   "id": "VERA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VERA",
-   "name": "Vera Therapeutics Inc",
-   "weight_pct": 0.5594,
-   "close": 30.71,
-   "return_pct": 1.52,
+   "id": "GLUE-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "GLUE",
+   "name": "Monte Rosa Therapeutics Inc",
+   "weight_pct": 0.217,
+   "close": 10.82,
+   "return_pct": 3.94,
    "contribution_bps": 0.85
   },
   {
-   "id": "NKTR-2026-11-03",
-   "date": "2026-11-03",
+   "id": "CTMX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CTMX",
+   "name": "Cytomx Therapeutics Inc",
+   "weight_pct": 0.1096,
+   "close": 2.35,
+   "return_pct": 7.8,
+   "contribution_bps": 0.85
+  },
+  {
+   "id": "RCUS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "RCUS",
+   "name": "Arcus Biosciences Inc",
+   "weight_pct": 0.3878,
+   "close": 19.31,
+   "return_pct": 2.12,
+   "contribution_bps": 0.82
+  },
+  {
+   "id": "ANNX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ANNX",
+   "name": "Annexon Inc",
+   "weight_pct": 0.2426,
+   "close": 4.33,
+   "return_pct": 3.34,
+   "contribution_bps": 0.81
+  },
+  {
+   "id": "JBIO-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "JBIO",
+   "name": "Jade Biosciences Inc",
+   "weight_pct": 0.2474,
+   "close": 15.04,
+   "return_pct": 3.23,
+   "contribution_bps": 0.8
+  },
+  {
+   "id": "NKTR-2026-11-04",
+   "date": "2026-11-04",
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "weight_pct": 0.3633,
-   "close": 37.76,
-   "return_pct": 2.19,
-   "contribution_bps": 0.8
-  },
-  {
-   "id": "ZBIO-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ZBIO",
-   "name": "Zenas Biopharma Inc",
-   "weight_pct": 0.2889,
-   "close": 28.38,
-   "return_pct": 2.75,
-   "contribution_bps": 0.8
-  },
-  {
-   "id": "RLAY-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "RLAY",
-   "name": "Relay Therapeutics Inc",
-   "weight_pct": 0.847,
-   "close": 17.44,
-   "return_pct": 0.93,
-   "contribution_bps": 0.78
-  },
-  {
-   "id": "NVAX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "NVAX",
-   "name": "Novavax Inc",
-   "weight_pct": 0.4423,
-   "close": 9.68,
-   "return_pct": 1.57,
+   "weight_pct": 0.3646,
+   "close": 38.48,
+   "return_pct": 1.91,
    "contribution_bps": 0.7
   },
   {
-   "id": "FDMT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "FDMT",
-   "name": "4D Molecular Therapeutics In",
-   "weight_pct": 0.1347,
-   "close": 11.95,
-   "return_pct": 5.1,
-   "contribution_bps": 0.69
-  },
-  {
-   "id": "STOK-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "STOK",
-   "name": "Stoke Therapeutics Inc",
-   "weight_pct": 0.3501,
-   "close": 26.99,
-   "return_pct": 1.93,
+   "id": "ALNY-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ALNY",
+   "name": "Alnylam Pharmaceuticals Inc",
+   "weight_pct": 0.9066,
+   "close": 161.08,
+   "return_pct": 0.74,
    "contribution_bps": 0.67
   },
   {
-   "id": "VOR-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VOR",
-   "name": "Vor Biopharma Inc",
-   "weight_pct": 0.2118,
-   "close": 19.86,
-   "return_pct": 3.17,
-   "contribution_bps": 0.67
-  },
-  {
-   "id": "SRPT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SRPT",
-   "name": "Sarepta Therapeutics Inc",
-   "weight_pct": 0.5466,
-   "close": 18.54,
-   "return_pct": 1.2,
-   "contribution_bps": 0.66
-  },
-  {
-   "id": "MLYS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "MLYS",
-   "name": "Mineralys Therapeutics Inc",
-   "weight_pct": 0.2302,
-   "close": 15.99,
-   "return_pct": 2.83,
+   "id": "SANA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SANA",
+   "name": "Sana Biotechnology Inc",
+   "weight_pct": 0.132,
+   "close": 2.56,
+   "return_pct": 4.92,
    "contribution_bps": 0.65
   },
   {
-   "id": "VCEL-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VCEL",
-   "name": "Vericel Corp",
-   "weight_pct": 0.4507,
-   "close": 41.09,
-   "return_pct": 1.43,
-   "contribution_bps": 0.65
+   "id": "ALKS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ALKS",
+   "name": "Alkermes Plc",
+   "weight_pct": 1.4722,
+   "close": 45.89,
+   "return_pct": 0.44,
+   "contribution_bps": 0.64
   },
   {
-   "id": "PGEN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "PGEN",
-   "name": "Precigen Inc",
-   "weight_pct": 0.294,
-   "close": 5.25,
-   "return_pct": 2.14,
-   "contribution_bps": 0.63
-  },
-  {
-   "id": "DNTH-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "DNTH",
-   "name": "Dianthus Therapeutics Inc",
-   "weight_pct": 1.1445,
-   "close": 82.7,
-   "return_pct": 0.55,
-   "contribution_bps": 0.63
-  },
-  {
-   "id": "OLMA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "OLMA",
-   "name": "Olema Pharmaceuticals Inc",
-   "weight_pct": 0.1529,
-   "close": 7.35,
-   "return_pct": 3.96,
-   "contribution_bps": 0.61
-  },
-  {
-   "id": "MNKD-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "MNKD",
-   "name": "Mannkind Corp",
-   "weight_pct": 0.2637,
-   "close": 3.73,
-   "return_pct": 2.19,
-   "contribution_bps": 0.58
-  },
-  {
-   "id": "VIR-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VIR",
-   "name": "Vir Biotechnology Inc",
-   "weight_pct": 0.2823,
-   "close": 11.22,
-   "return_pct": 2.0,
-   "contribution_bps": 0.56
-  },
-  {
-   "id": "CYTK-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CYTK",
-   "name": "Cytokinetics Inc",
-   "weight_pct": 1.2467,
-   "close": 62.31,
-   "return_pct": 0.45,
-   "contribution_bps": 0.56
-  },
-  {
-   "id": "MYGN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "MYGN",
-   "name": "Myriad Genetics Inc",
-   "weight_pct": 0.1671,
-   "close": 6.04,
-   "return_pct": 3.25,
-   "contribution_bps": 0.54
-  },
-  {
-   "id": "ROIV-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ROIV",
-   "name": "Roivant Sciences Ltd",
-   "weight_pct": 1.2786,
-   "close": 36.04,
-   "return_pct": 0.42,
-   "contribution_bps": 0.53
-  },
-  {
-   "id": "KLRA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "KLRA",
-   "name": "Kailera Therapeutics Inc",
-   "weight_pct": 0.1497,
-   "close": 12.58,
-   "return_pct": 3.54,
-   "contribution_bps": 0.53
-  },
-  {
-   "id": "ANAB-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ANAB",
-   "name": "Anaptysbio Inc",
-   "weight_pct": 0.3028,
-   "close": 47.73,
-   "return_pct": 1.75,
-   "contribution_bps": 0.53
-  },
-  {
-   "id": "MNPR-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "MNPR",
-   "name": "Monopar Therapeutics Inc",
-   "weight_pct": 0.0917,
-   "close": 69.89,
-   "return_pct": 5.45,
-   "contribution_bps": 0.5
-  },
-  {
-   "id": "SLDB-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SLDB",
-   "name": "Solid Biosciences Inc",
-   "weight_pct": 0.1058,
-   "close": 6.28,
-   "return_pct": 4.67,
-   "contribution_bps": 0.49
-  },
-  {
-   "id": "TSHA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "TSHA",
-   "name": "Taysha Gene Therapies Inc",
-   "weight_pct": 0.2072,
-   "close": 4.09,
-   "return_pct": 2.25,
-   "contribution_bps": 0.47
-  },
-  {
-   "id": "JANX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "JANX",
-   "name": "Janux Therapeutics Inc",
-   "weight_pct": 0.1997,
-   "close": 17.82,
-   "return_pct": 2.06,
-   "contribution_bps": 0.41
-  },
-  {
-   "id": "VSTM-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VSTM",
-   "name": "Verastem Inc",
-   "weight_pct": 0.2173,
-   "close": 9.77,
-   "return_pct": 1.88,
-   "contribution_bps": 0.41
-  },
-  {
-   "id": "PRME-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "PRME",
-   "name": "Prime Medicine Inc",
-   "weight_pct": 0.1619,
-   "close": 4.55,
-   "return_pct": 2.48,
-   "contribution_bps": 0.4
-  },
-  {
-   "id": "PCVX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "PCVX",
-   "name": "Vaxcyte Inc",
-   "weight_pct": 1.2162,
-   "close": 60.81,
-   "return_pct": 0.31,
-   "contribution_bps": 0.38
-  },
-  {
-   "id": "DMRA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "DMRA",
-   "name": "Damora Therapeutics Inc",
-   "weight_pct": 0.1576,
-   "close": 22.08,
-   "return_pct": 2.22,
-   "contribution_bps": 0.35
-  },
-  {
-   "id": "TVTX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "TVTX",
-   "name": "Travere Therapeutics Inc",
-   "weight_pct": 1.108,
-   "close": 49.41,
-   "return_pct": 0.3,
-   "contribution_bps": 0.34
-  },
-  {
-   "id": "SGMT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SGMT",
-   "name": "Sagimet Biosciences Inc A",
-   "weight_pct": 0.1234,
-   "close": 9.95,
-   "return_pct": 2.68,
-   "contribution_bps": 0.33
-  },
-  {
-   "id": "ALLO-2026-11-03",
-   "date": "2026-11-03",
+   "id": "ALLO-2026-11-04",
+   "date": "2026-11-04",
    "ticker": "ALLO",
    "name": "Allogene Therapeutics Inc",
-   "weight_pct": 0.1017,
-   "close": 1.12,
-   "return_pct": 2.75,
-   "contribution_bps": 0.28
+   "weight_pct": 0.1027,
+   "close": 1.19,
+   "return_pct": 6.25,
+   "contribution_bps": 0.64
   },
   {
-   "id": "STTK-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "STTK",
-   "name": "Shattuck Labs Inc",
-   "weight_pct": 0.0983,
-   "close": 5.47,
-   "return_pct": 2.82,
-   "contribution_bps": 0.28
+   "id": "DMRA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "DMRA",
+   "name": "Damora Therapeutics Inc",
+   "weight_pct": 0.1582,
+   "close": 22.94,
+   "return_pct": 3.89,
+   "contribution_bps": 0.62
   },
   {
-   "id": "NRIX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "NRIX",
-   "name": "Nurix Therapeutics Inc",
-   "weight_pct": 0.5681,
-   "close": 25.82,
-   "return_pct": 0.47,
-   "contribution_bps": 0.27
+   "id": "STOK-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "STOK",
+   "name": "Stoke Therapeutics Inc",
+   "weight_pct": 0.3505,
+   "close": 27.45,
+   "return_pct": 1.7,
+   "contribution_bps": 0.6
   },
   {
-   "id": "ACHV-2026-11-03",
-   "date": "2026-11-03",
+   "id": "IMMX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "IMMX",
+   "name": "Immix Biopharma Inc",
+   "weight_pct": 0.1571,
+   "close": 7.97,
+   "return_pct": 3.37,
+   "contribution_bps": 0.53
+  },
+  {
+   "id": "ACHV-2026-11-04",
+   "date": "2026-11-04",
    "ticker": "ACHV",
    "name": "Achieve Life Sciences Inc",
    "weight_pct": 0.1396,
-   "close": 6.73,
-   "return_pct": 1.82,
+   "close": 6.98,
+   "return_pct": 3.71,
+   "contribution_bps": 0.52
+  },
+  {
+   "id": "EDIT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "EDIT",
+   "name": "Editas Medicine Inc",
+   "weight_pct": 0.1089,
+   "close": 2.72,
+   "return_pct": 4.62,
+   "contribution_bps": 0.5
+  },
+  {
+   "id": "ABUS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ABUS",
+   "name": "Arbutus Biopharma Corp",
+   "weight_pct": 0.1073,
+   "close": 4.06,
+   "return_pct": 4.64,
+   "contribution_bps": 0.5
+  },
+  {
+   "id": "CADL-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CADL",
+   "name": "Candel Therapeutics Inc",
+   "weight_pct": 0.1903,
+   "close": 9.05,
+   "return_pct": 2.61,
+   "contribution_bps": 0.5
+  },
+  {
+   "id": "AVBP-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "AVBP",
+   "name": "Arrivent Biopharma Inc",
+   "weight_pct": 0.1184,
+   "close": 13.49,
+   "return_pct": 3.61,
+   "contribution_bps": 0.43
+  },
+  {
+   "id": "SLDB-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SLDB",
+   "name": "Solid Biosciences Inc",
+   "weight_pct": 0.1088,
+   "close": 6.52,
+   "return_pct": 3.82,
+   "contribution_bps": 0.42
+  },
+  {
+   "id": "JANX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "JANX",
+   "name": "Janux Therapeutics Inc",
+   "weight_pct": 0.2002,
+   "close": 18.18,
+   "return_pct": 2.02,
+   "contribution_bps": 0.4
+  },
+  {
+   "id": "OLMA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "OLMA",
+   "name": "Olema Pharmaceuticals Inc",
+   "weight_pct": 0.1561,
+   "close": 7.54,
+   "return_pct": 2.59,
+   "contribution_bps": 0.4
+  },
+  {
+   "id": "MNPR-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "MNPR",
+   "name": "Monopar Therapeutics Inc",
+   "weight_pct": 0.095,
+   "close": 72.81,
+   "return_pct": 4.18,
+   "contribution_bps": 0.4
+  },
+  {
+   "id": "FDMT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "FDMT",
+   "name": "4D Molecular Therapeutics In",
+   "weight_pct": 0.139,
+   "close": 12.28,
+   "return_pct": 2.76,
+   "contribution_bps": 0.38
+  },
+  {
+   "id": "AURA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "AURA",
+   "name": "Aura Biosciences Inc",
+   "weight_pct": 0.058,
+   "close": 6.65,
+   "return_pct": 6.57,
+   "contribution_bps": 0.38
+  },
+  {
+   "id": "ALT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ALT",
+   "name": "Altimmune Inc",
+   "weight_pct": 0.0899,
+   "close": 2.12,
+   "return_pct": 3.92,
+   "contribution_bps": 0.35
+  },
+  {
+   "id": "CLDX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CLDX",
+   "name": "Celldex Therapeutics Inc",
+   "weight_pct": 0.4716,
+   "close": 29.93,
+   "return_pct": 0.74,
+   "contribution_bps": 0.35
+  },
+  {
+   "id": "AGIO-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "AGIO",
+   "name": "Agios Pharmaceuticals Inc",
+   "weight_pct": 0.5263,
+   "close": 31.38,
+   "return_pct": 0.58,
+   "contribution_bps": 0.3
+  },
+  {
+   "id": "VOR-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VOR",
+   "name": "Vor Biopharma Inc",
+   "weight_pct": 0.2147,
+   "close": 20.12,
+   "return_pct": 1.31,
+   "contribution_bps": 0.28
+  },
+  {
+   "id": "DSGN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "DSGN",
+   "name": "Design Therapeutics Inc",
+   "weight_pct": 0.0957,
+   "close": 10.63,
+   "return_pct": 2.8,
+   "contribution_bps": 0.27
+  },
+  {
+   "id": "KLRA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "KLRA",
+   "name": "Kailera Therapeutics Inc",
+   "weight_pct": 0.1522,
+   "close": 12.8,
+   "return_pct": 1.75,
+   "contribution_bps": 0.27
+  },
+  {
+   "id": "CBIO-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CBIO",
+   "name": "Crescent Biopharma Inc",
+   "weight_pct": 0.043,
+   "close": 13.82,
+   "return_pct": 5.82,
    "contribution_bps": 0.25
   },
   {
-   "id": "ACAD-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ACAD",
-   "name": "Acadia Pharmaceuticals Inc",
-   "weight_pct": 0.5102,
-   "close": 20.57,
-   "return_pct": 0.49,
-   "contribution_bps": 0.25
-  },
-  {
-   "id": "CRVS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CRVS",
-   "name": "Corvus Pharmaceuticals Inc",
-   "weight_pct": 0.1772,
-   "close": 9.83,
-   "return_pct": 1.34,
+   "id": "NGNE-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "NGNE",
+   "name": "Neurogene Inc",
+   "weight_pct": 0.0705,
+   "close": 27.58,
+   "return_pct": 3.41,
    "contribution_bps": 0.24
   },
   {
-   "id": "KURA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "KURA",
-   "name": "Kura Oncology Inc",
-   "weight_pct": 0.2508,
-   "close": 9.88,
-   "return_pct": 0.92,
+   "id": "VNDA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VNDA",
+   "name": "Vanda Pharmaceuticals Inc",
+   "weight_pct": 0.0664,
+   "close": 3.88,
+   "return_pct": 3.47,
    "contribution_bps": 0.23
   },
   {
-   "id": "ADMA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ADMA",
-   "name": "Adma Biologics Inc",
-   "weight_pct": 0.5055,
-   "close": 11.11,
-   "return_pct": 0.45,
-   "contribution_bps": 0.23
-  },
-  {
-   "id": "OCGN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "OCGN",
-   "name": "Ocugen Inc",
-   "weight_pct": 0.0791,
-   "close": 0.75,
-   "return_pct": 2.79,
-   "contribution_bps": 0.22
-  },
-  {
-   "id": "SANA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SANA",
-   "name": "Sana Biotechnology Inc",
-   "weight_pct": 0.1321,
-   "close": 2.44,
-   "return_pct": 1.67,
-   "contribution_bps": 0.22
-  },
-  {
-   "id": "AURA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "AURA",
-   "name": "Aura Biosciences Inc",
-   "weight_pct": 0.057,
-   "close": 6.24,
-   "return_pct": 3.48,
-   "contribution_bps": 0.2
-  },
-  {
-   "id": "AKTS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "AKTS",
-   "name": "Aktis Oncology Inc",
-   "weight_pct": 0.075,
-   "close": 14.94,
-   "return_pct": 2.4,
-   "contribution_bps": 0.18
-  },
-  {
-   "id": "DSGN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "DSGN",
-   "name": "Design Therapeutics Inc",
-   "weight_pct": 0.0956,
-   "close": 10.34,
-   "return_pct": 1.87,
-   "contribution_bps": 0.18
-  },
-  {
-   "id": "IRWD-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "IRWD",
-   "name": "Ironwood Pharmaceuticals Inc",
-   "weight_pct": 0.1158,
-   "close": 3.5,
-   "return_pct": 1.16,
-   "contribution_bps": 0.13
-  },
-  {
-   "id": "EDIT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "EDIT",
-   "name": "Editas Medicine Inc",
-   "weight_pct": 0.1096,
-   "close": 2.6,
-   "return_pct": 1.17,
-   "contribution_bps": 0.13
-  },
-  {
-   "id": "ASMB-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ASMB",
-   "name": "Assembly Biosciences Inc",
-   "weight_pct": 0.0593,
-   "close": 19.92,
-   "return_pct": 2.1,
-   "contribution_bps": 0.12
-  },
-  {
-   "id": "FTH-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "FTH",
-   "name": "Faeth Therapeutics Inc",
-   "weight_pct": 0.0416,
-   "close": 19.65,
-   "return_pct": 2.18,
-   "contribution_bps": 0.09
-  },
-  {
-   "id": "ALT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ALT",
-   "name": "Altimmune Inc",
-   "weight_pct": 0.0906,
-   "close": 2.04,
-   "return_pct": 0.99,
-   "contribution_bps": 0.09
-  },
-  {
-   "id": "LXEO-2026-11-03",
-   "date": "2026-11-03",
+   "id": "LXEO-2026-11-04",
+   "date": "2026-11-04",
    "ticker": "LXEO",
    "name": "Lexeo Therapeutics Inc",
-   "weight_pct": 0.0488,
-   "close": 3.11,
-   "return_pct": 1.63,
+   "weight_pct": 0.0487,
+   "close": 3.23,
+   "return_pct": 3.86,
+   "contribution_bps": 0.19
+  },
+  {
+   "id": "VSTM-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "VSTM",
+   "name": "Verastem Inc",
+   "weight_pct": 0.2174,
+   "close": 9.85,
+   "return_pct": 0.82,
+   "contribution_bps": 0.18
+  },
+  {
+   "id": "TYRA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "TYRA",
+   "name": "Tyra Biosciences Inc",
+   "weight_pct": 0.2444,
+   "close": 21.52,
+   "return_pct": 0.73,
+   "contribution_bps": 0.18
+  },
+  {
+   "id": "PRTA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "PRTA",
+   "name": "Prothena Corp Plc",
+   "weight_pct": 0.0735,
+   "close": 8.39,
+   "return_pct": 2.19,
+   "contribution_bps": 0.16
+  },
+  {
+   "id": "RGNX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "RGNX",
+   "name": "Regenxbio Inc",
+   "weight_pct": 0.1497,
+   "close": 7.71,
+   "return_pct": 1.05,
+   "contribution_bps": 0.16
+  },
+  {
+   "id": "AKTS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "AKTS",
+   "name": "Aktis Oncology Inc",
+   "weight_pct": 0.0754,
+   "close": 15.2,
+   "return_pct": 1.74,
+   "contribution_bps": 0.13
+  },
+  {
+   "id": "REPL-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "REPL",
+   "name": "Replimune Group Inc",
+   "weight_pct": 0.5087,
+   "close": 20.69,
+   "return_pct": 0.19,
+   "contribution_bps": 0.1
+  },
+  {
+   "id": "ZBIO-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ZBIO",
+   "name": "Zenas Biopharma Inc",
+   "weight_pct": 0.2916,
+   "close": 28.46,
+   "return_pct": 0.28,
    "contribution_bps": 0.08
   },
   {
-   "id": "SVRA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "SVRA",
-   "name": "Savara Inc",
-   "weight_pct": 0.1518,
-   "close": 4.75,
-   "return_pct": 0.42,
-   "contribution_bps": 0.06
+   "id": "FTH-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "FTH",
+   "name": "Faeth Therapeutics Inc",
+   "weight_pct": 0.0417,
+   "close": 19.99,
+   "return_pct": 1.73,
+   "contribution_bps": 0.07
   },
   {
-   "id": "CBIO-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CBIO",
-   "name": "Crescent Biopharma Inc",
-   "weight_pct": 0.0433,
-   "close": 13.06,
-   "return_pct": 1.16,
+   "id": "SGMT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SGMT",
+   "name": "Sagimet Biosciences Inc A",
+   "weight_pct": 0.1245,
+   "close": 9.99,
+   "return_pct": 0.4,
    "contribution_bps": 0.05
   },
   {
-   "id": "TYRA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "TYRA",
-   "name": "Tyra Biosciences Inc",
-   "weight_pct": 0.2483,
-   "close": 21.37,
-   "return_pct": 0.19,
+   "id": "CMPX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CMPX",
+   "name": "Compass Therapeutics Inc",
+   "weight_pct": 0.0358,
+   "close": 0.76,
+   "return_pct": 1.29,
    "contribution_bps": 0.05
   },
   {
-   "id": "OVID-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "OVID",
-   "name": "Ovid Therapeutics Inc",
-   "weight_pct": 0.0669,
-   "close": 2.4,
-   "return_pct": 0.42,
-   "contribution_bps": 0.03
+   "id": "TNGX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "TNGX",
+   "name": "Tango Therapeutics Inc",
+   "weight_pct": 0.9325,
+   "close": 23.18,
+   "return_pct": 0.04,
+   "contribution_bps": 0.04
   },
   {
-   "id": "NGNE-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "NGNE",
-   "name": "Neurogene Inc",
-   "weight_pct": 0.0716,
-   "close": 26.67,
-   "return_pct": 0.23,
-   "contribution_bps": 0.02
+   "id": "CABA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CABA",
+   "name": "Cabaletta Bio Inc",
+   "weight_pct": 0.0695,
+   "close": 1.42,
+   "return_pct": 0.0,
+   "contribution_bps": 0.0
   },
   {
-   "id": "CLYM-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CLYM",
-   "name": "Climb Bio Inc",
-   "weight_pct": 0.1057,
-   "close": 9.75,
-   "return_pct": 0.1,
-   "contribution_bps": 0.01
-  },
-  {
-   "id": "BBOT-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "BBOT",
-   "name": "Bridgebio Oncology Therapeut",
-   "weight_pct": 0.0153,
-   "close": 2.32,
-   "return_pct": 0.43,
-   "contribution_bps": 0.01
-  },
-  {
-   "id": "SPRY-2026-11-03",
-   "date": "2026-11-03",
+   "id": "SPRY-2026-11-04",
+   "date": "2026-11-04",
    "ticker": "SPRY",
    "name": "Ars Pharmaceuticals Inc",
-   "weight_pct": 0.0669,
+   "weight_pct": 0.0657,
    "close": 3.05,
    "return_pct": 0.0,
    "contribution_bps": 0.0
   },
   {
-   "id": "GERN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "GERN",
-   "name": "Geron Corp",
-   "weight_pct": 0.1691,
-   "close": 0.93,
-   "return_pct": 0.0,
-   "contribution_bps": 0.0
+   "id": "BBOT-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "BBOT",
+   "name": "Bridgebio Oncology Therapeut",
+   "weight_pct": 0.0151,
+   "close": 2.3,
+   "return_pct": -0.86,
+   "contribution_bps": -0.01
   },
   {
-   "id": "CRSP-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CRSP",
-   "name": "Crispr Therapeutics Ag",
-   "weight_pct": 1.3687,
-   "close": 49.99,
-   "return_pct": 0.0,
-   "contribution_bps": 0.0
-  },
-  {
-   "id": "ARDX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ARDX",
-   "name": "Ardelyx Inc",
-   "weight_pct": 0.2221,
-   "close": 3.03,
-   "return_pct": 0.0,
-   "contribution_bps": 0.0
-  },
-  {
-   "id": "CABA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CABA",
-   "name": "Cabaletta Bio Inc",
-   "weight_pct": 0.0713,
-   "close": 1.42,
-   "return_pct": -0.7,
-   "contribution_bps": -0.05
-  },
-  {
-   "id": "MDXG-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "MDXG",
-   "name": "Mimedx Group Inc",
+   "id": "ASMB-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ASMB",
+   "name": "Assembly Biosciences Inc",
    "weight_pct": 0.0595,
-   "close": 3.25,
-   "return_pct": -0.91,
-   "contribution_bps": -0.05
+   "close": 19.87,
+   "return_pct": -0.25,
+   "contribution_bps": -0.01
   },
   {
-   "id": "BIIB-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "BIIB",
-   "name": "Biogen Inc",
-   "weight_pct": 1.76,
-   "close": 248.93,
-   "return_pct": -0.03,
+   "id": "MYGN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "MYGN",
+   "name": "Myriad Genetics Inc",
+   "weight_pct": 0.1694,
+   "close": 6.02,
+   "return_pct": -0.33,
    "contribution_bps": -0.06
   },
   {
-   "id": "ARWR-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ARWR",
-   "name": "Arrowhead Pharmaceuticals In",
-   "weight_pct": 1.0738,
-   "close": 59.53,
-   "return_pct": -0.07,
-   "contribution_bps": -0.07
+   "id": "BCAX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "BCAX",
+   "name": "Bicara Therapeutics Inc",
+   "weight_pct": 0.0969,
+   "close": 8.89,
+   "return_pct": -0.78,
+   "contribution_bps": -0.08
   },
   {
-   "id": "CMPX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CMPX",
-   "name": "Compass Therapeutics Inc",
-   "weight_pct": 0.0372,
-   "close": 0.75,
-   "return_pct": -1.95,
-   "contribution_bps": -0.07
+   "id": "MDXG-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "MDXG",
+   "name": "Mimedx Group Inc",
+   "weight_pct": 0.0579,
+   "close": 3.2,
+   "return_pct": -1.54,
+   "contribution_bps": -0.09
   },
   {
-   "id": "PRTA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "PRTA",
-   "name": "Prothena Corp Plc",
-   "weight_pct": 0.0756,
-   "close": 8.21,
-   "return_pct": -0.97,
-   "contribution_bps": -0.07
+   "id": "ANAB-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ANAB",
+   "name": "Anaptysbio Inc",
+   "weight_pct": 0.3026,
+   "close": 47.51,
+   "return_pct": -0.46,
+   "contribution_bps": -0.14
   },
   {
-   "id": "AVTX-2026-11-03",
-   "date": "2026-11-03",
+   "id": "AVTX-2026-11-04",
+   "date": "2026-11-04",
    "ticker": "AVTX",
    "name": "Avalo Therapeutics Inc",
-   "weight_pct": 0.1085,
-   "close": 7.25,
-   "return_pct": -0.96,
-   "contribution_bps": -0.1
-  },
-  {
-   "id": "VNDA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VNDA",
-   "name": "Vanda Pharmaceuticals Inc",
-   "weight_pct": 0.07,
-   "close": 3.75,
-   "return_pct": -3.35,
-   "contribution_bps": -0.23
-  },
-  {
-   "id": "CTMX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "CTMX",
-   "name": "Cytomx Therapeutics Inc",
-   "weight_pct": 0.1141,
-   "close": 2.18,
-   "return_pct": -2.24,
+   "weight_pct": 0.1056,
+   "close": 7.07,
+   "return_pct": -2.48,
    "contribution_bps": -0.26
   },
   {
-   "id": "AVBP-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "AVBP",
-   "name": "Arrivent Biopharma Inc",
-   "weight_pct": 0.1236,
-   "close": 13.02,
-   "return_pct": -2.47,
-   "contribution_bps": -0.31
+   "id": "SVRA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SVRA",
+   "name": "Savara Inc",
+   "weight_pct": 0.1497,
+   "close": 4.66,
+   "return_pct": -1.89,
+   "contribution_bps": -0.28
   },
   {
-   "id": "EBS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "EBS",
-   "name": "Emergent Biosolutions Inc",
-   "weight_pct": 0.1049,
-   "close": 6.25,
-   "return_pct": -2.95,
-   "contribution_bps": -0.31
+   "id": "SYRE-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SYRE",
+   "name": "Spyre Therapeutics Inc",
+   "weight_pct": 1.6705,
+   "close": 99.04,
+   "return_pct": -0.23,
+   "contribution_bps": -0.39
   },
   {
-   "id": "ABUS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ABUS",
-   "name": "Arbutus Biopharma Corp",
-   "weight_pct": 0.1126,
-   "close": 3.88,
-   "return_pct": -3.0,
-   "contribution_bps": -0.34
-  },
-  {
-   "id": "VRDN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VRDN",
-   "name": "Viridian Therapeutics Inc",
-   "weight_pct": 0.6365,
-   "close": 25.15,
-   "return_pct": -0.59,
-   "contribution_bps": -0.38
-  },
-  {
-   "id": "KYMR-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "KYMR",
-   "name": "Kymera Therapeutics Inc",
-   "weight_pct": 1.3753,
-   "close": 127.09,
-   "return_pct": -0.33,
+   "id": "CLYM-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CLYM",
+   "name": "Climb Bio Inc",
+   "weight_pct": 0.1039,
+   "close": 9.33,
+   "return_pct": -4.31,
    "contribution_bps": -0.45
   },
   {
-   "id": "HALO-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "HALO",
-   "name": "Halozyme Therapeutics Inc",
-   "weight_pct": 1.7884,
-   "close": 128.62,
-   "return_pct": -0.26,
-   "contribution_bps": -0.46
+   "id": "KOD-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "KOD",
+   "name": "Kodiak Sciences Inc",
+   "weight_pct": 1.2552,
+   "close": 98.51,
+   "return_pct": -0.38,
+   "contribution_bps": -0.48
   },
   {
-   "id": "GLUE-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "GLUE",
-   "name": "Monte Rosa Therapeutics Inc",
-   "weight_pct": 0.2256,
-   "close": 10.41,
-   "return_pct": -2.07,
-   "contribution_bps": -0.47
+   "id": "EBS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "EBS",
+   "name": "Emergent Biosolutions Inc",
+   "weight_pct": 0.1,
+   "close": 5.9,
+   "return_pct": -5.6,
+   "contribution_bps": -0.56
   },
   {
-   "id": "IDYA-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "IDYA",
-   "name": "Ideaya Biosciences Inc",
-   "weight_pct": 0.5061,
-   "close": 31.33,
-   "return_pct": -0.98,
-   "contribution_bps": -0.5
+   "id": "CELC-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CELC",
+   "name": "Celcuity Inc",
+   "weight_pct": 0.8263,
+   "close": 69.24,
+   "return_pct": -0.69,
+   "contribution_bps": -0.57
   },
   {
-   "id": "RIGL-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "RIGL",
-   "name": "Rigel Pharmaceuticals Inc",
-   "weight_pct": 0.2413,
-   "close": 48.86,
-   "return_pct": -3.3,
-   "contribution_bps": -0.8
+   "id": "STTK-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "STTK",
+   "name": "Shattuck Labs Inc",
+   "weight_pct": 0.0992,
+   "close": 5.15,
+   "return_pct": -5.85,
+   "contribution_bps": -0.58
   },
   {
-   "id": "AMGN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "AMGN",
-   "name": "Amgen Inc",
-   "weight_pct": 1.772,
-   "close": 461.26,
-   "return_pct": -0.9,
-   "contribution_bps": -1.6
+   "id": "ORIC-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ORIC",
+   "name": "Oric Pharmaceuticals Inc",
+   "weight_pct": 0.2296,
+   "close": 9.34,
+   "return_pct": -2.61,
+   "contribution_bps": -0.6
   },
   {
-   "id": "ABBV-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "ABBV",
-   "name": "Abbvie Inc",
-   "weight_pct": 1.7148,
-   "close": 286.0,
-   "return_pct": -0.98,
+   "id": "IONS-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "IONS",
+   "name": "Ionis Pharmaceuticals Inc",
+   "weight_pct": 1.0556,
+   "close": 40.15,
+   "return_pct": -0.67,
+   "contribution_bps": -0.71
+  },
+  {
+   "id": "PGEN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "PGEN",
+   "name": "Precigen Inc",
+   "weight_pct": 0.295,
+   "close": 5.05,
+   "return_pct": -3.71,
+   "contribution_bps": -1.1
+  },
+  {
+   "id": "BHVN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "BHVN",
+   "name": "Biohaven Ltd",
+   "weight_pct": 0.5718,
+   "close": 15.24,
+   "return_pct": -2.37,
+   "contribution_bps": -1.36
+  },
+  {
+   "id": "IOVA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "IOVA",
+   "name": "Iovance Biotherapeutics Inc",
+   "weight_pct": 0.9835,
+   "close": 8.7,
+   "return_pct": -1.47,
+   "contribution_bps": -1.45
+  },
+  {
+   "id": "IMNM-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "IMNM",
+   "name": "Immunome Inc",
+   "weight_pct": 0.3924,
+   "close": 19.52,
+   "return_pct": -3.89,
+   "contribution_bps": -1.53
+  },
+  {
+   "id": "QURE-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "QURE",
+   "name": "Uniqure Nv",
+   "weight_pct": 0.4801,
+   "close": 23.03,
+   "return_pct": -3.52,
    "contribution_bps": -1.69
   },
   {
-   "id": "BBIO-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "BBIO",
-   "name": "Bridgebio Pharma Inc",
-   "weight_pct": 1.4682,
-   "close": 74.03,
-   "return_pct": -1.29,
-   "contribution_bps": -1.89
+   "id": "BCRX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "BCRX",
+   "name": "Biocryst Pharmaceuticals Inc",
+   "weight_pct": 0.5848,
+   "close": 8.24,
+   "return_pct": -3.85,
+   "contribution_bps": -2.25
   },
   {
-   "id": "IONS-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "IONS",
-   "name": "Ionis Pharmaceuticals Inc",
-   "weight_pct": 1.0965,
-   "close": 40.42,
-   "return_pct": -1.99,
-   "contribution_bps": -2.18
+   "id": "PURR-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "PURR",
+   "name": "Hyperliquid Strategies",
+   "weight_pct": 0.6028,
+   "close": 9.69,
+   "return_pct": -4.63,
+   "contribution_bps": -2.79
   },
   {
-   "id": "RXRX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "RXRX",
-   "name": "Recursion Pharmaceuticals A",
-   "weight_pct": 0.6413,
-   "close": 3.68,
-   "return_pct": -3.92,
-   "contribution_bps": -2.51
+   "id": "ADMA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "ADMA",
+   "name": "Adma Biologics Inc",
+   "weight_pct": 0.4988,
+   "close": 10.48,
+   "return_pct": -5.67,
+   "contribution_bps": -2.83
   },
   {
-   "id": "VKTX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VKTX",
-   "name": "Viking Therapeutics Inc",
-   "weight_pct": 0.9316,
-   "close": 26.09,
-   "return_pct": -2.76,
-   "contribution_bps": -2.57
+   "id": "CDNA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CDNA",
+   "name": "Caredx Inc",
+   "weight_pct": 1.1574,
+   "close": 85.86,
+   "return_pct": -2.95,
+   "contribution_bps": -3.41
   },
   {
-   "id": "INCY-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "INCY",
-   "name": "Incyte Corp",
-   "weight_pct": 1.4188,
-   "close": 117.59,
-   "return_pct": -2.04,
-   "contribution_bps": -2.9
+   "id": "CGEM-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "CGEM",
+   "name": "Cullinan Therapeutics Inc",
+   "weight_pct": 0.1912,
+   "close": 12.49,
+   "return_pct": -20.7,
+   "contribution_bps": -3.96
   },
   {
-   "id": "GILD-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "GILD",
-   "name": "Gilead Sciences Inc",
-   "weight_pct": 1.7419,
-   "close": 167.47,
-   "return_pct": -1.68,
-   "contribution_bps": -2.92
+   "id": "KURA-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "KURA",
+   "name": "Kura Oncology Inc",
+   "weight_pct": 0.2486,
+   "close": 7.61,
+   "return_pct": -22.98,
+   "contribution_bps": -5.71
   },
   {
-   "id": "BMRN-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "BMRN",
-   "name": "Biomarin Pharmaceutical Inc",
-   "weight_pct": 1.3282,
-   "close": 55.66,
-   "return_pct": -3.1,
-   "contribution_bps": -4.12
+   "id": "REGN-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "weight_pct": 1.7629,
+   "close": 930.67,
+   "return_pct": -4.39,
+   "contribution_bps": -7.73
   },
   {
-   "id": "INSM-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "INSM",
-   "name": "Insmed Inc",
-   "weight_pct": 1.2641,
-   "close": 104.44,
-   "return_pct": -4.46,
-   "contribution_bps": -5.63
+   "id": "SNDX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "SNDX",
+   "name": "Syndax Pharmaceuticals Inc",
+   "weight_pct": 0.3604,
+   "close": 10.45,
+   "return_pct": -26.87,
+   "contribution_bps": -9.69
   },
   {
-   "id": "VRTX-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "VRTX",
-   "name": "Vertex Pharmaceuticals Inc",
-   "weight_pct": 1.5812,
-   "close": 530.76,
-   "return_pct": -4.05,
-   "contribution_bps": -6.4
-  },
-  {
-   "id": "RYTM-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "RYTM",
-   "name": "Rhythm Pharmaceuticals Inc",
-   "weight_pct": 1.1155,
-   "close": 86.44,
-   "return_pct": -7.49,
-   "contribution_bps": -8.36
-  },
-  {
-   "id": "MDGL-2026-11-03",
-   "date": "2026-11-03",
-   "ticker": "MDGL",
-   "name": "Madrigal Pharmaceuticals Inc",
-   "weight_pct": 1.1748,
-   "close": 396.32,
-   "return_pct": -8.08,
-   "contribution_bps": -9.49
+   "id": "NRIX-2026-11-04",
+   "date": "2026-11-04",
+   "ticker": "NRIX",
+   "name": "Nurix Therapeutics Inc",
+   "weight_pct": 0.5606,
+   "close": 15.95,
+   "return_pct": -38.23,
+   "contribution_bps": -21.43
   }
  ]
 }
