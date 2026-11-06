@@ -1,5 +1,25 @@
 [
  {
+  "id": "SMMT-ivonescimab-2026-11-14",
+  "ticker": "SMMT",
+  "company": "Summit Therapeutics",
+  "drug": "Ivonescimab",
+  "indication": "EGFR-mutated NSCLC after 3rd-gen TKI",
+  "pdufa_date": "2026-11-14",
+  "outcome": "Approved",
+  "decision_date": "2026-11-04",
+  "headline": "SMMT: A $2.0 billion post-quarter investment funds expansion, but FDA approval hinges on OS evidence",
+  "source_name": "TradingView",
+  "source_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPaVpRa0VnMVNSMXpHUF8zdDRzMDFna1lyQkRWTVRaRzI5UURINnpTOTBjSFhKMzZMUnpRVGQ3azhhX2FOMk5XeXFlSGpOQTVRbkFsdjB4N19jQXJ4UXVTaWp6TDkzZ21XZTBaTFUyc2VjMkMzVW5UUGJqQ2p3NEtmdjBDOVZXdHpNbVkwdUVpYUdMdXVMS1hESDkxa0hQQ1FvOHl5bGtVSU1jRG55S01pWkNMSmpiZWpPMnhQVTRIa2Z1cnpnSURsRzdMNm1Bd1d4V2xsWHhYOVBaOE4zMWJaMlRxLWVyX2l5Y0ZWS0VSZHJORUYteU91cUY3ZlhieVQyVjdSX3BOblZzSG1J?oc=5",
+  "reaction_date": "2026-11-05",
+  "reaction_pct": -12.24,
+  "window_pct": -10.19,
+  "biggest_day": "2026-11-05",
+  "biggest_day_pct": -12.24,
+  "checked_at": "2026-11-06T02:46:26+00:00",
+  "final": true
+ },
+ {
   "id": "AGIO-mitapivat-2026-11-01",
   "ticker": "AGIO",
   "company": "Agios",
@@ -16,7 +36,7 @@
   "window_pct": -15.6,
   "biggest_day": "2026-10-30",
   "biggest_day_pct": -17.94,
-  "checked_at": "2026-11-04T23:16:03+00:00",
+  "checked_at": "2026-11-06T02:46:22+00:00",
   "final": false
  },
  {
