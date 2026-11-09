@@ -2,8 +2,10 @@ name: Intraday XBI snapshot
 
 on:
   schedule:
-    # 15:05, 17:05, 19:05 UTC on weekdays = 8:05/10:05/12:05 PT (PDT) or 7:05/9:05/11:05 PT (PST)
-    - cron: "5 15,17,19 * * 1-5"
+    # Every 30 minutes, 14:00-21:30 UTC on weekdays (covers market hours in both PST and PDT).
+    # GitHub often runs scheduled jobs late or skips some, so frequent runs make sure a fresh
+    # snapshot is there when the dashboard copies it. Runs outside market hours exit right away.
+    - cron: "*/30 14-21 * * 1-5"
   workflow_dispatch:
 
 permissions:

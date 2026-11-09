@@ -50,12 +50,15 @@ def main() -> int:
     # Earlier checkpoints from today's file, if any.
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     path = OUT_DIR / "today.json"
-    points = []
+    points, known = [], {}
     if path.exists():
         try:
-            points = [r for r in json.loads(path.read_text()) if r.get("kind") == "point" and r.get("date") == date]
+            prev = [r for r in json.loads(path.read_text()) if r.get("date") == date]
+            points = [r for r in prev if r.get("kind") == "point"]
+            # reuse headlines already found today so frequent runs don't hammer the news search
+            known = {r["ticker"]: r for r in prev if r.get("kind") == "mover" and r.get("headline")}
         except Exception:
-            points = []
+            points, known = [], {}
     t_pt = now.astimezone(PT)
     stamp = now.isoformat(timespec="seconds")
     points.append({
@@ -68,8 +71,12 @@ def main() -> int:
 
     movers = []
     for r in pick_movers(priced, n_pct=6, n_contrib=5).itertuples():
-        news = recent_headlines(r.Ticker, str(r.Name), date, limit=1)
-        h = news[0] if news else {}
+        if r.Ticker in known:
+            k = known[r.Ticker]
+            h = {"title": k["headline"], "publisher": k.get("publisher"), "link": k.get("link")}
+        else:
+            news = recent_headlines(r.Ticker, str(r.Name), date, limit=1)
+            h = news[0] if news else {}
         movers.append({
             "kind": "mover", "id": f"mover-{r.Ticker}", "date": date, "as_of": stamp,
             "ticker": r.Ticker, "name": str(r.Name).title(),
