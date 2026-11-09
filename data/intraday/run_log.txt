@@ -1,17 +1,14 @@
-
-1 Failed download:
-['IRWD']: OperationalError('database is locked')
-Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29732 bytes
+Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29718 bytes
 First rows of holdings sheet:
-                0                                     1           2        3         4       5            6               7
-0      Fund Name:  State Street® SPDR® S&P® Biotech ETF         NaN      NaN       NaN     NaN          NaN             NaN
-1  Ticker Symbol:                                   XBI         NaN      NaN       NaN     NaN          NaN             NaN
-2       Holdings:                     As of 05-Nov-2026         NaN      NaN       NaN     NaN          NaN             NaN
-3             NaN                                   NaN         NaN      NaN       NaN     NaN          NaN             NaN
-4            Name                                Ticker  Identifier    SEDOL    Weight  Sector  Shares Held  Local Currency
-5     MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.714866       -      1130643             USD
-6    EXELIXIS INC                                  EXEL   30161Q104  2576941  1.795974       -      2628467             USD
-7       AMGEN INC                                  AMGN   031162100  2023607  1.793735       -       391885             USD
-Retrying prices for: IRWD
-  KOD: 1 search results, none recent and naming 'Kodiak Sciences' (e.g. 'Polen 5Perspectives Ultra-Small Growth Q3 2026 Portfolio Review')
-2026-11-06 12:48 PM PT: XBI 152.35 (+2.66%), 1 checkpoints, 14 movers (news searches: 14 via Google, 0 via Bing, 0 failed)
+                        0                                     1           2        3         4       5            6               7
+0              Fund Name:  State Street® SPDR® S&P® Biotech ETF         NaN      NaN       NaN     NaN          NaN             NaN
+1          Ticker Symbol:                                   XBI         NaN      NaN       NaN     NaN          NaN             NaN
+2               Holdings:                     As of 06-Nov-2026         NaN      NaN       NaN     NaN          NaN             NaN
+3                     NaN                                   NaN         NaN      NaN       NaN     NaN          NaN             NaN
+4                    Name                                Ticker  Identifier    SEDOL    Weight  Sector  Shares Held  Local Currency
+5             MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.787337       -      1121029             USD
+6  SPYRE THERAPEUTICS INC                                  SYRE   00773J202  BQBBDY8  1.776522       -      1748671             USD
+7            EXELIXIS INC                                  EXEL   30161Q104  2576941  1.773507       -      2606134             USD
+  ARWR: 0 search results, none recent and naming 'Arrowhead Pharmaceuticals In'
+  RLAY: 5 search results, none recent and naming 'Relay Therapeutics' (e.g. 'JonesTrading Maintains Relay Therapeutics(RLAY.US) With Buy Rating, Ra')
+2026-11-09 11:14 AM PT: XBI 156.83 (+3.04%), 1 checkpoints, 12 movers (news searches: 12 via Google, 0 via Bing, 0 failed)
