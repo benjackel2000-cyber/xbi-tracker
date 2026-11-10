@@ -1,20 +1,15 @@
-
-1 Failed download:
-['BBIO']: OperationalError('database is locked')
-Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29732 bytes
+Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29718 bytes
 First rows of holdings sheet:
-                0                                     1           2        3         4       5            6               7
-0      Fund Name:  State Street® SPDR® S&P® Biotech ETF         NaN      NaN       NaN     NaN          NaN             NaN
-1  Ticker Symbol:                                   XBI         NaN      NaN       NaN     NaN          NaN             NaN
-2       Holdings:                     As of 05-Nov-2026         NaN      NaN       NaN     NaN          NaN             NaN
-3             NaN                                   NaN         NaN      NaN       NaN     NaN          NaN             NaN
-4            Name                                Ticker  Identifier    SEDOL    Weight  Sector  Shares Held  Local Currency
-5     MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.714866       -      1130643             USD
-6    EXELIXIS INC                                  EXEL   30161Q104  2576941  1.795974       -      2628467             USD
-7       AMGEN INC                                  AMGN   031162100  2023607  1.793735       -       391885             USD
+                        0                                     1           2        3         4       5            6               7
+0              Fund Name:  State Street® SPDR® S&P® Biotech ETF         NaN      NaN       NaN     NaN          NaN             NaN
+1          Ticker Symbol:                                   XBI         NaN      NaN       NaN     NaN          NaN             NaN
+2               Holdings:                     As of 06-Nov-2026         NaN      NaN       NaN     NaN          NaN             NaN
+3                     NaN                                   NaN         NaN      NaN       NaN     NaN          NaN             NaN
+4                    Name                                Ticker  Identifier    SEDOL    Weight  Sector  Shares Held  Local Currency
+5             MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.787337       -      1121029             USD
+6  SPYRE THERAPEUTICS INC                                  SYRE   00773J202  BQBBDY8  1.776522       -      1748671             USD
+7            EXELIXIS INC                                  EXEL   30161Q104  2576941  1.773507       -      2606134             USD
 Parsed 157 holdings; weights sum to 99.9%
-Retrying prices for: BBIO
-  ORKA: 9 search results, none recent and naming 'Oruka Therapeutics' (e.g. 'Oruka Therapeutics, Inc. (ORKA) stock price, news, quote and history')
+  ARWR: 0 search results, none recent and naming 'Arrowhead Pharmaceuticals In'
 Movers with headlines: 10/11 (news searches: 11 via Google, 0 via Bing, 0 failed)
-2026-11-06: 41/157 holdings priced; sum of contributions 31.7 bps vs XBI 2.57%
-No price for: ABBV, ABSI, ADMA, AGIO, AKTS, ALLO, ALT, ANAB, ANNX, ARDX, ARQT, AURA, AVBP, AVTX, BBIO, BBOT, BCAX, BEAM, BHVN, CABA, CADL, CBIO, CDNA, CELC, CGEM, CGON, CLYM, CMPX, COAG, COGT, CRSP, CRVS, CTMX, DMRA, DNLI, DNTH, DSGN, DYN, EDIT, ERAS, FDMT, FTH, GLUE, GRAL, IBRX, IDYA, IMMX, IMNM, IMVT, INBX, IRON, JANX, JBIO, KLRA, KOD, KRYS, KURA, KYMR, LXEO, MIRM, MLYS, MNPR, MRNA, NGNE, NRIX, NTLA, NTRA, OCGN, OLMA, ORIC, OVID, PCVX, PGEN, PRAX, PRME, PRTA, PTCT, PTGX, PURR, PVLA, QURE, RARE, RCUS, REPL, RGNX, RLAY, ROIV, RVMD, RXRX, RYTM, SANA, SGMT, SLDB, SMMT, SNDX, SPRY, SRRK, STOK, STTK, SVRA, SYRE, TNGX, TRAX, TSHA, TVTX, TWST, TYRA, VCYT, VERA, VIR, VKTX, VOR, VRDN, VSTM, XNCR, ZBIO
+2026-11-09: 157/157 holdings priced; sum of contributions 298.7 bps vs XBI 3.08%
