@@ -9,5 +9,5 @@ First rows of holdings sheet:
 5             MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.864196       -      1131454             USD
 6  SPYRE THERAPEUTICS INC                                  SYRE   00773J202  BQBBDY8  1.810387       -      1764946             USD
 7            EXELIXIS INC                                  EXEL   30161Q104  2576941  1.775817       -      2630409             USD
-  SYRE: 6 search results, none recent and naming 'Spyre Therapeutics' (e.g. 'Spyre Therapeutics, Inc. (SYRE) Stock Price, News, Quote & History')
-2026-11-10 12:38 PM PT: XBI 154.94 (-1.25%), 1 checkpoints, 15 movers (news searches: 15 via Google, 0 via Bing, 0 failed)
+  SYRE: 5 search results, none recent and naming 'Spyre Therapeutics' (e.g. 'Spyre Therapeutics, Inc. (SYRE) Stock Price, News, Quote & History')
+2026-11-10 4:56 PM PT: XBI 155.06 (-1.17%), 2 checkpoints, 14 movers (news searches: 4 via Google, 0 via Bing, 0 failed)
