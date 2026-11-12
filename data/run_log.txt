@@ -1,15 +1,15 @@
-Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29744 bytes
+Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29730 bytes
 First rows of holdings sheet:
                         0                                     1           2        3         4       5            6               7
 0              Fund Name:  State Street® SPDR® S&P® Biotech ETF         NaN      NaN       NaN     NaN          NaN             NaN
 1          Ticker Symbol:                                   XBI         NaN      NaN       NaN     NaN          NaN             NaN
-2               Holdings:                     As of 09-Nov-2026         NaN      NaN       NaN     NaN          NaN             NaN
+2               Holdings:                     As of 10-Nov-2026         NaN      NaN       NaN     NaN          NaN             NaN
 3                     NaN                                   NaN         NaN      NaN       NaN     NaN          NaN             NaN
 4                    Name                                Ticker  Identifier    SEDOL    Weight  Sector  Shares Held  Local Currency
-5             MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.864196       -      1131454             USD
-6  SPYRE THERAPEUTICS INC                                  SYRE   00773J202  BQBBDY8  1.810387       -      1764946             USD
-7            EXELIXIS INC                                  EXEL   30161Q104  2576941  1.775817       -      2630409             USD
+5             MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.702869       -      1131871             USD
+6            EXELIXIS INC                                  EXEL   30161Q104  2576941  1.768128       -      2631380             USD
+7  SPYRE THERAPEUTICS INC                                  SYRE   00773J202  BQBBDY8  1.756197       -      1765597             USD
 Parsed 157 holdings; weights sum to 99.9%
-  ARWR: 0 search results, none recent and naming 'Arrowhead Pharmaceuticals In'
-Movers with headlines: 10/11 (news searches: 11 via Google, 0 via Bing, 0 failed)
-2026-11-09: 157/157 holdings priced; sum of contributions 332.5 bps vs XBI 3.08%
+Movers with headlines: 1/1 (news searches: 1 via Google, 0 via Bing, 0 failed)
+2026-11-11: 1/157 holdings priced; sum of contributions 0.1 bps vs XBI nan%
+No price for: ABBV, ABSI, ABUS, ACAD, ADMA, AGIO, AKTS, ALKS, ALLO, ALNY, ALT, AMGN, ANAB, ANNX, ARDX, ARQT, ARWR, ASMB, AURA, AVBP, AVTX, BBIO, BBOT, BCAX, BCRX, BEAM, BHVN, BIIB, BMRN, CABA, CADL, CAPR, CBIO, CDNA, CELC, CGEM, CGON, CLDX, CLYM, CMPX, COAG, COGT, CRSP, CRVS, CTMX, CYTK, DMRA, DNLI, DNTH, DSGN, DYN, EBS, EDIT, ERAS, EXEL, FDMT, FTH, GERN, GILD, GLUE, GRAL, HALO, IBRX, IDYA, IMMX, IMNM, IMVT, INBX, INCY, INSM, IONS, IOVA, IRON, IRWD, JANX, JBIO, KLRA, KOD, KRYS, KURA, KYMR, LXEO, MDGL, MDXG, MIRM, MLYS, MNKD, MNPR, MRNA, MYGN, NBIX, NGNE, NKTR, NRIX, NTLA, NTRA, NVAX, OCGN, OLMA, ORIC, ORKA, OVID, PCVX, PGEN, PRAX, PRME, PRTA, PTCT, PTGX, PURR, PVLA, QURE, RARE, RCUS, REGN, REPL, RGNX, RIGL, RLAY, ROIV, RVMD, RXRX, RYTM, SANA, SGMT, SLDB, SLS, SMMT, SNDX, SPRY, SRPT, SRRK, STOK, STTK, SVRA, SYRE, TGTX, TNGX, TRAX, TSHA, TVTX, TWST, TYRA, UTHR, VCEL, VCYT, VERA, VIR, VKTX, VNDA, VOR, VRDN, VRTX, VSTM, XNCR, ZBIO

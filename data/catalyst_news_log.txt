@@ -1,28 +1,37 @@
-Watching 191 tickers, 236 catalyst rows.
-Broad 'FDA approves': 64 items, 16 kept
-Broad 'FDA approval biotech': 23 items, 2 kept
-Broad 'complete response letter FDA': 20 items, 0 kept
-Broad 'Phase 3 topline results': 14 items, 2 kept
-Broad 'Phase 3 trial met primary endpoint': 25 items, 5 kept
-Broad 'Phase 3 did not meet primary endpoint': 20 items, 0 kept
-Broad 'pivotal trial results biotech': 19 items, 1 kept
-Broad 'Phase 2 topline data': 13 items, 2 kept
-Broad 'Phase 2 trial results biotech': 22 items, 1 kept
-Broad 'Phase 2b results primary endpoint': 14 items, 3 kept
-Broad 'site:globenewswire.com topline results': 67 items, 1 kept
-Broad 'site:businesswire.com topline results': 32 items, 1 kept
+Watching 65 tickers, 236 catalyst rows.
+Broad 'FDA approves': 73 items, 10 kept
+Broad 'FDA approval biotech': 26 items, 2 kept
+Broad 'complete response letter FDA': 16 items, 0 kept
+Broad 'Phase 3 topline results': 16 items, 0 kept
+Broad 'Phase 3 trial met primary endpoint': 20 items, 1 kept
+Broad 'Phase 3 did not meet primary endpoint': 18 items, 0 kept
+Broad 'pivotal trial results biotech': 17 items, 0 kept
+Broad 'Phase 2 topline data': 15 items, 0 kept
+Broad 'Phase 2 trial results biotech': 21 items, 0 kept
+Broad 'Phase 2b results primary endpoint': 17 items, 1 kept
+Broad 'site:globenewswire.com topline results': 40 items, 0 kept
+Broad 'site:businesswire.com topline results': 19 items, 0 kept
 Broad 'site:prnewswire.com topline results': 7 items, 0 kept
-Broad 'site:biospace.com Phase 3 results': 100 items, 4 kept
-Broad 'site:fiercebiotech.com phase data': 23 items, 0 kept
+Broad 'site:biospace.com Phase 3 results': 89 items, 1 kept
+Broad 'site:fiercebiotech.com phase data': 15 items, 0 kept
 Broad 'site:endpts.com data': 0 items, 0 kept
 39 trials due or overdue; checking 30 this run.
+Check NCT04657991-2026-10-30 (MRK): nothing yet
+Check NCT05444257-2026-10-30 (VRTX): nothing yet
+Check NCT06136585-2026-10-31 (MRK): nothing yet
+Check NCT03992430-2026-10-31 (SRPT): nothing yet
+Check NCT06951698-2026-11-01 (BMY): nothing yet
+Check NCT05066217-2026-11-01 (HRMY): nothing yet
+Check NCT06829823-2026-11-01 (IBRX): nothing yet
+Check NCT05834777-2026-11-01 (PHVS): nothing yet
+Check NCT06951711-2026-11-02 (BMY): nothing yet
 Check NCT05646862-2026-11-13 (RHHBY): nothing yet
 Check NCT05946941-2026-11-18 (BMY): nothing yet
 Check NCT04634877-2026-11-20 (MRK): nothing yet
 Check NCT06585787-2026-11-24 (BMY): nothing yet
 Check NCT03815643-2026-11-24 (MRK): nothing yet
 Check NCT07103148-2026-11-28 (SNY): nothing yet
-Check NCT05438407-2026-11-30 (PHAR): possible results -> Pharming reports positive Phase II topline for leniolisib in primary immunodeficiencies wi
+Check NCT05438407-2026-11-30 (PHAR): nothing yet
 Check NCT03148418-2026-11-30 (RHHBY): nothing yet
 Check NCT07216079-2026-11-30 (SNY): nothing yet
 Check NCT06170970-2026-12-01 (AXSM): nothing yet
@@ -37,13 +46,4 @@ Check NCT05392114-2026-12-01 (IONS): nothing yet
 Check NCT07010471-2026-12-01 (PRAX): nothing yet
 Check NCT07019922-2026-12-01 (PRAX): nothing yet
 Check NCT07070466-2026-12-01 (SMMT): nothing yet
-Check NCT06838000-2026-12-01 (SNY): nothing yet
-Check NCT03683186-2026-12-01 (UTHR): nothing yet
-Check NCT07221578-2026-12-01 (VNDA): nothing yet
-Check NCT07446439-2026-12-01 (VNDA): nothing yet
-Check NCT05757869-2026-12-08 (BMY): nothing yet
-Check NCT06126224-2026-12-09 (BMY): nothing yet
-Check NCT05239728-2026-10-28 (MRK): nothing yet
-Check NCT05115110-2026-10-28 (RHHBY): nothing yet
-Check NCT06588855-2026-10-29 (RHHBY): nothing yet
-Saved 28 catalyst stories. (news searches: 46 via Google, 0 via Bing, 0 failed)
+Saved 12 catalyst stories. (news searches: 46 via Google, 0 via Bing, 0 failed)
