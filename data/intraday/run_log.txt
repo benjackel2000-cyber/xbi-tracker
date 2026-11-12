@@ -9,6 +9,10 @@ First rows of holdings sheet:
 5             MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.702869       -      1131871             USD
 6            EXELIXIS INC                                  EXEL   30161Q104  2576941  1.768128       -      2631380             USD
 7  SPYRE THERAPEUTICS INC                                  SYRE   00773J202  BQBBDY8  1.756197       -      1765597             USD
-  BBOT: 0 search results, none recent and naming 'Bridgebio Oncology Therapeut'
-  ERAS: 0 search results, none recent and naming 'Erasca'
-2026-11-11 12:57 PM PT: XBI 156.46 (+0.90%), 1 checkpoints, 16 movers (news searches: 16 via Google, 0 via Bing, 0 failed)
+Traceback (most recent call last):
+  File "/home/runner/work/xbi-tracker/xbi-tracker/xbi_intraday.py", line 103, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/runner/work/xbi-tracker/xbi-tracker/xbi_intraday.py", line 48, in main
+    raise RuntimeError("No XBI price.")
+RuntimeError: No XBI price.
