@@ -1,10 +1,10 @@
 {
- "date": "2026-11-11",
- "holdings_as_of": "10-nov-2026",
- "generated_at": "2026-11-12T02:24:29+00:00",
+ "date": "2026-11-12",
+ "holdings_as_of": "11-nov-2026",
+ "generated_at": "2026-11-13T02:02:20+00:00",
  "xbi_close": NaN,
  "xbi_return_pct": NaN,
- "sum_contribution_bps": 0.1,
+ "sum_contribution_bps": -0.3,
  "holdings_count": 157,
  "priced_count": 1,
  "missing_tickers": [
@@ -174,8 +174,8 @@
   {
    "ticker": "QUIT",
    "name": "Achieve Life Sciences Inc",
-   "return_pct": 0.78,
-   "contribution_bps": 0.1,
+   "return_pct": -2.48,
+   "contribution_bps": -0.33,
    "headlines": [
     {
      "title": "Achieve Life Sciences (NasdaqCM:QUIT) Stock Forecast & Analyst Predictions",
@@ -184,42 +184,24 @@
      "published": "2026-11-11T04:39:56+00:00"
     },
     {
-     "title": "QUIT Stock Price and Chart \u2014 NASDAQ:QUIT",
-     "publisher": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VREYwNGFnNnQxazU4ZXhoek1Mci1hbmtxT0tPUjIzYW1Nc25BcmdXNHZCWHU1dnhEYzB6Q201WHNCMTZfdVA2ODA1eDlNLXZZamNLN0luMDZ2VlV1?oc=5",
-     "published": "2026-11-10T21:12:14+00:00"
-    },
-    {
-     "title": "Preferred dividends of Achieve Life Sciences, Inc. \u2013 NASDAQ:QUIT",
-     "publisher": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMjhydTByeDJRaDFLeFJYWlFCdDlYVUNRR1drVmZOc0FNYk41Z01leHZpSVRDZTEwQ1lwRUNhSjgwbXl3YWlJUjcwZ29Pc3E3YS02d01qSVFpN21tUURYeEJZMGREVGI5bzBiMHFTbEhSaHNDcVlvRS1vTnIySnlIRlJTYTFQejMxVFc5UzhmODdNbWtpSmlWaDJBMGE?oc=5",
-     "published": "2026-11-10T15:56:47+00:00"
-    },
-    {
-     "title": "Achieve Life Sciences, Inc. Income Statement \u2013 NASDAQ:QUIT",
-     "publisher": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTkFNdUtHczRLVFhwbDl1VVRqZ2Z4Z2N3NmEtNENObGZkYjVlY2VPOFVIYUVsNlpDaVBZQ1p3WTRMdk5vSktISERyT2l5QXBUMWRVVlZqdGJueFVlSG4xRTBxTTczbXpNS1RJOW9MU1FOSFZlSWQwVVFKSURnVHphVFJR?oc=5",
-     "published": "2026-11-10T15:31:06+00:00"
-    },
-    {
-     "title": "Total liabilities of Achieve Life Sciences, Inc. \u2013 NASDAQ:QUIT",
-     "publisher": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdXdJYVpHYXZHYmxhTWZxQnBnR0Y3Tmh1YUtJdTYzMDNxN19hZnZEZXc2OXBobE1LMTdaWG5UQU5vemFkcjhaM1BnQi16QWYxZlNZRUdBRGg4X3ZVVlRhZGlycHpBNm90d0E4UWpieEFXUFlCZ3lVNG1LTDRtTGhFbVNyREp2YnYwVnU3RFdmTkt6cmNaSUE?oc=5",
-     "published": "2026-11-10T15:11:55+00:00"
+     "title": "Achieve Life Sciences (Nasdaq:QUIT) - Stock Analysis",
+     "publisher": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVnExZEF1U2Q0RUFGQldLXzJpOUpYNFpfeTQ4MXN6X2h1aEtDRFMyTDhid09CMkdIN1VaY0R3ZjlMR3B1dFR2R3FuNDZMSmpObmJQVFFYX2pUQjhybzdoT3d5WjVDNGYyTndPY3pCMHMzMzNUZ0JnRUEtSkEyT0dIZ3VpcVJfY2wtczdCcUg0WnFmMGc?oc=5",
+     "published": "2026-11-11T02:03:29+00:00"
     }
    ]
   }
  ],
  "rows": [
   {
-   "id": "QUIT-2026-11-11",
-   "date": "2026-11-11",
+   "id": "QUIT-2026-11-12",
+   "date": "2026-11-12",
    "ticker": "QUIT",
    "name": "Achieve Life Sciences Inc",
    "weight_pct": 0.1326,
-   "close": 6.45,
-   "return_pct": 0.78,
-   "contribution_bps": 0.1
+   "close": 6.29,
+   "return_pct": -2.48,
+   "contribution_bps": -0.33
   }
  ]
 }
