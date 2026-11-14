@@ -1,3 +1,6 @@
+
+1 Failed download:
+['GRAL']: OperationalError('database is locked')
 Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29718 bytes
 First rows of holdings sheet:
                 0                                     1           2        3         4       5            6               7
@@ -9,6 +12,11 @@ First rows of holdings sheet:
 5     MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.551131       -      1141013             USD
 6    EXELIXIS INC                                  EXEL   30161Q104  2576941  1.793112       -      2656626             USD
 7       AMGEN INC                                  AMGN   031162100  2023607  1.784814       -       395410             USD
-  BBOT: 0 search results, none recent and naming 'Bridgebio Oncology Therapeut'
-  GRAL: 2 search results, none recent and naming 'Grail' (e.g. 'GRAIL, Inc. (GRAL) stock price, news, quote and history')
-2026-11-13 12:41 PM PT: XBI 150.54 (-0.44%), 1 checkpoints, 14 movers (news searches: 14 via Google, 0 via Bing, 0 failed)
+Retrying prices for: GRAL
+Traceback (most recent call last):
+  File "/home/runner/work/xbi-tracker/xbi-tracker/xbi_intraday.py", line 103, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/runner/work/xbi-tracker/xbi-tracker/xbi_intraday.py", line 48, in main
+    raise RuntimeError("No XBI price.")
+RuntimeError: No XBI price.
