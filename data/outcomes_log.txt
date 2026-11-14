@@ -1,1 +1,7 @@
-Checked 0 events; 4 outcomes saved. (news searches: 4 via Google, 0 via Bing, 0 failed)
+$BTAI: possibly delisted; no price data found  (1d 2026-10-28 -> 2026-11-16)
+
+1 Failed download:
+['BTAI']: possibly delisted; no price data found  (1d 2026-10-28 -> 2026-11-16)
+BTAI   2026-11-14  No news found  reaction None%  window None%  | 
+CYTK   2026-11-14  No news found  reaction None%  window -9.92%  | 
+Checked 2 events; 6 outcomes saved. (news searches: 4 via Google, 0 via Bing, 0 failed)
