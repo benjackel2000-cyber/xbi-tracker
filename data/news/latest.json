@@ -1,43 +1,585 @@
 {
- "generated_at": "2026-11-15T18:49:52+00:00",
- "covers_since": "2026-11-12T18:49:36+00:00",
+ "generated_at": "2026-11-16T21:59:47+00:00",
+ "covers_since": "2026-11-13T21:59:14+00:00",
  "sources": {
-  "BioPharma Dive": "10 items, 3 kept",
+  "BioPharma Dive": "10 items, 4 kept",
   "Fierce Biotech": "25 items, 0 kept",
-  "PR Newswire (health)": "20 items, 3 kept",
+  "PR Newswire (health)": "20 items, 2 kept",
   "Google News: site:endpts.com deal OR licensing OR acquire OR raises": "0 items, 0 kept",
-  "Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing": "24 items, 0 kept",
-  "Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing": "16 items, 1 kept",
-  "Google News: site:biospace.com deal OR acquisition OR financing": "69 items, 8 kept",
-  "Google News: biotech license agreement upfront milestone": "2 items, 2 kept",
-  "Google News: pharma to acquire biotech per share": "25 items, 8 kept",
-  "Google News: biotech collaboration agreement upfront": "1 items, 1 kept",
-  "Google News: biotech Series A financing": "23 items, 8 kept",
-  "Google News: biotech Series B financing": "18 items, 8 kept",
-  "Google News: biotech Series C financing": "11 items, 5 kept",
-  "Google News: biotech IPO prices": "15 items, 11 kept",
-  "Google News: biotech raises million financing": "28 items, 15 kept"
+  "Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing": "23 items, 1 kept",
+  "Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing": "14 items, 3 kept",
+  "Google News: site:biospace.com deal OR acquisition OR financing": "100 items, 11 kept",
+  "Google News: biotech license agreement upfront milestone": "7 items, 6 kept",
+  "Google News: pharma to acquire biotech per share": "23 items, 3 kept",
+  "Google News: biotech collaboration agreement upfront": "2 items, 1 kept",
+  "Google News: biotech Series A financing": "25 items, 7 kept",
+  "Google News: biotech Series B financing": "17 items, 10 kept",
+  "Google News: biotech Series C financing": "10 items, 2 kept",
+  "Google News: biotech IPO prices": "21 items, 15 kept",
+  "Google News: biotech raises million financing": "22 items, 11 kept"
  },
- "count": 48,
+ "count": 61,
  "items": [
   {
-   "title": "Viking Therapeutics Highlights Clinical Data from VK2735 Obesity Program at ObesityWeek\u00ae 2026",
-   "publisher": "PR Newswire (health)",
-   "feed": "PR Newswire (health)",
-   "link": "https://www.prnewswire.com/news-releases/viking-therapeutics-highlights-clinical-data-from-vk2735-obesity-program-at-obesityweek-2026-302939732.html",
-   "published": "2026-11-15T17:05:00+00:00",
-   "summary": "VENTURE Analysis Finds 74% of Participants Receiving Subcutaneous VK2735 Improved by at Least One BMI Category after 13 Weeks VK2735 Treatment Led to Improvement Across Multiple Cardiometabolic Markers SAN DIEGO, Nov. 15, 2026 /PRNewswire/ -- Viking Therapeutics, Inc. (Viking) (NASDAQ:...",
+   "title": "EIRB.RC IPO News - Eye disease biotech EIR Biopharma withdraws $17 million IPO",
+   "publisher": "Renaissance Capital",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFliMmhnXzQ0T3BpV1UzUWQwbUYtdFFfbXFjQU5TMFZGdjJlbUJ3N1Q5c0JvY3lMeFZPaVA5SGxsYjF0WGNFeEFCdnVBdV9SV3BScjhtS1gtMjFLRmdxbmcxQjJFYUdjbF9jX2ZkTFl3M2NSWVpqVmhLMnlFYmdZQlJoRER3bUZrVUVyd3lOUVNIUFFuT1ppZXFLYXlHdktkVVcwOTNzeUdXZ2o4NFIxNGlQUVdwTjg?oc=5",
+   "published": "2026-11-16T21:48:00+00:00",
+   "summary": "EIRB.RC IPO News - Eye disease biotech EIR Biopharma withdraws $17 million IPO &nbsp;&nbsp; Renaissance Capital",
    "kinds": [
     "funding"
    ]
   },
   {
-   "title": "Preclinical Biotech Unnatural Products Lands $1.15 Billion M&A Deal",
-   "publisher": "WSJ",
+   "title": "Windward Bio raises $251.2M in IPO on Nasdaq By Investing.com",
+   "publisher": "Investing.com Nigeria",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdlI0c1BKNmRQMkl6OVpsVXJRQUFmWHFENWFyQTJMMjVwSkJJekdnUVVyQ1IwRzZQQ0s2b25CNFJuM3lfVVBubzRweWI1Wlc2Zk1obXhYQW4tUklwcnVMTEk2R0pNWFplVEF3Sm5vZXE5eHlFekdob0MyWU1IQ2dRVXc1S2pSSFQ2c3VMLTRpa0JxUFRfZm1kcERFTmRDNlZFalYtTW1QUQ?oc=5",
+   "published": "2026-11-16T21:18:08+00:00",
+   "summary": "Windward Bio raises $251.2M in IPO on Nasdaq By Investing.com &nbsp;&nbsp; Investing.com Nigeria",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "10x Genomics Expands Global Research in Blood-Based Diagnostics for Autoimmune Disease with Two New Collaborations",
+   "publisher": "PR Newswire (health)",
+   "feed": "PR Newswire (health)",
+   "link": "https://www.prnewswire.com/news-releases/10x-genomics-expands-global-research-in-blood-based-diagnostics-for-autoimmune-disease-with-two-new-collaborations-302940831.html",
+   "published": "2026-11-16T21:05:00+00:00",
+   "summary": "Collaborations with Charit\u00e9 and DRFZ, and with Seoul National University, aim to identify biomarkers of disease activity and treatment response using 10x's Flex Apex platform PLEASANTON, Calif., Nov. 16, 2026 /PRNewswire/ -- 10x Genomics, Inc. (Nasdaq: TXG), the life science technology...",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "BLUE SHIELD OF CALIFORNIA EXPANDS COLLABORATION WITH ACCENDRA HEALTH TO IMPROVE ACCESS TO HOME-BASED CARE",
+   "publisher": "PR Newswire (health)",
+   "feed": "PR Newswire (health)",
+   "link": "https://www.prnewswire.com/news-releases/blue-shield-of-california-expands-collaboration-with-accendra-health-to-improve-access-to-home-based-care-302940988.html",
+   "published": "2026-11-16T21:05:00+00:00",
+   "summary": "OAKLAND, Calif., Nov. 16, 2026 /PRNewswire/ -- Blue Shield of California today announced an expanded collaboration with Accendra Health brands, including Apria and Byram, that integrates durable medical equipment (DME) ordering and referral management into physicians' clinical workflows...",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Stipple Bio Announces Multi-Target Multi-Modality Oncology Research Collaboration with Lilly",
+   "publisher": "GlobeNewswire",
+   "feed": "Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOekRyWnR4NkNPT1FaUl9ub2wzSV9mMmVwQU9fSlBGblR0REdtWVV0d0dOMGR6OEZXRjR4MGljd0M2VUpDbFRUdVpwVFFwbF9PMEN5ZEJqaGVFcVE2N19rZXNQdTQ3WTZZczdmaDBvaXZtVWFMcXBLSl9sSjNXeTQwQ19fY1NRem4zd1dZWk9NOXZWUXNabHU2NDMxb21pd3FfRF9VRG1UendndTdKeHJYVEMtWXVsY3JmQnFYalM2OWcxb0FTLXVuTkwySWNja1pjaHg3MmJiYlhXVFppanl5ZGlMNVhqNEVLUmVMYVZWMnhneHEtTHBv?oc=5",
+   "published": "2026-11-16T21:00:00+00:00",
+   "summary": "Stipple Bio Announces Multi-Target Multi-Modality Oncology Research Collaboration with Lilly &nbsp;&nbsp; GlobeNewswire",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Mankind licenses Lung cancer drug ensartinib from China\u2019s Betta Pharmaceuticals",
+   "publisher": "pharma.economictimes.indiatimes.com",
+   "feed": "Google News: biotech license agreement upfront milestone",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVXAwNFRsLTRBQUZteWRaMVo5cUtCYkxYSEZGR0wyYjdSQTd5ZFFzR1RieDRySDZRdkQ4VHhWQV9ya29td0VZcW1uTzZCNU9vZVZhMzhwTGVmczA3c3JPd0hfbDczU3oySFYwVzRaQU1PUUZMVTIzdGhFcVh5elY1UDVWX3RpdVBBb19lTDF3YTYybjMxaXZVekk0ekpJOUwwYlhERDA3blpnbGJOWm04bExNX3RlY0pxeFEzMVAtRFlxMjgxQVhpcE02MGtwMHlRR2E5Q3BIN00zeGRFMDdJYk5Hb0xxcGZV0gHsAUFVX3lxTE9tN29WR1JpbTA0UDBPMlk5YlJFMUdvQ09fenJkN2hkWlYteEQ0YnFSR2tHZFQ4UG02b1FsRUhYWkJwTm5wUkdTNk9DN1ZTTGJ3R2gwMjhmWll6VVpxVklySjNabFUtTjR1STkwbEd0dmlrZmVUWUdXMVc3MnB3Ynp0Ykc1YjNKWkFFWll3MWdTV04wcC12dWlqUFRHeHNpc2s1ZzdTMk00d1VtN05ONTF2TG5RNjlNM0hvdzVtTDV6QWNHLVlKQkJMWUM5QmNqcWw3QjMycFB0MF9ZWGFCYnlmbWF4OFlvOUs1UmJ0?oc=5",
+   "published": "2026-11-16T19:53:06+00:00",
+   "summary": "Mankind licenses Lung cancer drug ensartinib from China\u2019s Betta Pharmaceuticals &nbsp;&nbsp; pharma.economictimes.indiatimes.com",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "M&A Roundup: Johnson & Johnson Acquires Ollin Biosciences, Eli Lilly Acquires Calytrix Bio, AmyriAD Therpaeutics Acquires AD04 Alzheimers Program, Sanofi Enters Collaboration with Seawolf Therapeutics",
+   "publisher": "Pharmaceutical Executive",
+   "feed": "Google News: biotech license agreement upfront milestone",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMGRraldzRkMxSHpPRmhCcC13ZlVVZk9RQXZhMUp3ZUVvUHRTVjdib3pCNlVCS0Q1ckNrY0xmMTRxWFZQdVRLVU80a01FTmtoTEdVTlBPLWM3ZG1aSTR0VE9aY093a2ZlNjdlNDJZU09EbG5xREo5SWVWdzlhQjFNUllCTWJCTGdMQl9DU2JZQ0VoMF9qTHJZY2FLbXB0blBXWmFzbG5xdFRRNmFINkZ4QjFjTXh4X0ZVM0xPQXVjcUpvRUF2RzRkRThzbnZ5NEt3UnRvMzhXeENydTdDTjM3SmVyMWhpcEdXS1dYX1dKVElmbkdNclRGcnEyRQ?oc=5",
+   "published": "2026-11-16T19:11:44+00:00",
+   "summary": "M&A Roundup: Johnson & Johnson Acquires Ollin Biosciences, Eli Lilly Acquires Calytrix Bio, AmyriAD Therpaeutics Acquires AD04 Alzheimers Program, Sanofi Enters Collaboration with Seawolf Therapeutics &nbsp;&nbsp; Pharmaceutical Executive",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "J&J\u2019s $2.2B Ollin Buyout Brings Late-Stage Eye Drug; Blackstone Deal Adds Trial Funding",
+   "publisher": "MedCity News",
+   "feed": "Google News: biotech Series B financing",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcDQ0aDR0a04zM3dEbXlrd0ItUzlmb2ZReTFReldtTWkxcHlCX2JZV1NtY2pzRGVtRmNmY1lqS21zdlhQTWpmTXRha2JxelJwM3NYOHhBVkthZlFaS1Buc1R2Z2hFZ2xINUl5LUo2bUF0bkNyODhsSEk4SHVGeFpsYUpEY3dTTTI3NEdaeklfTG9xZmVxRjd2RUFsWlFneTNtaGpkUl9ka0FpanhZMDdiMFZLNzJJVmJCZGI4V0V1SjZodw?oc=5",
+   "published": "2026-11-16T18:57:41+00:00",
+   "summary": "J&J\u2019s $2.2B Ollin Buyout Brings Late-Stage Eye Drug; Blackstone Deal Adds Trial Funding &nbsp;&nbsp; MedCity News",
+   "kinds": [
+    "deal",
+    "funding"
+   ]
+  },
+  {
+   "title": "PDS Biotechnology Shares Jump as Nant-Led Financing Takes Shape and Losses Narrow",
+   "publisher": "ad-hoc-news.de",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZ2JlWXpWQ2tMMC0zbGJZS0JFWDIyeF9NLUJDc1JKN1FKSTVxR1BpYnZ4UVUtQjNrQjlLV183MGJaTHFCSGpLdExBQnZXbGNuZzRXQS03UFBWVXJLWWxkOU1VdVRQYy1xREh1T3JydDFnZG16SExKM3ZJZEt1cTJnSlI1V2x4ZEtRTWpGY0IzZVhuLXdVMWlPWlIyRzZKTEsySHhJaFl3ZGpqRzltM2Fxb3NDU3BmS2E3bkhkQXJ5dW45dGgzdk5rNXczMTJzQjBwc280Q19EYk91eVBaZndMZFVnZXlrc3Bu?oc=5",
+   "published": "2026-11-16T18:41:08+00:00",
+   "summary": "PDS Biotechnology Shares Jump as Nant-Led Financing Takes Shape and Losses Narrow &nbsp;&nbsp; ad-hoc-news.de",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Novartis signs ADC development deal worth over $2bn",
+   "publisher": "Life Sciences IP Review",
+   "feed": "Google News: biotech license agreement upfront milestone",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0hHc21tWmpBRk5XclBfNTlOTGpRb2xidGExazhNXzd3d1Rvb21fOFZ6RmZldkFMTU5Bb0NvTHBRRTNGVnp0Ynl5ZTl6NmxjMnd6ZGdsSmVVdmVXLXQzYmRaNjBfbm5PblBBTDg4djZDM3BXam9oTk0yZnh6clNRNkJBN2g5eUtzUm82QmhyMExTRmV0MUx5a3FsM1pNdmRWb1Vr?oc=5",
+   "published": "2026-11-16T18:33:07+00:00",
+   "summary": "Novartis signs ADC development deal worth over $2bn &nbsp;&nbsp; Life Sciences IP Review",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Johnson & Johnson to Acquire Austin's Ollin Biosciences",
+   "publisher": "Hoodline",
    "feed": "Google News: biotech Series A financing",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWXpYUnZxOWw4YW5fSzRXUHZaYlh4akxWWV9fZjhlLWltVmt3d3FKTVJHSzdUUUpXNlFnM0twVlA1MFdfRzNqb2RtWXdKcU1UQ0xhM1N3VTd5REU2ZzQ4TGpFYXQtMFFseUtLaDBGUTZIVHhzbVZPcW82V0lPQjI1YWFuXzlRUlFmTGFua0Y0b0N3X2hweldwWk45bTZQLVQ3bEhxMllaQ2hfM2dBd1ZqQVgzVDRnUQ?oc=5",
-   "published": "2026-11-15T05:42:16+00:00",
-   "summary": "Preclinical Biotech Unnatural Products Lands $1.15 Billion M&A Deal &nbsp;&nbsp; WSJ",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSlBlc0RQbFNhaFVnRldQWHVEdG0xeXFDSDNPOVpjRG5kaDlJYkNGcjFucTk3VWt6X3hGMjFma1hsaDlYSlJlT1R6UlNSdG1Ic3ZVTjQ4TUV2TG5GMzE2WXNuOTdOSGNteG9FcC1xcUV1S2FuUk5mNFdpZ3lrVzF6MGFoaUxrV3h0SVVWM3FKUVA0c2phdWJXVXV0ZGxCdTlMT2JwMUlMYUdYc1J3cDNYVDNKUFozZw?oc=5",
+   "published": "2026-11-16T17:54:20+00:00",
+   "summary": "Johnson & Johnson to Acquire Austin's Ollin Biosciences &nbsp;&nbsp; Hoodline",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "This Biotech Stock Is Up 291% From Its IPO Price. It\u2019s On Pace for a Record Closing High.",
+   "publisher": "Barron's",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQWtQeEw3dkZaQTFkSzB6RjBqdXZHZnJYRHRPRWlZazg0UlZPaWlsdXp4SmFIcHpuV2ZNZTVaQXcwc0xDaEYxTEdQNHlsNHlqVFRFZUxVWmNLTkExNE5ZTHNIREEwOVFiSTJoMzJiQk5odm4tbVdtNzNxQ2RxOFZNYW9FTVpWVHMx?oc=5",
+   "published": "2026-11-16T17:37:00+00:00",
+   "summary": "This Biotech Stock Is Up 291% From Its IPO Price. It\u2019s On Pace for a Record Closing High. &nbsp;&nbsp; Barron's",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Vor Bio adds second RemeGen BAFF/APRIL inhibitor in USD 356 million deal",
+   "publisher": "AllSci",
+   "feed": "Google News: biotech license agreement upfront milestone",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNakdISE95al9SZ0RXMWJrbjNSZFlXUF9rUDRZdmhsSFNmMGdlblhYR0FqbTNiMEFtWnBZZXlnbW5lMjV6WXFWSDF4emJULTlkQ0kyaUxhSkVWMDRTeTRPS0Q0OGZUTW1CNHRJbjhsT2FFd3A1aDg1TGxjaGJCUEozN052MnE2OFRNQVE?oc=5",
+   "published": "2026-11-16T17:12:25+00:00",
+   "summary": "Vor Bio adds second RemeGen BAFF/APRIL inhibitor in USD 356 million deal &nbsp;&nbsp; AllSci",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "J&J bets $2.2B on Ollin\u2019s vision loss drug",
+   "publisher": "BioPharma Dive",
+   "feed": "BioPharma Dive",
+   "link": "https://www.biopharmadive.com/news/Johnson-johnson-ollin-acquire-ophthalmology-vegf-ang2-drugs/874728/",
+   "published": "2026-11-16T16:57:00+00:00",
+   "summary": "The deal hands J&amp;J a treatment that could complement its existing eye care franchise, but would vie for share of a crowded and competitive market.",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Johnson & Johnson to acquire Ollin Biosciences and late-stage bispecific antibody with best-in-class potential in ophthalmology",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOGdnNmJaWmljeW5keDBHdWU5Wm1XVUVUZjM2ci1zd01nWkdCNWEtT3F4U1k5MHQ5dGlUVVI5bDBReGxiUmpHNGdCUmpkdHc0bW42Wk9QMDZSMDl5STJfcHRHbG5GeW9yR2ExSkRXRkU4b1hYRTFIX0ZnUm51dnFzQ0lwZUtmSG5EM1VTWjFGU1ZjX05FY0VfYnMzdTRTYWt4YUdadm91RDUtcklNQU1DbFRFRHpkX09XQWtBbEp5d2tOSTVFTzM1Q0RzRTdGaHZKTnVxb2VVb0wyd2I1RU1PQVpuOGVHNHI4b0RiRzVEcU1WTFN3NHVyWQ?oc=5",
+   "published": "2026-11-16T16:49:45+00:00",
+   "summary": "Johnson & Johnson to acquire Ollin Biosciences and late-stage bispecific antibody with best-in-class potential in ophthalmology &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Rapid Micro Biosystems Signs Definitive Agreement to be Acquired by Merck KGaA, Darmstadt, Germany",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeVh3UnV1SG9DVEx2aUdldTZkU093Znh0emVlZjBVQ001cFpzTHA3R0pyam9sZkFaaU14dEIzOUduMUdTc1k3X1JiaVJwbEFDUlUzR1RmZktqcld1X09xVFVWN2Z6T1Z5WW15NFVOYzcyOTBqS2NldXZKTEFfWmRQUWhXUFFLcDI4NWd3UHpsVUFJMUtQVlltNkt4MFZXWWdLSWUtdV9GcllybmNZNHhWczFkajI5X3RHVGc0dnFyZmZsRG1wVHF6dGNhSVRCUFpHSXc?oc=5",
+   "published": "2026-11-16T16:49:45+00:00",
+   "summary": "Rapid Micro Biosystems Signs Definitive Agreement to be Acquired by Merck KGaA, Darmstadt, Germany &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "AliveCor and PulseAI Partner to Bring Advanced Cardiac AI Determinations and Clinical Care Platform to Major Consumer Wearables",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNSEE1amZOdUFmZHJ3cVRfaFBmMFZ2T1ZJTWF3VmVUZU54bTZiejRYTzBYcWJ0R3Z4UmJmVjJ0cnE3QlBoSEtZcFZObGszU3VMcUlpb2pHNHV5dTNPWU1JNk5fdDV2WTNUSU5zRVQydWt6UEdrOFJjanJmd19PRWlIQjc4UDFnTzF5azZrVzhKdy1hLUxndHBrZjlINlk0cEJZMlZ6Um9fLWIxVmV2Ul9sSWo3SlVXQkFXZk1YTjBpcnZudXpYZlgwVTF3T2lydXdjZi0tcUF1MXZWRmtFdXRqWktzbW1vQ1RTNGJRdUJiZS1tcVJwc0trTk0yMA?oc=5",
+   "published": "2026-11-16T16:28:30+00:00",
+   "summary": "AliveCor and PulseAI Partner to Bring Advanced Cardiac AI Determinations and Clinical Care Platform to Major Consumer Wearables &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "J&J to acquire Ollin Biosciences",
+   "publisher": "The Pharma Letter",
+   "feed": "Google News: biotech Series B financing",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQR29xWjBSTXhNTmZLMGFRbElpVlhxZXY2UTdtTTcwZk9JTmJ0WU5WTkhObUNIYTRLN21OYzRLVXctTkhaMU5ZTlBSVktJS05vejlvVlRUVVBZX2RUSTRlTXlnbkVHbWVUc2MyLWt3UU9sSGRtQ1ItelpRamtGdVNfUWVn?oc=5",
+   "published": "2026-11-16T16:22:41+00:00",
+   "summary": "J&J to acquire Ollin Biosciences &nbsp;&nbsp; The Pharma Letter",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Lilly\u2019s new $1.5B acquisition is a preclinical Massachusetts biotech",
+   "publisher": "The Business Journals",
+   "feed": "Google News: biotech Series A financing",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZGZsNThLeTVJWHo1dlZTcXRMM3BYd2JwWVdhdHV2bzhvMGNHaFFIaXdfdVEzWHNJd2ZlN3RPbGdvVDZQRmtTci1iX1dCck4tamthUmVRWmJtRnNvWURHQlJwdDBLWU9NbFJGN01QQnltSnpvWUlXVUhCblZEYm1MdEtxREtMdw?oc=5",
+   "published": "2026-11-16T16:14:00+00:00",
+   "summary": "Lilly\u2019s new $1.5B acquisition is a preclinical Massachusetts biotech &nbsp;&nbsp; The Business Journals",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Vivani Medical Announces Private Placement Equity Financing",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbVk5dHVGd3VXX2tOdEFoc0owbFdLWk1ZRzFkWG5rZ3V6NDd4MmpqVXp5RFJoSUJ6bzRrYTVjWTZmZGk4YThGWThqcUFqMWhqSnNHYVRxaUJ0eG1pSFIxaVBQVTVRSFBpRW41Zl9oaFZhOVdDNHNURDRFMHZKVDNTZ3B1blNvZW1JWWhwa2k4SnR5TFZUOHBhTGxiWmNKMlN5?oc=5",
+   "published": "2026-11-16T15:49:48+00:00",
+   "summary": "Vivani Medical Announces Private Placement Equity Financing &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "OBI Pharma Signs Collaboration and License Agreement with Novartis",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVnZYN25yaDdabmFnLWFNS0wzeVc4Nkh5WWNWalFvX01WbEdUYlpqQlRJQUpyeVRPSXRwQlNhdWF2WllvNjZWelU1MjJrTy1ETnQzbGtaUmg5RXNnWXRWbTRkci0zOHlqaGxyNFBrUGN1aU5mY1N4SUdNX1IyR2pQYkJkZDhzSFNlMm9HZXRUQVlQdW04WHljSmpLNHhORjhBNjd6VFRBYmhGdw?oc=5",
+   "published": "2026-11-16T15:47:12+00:00",
+   "summary": "OBI Pharma Signs Collaboration and License Agreement with Novartis &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "SynAct Pharma CEO Acquires 20,313 Shares",
+   "publisher": "TipRanks",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNlVBQy1vN2QtY1lVY0tUUmlaZEllaF9ibDZNUG5BbmZ6SkNRZW9HdDM1RDNWWUlsVWEweUxYejNxU2pZMVR1cjBicFFFWF9XWFViNlZ6OVM5ZE5XSS14VlhGQ0diZWtLamJsel9rZ09McGdsOE0zclpERTdPZkdXazVtZl91Z2NjNjVxR0pRcnhWaFZvaEE?oc=5",
+   "published": "2026-11-16T15:32:28+00:00",
+   "summary": "SynAct Pharma CEO Acquires 20,313 Shares &nbsp;&nbsp; TipRanks",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Lilly\u2019s early-stage M&A quest finds $1.5B deal for Calytrix\u2019s blood cancer work",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYkdYLUlvNHBZRk02aTdFTVFIaTFGX0pBNFlkRXhKQzdEc1dLeThlT0lTLUpwVDU4aFJ4MnhjRXM0dG5RaDU3VUh1R1VhYkQzNWpWc09hSlByMEdaQUhfS0FHTEVUWGJ5OXZBYzc3bmpsZy1SSnN3MmFGX2tKejlVTG84eng1c0JKYVh3SmdrZEUtcE9DTWJnY1BPbEZFVmNjOGxDbHdOU1JxeGhxLXNn?oc=5",
+   "published": "2026-11-16T15:23:06+00:00",
+   "summary": "Lilly\u2019s early-stage M&A quest finds $1.5B deal for Calytrix\u2019s blood cancer work &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "J&J pays $2.2B upfront for Ollin, taps Blackstone to fund eye disease trial",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeEhUMEFhQWlDRGNCYWZVT0htS2k5TFNLLVFPUVFwbjUtRXVZUC1aX3BPbjJWRTRRWWNrSmNCcGQxYUxKWlIweTdMZF9kckdmV2h0bTFDY0p6SHVKOHBOaUM2Mm91amlTRlpEaGlIREtsaFlxUEt4VXIzVlNfTmQ5Rmw5clpZaU1UXy12UjF4VG5MZHp0Q2wtQVBEVGM0VkdDbGRCc05YUQ?oc=5",
+   "published": "2026-11-16T15:23:06+00:00",
+   "summary": "J&J pays $2.2B upfront for Ollin, taps Blackstone to fund eye disease trial &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Faeth Therapeutics Announces Clinical Trial Collaboration and Supply Agreement with Roche to Evaluate PIKTOR in Combination with a Selective Estrogen Receptor Degrader in HR+/HER2- Advanced Breast Cancer",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOOXR6c1ZuM0NKdWxaZkVEUmlBWmx1UmVIR2ZYeDlkd000cVUyMVFOSm9henRaUzRXSDBwWG5WZUZITDFVSFh5RlJpT3RDbVg5aDF4WWRaNUI4MjBEZ3hIWkpkZXc1cnB3ZDdpWUhMeG90V2JhRm93ZllnZTYtVWZ3Y3lxUFdVUnY1N3hyMTdvZ3RwN2tyMjYxc1gyQUdPSi1fV0VsNFpBVENsX1U1bnN2SGVrbXBzZ2tKbGJuR0lYaE93bzlNaDBwNXFlWVlyMHFpZ2VBbmdhZ3JrOHJYLV9NMkxLbDRGM3hoWjZ5UGJXQllXV1Vxbll3VVJPX0dmZnZQeFp2MHZPUzdOZUMyZjNFS2NtYXAtNkMtLW44TkFPQ05vTUw4MnRrR0xHNEIwYTAxbmZ1d1B5SnNYYk9FaVB6Y0dSelZHZHVLZk8wR1ZTRmlMUDNOaXhyWnk5SmlqQQ?oc=5",
+   "published": "2026-11-16T15:00:32+00:00",
+   "summary": "Faeth Therapeutics Announces Clinical Trial Collaboration and Supply Agreement with Roche to Evaluate PIKTOR in Combination with a Selective Estrogen Receptor Degrader in HR+/HER2- Advanced Breast Cancer &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Mankind Pharma enters into in-licensing agreement with Betta Pharmaceuticals for Ensartinib",
+   "publisher": "Express Pharma",
+   "feed": "Google News: biotech license agreement upfront milestone",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeW10cDNURVlfM1h2cU85OV9OaC1YVU1UUGVrRllzQWs0eFpOOWE5T3dIQU9xV05DckxGcHhQU2MtUFpWNm5rY2pDNjlwRVFQOVNCbXVMTW1WLXQ4WU9Lcjd6RlU0ZzVtRmszVi1yVWtwSFg5MXlYSHpvVFdIRTUyT29aT2hrb2hqdUYyblEzUzdlTE1MMzlvSzAyX0V3d3FZVkYyOUw5dDNXVU1Zbml5eVNxSWtWWDlLRmw4QjJGS25lM3M?oc=5",
+   "published": "2026-11-16T14:59:05+00:00",
+   "summary": "Mankind Pharma enters into in-licensing agreement with Betta Pharmaceuticals for Ensartinib &nbsp;&nbsp; Express Pharma",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Medtronic to acquire Contego Medical, expanding access to next-generation carotid therapies",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHExY2JpR3BNWVp5Y0tVRHBqNFp3YUJBckFUMXo0VXlrMlpjZVFxWXNFcS1RMUZJMGN6MTlWWnljWVBTb2FVXzZrakFiNnRVR3NzZkdZTzhiUHhUUTdYR1cxZ1F5SGxsNFFHX2pXamhEeEZhME9oNW5YdGZUSlRodzRuSTFWeWFnNUVCaGZrZ1ZVTm5PQVN2aTZ2SUprRjByYk5rZHVwTVB5MkUyaWotZTZuamVtTTVPeGpyZTNtUkxrRWtZZHZrQi1B?oc=5",
+   "published": "2026-11-16T14:51:35+00:00",
+   "summary": "Medtronic to acquire Contego Medical, expanding access to next-generation carotid therapies &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Calytrix Bio enters an agreement to be acquired by Lilly to advance outcomes for patients living with essential thrombocythemia and myelofibrosis",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQcWYxU0FTb1RyOHlodm01UXA4b0Y2NHY3SGRXeU9ZWWJkUVhYNUg5dTVZMUhZX3g4bG5pRjRnSjBMQk52YkZOcW9IY0hXX3NFcGt1d291UmR1RW9RX3NfSUdqWlk2aVFVWExKeEg1RHI5cWlLYW1MX0x0eW1QVXNUNTNfc2tGQVhWNlFaZUs4RFBiN2Z2cm5naXZ1bkRETkd0alhfQldTZFVJeGhRZW8zR0FwMkt2OGFDOV9GNGkxYkxmSVJDTHNhT2tnVUMzcXgyeWNlZUlTZXI5WGF5dDhiSXFtM0dOLTRlZnU5V010eC1BT2hlV2U5Q3RfZmdFckJRdkFyVjV0ZFl5X19HZGh1bVRXUQ?oc=5",
+   "published": "2026-11-16T14:51:35+00:00",
+   "summary": "Calytrix Bio enters an agreement to be acquired by Lilly to advance outcomes for patients living with essential thrombocythemia and myelofibrosis &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Lilly secures another myelofibrosis option via $1.5B deal for JPM-founded Calytrix",
+   "publisher": "Fierce Biotech",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeVhmdXhCbk5oUUVlS25uVEpqcUlEaGdXc3dzWktiNnJRTWVHNWtCSFBZNGVjTzVUekdwcWtWOXNzQXh5ZkhKaXJ3MW5jRHE4NHdDVDJjb0R2TFZCZ05YZ3VmS3VVa29DaUdwLU9SUGlrNWxoSkJYcmNuZXY1cWdoaXZsY0dRZE9la3FMZFBsLW5PNjl5ZzZoUnoxRjN4UXIxRTQtR1Z0NzBjbFN3TVhN?oc=5",
+   "published": "2026-11-16T14:49:33+00:00",
+   "summary": "Lilly secures another myelofibrosis option via $1.5B deal for JPM-founded Calytrix &nbsp;&nbsp; Fierce Biotech",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Windward Bio Raises $225 Million In Nasdaq Debut At $1.69 Billion Market Capitalization",
+   "publisher": "Pulse 2.0",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY0hMWE5UdWpUSHN2N2xRN09oOHdmMVlxRzN3RHZxS1BxSWlsX2d3bEQ4Nkk4X0tnWTBMZmZLRjFVY1pSeU5fM25UcENWaGEwQ09uWUstaXI0clZzbzlnNURUc1Q3dE94UzNqRmR1YUNKS2t3TTRYSHRHenkxQkxfenJCMlJvLWh2QnhpQndLdG5WWjA0ZFpmMzFKMEZTZE1Nd1NWXzJQdzc?oc=5",
+   "published": "2026-11-16T14:36:02+00:00",
+   "summary": "Windward Bio Raises $225 Million In Nasdaq Debut At $1.69 Billion Market Capitalization &nbsp;&nbsp; Pulse 2.0",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Leo Pharma could launch newly acquired drug in the US next year",
+   "publisher": "MedWatch",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iaFpXcXNXU3V6VUQ5TGlRbkZXRmNybkZ2UWNtdWw4M2x5YXA2Z2dpMU5TSDZPakpHZ3FTcFlSMlQ3S242dFprUHpUam1sOV9TV2xhX3EzV3JnYnFBdEluMUQ5N3Axc0FNd1RvWW5Ccw?oc=5",
+   "published": "2026-11-16T14:34:40+00:00",
+   "summary": "Leo Pharma could launch newly acquired drug in the US next year &nbsp;&nbsp; MedWatch",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "J&J cuts $3.3bn deal to buy eye drug developer Ollin",
+   "publisher": "pharmaphorum",
+   "feed": "Google News: biotech Series B financing",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNC0yWm9WcktBTkx5OF83MWU3a0daLVdlUC1RbF9PXzJKLTRSQ1ZSdEYxRXA0MjcxU0FtRWdwY3AycG1Hc3hFYXFiaHlkWTV4NEZYN09OTGxjRXJRb0hGX3J1RWd4bkZNX3FFQ1dDbWduYnowYUVJZ1RxODVYbG41RnBn?oc=5",
+   "published": "2026-11-16T14:22:46+00:00",
+   "summary": "J&J cuts $3.3bn deal to buy eye drug developer Ollin &nbsp;&nbsp; pharmaphorum",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Seawolf Therapeutics debuts with $100 million and Sanofi deal",
+   "publisher": "The Pharma Letter",
+   "feed": "Google News: biotech Series A financing",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc0dCSUNIWHpFVjN2NWQtTGVXTzdJS3FIN2s1alFjendaZkdzdDB4cmxJRFdNOUVDZlpjemdXTkMyYUdqM3dneVlvVEdDTlRVcEE1Zk53MW04eExybzVYRS1PeEZJUUVUY3hlUTVGZ0xia2VhQ1ZndW5TRzJXYnpMLUlIWDFZNE9iTWF3cENTekxGaUQ1Sm9OTENELW1JLXZLamRMLUpyd3M?oc=5",
+   "published": "2026-11-16T14:21:37+00:00",
+   "summary": "Seawolf Therapeutics debuts with $100 million and Sanofi deal &nbsp;&nbsp; The Pharma Letter",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "\u201cA very foggy crystal ball\u201d Analysts and investor reject Leo Pharma\u2019s reason for delaying its IPO:",
+   "publisher": "MedWatch",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51NTZWSktzTFQxOEkwcHM1M0FXSmJ4RHNaRVVCTURQOWMtdTRiYTNkWW9Wdm5FZThwTzU0Rnk4NUpqc1pVUWdVMFBYVHI5R1JwWXlxSk1PVU5IMG9rN1FqcG42QXNRWXZGZy1Ga0tlRQ?oc=5",
+   "published": "2026-11-16T14:09:17+00:00",
+   "summary": "\u201cA very foggy crystal ball\u201d Analysts and investor reject Leo Pharma\u2019s reason for delaying its IPO: &nbsp;&nbsp; MedWatch",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Blackstone Life Sciences Announces $750 Million R&D Funding Agreement",
+   "publisher": "Yahoo Finance",
+   "feed": "Google News: biotech Series B financing",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOUFGSXRvbmhWZlN6cm9tOVlkRGF4S2NYUnNZYlhjRm5LQnIwejczZnVseTdnQXphOUVZSm5CNzBjaHFDWDVsdDY1bi1NdkpGMGlLWDVDekZoWmgyRzVpT2s4SXl1VXpiME1EZUs2UzVfVUhNcUh0elRqd3NYMDZKRVhON2Jpcnd3bzFkNEw5NzJwR044RDlhaTl0c1ZGV2RP?oc=5",
+   "published": "2026-11-16T14:00:00+00:00",
+   "summary": "Blackstone Life Sciences Announces $750 Million R&D Funding Agreement &nbsp;&nbsp; Yahoo Finance",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "J&J to purchase eye disease biotech Ollin for $2.2B upfront",
+   "publisher": "FirstWord Pharma",
+   "feed": "Google News: biotech Series A financing",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSVXVELVNKZVNLckduRGRsa0RhOUxJc21zdTJiekZLUnJxc1FkbjFiMmVtTmNtLW9JS2NoMGRzeTFwNHhIWFlOREpCaWxGVGV2VWhr?oc=5",
+   "published": "2026-11-16T13:45:38+00:00",
+   "summary": "J&J to purchase eye disease biotech Ollin for $2.2B upfront &nbsp;&nbsp; FirstWord Pharma",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "TRIMTECH Therapeutics Enters Strategic Research Collaboration With Biogen to Advance Small Molecule Degraders for Neurodegenerative Disease",
+   "publisher": "BioSpace",
+   "feed": "Google News: biotech license agreement upfront milestone",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQS016bWxXZFZOMlVyQ05UcG5HRnEwV0lyTGFOdXpUeS1qaV9lUTYyWnhvcDh3SEpVU19uZy1sS2NEMjZ3NUtJbWtVQkIxNTNxNVgtcWtLODZEdVJucDJ0UzhHckwta3MxSDd0NXd4eHNWYkVVRWtUQkxzSEQ4U0V4TzdLU3JSblBid0MyQkczeDBhNm1fYW44NDY5a1ZYcl9pRnBPTVRQSXljaU1wUnlrbWNtUVJKTzJEb1NRLVRDN2FsWjVSSDdidkVCZHZwQmFlXzVfUlNFVkpMcUd4clpHVEhDR2ZiR2Jydjl4T2lZUmdKUm5CMmdPeE12aF9PQnh4Mk9JY0pZdjNrM3M?oc=5",
+   "published": "2026-11-16T13:30:24+00:00",
+   "summary": "TRIMTECH Therapeutics Enters Strategic Research Collaboration With Biogen to Advance Small Molecule Degraders for Neurodegenerative Disease &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Sofinnova Partners Closes \u20ac725M Crossover II Fund",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbEhicUlKb0c5TmZoZ0x3dkhhUGlHeWtUekFaR2J0VEVfc1ByZm9pTHRPZVgtbkhQTEdSR3FGdU04Y003V3p3MmVKMUM1TV9HdTJfbmRVeHhaQ0xRbzlnTGdDQlFtVUtXNm5uR2lZTjZTdHlyaWJNenMwUXVQZ2RmcFNYOGoyaFBfd1ptRl9hTldRQQ?oc=5",
+   "published": "2026-11-16T13:30:23+00:00",
+   "summary": "Sofinnova Partners Closes \u20ac725M Crossover II Fund &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Arcturus Therapeutics Announces $50 Million Investment by Meiji Seika Pharma as Part of Expanded Collaboration",
+   "publisher": "Business Wire",
+   "feed": "Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOcWk2MmhCbXFPRDR6Tmh4eUlWNXQtN2JQZGtzZ0ZJaXZHZl9aR2VJUGRxUTVUakVNZVhUVEtHeHJ3VzAyRVNteGFqckxFS0huc0I5UTNGbi15VFBTN0k1R05sNDBBSU9jendTd0FhZ2lONnZjUDRWaWNDNlFCZzFld2d1Y3FTNDRMcWwxRjRMbDRPSFZTbEtiVHZDanZUazcxLW5CaWZPaFBqX0pNV081eElKbWc3QmNfTXBSeGE2OE5SUHN5Rnltcy00a2l3Q0ExbUpuVmg2ZGdHZlByZlhFYjJMVVZ1ZGJxbHpIcmlGV1Q1NVVvb1Z6MXlSUVVKUQ?oc=5",
+   "published": "2026-11-16T13:30:00+00:00",
+   "summary": "Arcturus Therapeutics Announces $50 Million Investment by Meiji Seika Pharma as Part of Expanded Collaboration &nbsp;&nbsp; Business Wire",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Windward Bio prices $175 million IPO, with $50 million Sanofi placement, for twice-yearly TSLP antibody",
+   "publisher": "The Pharma Letter",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNLXFhVm9BZFpCdThZS255M0J0Z1FEQnN6bzBUQlgtSWk4THREU09ZanVkTzlTejBHQ0lfclhkMHFxX3ozNkpvSmR1djY3ZHVNOGxQWWlSN3VJWEJxWjdhbjVOaEx5N0hFdm0xa2FOamJjLUZjLXA3ekxUSEJVckJpTDlMZ09FTUFFR3pWS0l1UVNhZ3ZPQzRtcGc5VzkzdlNVMUZkbGZHSElJYmdlV1lBdWo3bzkybE1FTFdZd2hjUVFxUTlsdDJyaFFPdlpDT19IYjRFcG1uMEVYTUZ5?oc=5",
+   "published": "2026-11-16T13:24:22+00:00",
+   "summary": "Windward Bio prices $175 million IPO, with $50 million Sanofi placement, for twice-yearly TSLP antibody &nbsp;&nbsp; The Pharma Letter",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Lilly adds to buyout streak with $1.5B purchase of startup Calytrix",
+   "publisher": "BioPharma Dive",
+   "feed": "BioPharma Dive",
+   "link": "https://www.biopharmadive.com/news/lilly-calytrix-bio-acquire-deal-myelofibrosis-essential-thrombocythemiaenial-/874719/",
+   "published": "2026-11-16T12:44:00+00:00",
+   "summary": "Lilly&rsquo;s 15th announced company acquisition this year&nbsp;&mdash; by far the most in the biopharmaceutical sector&nbsp;&mdash; centers around a precision therapy for rare blood disorders known as myeloproliferative neoplasms.",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Windward Bio prices $175 million Nasdaq IPO",
+   "publisher": "Novo Holdings",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlUkg4a0M2SlgzQXZlZkZPZG8tM3hfR1V1OVJfc0JyVVR1VjJQMC1SWWNUWEg3TmxnQXV4WTlEYTJveS1NVEVsRWNtV3FRN0dSVFY5b3lVVUdXRUM1OUtaSzhGQWhKcWNDSFdJa0kydG1aczdTMnNXaUVfb1U?oc=5",
+   "published": "2026-11-16T12:43:56+00:00",
+   "summary": "Windward Bio prices $175 million Nasdaq IPO &nbsp;&nbsp; Novo Holdings",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Windward Bio prices IPO at $17, shares jump 68% on first day",
+   "publisher": "StreetInsider",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeUVlaHZONVpIQWpxT2otYnZISUdLdVczdUhfUUlmVHhUQWpCdDlncnpITG5FRjQzMEZtZGFZaHM1QUlNZHdoR2NGekF3UzNwNHdFOXlpZlNWVGdaRHEwSERZd19kWmNpMVo1TkhXWWRwVlUzdG5kM25nRnE4ZlpWc0dySWlYWnp2ZnNOcU54MmNMZVZCWVdGRGluZ0JVNEc2ZWpYeEVlS0ZCenk0cGlvWFJpTWs3a3BoeS1VbGc2MUxLT0E?oc=5",
+   "published": "2026-11-16T11:00:57+00:00",
+   "summary": "Windward Bio prices IPO at $17, shares jump 68% on first day &nbsp;&nbsp; StreetInsider",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Seawolf Therapeutics Raises $100M, Signs Sanofi Deal",
+   "publisher": "Voice of Healthcare",
+   "feed": "Google News: biotech Series A financing",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQi1DZ3ZZejJ6eENZeEJ3WVVTMVZTVjFoWnE5c0QtdEk2a05zMGhhWDBrcDF3WXFxZ2JVaUFWZ2oxczBxMnJESWxjMk1YbFgyLUhNZzZwVTRySUllWFFsTzBqSElha0lHNkpkSUxlMEVib2dhQ2VhTlBDVXd6SUFxaVdsdC05VUdJMklsc1ZrNXBmeV9WRnpBaHAxZHVfazNrc1lsUkZPLTd2SFNSZjJPNXZScVFIWFhkRkx4UlpRaUhvdw?oc=5",
+   "published": "2026-11-16T10:45:00+00:00",
+   "summary": "Seawolf Therapeutics Raises $100M, Signs Sanofi Deal &nbsp;&nbsp; Voice of Healthcare",
+   "kinds": [
+    "deal",
+    "funding"
+   ]
+  },
+  {
+   "title": "Big-name investors pour $100M into DNA therapeutics developer Seawolf",
+   "publisher": "BioPharma Dive",
+   "feed": "BioPharma Dive",
+   "link": "https://www.biopharmadive.com/news/seawolf-therapeutics-dna-versant-startup-financing/874465/",
+   "published": "2026-11-16T10:00:00+00:00",
+   "summary": "The startup, which also just disclosed an up to $1.2 billion partnership with Sanofi, is backed by&nbsp;Versant, MPM BioImpact, Eli Lilly and Novartis&rsquo; venture arm.",
+   "kinds": [
+    "deal",
+    "funding"
+   ]
+  },
+  {
+   "title": "Sofinnova Raises \u20ac725M Fund to Boost European Biotech Expansion",
+   "publisher": "Global Banking & Finance Review",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ05rYjk2U0NlYk5Kenp3U2tKcmQyQUhQb0NCM0xMVk1Lb3Z2eEpBc0poU1otdDJ5eGNjVHpuOG5iTWNyeFZwblZmRm94T0hxTEdVVFlpREtpRV81NUZpdXBUSTdKcTBYWnhGUjRiVzVKT0prdHdwWlR2U0JLN0owaVczNG93RFdoMWZPeWQ5M3U1alktOW5yQ01NZGY?oc=5",
+   "published": "2026-11-16T08:41:20+00:00",
+   "summary": "Sofinnova Raises \u20ac725M Fund to Boost European Biotech Expansion &nbsp;&nbsp; Global Banking & Finance Review",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Neurosterix raises USD 105 million in Series B funding",
+   "publisher": "Greater Geneva Bern area (GGBa)",
+   "feed": "Google News: biotech Series A financing",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdkVWLXA3TWhyZEp6WTBRN0VTMC1sOUxUaC1Ha3NDOEZBMWcxWkRTdUNocUlEWVZ2Mm5Jbl83UFVOMFBad1NNOGx6X1N6UFhFam1oZ0VYWklXTm1RSExESzN5c3hERnltMjBTVEpMU21EVVFwYmduMjdHY0haY3NvcUIyMA?oc=5",
+   "published": "2026-11-16T08:29:10+00:00",
+   "summary": "Neurosterix raises USD 105 million in Series B funding &nbsp;&nbsp; Greater Geneva Bern area (GGBa)",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "RTW Bio Portfolio Company Windward Bio Raises $225m In Nasdaq IPO",
+   "publisher": "DirectorsTalk Interviews",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZmtMelduTW9rWEpwZnhCYjhlV1lQMUZPM3RVZ201TUlMNDlqRkhFRTJEYWlXWGZGczQ2TC0wR21qaUNTVmdJWHZLNHdNbm55b2VrVDlTUUZyMXNhSE1tNlFybmd4LTJNRDdBQm1fTG5tV2NfVDZXcm81bFM2MzdHYW1Ddkt0NnJLc2xBNEFUWndBQVprUE1kdkpnVHBIaW0yaHVoSzYzWTc1cEF6NnNNRGFDZWJLQQ?oc=5",
+   "published": "2026-11-16T08:28:01+00:00",
+   "summary": "RTW Bio Portfolio Company Windward Bio Raises $225m In Nasdaq IPO &nbsp;&nbsp; DirectorsTalk Interviews",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "REG - RTW Biotech Opp. - Windward Bio prices $175 million IPO",
+   "publisher": "TradingView",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQTlqbWhlRElNUHVXczU1X0NuQmcyTWQ1N0ZnMjgwa3J3T28yVEtMUG1qdG1aLWsybnRnNkI3UEpjS2N4OWdqenBpeEtGaU1NZEFMd0JCS0FuT0dneEs4YW94OTcwYnJOX0YxYkJJVnQzNE12QmVsQmFkVWNWUXlqQ0Ita0ZMQkhuUlQyUEh5TnZBTDJaQllxcnIzc0ZvbDVESkFFM19LVGlKaFlLOHY0OGVrdkRUemx3Zzh4dEVHeVRGZlFJaU5aRk1qUQ?oc=5",
+   "published": "2026-11-16T08:03:53+00:00",
+   "summary": "REG - RTW Biotech Opp. - Windward Bio prices $175 million IPO &nbsp;&nbsp; TradingView",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "One of Europe\u2019s leading VCs banks a \u20ac725M \u2018crossover\u2019 fund",
+   "publisher": "BioPharma Dive",
+   "feed": "BioPharma Dive",
+   "link": "https://www.biopharmadive.com/news/sofinnova-crossover-fund-ii-european-investment/874656/",
+   "published": "2026-11-16T07:00:00+00:00",
+   "summary": "Sofinnova Partners, which has backed the likes of successful drugmakers such as Abivax, Argenx and Verona Pharma, will use the cash to support a new group of later-stage biotechs.",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Summit Therapeutics Provides Update Regarding Ivonescimab Biologics License Application",
+   "publisher": "Business Wire",
+   "feed": "Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdmNoLTNoaE5WRlRqcnlUOTZ3MXZUbFMydGgxQUVUN2F0bzQ2QW5SZEh0YkZnNl9WS0hSVGRhUlRMcWc2eTdIdHppaHlFMlE4Q1ZiTnNRT0I2blRZNTA1NlVkNHFsVWxHUDBoU3EwYWF3M1V4RkY3bDBTZ0wzY3UyVERia2NMWGVRQ1hpeXgyX011TnF0RWpzYTRIeTh0QXU5cG5ldldkWlN1a2c0YTZObmdqd04xQjRWWVRiUHJxSkNqdmpNcU5oUmVHTEtRYlpFcXh4Vk9KR3ZrUDRZ?oc=5",
+   "published": "2026-11-15T12:00:00+00:00",
+   "summary": "Summit Therapeutics Provides Update Regarding Ivonescimab Biologics License Application &nbsp;&nbsp; Business Wire",
    "kinds": [
     "deal"
    ]
@@ -54,47 +596,12 @@
    ]
   },
   {
-   "title": "LigaChem Biosciences Names No Licensing Buyer on Q3 Call as 60% of Its Cash Is Convertible Financing",
-   "publisher": "Tech Times",
-   "feed": "Google News: biotech license agreement upfront milestone",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdFQ2TXVxX2RqWTBCQ0t3c1k0eEdMZlNDWk90U3hyVlB6SGJkM01HU29kS2FGWXdhUEJZOEdPTTJZNVpyNS1GUi02SXFzZE1LSDR3N3NfSmFlUUNGQ3k1YTlSdm0wT1Q1MDJhMVJ5d2NyMWtqM0hxZmRFcERzNjZEaUtKcmR6Zy1LRlpmSFQ4di1Ob1RZZEV6Y2t1Tm94STZYVVRSci1yMHQ5d25VMzVxQ1FKVWhMY1JCN3M4Z2YwVzYwWGRTMkIxY1FwQVkwb0Z1b2hEdUxSMktmZw?oc=5",
-   "published": "2026-11-14T23:39:18+00:00",
-   "summary": "LigaChem Biosciences Names No Licensing Buyer on Q3 Call as 60% of Its Cash Is Convertible Financing &nbsp;&nbsp; Tech Times",
-   "kinds": [
-    "deal",
-    "funding"
-   ]
-  },
-  {
    "title": "Windward Bio IPO Jumps 68% Though Twice-Yearly Asthma Antibody Has No Flare-Up Data Yet",
    "publisher": "Tech Times",
    "feed": "Google News: biotech IPO prices",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZHhWR0hWdTRqRDdvTGlCdkFueFFiV0JzQzM2dTBwa2ZRUFZjdUt2MFk5UHJuVHBCS2pyM28wMXVUc08xY3g0ZjY0eC00bm54eGRpMWJFdkU0a19qUGZkLVBqajZnSE1wb2FnTGFNZlNsVE1XVjQ2VDBUQXl0cVZoeG9hS1hqT1o3cmhDM21mV1BCVVBJZ3RldjFWaGNPR29nY1BIUmxkTHBCcXFHb0hodzZFM2sxQzkzTGdLMmpkQ2wxb1Vma3VHTURnRVZJa053dDZQNA?oc=5",
    "published": "2026-11-14T22:03:50+00:00",
    "summary": "Windward Bio IPO Jumps 68% Though Twice-Yearly Asthma Antibody Has No Flare-Up Data Yet &nbsp;&nbsp; Tech Times",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Innovative Immunology Biotech Windward Bio Lists on Nasdaq",
-   "publisher": "PR Newswire (health)",
-   "feed": "PR Newswire (health)",
-   "link": "https://www.prnewswire.com/news-releases/innovative-immunology-biotech-windward-bio-lists-on-nasdaq-302939554.html",
-   "published": "2026-11-14T15:57:00+00:00",
-   "summary": "SHANGHAI, Nov. 14, 2026 /PRNewswire/ -- Windward Bio, a portfolio company of Qiming Venture Partners and a clinical-stage biotechnology company, successfully listed on Nasdaq on November 13, 2026. Windward Bio (Nasdaq: WWB) priced its IPO at $17.00 per share. Its shares closed at $28.50...",
-   "kinds": [
-    "deal",
-    "funding"
-   ]
-  },
-  {
-   "title": "Orakl Oncology: $34 Million Series A Funding Co-Led By Norrsken VC And Singular To Expand AI-Powered Cancer Drug Discovery",
-   "publisher": "Pulse 2.0",
-   "feed": "Google News: biotech raises million financing",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMXp6cGtJeGZxakJfOUlZeEdVYjZrTmd3czdLWUpkajdsb0lQM2xnQ2pRTVhKaGt3djd3dmsxUUl5TWIxU2RqaVpmR0Fwd2llUkctdU55YmtJa0xJX2V6TkZuYzNEQUY4UUgzUTZualEyV0tlVllwVGZpbUVVaFo4blNEa0hyaFI0QVduRXRUMFo3NTZKdF9QQlpMMjFadHQwMW10QURYWUprNEZDU3dmR3JBVWpLcHl6emxHN3FCcUNnSmRQOTBMcURPZVk0TzJvaGdCWWVHVQ?oc=5",
-   "published": "2026-11-14T13:56:23+00:00",
-   "summary": "Orakl Oncology: $34 Million Series A Funding Co-Led By Norrsken VC And Singular To Expand AI-Powered Cancer Drug Discovery &nbsp;&nbsp; Pulse 2.0",
    "kinds": [
     "funding"
    ]
@@ -111,14 +618,36 @@
    ]
   },
   {
-   "title": "Milestone Pharmaceuticals Reports Narrower Than Expected Q3 2026 Loss",
-   "publisher": "AlphaStreet",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdDV4RDc3enNsRjlnWDFySXRlYTEwbTUzNGZZUW1mTFdVTjNTdU5jak9GNTQxbUhkOE5vS3dEc1RjclZoOUhuWXg5Vlp3VFBEaC0xSVJSRU12cjJ2TTV2dVdBWFYxRzZvcFRSZmc3RlRoeVhuMWg1S1V5NlFWNXp4T09VVE1XazhfVlRTRmNGV0FDQU1YWXotR1NZRlFpT3U00gGgAUFVX3lxTFB0NXhENzd6c2xGOWdYMXJJdGVhMTBtNTM0ZllRbWZMV1VOM1N1TmNqT0Y1NDFtSGQ4Tm9Ld0RzVGNyVmg5SG5ZeDlWWndUUERoLTFJUlJFTXZyMnZNNXZ1V0FYVjFHNm9wVFJmZzdGVGh5WG4xaDVLVXk2UVY1enhPT1VUTVdrOF9WVFNGY0ZXQUNBTVhZei1HU1lGUWlPdTQ?oc=5",
-   "published": "2026-11-14T01:52:46+00:00",
-   "summary": "Milestone Pharmaceuticals Reports Narrower Than Expected Q3 2026 Loss &nbsp;&nbsp; AlphaStreet",
+   "title": "Biotech IPO and M&A readiness: why preparation shapes the outcome",
+   "publisher": "Evaluate",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jbVpvVWI2WXZQTHpuUHA4Z2x3YTJXc2FXamxJMV82SVNDMDNzMVpUekRBeEY4bmFuZ19ubldveTdCT1UyYXNPNGtWT2p3XzN6U0RENDJSQWtJSzd4RXUzMmpKTkZsMkFza3VDYjJReGFuNkc5Y2c?oc=5",
+   "published": "2026-11-14T04:17:28+00:00",
+   "summary": "Biotech IPO and M&A readiness: why preparation shapes the outcome &nbsp;&nbsp; Evaluate",
    "kinds": [
-    "deal"
+    "funding"
+   ]
+  },
+  {
+   "title": "Windward Bio Shares Close 68% Above $17 IPO Price",
+   "publisher": "TradingView",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTjdnZ3NfMnQxb05TbGMtZHZzWFZlR2M0cEF5WjgwYk5vcjFlY2YteDd2WW43LWdPX0FfRkR4T191eVc1T0RqQWVXTVotY1pXRWF1NVVkd2loU3A0RzNzTGt5SlVNWDVMcnZNSTdoY21FZ0lKRXZZUzRaMDlWa3UtT1J1aTFxa09ZLU1TTWIwdjAxakMxOVdEQWpaYzV2Q0RoM21PY3hlemJkREdLT3c?oc=5",
+   "published": "2026-11-14T03:13:00+00:00",
+   "summary": "Windward Bio Shares Close 68% Above $17 IPO Price &nbsp;&nbsp; TradingView",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Windward prices IPO, Rezera postpones its offering: Finance Report",
+   "publisher": "BioCentury",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWF94Uzh5NE1hX1FtWnlKS0dYajFFbGgtX2ZJQnFkQXY5c01nMUUtR21tNFgxa0p0YXZ6NkhxOWhzRktlNkNncXFiZ3hGX3BDRXdyT1ZraUJvbURhTkY1aW92THhhQ1Y2aGtkT2ZUWlBXVDJNeG9SeURpU0gyZlpuY0dzV0lTVEdjZkp0T2QtWXBoRmw1em9MYVBKU3UtUTUwb0NZSWNyZVVaTEdoLUR5bFlqOUtkN09ZVHZ3dmFLLU16UWFZa0RDOHVsT0tNeVBoOVFxYk41NWh4QQ?oc=5",
+   "published": "2026-11-14T01:33:00+00:00",
+   "summary": "Windward prices IPO, Rezera postpones its offering: Finance Report &nbsp;&nbsp; BioCentury",
+   "kinds": [
+    "funding"
    ]
   },
   {
@@ -144,413 +673,25 @@
    ]
   },
   {
-   "title": "Wilson Sonsini Advises Delix Therapeutics on IP Matters Related to $100 Million Series C Financing",
-   "publisher": "Wilson Sonsini",
-   "feed": "Google News: biotech Series C financing",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVGFjd3FRcUs4aHZmbVQ3T1J1b25RQTlrckpvMXVDWjRWZ1R4bzZlVzhsSkpzSm0tcDVuZWtZTksycW5paml5enF3NExPWVNpWExlUk83aFFZT2w3UG9HWUR6bVFSYVlKVVgtNURqc2I1RldnWEJnM2w2dk44QXBzNVNEWGFPVHdMVkNpSEVZaVJudU1XcWRpSlNXWkdPQ1Y0c1hTOUZRQnJ1ZElqQWdlaEVGd2hvdFNuVkdCdE5wZXNCRk8zQ1Z3ZTlJaVliME9NbnpnaDgyOXQ?oc=5",
-   "published": "2026-11-13T20:49:30+00:00",
-   "summary": "Wilson Sonsini Advises Delix Therapeutics on IP Matters Related to $100 Million Series C Financing &nbsp;&nbsp; Wilson Sonsini",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "BIO Europe: Financing, AI and geopolitics shape biotech discourse",
-   "publisher": "Pharmaceutical Technology",
-   "feed": "Google News: biotech Series A financing",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMktJbkVfNGI3U2w4U0p1QW4zdkdkamk4dmx0aTFWLVJJZkF4SVlqMmhYR0lkTllPV3lnNVd3b0RhX2ZJMjZQVlhsbWhyeExFZTdsLXhBMHRGellmaDR4aXFGRzVoYmhlYXNtRHk0RUpWTEd6TUI2RlU3MFJULXdCNjVnRjV4b09iajE3eGQzMjFIXzhuZU9NVXpNaVQxMnpEMUxuVmVORmtRSkU1eTkyNFVLZ2Z0YkU?oc=5",
-   "published": "2026-11-13T19:54:13+00:00",
-   "summary": "BIO Europe: Financing, AI and geopolitics shape biotech discourse &nbsp;&nbsp; Pharmaceutical Technology",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Windward raises $175M in IPO, adds $50M from Sanofi",
-   "publisher": "European Biotechnology Magazine",
-   "feed": "Google News: biotech Series A financing",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVnN1aVd0cUlsZ1dWVUNyLURSa2o0UW5nR0hmUDgxNWlxNlNJMGhoWFE1dFpuakJ5Vl83Q0ZVaDk2ZldYSUZ6eGduNDVTTEtEY3pJbnZHd0dxdW5oa2JqMVlyYlBCRUNkcnlEVGV0VEdPU2tPZElPSUZSX25TOXVQOGt3QkEwejZsVGJSRXZpQmJEVUw5Y1BHcFZBVmg?oc=5",
-   "published": "2026-11-13T16:58:59+00:00",
-   "summary": "Windward raises $175M in IPO, adds $50M from Sanofi &nbsp;&nbsp; European Biotechnology Magazine",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Windward's $175M IPO gets boost from Sanofi as Rezera offering stalls",
-   "publisher": "FirstWord Pharma",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EVC1KWFJnblJlc1hhWE5RM3d2QXV3Z2Nfc0JDWHJpTnl6NEV0R09pMEFVTmM3UzhSUkVuekRhWDF5ZDhnYjV3UXcydXhvbDBxN3A4?oc=5",
-   "published": "2026-11-13T16:14:41+00:00",
-   "summary": "Windward's $175M IPO gets boost from Sanofi as Rezera offering stalls &nbsp;&nbsp; FirstWord Pharma",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Boston biotech halts $200 million IPO as market conditions shift",
-   "publisher": "The Business Journals",
-   "feed": "Google News: biotech raises million financing",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWVlid3lrWjhFcnl2X0NTVjdWSTgtVHhFMVdtMkZtTk1ReVhaUFpJMjI2elBKamc1OUtaaFk4SUw1aDNqV09pY2NSdDUxWGNWSGo2SXQ0YnBfdU1YUW93TUp6UDNxWWlMcjFmeEpTRWsxZ2VpZy0zR0hCTE1IQU9fRU55RV9SUUlm?oc=5",
-   "published": "2026-11-13T16:07:00+00:00",
-   "summary": "Boston biotech halts $200 million IPO as market conditions shift &nbsp;&nbsp; The Business Journals",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Windward nets $175M IPO, bringing 2026 biotech debuts to 35",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSEpydTk2Uk1LdEo5TnBNQ0RUMEI5Q25pWjloZ21VZVFtNVFFYWxhYmdvMGxrNXh6T0VfeElpSVRDZzVHeHYxRm9aeTcwUEFxMWEwS2VaZmVnVnkwaUxVV2g5cktfZmloQzZvMkVNVjNSNHRNblh5UzVHcTU0RERhUlFESlRQNGhLeW1rOG5wX3kyY3lxRFE?oc=5",
-   "published": "2026-11-13T15:37:37+00:00",
-   "summary": "Windward nets $175M IPO, bringing 2026 biotech debuts to 35 &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "HHS plans funding for research into ibogaine for PTSD",
-   "publisher": "STAT",
-   "feed": "Google News: biotech Series A financing",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSVA4dDN2VzFzMjI3THR1YVFKd0lVa29aZi1mZzBtbml6WHVHd0hVQm5KVm5kaktPWG5FUHk2Y09OcEwzV0pWM3hNbGxiZmI3ZnVVSzk3bUtWa1I1RUVvRlVnRFRfeFRwSWVXNlA4NlV1MXlYWThjWTJlN1NIQ1MwNUcxWU13SDVZUTlrd2RxX1BIWUc4ZnZ4a0E1di1JQQ?oc=5",
-   "published": "2026-11-13T15:26:49+00:00",
-   "summary": "HHS plans funding for research into ibogaine for PTSD &nbsp;&nbsp; STAT",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Boston biotech Rezera delays $200 million IPO",
-   "publisher": "The Boston Globe",
-   "feed": "Google News: biotech Series A financing",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsZ3BxX2FlMnpDckRKSjNsbUh1VUZmOGJsMUNtSnZaMUdoTEJaYVRqNjJheXRhU2NzS0p4dEc0VkkxRmNITHZwY01FaWtSQUQ5SThZQldQd1B2dDlWY1Nnak43MlNkb1NnNEhFYnhOSnNpaFFjQS02MmFjcnBNUQ?oc=5",
-   "published": "2026-11-13T14:47:00+00:00",
-   "summary": "Boston biotech Rezera delays $200 million IPO &nbsp;&nbsp; The Boston Globe",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Novo submits sickle cell drug; Flagship, Gates Foundation deepen ties",
-   "publisher": "BioPharma Dive",
-   "feed": "BioPharma Dive",
-   "link": "https://www.biopharmadive.com/news/novo-etavopivat-flagship-gates-ascidian-immuneering-neurosterix/874120/",
-   "published": "2026-11-13T14:36:00+00:00",
-   "summary": "Novo views the medicine, acquired in a billion-dollar deal, as a future blockbuster. Meanwhile, a pair of startups forged an RNA editing pact and Astellas lined up two new trials in pancreatic cancer.",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "This week in charts: Brain drugs are back on venture capitalists\u2019 minds",
-   "publisher": "BioPharma Dive",
-   "feed": "BioPharma Dive",
-   "link": "https://www.biopharmadive.com/news/charts-venture-neuroscience-oyster-vectory-acr-cell-therapy/874570/",
-   "published": "2026-11-13T14:00:00+00:00",
-   "summary": "Five neurology-focused startups have together raised around $450 million in the last few weeks. Elsewhere, investors had a muted response to the latest cell therapy research.",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "A cancer immunotherapy developer completes the first close of financing of up to $22.3 million.",
-   "publisher": "Stock Titan",
-   "feed": "Google News: biotech raises million financing",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVU4zZVFkX2hPeWg2aXYxSm5taW1xcFJZQ3VWZFVFRFlGSGlDcWs0alNTOEhsSzZsRllmam1veExLT3FGTXlwcEVMRk80bW9ZWVF4WXVfWDdTNXpmUVNLLXBCMDRqOUxwY0JfTVBHZWZrWVJVNnIzTGNIYlBTTVdWT2hKUTJaZEFIVEp1R0VRemV1eTlQMUtybXU4NkpuMldndTBzUTVR?oc=5",
-   "published": "2026-11-13T13:00:00+00:00",
-   "summary": "A cancer immunotherapy developer completes the first close of financing of up to $22.3 million. &nbsp;&nbsp; Stock Titan",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Neurosterix' $105m round leads the week's biotech financings",
-   "publisher": "pharmaphorum",
-   "feed": "Google News: biotech Series A financing",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc1FNakNiTmxBSTdkWDFNQV9feFpFc29vYTdyZlpTc3ByUFoxOUpXM2pMUU1QektNYnFHejMzSHNURU84eDZqX0c0aWNYc1EtTGIyVlVFdlJSN3NaREEwVmRWYWtCSFROMDhNdktERldXekFaNUtoQjlzdjlNWlhhTFQtWGMzMG1kcTRr?oc=5",
-   "published": "2026-11-13T12:21:13+00:00",
-   "summary": "Neurosterix' $105m round leads the week's biotech financings &nbsp;&nbsp; pharmaphorum",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Sanofi-backed Windward hits $225M IPO goal, as Rezera delays listing over \u2018market conditions\u2019",
-   "publisher": "Fierce Biotech",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS1dyZDh4Mnk5clcxS2FwOGE3a2dqZFB0Y2RlNUtJZjFfQ0pjTi1xb004QTBOZkVSeUtvY1J3WHJXVGs1a2JBZkhyVlBpaXl5YUtrVnVoVTFtMXFnZk43dmNOV2hQbEZROUZpN1daVU5sWHQ5MHdNVmlTZFBsa041Y0t3VjQ0WWlOTXIwWGUybUgyTjhHcFlyZ3U3bWNCRzBacFp1SElnTjFzV215MS1QQw?oc=5",
-   "published": "2026-11-13T12:10:00+00:00",
-   "summary": "Sanofi-backed Windward hits $225M IPO goal, as Rezera delays listing over \u2018market conditions\u2019 &nbsp;&nbsp; Fierce Biotech",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Neurosterix Raises $105M Series B to Advance Schizophrenia Drug",
-   "publisher": "citybiz",
+   "title": "Langlai raises Series B after first drug wins China approval",
+   "publisher": "Dealroom",
    "feed": "Google News: biotech Series B financing",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb1M2TVVVVU1nbmE5TGc5ckVILVJkVUpKeUdxU2t4UlExeUVLcG1tYi1PaUJ0dGVscDlZVWp6eVpxTjEtYjd4b1BvdnhWbWhnaWI4NE1NbGw3ZzdhNXlxVkZKYUp3X3JESWMzVnRpajZlUUlKenNKWHVTX3lYYl9ROURib3d0emxFb1hBTm95SEgwRVNUNzljMnJQc0dlUkJyNllZ?oc=5",
-   "published": "2026-11-13T11:12:04+00:00",
-   "summary": "Neurosterix Raises $105M Series B to Advance Schizophrenia Drug &nbsp;&nbsp; citybiz",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ05jZzE3MmxQTW45ZVBpazJGc1p6dERMajJGRWxrY1lndzA4X2tqYTRTMUVlZ00xN2lpSlF1QXRzZHhkSWRVSzF4SmQyanB5aWpPcUgwU19pR2hxc3pCcThkbktqVExobE8tV2FiVDNrZEFKXzdLRTNtNG5KRFdsdzVDd05XZ0xTWFJ0dng0RzFxcVFLRm1Bb3dR?oc=5",
+   "published": "2026-11-13T22:13:08+00:00",
+   "summary": "Langlai raises Series B after first drug wins China approval &nbsp;&nbsp; Dealroom",
    "kinds": [
     "funding"
    ]
   },
   {
-   "title": "Oura\u2019s acquisition of health tech startup raises conflict-of-interest questions for Eli Lilly, experts say",
-   "publisher": "STAT",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVNJY0tiRHFLRU9QTzVTbmtXUWgxWmNnMFp2TE1tckREV3dWYXZBT3F5ODFWOVFfdkoxV04xVnozWFh6Q2E5UmdKZnRKOWxoeWJQcWdoS3lLMllpcC1pcXc1T0lkYnhOeG9pXzJiQm5EX0FSQVFVNVVWQ0ZXWFhLSnEyNUc?oc=5",
-   "published": "2026-11-13T09:36:49+00:00",
-   "summary": "Oura\u2019s acquisition of health tech startup raises conflict-of-interest questions for Eli Lilly, experts say &nbsp;&nbsp; STAT",
-   "kinds": [
-    "deal",
-    "funding"
-   ]
-  },
-  {
-   "title": "Neurosterix Raises $105M in Series B Funding",
-   "publisher": "FinSMEs",
-   "feed": "Google News: biotech Series B financing",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc0NfcGg2SVRweHlOWnRyMFo4LWlKVFYyTjNmaUllTjFmZnpQY3I3VVBONjRxQmN1T0h0OVhHNVcyQ1hXNlg1UGdnNHJCdmdBNWlFUkpEMWFUQ3Radk1KWjltY29CeFdNcjRid3lpVUllYmFELUVjdzhLdzVSb2Fuc3pxOFpQSEU?oc=5",
-   "published": "2026-11-13T09:30:15+00:00",
-   "summary": "Neurosterix Raises $105M in Series B Funding &nbsp;&nbsp; FinSMEs",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "OBI Pharma's ADC Platform Breaks Into Novartis Supply Chain with $30 Million Upfront, Total Deal Value Up to $2 Billion",
-   "publisher": "BigGo Finance",
-   "feed": "Google News: biotech license agreement upfront milestone",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LVmNkSzZNUl9hbVFzNURScUJnUnhMaDU4ak1SSTJpQndxLUNxMWlJS1NfRjJPeDhZQjJfZ29DSGxtck44M2IybjRYRmt5TFFOT3pKSGJWYkZISTh6SWVjdWUxV09TTEdWMXVab2RMbnpGaThvNlE?oc=5",
-   "published": "2026-11-13T09:05:00+00:00",
-   "summary": "OBI Pharma's ADC Platform Breaks Into Novartis Supply Chain with $30 Million Upfront, Total Deal Value Up to $2 Billion &nbsp;&nbsp; BigGo Finance",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Yicura BioMed closes first tranche of Series B led by Gobi Partners",
-   "publisher": "TNGlobal",
-   "feed": "Google News: biotech Series B financing",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HUmJkNk9sdC13QzBhRGIwajJleEo5Yl83Mk8zT0lyTDJZR215aXNTbTlId2VFVEh6TThSek83Rld1aWtBMzV5cmNZN25IcUNfc2F0OXg0M0FPWHNLazRwcldqVEVKRVFNOUQ2WU5tY1kxalpmRnBXRl9NLU4?oc=5",
-   "published": "2026-11-13T08:57:55+00:00",
-   "summary": "Yicura BioMed closes first tranche of Series B led by Gobi Partners &nbsp;&nbsp; TNGlobal",
-   "kinds": [
-    "deal",
-    "funding"
-   ]
-  },
-  {
-   "title": "Layoff Tracker: Milestone cutting 20% of HQ team, including CMO",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1N2d4NnYwN0JiU181Tm9vV0dUM1c1NWVMUHNCdlZFVmRSZXpmRFp3TnBQUVJXYnFYV1VlNVBIZXU0TzY4bE5BNTd4NGpIT21aYlZHMy1qSW1HWDFH?oc=5",
-   "published": "2026-11-13T08:00:00+00:00",
-   "summary": "Layoff Tracker: Milestone cutting 20% of HQ team, including CMO &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Fierce Biotech Layoff Tracker 2026: Milestone shrinks HQ workforce during Cardamyst rollout",
-   "publisher": "Fierce Biotech",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54YTd6U0Z6bkhSVmR3cEFEd2lESjRaQjRpZU1paTR6T1dmQjVJTFJETkd3UXNSaGdja1NQbDFocDVaZHV0M0NyRThZT2REM1RWYldvMTJQanRiYS00NzEzVTB1Njl1bEpOQ19ST0x6cmUzTlRKZ2pOZDQtNnI?oc=5",
-   "published": "2026-11-13T08:00:00+00:00",
-   "summary": "Fierce Biotech Layoff Tracker 2026: Milestone shrinks HQ workforce during Cardamyst rollout &nbsp;&nbsp; Fierce Biotech",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Amsterdam\u2019s VectorY Therapeutics raises \u20ac74.5 million to tackle ALS and other neurodegenerative diseases",
-   "publisher": "EU-Startups",
-   "feed": "Google News: biotech raises million financing",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQamVwWDFURzNUV1I4blpidmpmQzN1S2U4b0dpakpRaEpwRlpBc3pXMW5HNlo0UVREazFUaFRTa1pFdWVxZGZDMG9ZcC01TUx4eUZrMC0yWm5YZm9OVkN4MEIyblBEWVcyNVkwZGxsSmsweWs5ajI2TC1NdnpSRWdtajRHX0ZablZjZU1Yb0Mxc2JvVlp1dlRnWkRpOXdxSjRNay0wSWhwdm5NTTZRdVdmV2p0Y0FoNXV2Y0FrbkpwcHZmNnNhRnUzVjlib3NkdG82SlFTdHhoOA?oc=5",
-   "published": "2026-11-13T07:11:42+00:00",
-   "summary": "Amsterdam\u2019s VectorY Therapeutics raises \u20ac74.5 million to tackle ALS and other neurodegenerative diseases &nbsp;&nbsp; EU-Startups",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Windward Bio Raises $175M in US IPO",
-   "publisher": "Voice of Healthcare",
-   "feed": "Google News: biotech raises million financing",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeVJVTWt1bWpYMjRBOWQ3Rm0zeWt6VFE1Vl91LWpOamY3RG5BcWdjWldxM19ueFRDZXpNVWJxWlJQZ3BKd0xGUWdDQ29XNHhwTTQySlJ6WU9pcXAzMk12czRhWl9VUmZCU1U3RWJHb3lPTW96bFJSNjlUN0ZvelJMWG9QRDNvZEpIYV9Nc3ZsRVZNU3NoVThrZFgtejQxdWIxakVZ?oc=5",
-   "published": "2026-11-13T06:50:00+00:00",
-   "summary": "Windward Bio Raises $175M in US IPO &nbsp;&nbsp; Voice of Healthcare",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Regal Intel Receives Two Seed Grants to Test Rare Disease Surveillance Guidelines Against Real Patient Outcomes",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYkx4X0FtWkxzVnpGNXJQa2ZXMG9jTURYc2JnY0RNVkJ1dExRd0ZMdmlPMGtGMm1OSFhfUUgtLWdwU2dzX1FEX1BWalVfbEt1eEJrdU9EWTNwOVJUbnRhR2IwRzMwczExSlhIRE1rdzM2RHBQZUt0LWYzOTdqSUxVNTFHcVRBLXI2MUVnb2xWenRaRFFlR0gxOHF4NWcxM2VqZ3lpSFNHNHI5c0hvN1lyczA1dVZXZ2UxT3BJX0dTSG9GNDJ3ZzVZSlF2TW5KVGhvY3ZXWmhmeTdzWjdiSlhaMjBVbHJPZw?oc=5",
-   "published": "2026-11-13T05:57:38+00:00",
-   "summary": "Regal Intel Receives Two Seed Grants to Test Rare Disease Surveillance Guidelines Against Real Patient Outcomes &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Amyris, Inc. to acquire industry-leading sweet protein innovator Oobli, adding a proven protein technology platform to its biomanufacturing capabilities",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQVEE1UUpSTGhlS25yemJHTks1NjN5MFRHaWZWOExCNEhTQU1mWHFVeEI0WU1aaTdHYmRrMWFLc2xodE84el8yMFgxUDJKY3BHUTZWOHBJWXhDcUtoWWFzOTB4WmRjREg1MUh3b25TZ1R4Z1E3RkZabjRsaGxQcGJHcUNVd0FhR0ZWeUI4a21YWnFhQk5Vb2ZLNUV6Q0tRMURhUFQ1cUFxUEo0MWxUYURPQWlJRkZSRkE3aVkyWGNobTlfdUJ1V19qaTRqeXZTSnRvd2p0bjB3azAwYUtxTjFqdWQ5SnRGNDlReU9ybkM0M3BmekpNdk5PMkR5YXFWSmtLeS1USHZxdjlPS3A5WDdNQkVZVGRoTzdF?oc=5",
-   "published": "2026-11-13T02:59:59+00:00",
-   "summary": "Amyris, Inc. to acquire industry-leading sweet protein innovator Oobli, adding a proven protein technology platform to its biomanufacturing capabilities &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "PAI Pharma Acquires Nexus Pharmaceuticals, Expanding Portfolio of Sterile Injectable Products",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYjRyZExLSzdsWld5cThnZGxTenJ2Z3ZaZzNheFMxcjFSUEdabU5HdE1MV0JGQTloMk1YTXY4TE94TlJuZTl5OG43bERpalNOcXhYX0lFRHhWdC1aVEtHRlJCSjNYeHc5dFZyR3ZwamkzR3ZONXRKYmN2OUlfdG4wWlBzYTk2SmtFOEUwUkUxQ1d0ZlloT3ZyaHZXc3Z2d09ZV0RlVWxjOVVsMENVLWpwTVkwSTRtaTN3R2pMcnFXeEx2WHdmUUc0QkZYLWNHdw?oc=5",
-   "published": "2026-11-13T02:57:59+00:00",
-   "summary": "PAI Pharma Acquires Nexus Pharmaceuticals, Expanding Portfolio of Sterile Injectable Products &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Premier and HonorHealth Expand Partnership to Strengthen Financial Resilience Amid Mounting Healthcare Pressures",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOaWRjZFpObkpuT19SNnJBWldaY2JnenB6T0RJa0xxUFdleFAxV3R2SzFJRnNDTktzRzltTklQVHdOay1vcFdfXzJ1a25CYVhBWTMtdkNlTEc2WGFlanhEcHdUdi1jbkdTZFNQWV9xaE4xT3JfOUVDcE5Jc2NLSE93dmpiVHlySi1CbXByZlFKR1FqcXExX284VWh6V2o0WDdkTE9RSEFiR3hzRlpYRlgtRU1UcTVFS2xERW9TcF9HVWpyUTd0ZkVYOEJ2Y253QjFIVzY5Q1JEYlYtbXhnNEw0S2c2ZTc4ak0?oc=5",
-   "published": "2026-11-13T02:46:44+00:00",
-   "summary": "Premier and HonorHealth Expand Partnership to Strengthen Financial Resilience Amid Mounting Healthcare Pressures &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "WWB IPO News - Swiss biotech Windward Bio Group prices US IPO at $17, the midpoint of the range",
-   "publisher": "Renaissance Capital",
+   "title": "Sanofi-backed Windward Bio raises $225 million in its Nasdaq IPO as Rezera postpones its listing",
+   "publisher": "MLQ.ai",
    "feed": "Google News: biotech IPO prices",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa3FBbVNLaTBXTFgyaFFwOHQwQ1JvZFpvRGF6T1o0cVJweEZoU29vZEZmWW15XzU0NURXV0dOM3hzbzlRRy1FR0xzQThvSmFNaXdMem5fUm5ZQ1Vqei03bGYtalVNcXZZVUdkNlpHNzJLVmx2TE1UYVg0c2tBVVUtdng4OWRyWVVnVDVCSl8zSVRocUl1RlJFQ3hsQjBueF9NaVhTRUNEbklMU3VCNEFtZTJ3QmRLMThuaEJkUGgzVlA?oc=5",
-   "published": "2026-11-13T02:34:00+00:00",
-   "summary": "WWB IPO News - Swiss biotech Windward Bio Group prices US IPO at $17, the midpoint of the range &nbsp;&nbsp; Renaissance Capital",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNmZibjhYWVpNMW5GWlp4bEFfODNYc2lnaWcwOWVrN2VjSmtVNDd0NFJZQXhoQ3BQUG1LNWNvbnNJem5WZGR1a0RPWmNTbzFLYVNtRWxsaUtRR3NxUldKQU56aVV1c1pjTUpFS2ZmdEZLVVJnZWdmMVJZX3dldlhmSGZ2M0hfWnJMNHc1a19TM05RTm9zUjctbF90R0Y3eXBIWE1TYkhJaEZ3TEx3eDh3aVFORnhmaWs?oc=5",
+   "published": "2026-11-13T22:12:10+00:00",
+   "summary": "Sanofi-backed Windward Bio raises $225 million in its Nasdaq IPO as Rezera postpones its listing &nbsp;&nbsp; MLQ.ai",
    "kinds": [
     "funding"
-   ]
-  },
-  {
-   "title": "Windward prices $175M IPO to advance China-licensed lung drugs",
-   "publisher": "BioPharma Dive",
-   "feed": "Google News: biotech IPO prices",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVWgxQVRGQ0VuRW1ma1pJY2ZUM3BreTZQdlBmOFktN29RODVVdzZLSFRQOHZiaUFqVEVPaTlOV1Q1LVRPTmZPR2s4UldySFRqLWhVWG5waGw4UTlMRmxMd3lVWHNWR21SakxxZkI3U1pCZkdTRlAyczVTWG5wQTJjeFRDMlBWV3hHN2tkbkJMQTV1Zm9KXzNMbUEtZ2MxUQ?oc=5",
-   "published": "2026-11-13T01:34:21+00:00",
-   "summary": "Windward prices $175M IPO to advance China-licensed lung drugs &nbsp;&nbsp; BioPharma Dive",
-   "kinds": [
-    "deal",
-    "funding"
-   ]
-  },
-  {
-   "title": "Promega Enters License Agreement with BrainXell to Implement NanoLuc\u00ae, NanoBiT\u00ae and HaloTag\u00ae Technologies in iPSC-Derived Models",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTkFRRGE0X1l1RnZaRXBidW5FSXNXaGxXOTNBQlVEcTI0R21IMkRHUV9rUGc0LUxlbF9Bd1duX0dkS1BJQUd1R1BGRDBacDZLWldpTklqRzVBLVg2bi1IZFhqR0RnazN3a2VVNE1XdURxUjg0RWtPZU5MQTZTZEF6MFVfZDZOZFg4OF9oNHBBdE1wUWxlalZ0RWNWaEU3UnQ3X0x5MVVJYzNQYmw4Q2stZkpYWnhfMGVheTlHWEJ5SXpyNzlZYWFaa3dRMTlReFJPQ3pIZkstYjJJUk9FTk52Wnl1TTVUbi1RY1BRekhNYlRER2ExbW53?oc=5",
-   "published": "2026-11-13T01:28:02+00:00",
-   "summary": "Promega Enters License Agreement with BrainXell to Implement NanoLuc\u00ae, NanoBiT\u00ae and HaloTag\u00ae Technologies in iPSC-Derived Models &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Neurosterix Announces $105 Million Series B Financing and Appointments of Leading Neuropsychiatry Drug Development Executives",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWDBxUkhCUmRqUGpFTUNVcHdQU1FqR3VVTGg0eGIyempvVXN4V3djZXdfbEdKalhjT0J6Z1pXdmphTndfQnl6R2NCQmsyQmNMczRFODBjZ1hhVkI5d3lSbFRLcmd0SVhCbEhoaHRhTDVfVXJSVkVpazlZeDlwOERnbzhNNU5kQW5Lb25SbktQalZtZHNWQWNuOEhab216SnY2Y2Rzdjd5WDVPZlBRSTY2MTN3Vnp0TWp4Nk1aLWw2Wmplc3FyMkFlcWJvZDFYelFLVkhFQlF6WWF4cEJScUE4c0JhNkpmcjBQMFRJM2NhVDdkOHVXVjBz?oc=5",
-   "published": "2026-11-13T01:27:44+00:00",
-   "summary": "Neurosterix Announces $105 Million Series B Financing and Appointments of Leading Neuropsychiatry Drug Development Executives &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Vir Biotechnology Announces Pricing of Public Offering of Common Stock",
-   "publisher": "Yahoo Finance",
-   "feed": "Google News: biotech IPO prices",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNejhTTmNvOV9MUy13NFNManREQ0tubjZHTzlkdHYyZEVLSTRJTDg1eE1kLThQQmkwT3BuLV8wZjctcUdyV0swOS11RVJ5WWk4U1JpX2dLTHFBd1llT2F2emdIOHdtVF9yWVA3Y3NVTktZR1Z5Y2Z4MV9uVUNvbUVMQjlTajhSc3JPZjFjU2lINGFkcDAyMHQyZUloQVVfRjY3UlJ0dkJn?oc=5",
-   "published": "2026-11-13T00:55:31+00:00",
-   "summary": "Vir Biotechnology Announces Pricing of Public Offering of Common Stock &nbsp;&nbsp; Yahoo Finance",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Windward Bio prices IPO at $17 per share on Nasdaq By Investing.com",
-   "publisher": "Investing.com Nigeria",
-   "feed": "Google News: biotech IPO prices",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZlRTX01NeFJQSFhOOWM3VlNWRURkYkI2TzFNcVdTNnZ3M2dTNXRhN1hya3hjZ3YxdFdaMEJpQUY5ZFZ5Y180aFcwX1oySDZiSERUenhmTzdYTUx6djA0MFgzSzQ2XzU2aE8wZGNNUVVyRFpObXJ3RkhYM0cxUFBTZi1vWEFYN0o0bUw2WnFRX1NoR2d2Sk4xZG9VelBJblhNVTA2b3ViMVVjM1lUbDlqOA?oc=5",
-   "published": "2026-11-13T00:52:32+00:00",
-   "summary": "Windward Bio prices IPO at $17 per share on Nasdaq By Investing.com &nbsp;&nbsp; Investing.com Nigeria",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Windward Bio\u2019s $175 Million IPO Shows Biotech Is Back",
-   "publisher": "Finimize",
-   "feed": "Google News: biotech IPO prices",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdk40VmFBc3MzQzNTSEstSDhZMTV5eGRhemFwUHUtQjNXakxpclhmaE1IQS11aW05VDdPdFF3UFBJSEJ2YkJQRTRQenNPUUpuQ3o4QnhvMHdDQ1FETEhKcy1wYlVuRnRxZi1JSDlSdXRYVjRmSnJPOWo5Uy00YlJsckZZS2U0ZW8?oc=5",
-   "published": "2026-11-13T00:10:05+00:00",
-   "summary": "Windward Bio\u2019s $175 Million IPO Shows Biotech Is Back &nbsp;&nbsp; Finimize",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Novo Holdings-backed Windward Bio raises $175 million in US IPO",
-   "publisher": "Yahoo Finance Singapore",
-   "feed": "Google News: biotech raises million financing",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQXJHRjRPLXFqTmVrQXdfcXdtc1c1ZkR5allkREFBVUl4Y0dFOUx3N1JIVmpCdjk1WUtBaF80VlFaelZKVTYyQkhhY1I5Z3h4VmM3SElGUnhUd3VjU2xSWXNBVFlHYU8zZVhMYWN4NUFPQmlNdVM0dkhneFpoRURYYjlkeHctRkhPTVE?oc=5",
-   "published": "2026-11-13T00:02:00+00:00",
-   "summary": "Novo Holdings-backed Windward Bio raises $175 million in US IPO &nbsp;&nbsp; Yahoo Finance Singapore",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Swiss Biotech Windward Raises $225 Million in US IPO, Placement",
-   "publisher": "Bloomberg.com",
-   "feed": "Google News: biotech IPO prices",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX0w4YWtqMDVWSHlEMWJua3UyTzhxbTFfeTROWkVySXJ4M2pXcVJoVnhIVnBZQmxwV1pOb3FYM1RrYUZLdldlTnNNZEEtTDgzbU5MQ2tqdm5pVmV0eFBxNVpqVjgzRGQtSFRwR3hpcF9GZTJnSzZyRnZyOU5ham5LWlhpYko4a2M5OHpoOGZwZ3N2MWY2WkxxaTNZVlBNckloemJPRS1kSVNkYWRjNWVLbDVR?oc=5",
-   "published": "2026-11-12T23:32:55+00:00",
-   "summary": "Swiss Biotech Windward Raises $225 Million in US IPO, Placement &nbsp;&nbsp; Bloomberg.com",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Pfizer: $1.5bn Of Blackstone Funding Doesn't Make Berobenatide A Winning Obesity Drug",
-   "publisher": "Seeking Alpha",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPamZNcm1Fa1FNbXVNb2pId3JHMGU3V1doZzFnS1EyTi1hMmszR2Q4Rzc3QlVCbFprS0M5YUtYQUd0WXItdFRuSDVvYW9QRVNBVURUT01YUDd0VVFLZ1paTmd4Y1J3Vmt5cWlXSHF3bGt3S0tnWENsRmY4ajVNV1BkLVFmT0EydXFUTDd3RGpfQjBNblBVckJCc1RWOEZ0Sk1BS0h6U0NHY2hHdUZKS1FIZmNB?oc=5",
-   "published": "2026-11-12T22:40:10+00:00",
-   "summary": "Pfizer: $1.5bn Of Blackstone Funding Doesn't Make Berobenatide A Winning Obesity Drug &nbsp;&nbsp; Seeking Alpha",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Lineage Announces Acquisition of NeuroAirmid Therapeutics and Clinical Stage Program for the Treatment of Huntington\u2019s Disease",
-   "publisher": "Business Wire",
-   "feed": "Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQbktYU0UzVWN4Q2E3TnhTOHM5SlRRcEFwVXhaLVNicm9vVHBiZGZFRjAzUktYbmxTcHdvYm1ySWRtdDVuWlBRaUVKbTlPbi1ObU5Qc2tKVXNwOWFhcnQ4MUU1MEh2eGRqSkR3QUt3OGxyY3pxenBhZXpGSEJuM0lzQkFLSl9kMml1NGszcC13ZF9yS0k1YUkwXzZEOFBucDBBTHQ5NDBRYjV5MkRhOEVDVk5OQzNGRFlKdTN0YkQ2Rm1jN3VwTWlDeUFzeUFqMGVzQkpHVjl3blFVVHNRMTFFajJLVzZIOTU1dHRFOFp2SFkxWTlidjZMSjBpY0FoYWNRdXBIaEJJbWlrcFQ2VW9v?oc=5",
-   "published": "2026-11-12T21:03:46+00:00",
-   "summary": "Lineage Announces Acquisition of NeuroAirmid Therapeutics and Clinical Stage Program for the Treatment of Huntington\u2019s Disease &nbsp;&nbsp; Business Wire",
-   "kinds": [
-    "deal"
    ]
   }
  ]
