@@ -1,5 +1,25 @@
 [
  {
+  "id": "NUVL-see-filing-2026-11-27",
+  "ticker": "NUVL",
+  "company": "Nuvalent",
+  "drug": "Neladalkib",
+  "indication": "TKI-pretreated ALK+ NSCLC",
+  "pdufa_date": "2026-11-27",
+  "outcome": "Approved",
+  "decision_date": "2026-11-17",
+  "headline": "FDA Approves Neladalkib in Advanced ALK+ Non\u2013Small Cell Lung Cancer",
+  "source_name": "CancerNetwork",
+  "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWXJKdktqT1NNUzg5aEp1cjJfM0hnblhJYk9qeFowMHFaLUxBeDRsUUh1ZmVodWMwT09ra05BNUV5YV9yWEZ5Nm9BbFVCZDg5LVVIQi10Z1FXdFEyNjlTQmJBNkM5ODQ2aVRGZGE0anFQcjM0THhKbi1FQzJNaENHTmVlTUlLcUI2WVRaT0RfcmE1ZWh4YlBQaGFtNWw5U3diRmpn?oc=5",
+  "reaction_date": null,
+  "reaction_pct": null,
+  "window_pct": null,
+  "biggest_day": null,
+  "biggest_day_pct": null,
+  "checked_at": "2026-11-18T03:04:18+00:00",
+  "final": true
+ },
+ {
   "id": "SMMT-ivonescimab-2026-11-14",
   "ticker": "SMMT",
   "company": "Summit Therapeutics",
