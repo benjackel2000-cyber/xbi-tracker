@@ -40,10 +40,36 @@ LOOKAHEAD_DAYS = 10               # also check upcoming dates this close, for ea
 FINAL_AFTER_DAYS = 14             # stop re-checking an event this long after its date
 LOOKBACK_DAYS = int(__import__("os").environ.get("LOOKBACK_DAYS") or FINAL_AFTER_DAYS)  # widen for a one-off backfill
 
-APPROVED = re.compile(r"\b(fda (approv\w*|clears|grants approval)|approv(es|ed|al) (of|for)|wins (fda )?approval|gets (fda )?approval|receives (fda )?approval|secures (fda )?approval|green ?light)", re.I)
-CRL = re.compile(r"complete response letter|\bCRL\b|rejects|declines to approve|turns down", re.I)
-EXTENDED = re.compile(r"(extend|extension|pushes back|delays?) .*(review|PDUFA|decision|goal date)|PDUFA .*(extended|extension)", re.I)
-NOT_DECISION = re.compile(r"accepts|acceptance|seeks|submits|filing|PDUFA date set|ahead of|awaits|could|will the|what to expect", re.I)
+# Decision language only. "FDA approval" as a noun ("approval odds", "approval hinges on")
+# is not a decision, so the approval pattern needs a verb: approves / approved / wins approval.
+APPROVED = re.compile(
+    r"\bfda\b.{0,20}\b(approves|approved|clears|cleared|grants (\w+ )?approval)\b"
+    r"|\bapproved by (the )?(u\.?s\.? )?fda\b"
+    r"|\b(wins?|gets?|receives?|secures?|earns?|scores?|lands?|nabs?|bags?|grabs?)\b.{0,30}\b(approval|nod|green ?light)\b"
+    r"|\bfda\b.{0,20}\b(expands|broadens)\b.{0,40}\b(approval|label|indication)\b"
+    r"|\bfda (approval|nod) (for|of)\b.{0,60}\b(granted|secured|received|won)\b",
+    re.I,
+)
+CRL = re.compile(r"complete response letter|\bCRL\b|\bfda\b.{0,20}\b(rejects|rejected|declines to approve|turns down|spurns|snubs)\b|\b(rejected|turned down) by (the )?(u\.?s\.? )?fda\b", re.I)
+EXTENDED = re.compile(r"new (pdufa|target action|goal) (\w+ )?date|(extend|extension|pushes back|delays?|postpones?) .*(review|PDUFA|decision|goal date|action date)|(PDUFA|goal date|action date|decision) .*(extended|extension|pushed|delayed|moved)", re.I)
+# Speculation, previews, roundups and calendars. Any headline matching this is skipped for
+# every label, because it talks about a decision without reporting one.
+NOT_DECISION = re.compile(
+    r"\b(odds|chances?|likel(y|ihood)|probabilit\w*|hinges?|could|may|might|would|should|will the|if approved|potential(ly)?|"
+    r"expected|expects?|anticipat\w*|ahead of|awaits?|awaiting|looms?|nears?|upcoming|pending|preview|what to expect|"
+    r"bets?|betting|options? (traders?|activity)|stocks? to (watch|buy)|catalysts? (to watch|calendar|this (week|month))|"
+    r"pdufa dates\b|fda calendar|drug alerts?|approvals?,|countdown|path to|set for|slated|scheduled|"
+    r"accepts|acceptance|seeks|submits|submission|filing|resubmi\w*|advisory (committee|panel)|adcom|panel vote)\b|\?",
+    re.I,
+)
+# A decided outcome (Approved / CRL) counts as confirmed when a primary or trade source reports
+# it, or two different publishers do. Anything less stays unconfirmed and gets re-checked.
+TRUSTED = re.compile(
+    r"globenewswire|business ?wire|pr ?newswire|accesswire|reuters|associated press|\bap news\b|stat\b|statnews|fierce|endpoints|biospace|"
+    r"biopharma dive|bloomberg|wall street journal|wsj|financial times|cnbc|fda\.gov|u\.s\. food and drug|onclive|cancer ?network|targeted onc|"
+    r"hcplive|medpage|healio|neurology ?live|ajmc|pharmaceutical technology|pharmaphorum|evaluate|the pharma letter|in vivo|scrip",
+    re.I,
+)
 
 
 def headlines(company: str, ticker: str, drug: str, start: pd.Timestamp, end: pd.Timestamp) -> list[dict]:
@@ -73,12 +99,25 @@ def headlines(company: str, ticker: str, drug: str, start: pd.Timestamp, end: pd
     return sorted(out, key=lambda h: h["published"])
 
 
-def classify(items: list[dict]) -> tuple[str, dict | None]:
+def classify(items: list[dict]) -> tuple[str, dict | None, bool]:
+    """Return (outcome, first matching headline, confirmed).
+
+    Speculative or roundup headlines are ignored for every label. Approved / CRL need
+    confirmation (a trusted publisher, or two different publishers); without it the event
+    is reported as "No news found" so it is not shown as decided, and is checked again."""
+    reports = [h for h in items if not NOT_DECISION.search(h["title"])]
     for label, pat in (("CRL", CRL), ("Approved", APPROVED), ("Extended", EXTENDED)):
-        for h in items:
-            if pat.search(h["title"]) and not (label == "Approved" and NOT_DECISION.search(h["title"])):
-                return label, h
-    return "No news found", None
+        hits = [h for h in reports if pat.search(h["title"])]
+        if not hits:
+            continue
+        if label == "Extended":
+            return label, hits[0], True
+        publishers = {(h["publisher"] or "").strip().lower() for h in hits}
+        trusted = [h for h in hits if TRUSTED.search(h["publisher"] or "")]
+        if trusted or len(publishers - {""}) >= 2:
+            return label, hits[0], True
+        return "No news found", hits[0], False
+    return "No news found", None, False
 
 
 def prices(ticker: str, start: pd.Timestamp, end: pd.Timestamp) -> pd.Series:
@@ -129,31 +168,38 @@ def main() -> int:
         if not (today - pd.Timedelta(days=LOOKBACK_DAYS) <= pdufa <= today + pd.Timedelta(days=LOOKAHEAD_DAYS)):
             continue
         prev = saved.get(ev["id"])
-        if prev and prev.get("final"):
-            continue
+        if prev and (prev.get("final") or prev.get("manual")):
+            continue  # manual = corrected by hand; never overwritten
         start = (pdufa - pd.Timedelta(days=BEFORE_DAYS)).tz_localize("UTC")
         end = min(pdufa + pd.Timedelta(days=AFTER_DAYS), today).tz_localize("UTC")
         items = headlines(ev["company"], ev["ticker"], ev["drug"], start, end)
-        outcome, hit = classify(items)
-        if pdufa > today and outcome == "No news found":
-            continue  # upcoming and nothing early yet
+        outcome, hit, confirmed = classify(items)
+        decided = outcome != "No news found"
+        if pdufa > today and not decided:
+            if hit:
+                print(f"{ev['ticker']:6} {ev['date']}  unconfirmed    | {hit['title'][:80]} ({hit['publisher']})")
+            continue  # upcoming and nothing confirmed yet
         px = prices(ev["ticker"], start.tz_localize(None), end.tz_localize(None))
-        rx = reaction(px, hit["published"] if hit else None, pdufa, start.tz_localize(None), end.tz_localize(None))
-        final = today >= pdufa + pd.Timedelta(days=FINAL_AFTER_DAYS - 1) or outcome in ("Approved", "CRL")
+        rx = reaction(px, hit["published"] if decided else None, pdufa, start.tz_localize(None), end.tz_localize(None))
+        # Final only once a decision is confirmed, or the search window has closed.
+        final = today >= pdufa + pd.Timedelta(days=FINAL_AFTER_DAYS - 1) or (outcome in ("Approved", "CRL") and confirmed)
         saved[ev["id"]] = {
             "id": ev["id"], "ticker": ev["ticker"], "company": ev["company"], "drug": ev["drug"],
             "indication": ev.get("indication"), "pdufa_date": ev["date"],
             "outcome": outcome,
-            "decision_date": hit["published"].tz_convert("America/New_York").strftime("%Y-%m-%d") if hit else None,
-            "headline": hit["title"] if hit else None,
-            "source_name": hit["publisher"] if hit else None,
-            "source_url": hit["link"] if hit else None,
+            "confirmed": bool(decided and confirmed),
+            "decision_date": hit["published"].tz_convert("America/New_York").strftime("%Y-%m-%d") if decided else None,
+            "headline": hit["title"] if decided else None,
+            "source_name": hit["publisher"] if decided else None,
+            "source_url": hit["link"] if decided else None,
+            "unconfirmed_headline": hit["title"] if hit and not decided else None,
             **rx,
             "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "final": bool(final),
         }
         checked += 1
-        print(f"{ev['ticker']:6} {ev['date']}  {outcome:14} reaction {rx['reaction_pct']}%  window {rx['window_pct']}%  | {hit['title'][:80] if hit else ''}")
+        tail = hit["title"][:80] if hit else ""
+        print(f"{ev['ticker']:6} {ev['date']}  {outcome:14} {'' if confirmed or not hit else '(unconfirmed) '}reaction {rx['reaction_pct']}%  window {rx['window_pct']}%  | {tail}")
     OUT.write_text(json.dumps(sorted(saved.values(), key=lambda o: o["pdufa_date"], reverse=True), indent=1))
     print(f"Checked {checked} events; {len(saved)} outcomes saved. ({newsrss.summary()})")
     return 0
