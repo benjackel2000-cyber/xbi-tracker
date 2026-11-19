@@ -22,6 +22,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -72,9 +73,35 @@ def rows_of(block) -> list[dict]:
     return []
 
 
+CLASS_FILE = OUT / "deal_class.json"   # deal id -> {"bio": bool, "desc": "..."} so each deal is looked up once
+DESC_BIO = re.compile(r"biotechnolog|biopharmaceutical|clinical[- ]stage|pharmaceutical company|therapeutic|product candidates?|drug candidates?|medicines? for|gene therap|cell therap|antibod|vaccine|oncology|preclinical|phase [123]", re.I)
+DESC_NOT = re.compile(r"blank check|special purpose acquisition|business combination with|medical device company|diagnostic laboratory|cannabis|hemp|dietary supplement|cosmetic|insurance|bank holding", re.I)
+SKIP_NAME = re.compile(r"acquisition|\bspac\b|bancorp|\bbank\b|capital corp|treasury|insurance|mining|gold|realty|\breit\b|data centers?", re.I)
+
+
+def is_biotech(row: dict, cache: dict) -> bool:
+    name, did = row.get("companyName") or "", row.get("dealID") or ""
+    if SKIP_NAME.search(name):
+        return False
+    if did in cache:
+        return cache[did]["bio"]
+    desc = ""
+    try:
+        time.sleep(0.25)
+        o = requests.get(f"https://api.nasdaq.com/api/ipo/overview/?dealId={did}", headers=UA, timeout=30).json().get("data") or {}
+        desc = ((o.get("companyInformation") or {}).get("companyDescription") or "")[:1500]
+    except Exception as exc:
+        print(f"  overview failed for {name}: {exc}")
+        return bool(BIO.search(name) and not NOT_BIO.search(name))  # fall back to the name, don't cache
+    bio = bool(DESC_BIO.search(desc) and not DESC_NOT.search(desc[:600])) if desc else bool(BIO.search(name) and not NOT_BIO.search(name))
+    cache[did] = {"bio": bio, "name": name, "desc": re.sub(r"\s+", " ", desc)[:300]}
+    return bio
+
+
 def from_nasdaq() -> tuple[list[dict], list[dict], list[dict]]:
     """Returns (priced, upcoming, filed) biotech deals from Nasdaq's calendar."""
-    priced, upcoming, filed = [], [], []
+    priced, upcoming, filed, withdrawn = [], [], [], set()
+    cache = json.loads(CLASS_FILE.read_text()) if CLASS_FILE.exists() else {}
     today = date.today()
     months = []
     d = YEAR_START.replace(day=1)
@@ -88,24 +115,30 @@ def from_nasdaq() -> tuple[list[dict], list[dict], list[dict]]:
             print(f"Nasdaq calendar {ym}: failed ({exc})")
             continue
         p, u, f = rows_of(data.get("priced")), rows_of(data.get("upcoming")), rows_of(data.get("filed"))
+        withdrawn |= {norm(r.get("companyName") or "") for r in rows_of(data.get("withdrawn"))}
         print(f"Nasdaq calendar {ym}: {len(p)} priced, {len(u)} upcoming, {len(f)} filed")
         for r in p:
             name = r.get("companyName") or ""
-            if BIO.search(name) and not NOT_BIO.search(name):
+            if is_biotech(r, cache):
                 priced.append({"company": name, "ticker": (r.get("proposedTickerSymbol") or "").strip(),
                                "ipo_date": _iso(r.get("pricedDate")), "offer_price": money(r.get("proposedSharePrice")),
                                "raised_musd": _m(r.get("dollarValueOfSharesOffered")), "exchange": r.get("proposedExchange") or ""})
         for r in u:
             name = r.get("companyName") or ""
-            if BIO.search(name) and not NOT_BIO.search(name):
+            if is_biotech(r, cache):
                 upcoming.append({"company": name, "ticker": (r.get("proposedTickerSymbol") or "").strip(),
                                  "expected_date": _iso(r.get("expectedPriceDate")), "price_range": r.get("proposedSharePrice") or "",
                                  "raised_musd": _m(r.get("dollarValueOfSharesOffered")), "exchange": r.get("proposedExchange") or ""})
         for r in f:
             name = r.get("companyName") or ""
-            if BIO.search(name) and not NOT_BIO.search(name):
+            if is_biotech(r, cache):
                 filed.append({"company": name, "ticker": (r.get("proposedTickerSymbol") or "").strip(),
                               "filed_date": _iso(r.get("filedDate")), "raised_musd": _m(r.get("dollarValueOfSharesOffered"))})
+    CLASS_FILE.write_text(json.dumps(cache, indent=0))
+    done = {norm(x["company"]) for x in priced} | withdrawn
+    recent = (date.today() - timedelta(days=150)).isoformat()
+    filed = [x for x in filed if norm(x["company"]) not in done and x["filed_date"] >= recent]
+    upcoming = [x for x in upcoming if norm(x["company"]) not in done]
     return priced, upcoming, filed
 
 
@@ -123,6 +156,21 @@ def _iso(v) -> str:
 def _m(v) -> float | None:
     x = money(v)
     return round(x / 1e6, 1) if x and x > 10000 else x
+
+
+def traded_before(ticker: str, ipo_date: str) -> bool:
+    """True if Yahoo has prices well before the 'IPO' date (an uplisting or relisting, not a new company)."""
+    if not ticker:
+        return False
+    try:
+        h = yf.Ticker(ticker).history(start=(pd.Timestamp(ipo_date) - pd.Timedelta(days=400)).date().isoformat(),
+                                      end=(pd.Timestamp(ipo_date) - pd.Timedelta(days=20)).date().isoformat(), auto_adjust=False)
+        if len(h) > 5:
+            print(f"  {ticker} traded before {ipo_date}: treated as a relisting, not an IPO")
+            return True
+    except Exception:
+        pass
+    return False
 
 
 def yahoo_ticker(company: str, ipo_date: str) -> str:
@@ -153,7 +201,7 @@ def yahoo_ticker(company: str, ipo_date: str) -> str:
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     seed = json.loads(SEED.read_text())
-    known = json.loads(KNOWN.read_text()) if KNOWN.exists() else []
+    known = [k for k in (json.loads(KNOWN.read_text()) if KNOWN.exists() else []) if not traded_before(k.get("ticker", ""), k["ipo_date"])]
     priced_nq, upcoming, filed = from_nasdaq()
 
     # Merge: seed first (hand-checked), then previously found, then new Nasdaq priced deals.
@@ -163,12 +211,15 @@ def main() -> int:
     added = []
     for r in priced_nq:
         k = norm(r["company"])
-        match = ipos.get(k) or next((v for kk, v in ipos.items() if kk.split(" ")[0] == k.split(" ")[0] and abs((pd.Timestamp(v["ipo_date"]) - pd.Timestamp(r["ipo_date"] or v["ipo_date"])).days) <= 7), None)
+        c = k.replace(" ", "")
+        match = ipos.get(k) or next((v for kk, v in ipos.items()
+                                     if (kk.replace(" ", "").startswith(c[:6]) or c.startswith(kk.replace(" ", "")[:6]))
+                                     and abs((pd.Timestamp(v["ipo_date"]) - pd.Timestamp(r["ipo_date"] or v["ipo_date"])).days) <= 7), None)
         if match:
             if not match.get("ticker") and r["ticker"]:
                 match["ticker"] = r["ticker"]
             match.setdefault("exchange", r["exchange"])
-        elif r["ipo_date"] and r["ipo_date"] >= YEAR_START.isoformat() and r["offer_price"]:
+        elif r["ipo_date"] and r["ipo_date"] >= YEAR_START.isoformat() and r["offer_price"] and not traded_before(r["ticker"], r["ipo_date"]):
             ipos[k] = dict(r, source="nasdaq")
             added.append(r)
     if added:
@@ -223,28 +274,47 @@ def main() -> int:
         rows.append({"id": f"filed-{norm(r['company']).replace(' ', '-')}", "status": "filed", "company": r["company"], "ticker": r["ticker"],
                      "filed_date": r["filed_date"], "raised_musd": r["raised_musd"]})
 
-    # Equal-weight basket: each IPO enters at its offer price on its first trading day.
-    idx_rows, level = [], 100.0
+    # "$1,000 in every biotech IPO at its offer price" vs the same money put into XBI or the IPO ETF
+    # on each IPO's first trading day. Buy and hold, no rebalancing; returns are on total money invested.
     xbi = px["XBI"].dropna()
     ipo_etf = px["IPO"].dropna() if "IPO" in px.columns else pd.Series(dtype=float)
-    held_prev: dict[str, float] = {}
-    offer_by = {r["ticker"]: r["offer_price"] for r in rows if r.get("status") == "priced" and r.get("ticker") and r.get("offer_price")}
-    first_by = {r["ticker"]: r["ipo_date"] for r in rows if r.get("status") == "priced" and r.get("ticker")}
+    lots = []  # (ticker, first_day, offer, xbi_at_entry, etf_at_entry)
+    for r in rows:
+        t = r.get("ticker")
+        if r.get("status") != "priced" or not t or t not in px.columns or not r.get("offer_price"):
+            continue
+        s_ = px[t].dropna()
+        s_ = s_[s_.index >= pd.Timestamp(r["ipo_date"])]
+        if not len(s_):
+            continue
+        d0 = s_.index[0]
+        xb = xbi[xbi.index < d0]
+        eb = ipo_etf[ipo_etf.index < d0]
+        lots.append((t, d0, float(r["offer_price"]), float(xb.iloc[-1]) if len(xb) else float(xbi.iloc[0]),
+                     float(eb.iloc[-1]) if len(eb) else (float(ipo_etf.iloc[0]) if len(ipo_etf) else None)))
+    idx_rows = []
+    last_px: dict[str, float] = {}
     for d in px.index:
-        rets = []
-        for t, offer in offer_by.items():
-            if t not in px.columns or pd.isna(px.at[d, t]):
-                continue
-            if pd.Timestamp(first_by[t]) > d:
-                continue
-            prev = held_prev.get(t, offer)
-            rets.append(float(px.at[d, t]) / prev - 1)
-            held_prev[t] = float(px.at[d, t])
-        if rets:
-            level *= 1 + sum(rets) / len(rets)
-        idx_rows.append({"date": d.strftime("%Y-%m-%d"), "basket": round(level, 2), "n_ipos": len(rets),
-                         "xbi": round(float(xbi.loc[:d].iloc[-1]) / float(xbi.iloc[0]) * 100, 2) if len(xbi.loc[:d]) else None,
-                         "ipo_etf": round(float(ipo_etf.loc[:d].iloc[-1]) / float(ipo_etf.iloc[0]) * 100, 2) if len(ipo_etf.loc[:d]) else None})
+        held = [l for l in lots if l[1] <= d]
+        if not held:
+            continue
+        v_ipo = v_xbi = v_etf = 0.0
+        etf_ok = True
+        for t, d0, offer, xb0, eb0 in held:
+            p = px.at[d, t]
+            if not pd.isna(p):
+                last_px[t] = float(p)
+            v_ipo += 1000 * last_px.get(t, offer) / offer
+            v_xbi += 1000 * float(xbi.loc[:d].iloc[-1]) / xb0
+            if eb0 and len(ipo_etf.loc[:d]):
+                v_etf += 1000 * float(ipo_etf.loc[:d].iloc[-1]) / eb0
+            else:
+                etf_ok = False
+        inv = 1000 * len(held)
+        idx_rows.append({"date": d.strftime("%Y-%m-%d"), "n_ipos": len(held), "invested": inv,
+                         "ipo_return_pct": round((v_ipo / inv - 1) * 100, 2),
+                         "xbi_return_pct": round((v_xbi / inv - 1) * 100, 2),
+                         "ipo_etf_return_pct": round((v_etf / inv - 1) * 100, 2) if etf_ok else None})
 
     for name, data in (("ipos.json", rows), ("ipo_index.json", idx_rows), ("ipo_prices.json", price_rows)):
         (OUT / name).write_text(json.dumps(data, indent=1 if name == "ipos.json" else None))
@@ -252,7 +322,7 @@ def main() -> int:
     above = sum(1 for r in pr if r["return_pct"] > 0)
     print(f"Prices through {last_day.date()}: {len(pr)} priced IPOs with prices ({above} above offer), "
           f"{sum(1 for r in rows if r['status'] == 'upcoming')} upcoming, {sum(1 for r in rows if r['status'] == 'filed')} filed. "
-          f"Basket {idx_rows[-1]['basket']}, XBI {idx_rows[-1]['xbi']}, IPO ETF {idx_rows[-1]['ipo_etf']}.")
+          f"Every IPO at offer: {idx_rows[-1]['ipo_return_pct']}% vs same money in XBI {idx_rows[-1]['xbi_return_pct']}%, IPO ETF {idx_rows[-1]['ipo_etf_return_pct']}%.")
     missing = [r["company"] for r in rows if r["status"] == "priced" and not r.get("ticker")]
     if missing:
         print("No ticker found for:", ", ".join(missing))
