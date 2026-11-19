@@ -17,7 +17,8 @@
   "biggest_day": null,
   "biggest_day_pct": null,
   "checked_at": "2026-11-18T03:04:18+00:00",
-  "final": true
+  "final": true,
+  "confirmed": true
  },
  {
   "id": "SNY-venglustat-2026-11-25",
@@ -37,27 +38,8 @@
   "biggest_day": "2026-11-17",
   "biggest_day_pct": -1.78,
   "checked_at": "2026-11-19T02:44:03+00:00",
-  "final": true
- },
- {
-  "id": "CAPR-deramiocel-2026-11-22",
-  "ticker": "CAPR",
-  "company": "Capricor",
-  "drug": "Deramiocel",
-  "indication": "Duchenne muscular dystrophy",
-  "pdufa_date": "2026-11-22",
-  "outcome": "Approved",
-  "decision_date": "2026-11-18",
-  "headline": "CAPR Stock Has Retail\u2019s Attention After SLS Rally \u2014 Here Are 2 Drugs With Better FDA Approval Odds This Month",
-  "source_name": "Stocktwits",
-  "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV2V1ZTBYTjhiRWVLYmNIc2J6TE13X2pqN3FDMzJoN1dwc2UzaTh6WkdWNDdveTdNRENjbkxGUXROc3RyZFU3cVpKbXRYOVFZdGhFSkRhbzBUM1cxVW5MVFdocGNCc1lod2Z4dWJNMWtZQjEwQXhWWUpZSlljcHV4N1E3cEZDWk90bl9XNlFubEoxTkpBUGNfN1VEaEdXeEFSSmRJb1BsVE1UQk1kc0s3SnRpZUNrN21ycnduMlpSQlRuZkdqZ0VRZmRFWktka0V5?oc=5",
-  "reaction_date": "2026-11-18",
-  "reaction_pct": -4.52,
-  "window_pct": -28.43,
-  "biggest_day": "2026-11-16",
-  "biggest_day_pct": -12.91,
-  "checked_at": "2026-11-19T02:44:00+00:00",
-  "final": true
+  "final": true,
+  "confirmed": true
  },
  {
   "id": "SMMT-ivonescimab-2026-11-14",
@@ -66,18 +48,21 @@
   "drug": "Ivonescimab",
   "indication": "EGFR-mutated NSCLC after 3rd-gen TKI",
   "pdufa_date": "2026-11-14",
-  "outcome": "Approved",
-  "decision_date": "2026-11-04",
-  "headline": "SMMT: A $2.0 billion post-quarter investment funds expansion, but FDA approval hinges on OS evidence",
-  "source_name": "TradingView",
-  "source_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPaVpRa0VnMVNSMXpHUF8zdDRzMDFna1lyQkRWTVRaRzI5UURINnpTOTBjSFhKMzZMUnpRVGQ3azhhX2FOMk5XeXFlSGpOQTVRbkFsdjB4N19jQXJ4UXVTaWp6TDkzZ21XZTBaTFUyc2VjMkMzVW5UUGJqQ2p3NEtmdjBDOVZXdHpNbVkwdUVpYUdMdXVMS1hESDkxa0hQQ1FvOHl5bGtVSU1jRG55S01pWkNMSmpiZWpPMnhQVTRIa2Z1cnpnSURsRzdMNm1Bd1d4V2xsWHhYOVBaOE4zMWJaMlRxLWVyX2l5Y0ZWS0VSZHJORUYteU91cUY3ZlhieVQyVjdSX3BOblZzSG1J?oc=5",
-  "reaction_date": "2026-11-05",
-  "reaction_pct": -12.24,
-  "window_pct": -10.19,
-  "biggest_day": "2026-11-05",
-  "biggest_day_pct": -12.24,
-  "checked_at": "2026-11-06T02:46:26+00:00",
-  "final": true
+  "outcome": "CRL",
+  "decision_date": "2026-11-16",
+  "headline": "FDA rejects ivonescimab, lung cancer treatment from Summit Therapeutics | STAT",
+  "source_name": "STAT",
+  "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZXFPV1FyNFd1Mm90OUJQdk9XajZya0tYVE1kSkV4RHhnZkMyM21KYzFRbzlQUmh2ZWE3MG5KR3NFQXJMcTNQY3lBYlZpRTV3V2lEcC0taUlvTm5zbHFSNi1RS0t4bTIxOGt4cGUzbGIwZllqUkZZeURVcF9rei1rUzhkMGZKaEU1djljSTljQXdKb2d2b1FDMVZoWng0YTJtbXJjdQ?oc=5",
+  "reaction_date": "2026-11-16",
+  "reaction_pct": -16.47,
+  "window_pct": null,
+  "biggest_day": null,
+  "biggest_day_pct": null,
+  "checked_at": "2026-11-19T17:40:00+00:00",
+  "final": true,
+  "confirmed": true,
+  "manual": true,
+  "note": "Corrected by hand 2026-11-19: earlier row misread an analysis headline as an approval. Reaction from the catalyst-news check."
  },
  {
   "id": "BTAI-igalmi-2026-11-14",
@@ -97,7 +82,8 @@
   "biggest_day": null,
   "biggest_day_pct": null,
   "checked_at": "2026-11-17T04:07:09+00:00",
-  "final": true
+  "final": true,
+  "confirmed": true
  },
  {
   "id": "CYTK-aficamten-2026-11-14",
@@ -117,7 +103,8 @@
   "biggest_day": "2026-11-05",
   "biggest_day_pct": -12.66,
   "checked_at": "2026-11-17T04:07:27+00:00",
-  "final": true
+  "final": true,
+  "confirmed": true
  },
  {
   "id": "AGIO-mitapivat-2026-11-01",
@@ -126,18 +113,20 @@
   "drug": "Mitapivat",
   "indication": "Sickle cell disease",
   "pdufa_date": "2026-11-01",
-  "outcome": "Approved",
-  "decision_date": "2026-11-04",
-  "headline": "Agios Pharmaceuticals (AGIO) FDA Approvals, PDUFA Dates & Drug Alerts 2026",
-  "source_name": "MarketBeat",
-  "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NV05DVklsMVRoWFBfV2w1aS1XeFBZU0dsVnZTQlVFMHZMZDByaFJ3a1E1WFlLV0ViTzZFSGxZd2pfNmMzd2E3dHphTVVzeUk0dGRJRW5uejBiOEhoQ3laem9PeTdDV2V1?oc=5",
-  "reaction_date": "2026-11-04",
-  "reaction_pct": 0.58,
+  "outcome": "Extended",
+  "decision_date": "2026-10-30",
+  "headline": "Agios Announces New PDUFA Goal Date of February 1, 2027, for Mitapivat Sickle Cell Disease sNDA",
+  "source_name": "GlobeNewswire (Agios press release)",
+  "source_url": "https://finviz.com/news/412465/agios-announces-new-pdufa-goal-date-of-february-1-2027-for-mitapivat-sickle-cell-disease-snda-company-is-launch-ready-and-in-labeling-discussions-with-fda",
+  "reaction_date": "2026-10-30",
+  "reaction_pct": -17.94,
   "window_pct": -15.6,
   "biggest_day": "2026-10-30",
   "biggest_day_pct": -17.94,
-  "checked_at": "2026-11-10T03:43:45+00:00",
-  "final": true
+  "checked_at": "2026-11-19T17:40:00+00:00",
+  "final": false,
+  "confirmed": true,
+  "note": "Corrected by hand 2026-11-19: review extended to Feb 1, 2027 (not approved). Re-checked automatically around the new date."
  },
  {
   "id": "INO-ino-3107-2026-10-30",
@@ -157,7 +146,8 @@
   "biggest_day": "2026-10-30",
   "biggest_day_pct": -21.77,
   "checked_at": "2026-10-30T23:07:16+00:00",
-  "final": true
+  "final": true,
+  "confirmed": true
  },
  {
   "id": "IONS-bepirovirsen-2026-10-26",
@@ -177,6 +167,7 @@
   "biggest_day": "2026-10-19",
   "biggest_day_pct": 3.35,
   "checked_at": "2026-10-26T21:16:57+00:00",
-  "final": true
+  "final": true,
+  "confirmed": true
  }
 ]
