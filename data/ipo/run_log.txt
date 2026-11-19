@@ -1,0 +1,21 @@
+$VOGX: Data doesn't exist for startDate = 1783828800, endDate = 1786420800
+$APMD: Data doesn't exist for startDate = 1782792000, endDate = 1785384000
+Nasdaq calendar 2026-01: 35 priced, 0 upcoming, 45 filed
+Nasdaq calendar 2026-02: 45 priced, 0 upcoming, 42 filed
+Nasdaq calendar 2026-03: 17 priced, 0 upcoming, 44 filed
+Nasdaq calendar 2026-04: 32 priced, 0 upcoming, 47 filed
+Nasdaq calendar 2026-05: 41 priced, 0 upcoming, 49 filed
+Nasdaq calendar 2026-06: 36 priced, 0 upcoming, 48 filed
+Nasdaq calendar 2026-07: 32 priced, 0 upcoming, 39 filed
+Nasdaq calendar 2026-08: 23 priced, 0 upcoming, 39 filed
+Nasdaq calendar 2026-09: 11 priced, 0 upcoming, 42 filed
+Nasdaq calendar 2026-10: 17 priced, 0 upcoming, 29 filed
+Nasdaq calendar 2026-11: 4 priced, 2 upcoming, 12 filed
+Nasdaq calendar 2026-12: 0 priced, 0 upcoming, 0 filed
+New IPOs from Nasdaq: Eloxx Pharmaceuticals, Inc. (ELOX), TRex Bio, Inc. (TRXB)
+  TRexBio: no ticker match on Yahoo
+  Vogenx: matched VOGX (VOGENX INC), first trade 2026-08-12
+  Apnimed: matched APMD (Apnimed, Inc.), first trade 2026-07-31
+33 IPOs, 32 with tickers: ADRX AGMB AKTS ALMR APMD ASPE ATTO AVLN BBTX BLSM BRVE COAG CTY EIKN ELOX ETRA GENB IAM KARD KLRA LTGO LYCA MANE ODTX PBLS RTSN SCTX SGP SPTX TRXB VOGX WWB
+Prices through 2026-11-19: 32 priced IPOs with prices (13 above offer), 0 upcoming, 8 filed. Basket 306.85, XBI 118.76, IPO ETF 95.17.
+No ticker found for: TRexBio

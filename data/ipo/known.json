@@ -1,0 +1,20 @@
+[
+ {
+  "company": "Eloxx Pharmaceuticals, Inc.",
+  "ticker": "ELOX",
+  "ipo_date": "2026-06-09",
+  "offer_price": 11.0,
+  "raised_musd": 32.7,
+  "exchange": "NASDAQ Capital",
+  "source": "nasdaq"
+ },
+ {
+  "company": "TRex Bio, Inc.",
+  "ticker": "TRXB",
+  "ipo_date": "2026-10-09",
+  "offer_price": 14.0,
+  "raised_musd": 116.7,
+  "exchange": "NASDAQ Global Select",
+  "source": "nasdaq"
+ }
+]
