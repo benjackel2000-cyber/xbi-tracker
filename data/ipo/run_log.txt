@@ -1,5 +1,5 @@
-$VOGX: Data doesn't exist for startDate = 1783828800, endDate = 1786420800
-$APMD: Data doesn't exist for startDate = 1782792000, endDate = 1785384000
+$ELOX: Data doesn't exist for startDate = 1746417600, endDate = 1779249600
+$VVVV: Data doesn't exist for startDate = 1759982400, endDate = 1792814400
 Nasdaq calendar 2026-01: 35 priced, 0 upcoming, 45 filed
 Nasdaq calendar 2026-02: 45 priced, 0 upcoming, 42 filed
 Nasdaq calendar 2026-03: 17 priced, 0 upcoming, 44 filed
@@ -12,10 +12,6 @@ Nasdaq calendar 2026-09: 11 priced, 0 upcoming, 42 filed
 Nasdaq calendar 2026-10: 17 priced, 0 upcoming, 29 filed
 Nasdaq calendar 2026-11: 4 priced, 2 upcoming, 12 filed
 Nasdaq calendar 2026-12: 0 priced, 0 upcoming, 0 filed
-New IPOs from Nasdaq: Eloxx Pharmaceuticals, Inc. (ELOX), TRex Bio, Inc. (TRXB)
-  TRexBio: no ticker match on Yahoo
-  Vogenx: matched VOGX (VOGENX INC), first trade 2026-08-12
-  Apnimed: matched APMD (Apnimed, Inc.), first trade 2026-07-31
-33 IPOs, 32 with tickers: ADRX AGMB AKTS ALMR APMD ASPE ATTO AVLN BBTX BLSM BRVE COAG CTY EIKN ELOX ETRA GENB IAM KARD KLRA LTGO LYCA MANE ODTX PBLS RTSN SCTX SGP SPTX TRXB VOGX WWB
-Prices through 2026-11-19: 32 priced IPOs with prices (13 above offer), 0 upcoming, 8 filed. Basket 306.85, XBI 118.76, IPO ETF 95.17.
-No ticker found for: TRexBio
+New IPOs from Nasdaq: Eloxx Pharmaceuticals, Inc. (ELOX), vVARDIS Holding AG (VVVV)
+33 IPOs, 33 with tickers: ADRX AGMB AKTS ALMR APMD ASPE ATTO AVLN BBTX BLSM BRVE COAG CTY EIKN ELOX ETRA GENB IAM KARD KLRA LTGO LYCA MANE ODTX PBLS RTSN SCTX SGP SPTX TRXB VOGX VVVV WWB
+Prices through 2026-11-19: 33 priced IPOs with prices (14 above offer), 0 upcoming, 5 filed. Every IPO at offer: 21.85% vs same money in XBI 2.56%, IPO ETF -10.04%.

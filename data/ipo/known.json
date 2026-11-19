@@ -1,0 +1,20 @@
+[
+ {
+  "company": "Eloxx Pharmaceuticals, Inc.",
+  "ticker": "ELOX",
+  "ipo_date": "2026-06-09",
+  "offer_price": 11.0,
+  "raised_musd": 32.7,
+  "exchange": "NASDAQ Capital",
+  "source": "nasdaq"
+ },
+ {
+  "company": "vVARDIS Holding AG",
+  "ticker": "VVVV",
+  "ipo_date": "2026-11-13",
+  "offer_price": 18.0,
+  "raised_musd": 175.0,
+  "exchange": "NYSE",
+  "source": "nasdaq"
+ }
+]
