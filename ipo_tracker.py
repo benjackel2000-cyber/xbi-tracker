@@ -34,6 +34,8 @@ ROOT = Path(__file__).parent / "data"
 OUT = ROOT / "ipo"
 SEED = ROOT / "ipo_seed.json"
 KNOWN = OUT / "known.json"          # IPOs the script found on its own in earlier runs
+# Deals to leave out even though they look like biotech IPOs (relistings, non-drug companies). Names as filed.
+EXCLUDE_FILE = ROOT / "ipo_exclude.json"
 YEAR_START = date(date.today().year, 1, 1)
 
 BIO = re.compile(r"therapeutic|\bbio|pharma|medicine|oncology|genetic|genomic|immun|\brx\b|neuro|cell|gene|vaccin|antibod|biosciences|biotherapeutics|health sciences", re.I)
@@ -73,8 +75,9 @@ def rows_of(block) -> list[dict]:
     return []
 
 
+EXCLUDE = set()
 CLASS_FILE = OUT / "deal_class.json"   # deal id -> {"bio": bool, "desc": "..."} so each deal is looked up once
-DESC_BIO = re.compile(r"biotechnolog|biopharmaceutical|clinical[- ]stage|pharmaceutical company|therapeutic|product candidates?|drug candidates?|medicines? for|gene therap|cell therap|antibod|vaccine|oncology|preclinical|phase [123]", re.I)
+DESC_BIO = re.compile(r"biotechnology company|biopharmaceutical company|biopharma company|clinical[- ]stage|pharmaceutical company|therapeutics company|biotherapeutics|life sciences company|drug discovery|generative biology|immunotherap", re.I)
 DESC_NOT = re.compile(r"blank check|special purpose acquisition|business combination with|medical device company|diagnostic laboratory|cannabis|hemp|dietary supplement|cosmetic|insurance|bank holding", re.I)
 SKIP_NAME = re.compile(r"acquisition|\bspac\b|bancorp|\bbank\b|capital corp|treasury|insurance|mining|gold|realty|\breit\b|data centers?", re.I)
 
@@ -84,7 +87,7 @@ def is_biotech(row: dict, cache: dict) -> bool:
     if SKIP_NAME.search(name):
         return False
     if did in cache:
-        return cache[did]["bio"]
+        return classify(cache[did].get("desc", ""), name)
     desc = ""
     try:
         time.sleep(0.25)
@@ -93,9 +96,19 @@ def is_biotech(row: dict, cache: dict) -> bool:
     except Exception as exc:
         print(f"  overview failed for {name}: {exc}")
         return bool(BIO.search(name) and not NOT_BIO.search(name))  # fall back to the name, don't cache
-    bio = bool(DESC_BIO.search(desc) and not DESC_NOT.search(desc[:600])) if desc else bool(BIO.search(name) and not NOT_BIO.search(name))
-    cache[did] = {"bio": bio, "name": name, "desc": re.sub(r"\s+", " ", desc)[:300]}
+    desc = re.sub(r"\s+", " ", desc)[:400]
+    bio = classify(desc, name)
+    cache[did] = {"bio": bio, "name": name, "desc": desc}
     return bio
+
+
+def classify(desc: str, name: str) -> bool:
+    """Biotech if the start of the company's own description says so; the name alone only when there's no description."""
+    if norm(name) in EXCLUDE:
+        return False
+    if desc:
+        return bool(DESC_BIO.search(desc[:400]) and not DESC_NOT.search(desc[:400]))
+    return bool(BIO.search(name) and not NOT_BIO.search(name))
 
 
 def from_nasdaq() -> tuple[list[dict], list[dict], list[dict]]:
@@ -200,8 +213,11 @@ def yahoo_ticker(company: str, ipo_date: str) -> str:
 
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
+    if EXCLUDE_FILE.exists():
+        EXCLUDE.update(norm(n) for n in json.loads(EXCLUDE_FILE.read_text()))
     seed = json.loads(SEED.read_text())
-    known = [k for k in (json.loads(KNOWN.read_text()) if KNOWN.exists() else []) if not traded_before(k.get("ticker", ""), k["ipo_date"])]
+    known = [k for k in (json.loads(KNOWN.read_text()) if KNOWN.exists() else [])
+             if norm(k["company"]) not in EXCLUDE and not traded_before(k.get("ticker", ""), k["ipo_date"])]
     priced_nq, upcoming, filed = from_nasdaq()
 
     # Merge: seed first (hand-checked), then previously found, then new Nasdaq priced deals.
