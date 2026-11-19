@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-11-18T03:04:20+00:00",
- "covers_since": "2026-11-16T03:04:20+00:00",
+ "generated_at": "2026-11-19T02:44:08+00:00",
+ "covers_since": "2026-11-17T02:44:08+00:00",
  "trials_checked": [
+  "NCT07010471-2026-12-01",
+  "NCT07019922-2026-12-01",
+  "NCT07070466-2026-12-01",
+  "NCT06838000-2026-12-01",
+  "NCT03683186-2026-12-01",
+  "NCT07221578-2026-12-01",
+  "NCT07446439-2026-12-01",
+  "NCT05757869-2026-12-08",
+  "NCT06126224-2026-12-09",
+  "NCT05678673-2026-12-15",
+  "NCT03595592-2026-12-15",
+  "NCT05503264-2026-12-16",
   "NCT05239728-2026-10-28",
   "NCT05115110-2026-10-28",
   "NCT06588855-2026-10-29",
@@ -19,22 +31,108 @@
   "NCT04634877-2026-11-20",
   "NCT06585787-2026-11-24",
   "NCT03815643-2026-11-24",
-  "NCT07103148-2026-11-28",
-  "NCT05438407-2026-11-30",
-  "NCT03148418-2026-11-30",
-  "NCT07216079-2026-11-30",
-  "NCT06170970-2026-12-01",
-  "NCT06413433-2026-12-01",
-  "NCT06568367-2026-12-01",
-  "NCT03604198-2026-12-01",
-  "NCT05263050-2026-12-01",
-  "NCT05425004-2026-12-01",
-  "NCT06568562-2026-12-01",
-  "NCT04639986-2026-12-01",
-  "NCT05392114-2026-12-01"
+  "NCT07103148-2026-11-28"
  ],
- "count": 28,
+ "count": 24,
  "items": [
+  {
+   "ticker": "BMY",
+   "title": "Bristol Myers Squibb (BMY) Shares Early Positive Data on Alzheimer's Psychosis Treatment KarXT",
+   "publisher": "GuruFocus",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNDdKa01HV2VnZlZZU0tqb2Y4UUd4NkxlX1p1MHF2bzh3T29ac19rSmZ0bTZlM1laclNfakNSUkxKQ3NzYktVR1k2a292NS1YY25VMlJFY1NRRXFNeWZGMDFRUWlYeWFuWEZjMnBEUW1ndWNPVHFkZ3BVbkQ3anRYMGhpR1RJd2Y1WGZ2SVdkSEl0Vk1KMTl6TlAtMENta2ZFbzNFWGpLNGZ0d3Q0WFdfMFBMTGVPRlJYWlZla0VwblEtaVBZWXVYWG5B?oc=5",
+   "published": "2026-11-18T14:40:11+00:00",
+   "type_guess": "Trial readout",
+   "result_guess": "positive",
+   "catalyst_id": "NCT06126224-2026-12-09",
+   "found_by": "trial check",
+   "move_date": "2026-11-18",
+   "move_pct": -2.92,
+   "close": 59.56
+  },
+  {
+   "ticker": "REGN",
+   "title": "US FDA approves Regeneron\u2019s drug for generalized myasthenia gravis",
+   "publisher": "WHTC",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWndEVXptMEYyRUhrVVNNRHF0YkFIU3ZmcEE0b2U3SEJIbmF1UVBVZTRtdXc3emJMbXhtMmtZdFlDSjh5aUljaW1GU0VWb3N5c3h1bV9oSUM0WlcweV80Vy1QbDRISHBrSkdCdFZCc3ViN0xreVRiMDBEbmJqb2ZuYTkyWHF5NnlQU1V2dDNPdXItWFVHRVNMYzFB?oc=5",
+   "published": "2026-11-18T23:36:16+00:00",
+   "type_guess": "FDA approval",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: FDA approves",
+   "move_date": "pending",
+   "move_pct": null,
+   "close": 945.53
+  },
+  {
+   "ticker": "SNY",
+   "title": "US FDA approves Sanofi\u2019s genetic disorder drug",
+   "publisher": "SRN News",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJZFBOOGl1SnI0TU9mZ0Q0MjlOZ1JFUi1lUzY3UV9yNE40SC1VN0JUbjZOdU5VYzRKV1BlNU8wbDRaTTBzX0lES1JGc2pNWGlKRWhILVJudFRBUHA4VFc1MXBYOHF3TEpkZXAwR1RwdEVVSXdM?oc=5",
+   "published": "2026-11-18T22:00:23+00:00",
+   "type_guess": "FDA approval",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: FDA approves",
+   "move_date": "pending",
+   "move_pct": null,
+   "close": 47.12
+  },
+  {
+   "ticker": "INO",
+   "title": "Inovio's Voceryq Gets FDA Approval for Rare Airway Disease",
+   "publisher": "Hoodline",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlpPMW5ELUg0ZkdmODJUSW45MWNaWkVSeGhaLWFhRzVmbEo2cU1QaTJrbVJJX1Fnb3ZOaTk5VmwxUmVLeTZTbFE2QVhmM3NlRlIxRFlNSWxWamZWMzdJWnRsemRFXzZ6X0tJRTNPQU5Qb2ttYzhlWENESlRla2w0ZzFpOW9rZnhLelhzcURFdUduOV9OMGxGcXpCMksyV0VfOUdkWEUySQ?oc=5",
+   "published": "2026-11-18T13:59:44+00:00",
+   "type_guess": "FDA approval",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: FDA approval biotech",
+   "move_date": "2026-11-18",
+   "move_pct": 3.68,
+   "close": 1.69
+  },
+  {
+   "ticker": "RHHBY",
+   "title": "FDA approves Roche\u2019s new breast cancer pill",
+   "publisher": "ConsumerAffairs",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZDVfT05mSWpZbkRjZUViNzNOM3BtWVAtNkFBYVh5TVNjWS1iaHNlaUF4VlRGMlRXX0sxajZtM0UzMnhidG5SMlU2WDN0RU1ZZnY3R3FCTW9UVG1rRGJmdGhBRjhoMFJMbFhhaldOVFhXY0Z1UVVMa2ZGNlRXVzB0SGJxdENIQVFhQ0NvOTZVU3Bacmd1Wnc?oc=5",
+   "published": "2026-11-18T12:11:03+00:00",
+   "type_guess": "FDA approval",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: FDA approves",
+   "move_date": "2026-11-18",
+   "move_pct": -1.26,
+   "close": 59.49
+  },
+  {
+   "ticker": "RHHBY",
+   "title": "FDA approves Roche's Gazyva as the first treatment for primary membranous nephropathy, a rare kidney disease",
+   "publisher": "MLQ.ai",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQUxoaDZLSHZDa3pqM2Q5ejBOYUZaLWhVdmJoZmpaeWxMV1pBSy01dDZUOEwtTVFLOHVwek9xa3NjLUtfdld4YV9vNnRHN3pKOGhsOHhKNEI1aGRubDNnWm9aUkExTnpqQjFCU0VZU043dm5aMVdiZjM2SWlSaTVIYzVTby1idVRONWpQb0RINklxNDgwVW8xeUZOYWFxMDdTZ3BhX1hVWm5fQkluWXNLWTl3eml4eUYxcVZzeXJWUlN5d2FWZkE?oc=5",
+   "published": "2026-11-18T08:32:19+00:00",
+   "type_guess": "FDA approval",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: FDA approves",
+   "move_date": "2026-11-18",
+   "move_pct": -1.26,
+   "close": 59.49
+  },
+  {
+   "ticker": "NVS",
+   "title": "FDA Approves Novartis' Cosentyx for Polymyalgia Rheumatica, Expanding Its Portfolio to 11 Indications",
+   "publisher": "Voice of Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTW1LcmFIU0RjY0Y5MHVOdVEteW1FcVBHVkdGcWc5MUZlcDhlQVNsdGNEV1VubUU0bXY0ZmVPaFh1Qm5laXVhcE92MVJBUUx4VXJoT3ZnbTlORV9LOVI2MzNEVHVMY29GdFdLbzVETjR4NlZWWFFIUWlYdE1fZkxkc3ZmaDROOGVzSlZRNW1VYVBSRWR5LXVXclM3R2F0QWVvTGdKMGliR21TRFFPOVMxN0NUd01obkJrVTRnUTZBUlh0RzQ1UWxTUlk4WExDMWs?oc=5",
+   "published": "2026-11-18T07:42:58+00:00",
+   "type_guess": "FDA approval",
+   "result_guess": "positive",
+   "catalyst_id": null,
+   "found_by": "search: FDA approves",
+   "move_date": "2026-11-18",
+   "move_pct": -2.46,
+   "close": 155.21
+  },
   {
    "ticker": "NUVL",
    "title": "US FDA approves GSK's second lung cancer drug from historic Nuvalent deal",
@@ -53,15 +151,15 @@
    "ticker": "BAYRY",
    "title": "FDA Approves Bayer's Blood Thinner",
    "publisher": "Labroots",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdFJkdHNUUDFCTlBvejFwN19UOHdFbHdfLW9venJoZUo2MXk2eWUySzhnQXdpYWhWQUZ0VlBoOG9kaG5iNGVEd3JZYVpsMkhMZnY5Wi1kLVVra1gxbUdyNkRzOHM1NVJRSEdTdFRrUnZqbnV3YXd4YTQ5Y1pHRjczLTJBUV9CRDV4X1JBX2xJNVpoeks3anBxREV5N2NwZ9IBngFBVV95cUxPdFJkdHNUUDFCTlBvejFwN19UOHdFbHdfLW9venJoZUo2MXk2eWUySzhnQXdpYWhWQUZ0VlBoOG9kaG5iNGVEd3JZYVpsMkhMZnY5Wi1kLVVra1gxbUdyNkRzOHM1NVJRSEdTdFRrUnZqbnV3YXd4YTQ5Y1pHRjczLTJBUV9CRDV4X1JBX2xJNVpoeks3anBxREV5N2NwZw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaEpvYnlVR01VRi12OG40LTE3SkFwc2l0VklhUXctY2hSQUZoSDNqcmdLaWJLYUJTaHU0c3NremNmeHk3TFdpRVA2aVdiaTBnSENaaUttNnVCQXRac1ZTS25JUlFSa0hXWE1WMjVJZXBubHJVZmdSZUVDLWwyUGhqNGpnbzVVSVdtRVJmV2RyVG9YajJtaUN3btIBngFBVV95cUxPdFJkdHNUUDFCTlBvejFwN19UOHdFbHdfLW9venJoZUo2MXk2eWUySzhnQXdpYWhWQUZ0VlBoOG9kaG5iNGVEd3JZYVpsMkhMZnY5Wi1kLVVra1gxbUdyNkRzOHM1NVJRSEdTdFRrUnZqbnV3YXd4YTQ5Y1pHRjczLTJBUV9CRDV4X1JBX2xJNVpoeks3anBxREV5N2NwZw?oc=5",
    "published": "2026-11-17T20:06:00+00:00",
    "type_guess": "FDA approval",
    "result_guess": "positive",
    "catalyst_id": null,
    "found_by": "search: FDA approval biotech",
    "move_date": "2026-11-17",
-   "move_pct": -1.03,
-   "close": 15.44
+   "move_pct": -1.09,
+   "close": 15.36
   },
   {
    "ticker": "RHHBY",
@@ -74,22 +172,22 @@
    "catalyst_id": null,
    "found_by": "search: FDA approves",
    "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
+   "move_pct": -1.15,
+   "close": 59.49
   },
   {
    "ticker": "RHHBY",
    "title": "Roche Wins Dual FDA Approvals for Breast Cancer and Chronic Kidney Disease Therapies",
-   "publisher": "Benzinga",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMWFjdWxwWHBhUk44X3pkSGtpcm55Q0MwbE1NdHgxOEtQOFBaQzBMVndzaXFYSXh5ZFIzeUlKUmt3Nng4a2k3dU8yQV9sZkhfMnNxRzVxdFpIdjNFNjBOcFN1VzJXSWhaYkdDWWEyZHREaUdvTG01SThLZVpKS3BKU09NaGlWV3lfYTgtd1lIOGl2TjA3TUc2WmRyb044cFdrdWtkbjdJMHpaVXJpa0hXOU5qZkI2eUFjSUY5am5JUWJDYm44QVlOVUFfUTJoUQ?oc=5",
+   "publisher": "Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVnBBY2U4ZXhjSmtVMnlXUUMtbU9tVDhtRWVXRkhZcnB6dWFGTXV6YVVEcks4WXYzNmtIbnk3WFI3T2FMZi1HWlpkMEUtdTlXRWhCZk9mNlpLdlhMU3VQbzFXcmRETFdOYXREeFJTQkh1Q0Jud0NBVkZzUGdvQXdRVks3dVRpV3Y2M0M1Q3ZadVMwUDNE?oc=5",
    "published": "2026-11-17T18:49:33+00:00",
    "type_guess": "FDA approval",
    "result_guess": "positive",
    "catalyst_id": null,
    "found_by": "search: FDA approves",
    "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
+   "move_pct": -1.15,
+   "close": 59.49
   },
   {
    "ticker": "NUVL",
@@ -114,10 +212,24 @@
    "type_guess": "Trial readout",
    "result_guess": "negative",
    "catalyst_id": null,
-   "found_by": "search: Phase 3 did not meet primary endpoint",
+   "found_by": "search: complete response letter FDA",
    "move_date": "2026-11-17",
    "move_pct": -1.87,
-   "close": 18.32
+   "close": 17.83
+  },
+  {
+   "ticker": "CGON",
+   "title": "Which of the Top 5 Clinical Readouts Behind Biotech Stock Moves on November 16 Stands Up Best: CG Oncology (NASDAQ:CGON), Lexeo Therapeutics (NASDAQ:LXEO), Helus Pharma (NASDAQ:HELP), Alpha Tau Medical (NASDAQ:DRTS) or Aclaris Ther",
+   "publisher": "kalkine.ca",
+   "link": "https://news.google.com/rss/articles/CBMigwNBVV95cUxPaDExbm1XSHBnTkJGT29rc3VueThmNzFfVTh0M0h5d2tqbWhqNkVJeHZpaEVId1dJOHJnRGZxd3ZNOVBwZUJGYjZQaW9ZUTNnS3JoQ0N2RnplWHJkYUM5Q2dUTnZjUXBKVkdpRkkxUjFLTkJQWE14TDhDaHl6aFM5eUNiV1VvUFhiQkNaTzlfYVFRR2ZnZUItenNzeWJ3dS03Rkt4Zkk5b1pQczJ1RHh4Ry1RbF9tNm5WVndrYnlCVjBSX2pGMkJOUzQwRkZLWEVkZkxYU2NSUnctRi1HalBTeDFaRVp5TEx2RW4yQVByLTgzdElySC1FaFhMMWc4ZHRRM1Q5M2M3OWhnTDJlczA5clA3OWRta0xiMXRNVlRIZkdTa0s5VUc2RG1tbXZjSk9tbDRyenVtcU9tR0pGakR1cXFJbkRzS3g3SkZIWHY3eDhuQVJCaUw2Umg3ZG9BRUNfRTZ0MGszQ1drRE04RGlNV2hRMHVZWnpxTlRzMzFvamZRQkU?oc=5",
+   "published": "2026-11-17T18:22:00+00:00",
+   "type_guess": "Trial readout",
+   "result_guess": "mixed",
+   "catalyst_id": null,
+   "found_by": "search: Phase 3 did not meet primary endpoint",
+   "move_date": "2026-11-17",
+   "move_pct": -6.89,
+   "close": 80.0
   },
   {
    "ticker": "AZN",
@@ -131,7 +243,7 @@
    "found_by": "search: FDA approves",
    "move_date": "2026-11-17",
    "move_pct": -0.95,
-   "close": 182.27
+   "close": 178.76
   },
   {
    "ticker": "RHHBY",
@@ -144,8 +256,8 @@
    "catalyst_id": null,
    "found_by": "search: FDA approves",
    "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
+   "move_pct": -1.15,
+   "close": 59.49
   },
   {
    "ticker": "RHHBY",
@@ -158,8 +270,22 @@
    "catalyst_id": null,
    "found_by": "search: FDA approves",
    "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
+   "move_pct": -1.15,
+   "close": 59.49
+  },
+  {
+   "ticker": "SLS",
+   "title": "Sellas Life Sciences reports REGAL trial meets primary endpoint",
+   "publisher": "TipRanks",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdzVoLVNkcWpVbFYyeUI0RDBQOWlKSlVLMXFGRjRMbzE5cDdfZ1ZXX0lUU1NkdHYxTEdGZ0lVa0ZFN2hUUlFBYnpvQjlNLXAtUUlCdnVsclVCakJqQkMyT0dweW85c2NhXzN2LU04U2hvX0RINDJWZ3dyUXhiZmtCemt1SEFaZ1I4UVZWM2dRaWFrVWtDaHVJQlJGMFVvdmEwZ080Wk8wZzNTakdpbktOc3F1MA?oc=5",
+   "published": "2026-11-17T12:20:43+00:00",
+   "type_guess": "Trial readout",
+   "result_guess": "mixed",
+   "catalyst_id": null,
+   "found_by": "search: Phase 3 trial met primary endpoint",
+   "move_date": "2026-11-17",
+   "move_pct": 156.36,
+   "close": 17.95
   },
   {
    "ticker": "RHHBY",
@@ -172,8 +298,8 @@
    "catalyst_id": null,
    "found_by": "search: FDA approves",
    "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
+   "move_pct": -1.15,
+   "close": 59.49
   },
   {
    "ticker": "RHHBY",
@@ -186,28 +312,14 @@
    "catalyst_id": null,
    "found_by": "search: FDA approves",
    "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
-  },
-  {
-   "ticker": "NVS",
-   "title": "Novartis Receives FDA Approval for Cosentyx in Polymyalgia Rheumatica",
-   "publisher": "Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV3ZvcFFUUUU5Y3FCZmJQTkZxbE42T3hLNG03ZkgxTVFtRTJkakNjckQ0Z1ZOSFZzUWtMSVEwRXhldm9FNDRiZWU4ZVpzRHA5cXZCcGJNVkZ6ZDFlN0pnclhma2VRZFFsRHFNOVJpcDN3dHIxYWMtRDlwX084RElkOHZfNWdMVmFJS1hLNms1ekZmMC1fN21mZFdMYl9BTUtTY3c?oc=5",
-   "published": "2026-11-17T11:22:46+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approves",
-   "move_date": "2026-11-17",
-   "move_pct": -0.67,
-   "close": 159.13
+   "move_pct": -1.15,
+   "close": 59.49
   },
   {
    "ticker": "IONS",
    "title": "Ionis wins EU approval for TRYNGOLZA sHTG treatment",
    "publisher": "grafa.com",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQlNsNmF4TjgxdTJmeUt0TUZCNkY1dzZjMjVXZmdmTlc0N3cyaXU1MldOWllpQzlULVpuMUR6MEc2TGNQelh1UUtUdzkwZUZ6YWNTbXg5bVJGVDNZTnpYSExKdXRnM2tLcVZHMVhodHpNUFowMFhoTkRVZFlxM1lEN3hlOFhQT3I3c3ZqX05FbzM3ZVdNUUhzS1EzQ1ZXM1ZNM3QtenJPTVcwc244TFdibW5BTXh2NVRKZUZiQWZJRjFrVWZuZEZGMG05OEcxaThnSGpRU1V2dXJFUkpIOFUwSEpR?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOemJxamR0UkllRG5WMHVfaWFfVlAyYk5hQU94N19XSnpidURNcjZjUS13Zm9MZ19NM0Jja3p2WGdzaHdGaDQzSVhKek5pbTI0eGZfVjgzY3I1a3Q0bmxIMGkxRHM0ZU5BYnlUU1RUSTNxZTF5cUJrS2FpcHVPOFptZmllN25wWXlrSVdlNkljNm9jNWxFeFJiY0F4NEhhX1pSQU9YN2c1d1RFU2kwb0pZQ1NRVnhmbjlK?oc=5",
    "published": "2026-11-17T08:49:29+00:00",
    "type_guess": "FDA approval",
    "result_guess": "positive",
@@ -215,7 +327,7 @@
    "found_by": "search: Phase 3 did not meet primary endpoint",
    "move_date": "2026-11-17",
    "move_pct": -3.75,
-   "close": 26.96
+   "close": 27.39
   },
   {
    "ticker": "RHHBY",
@@ -228,8 +340,8 @@
    "catalyst_id": null,
    "found_by": "search: FDA approves",
    "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
+   "move_pct": -1.15,
+   "close": 59.49
   },
   {
    "ticker": "RHHBY",
@@ -242,8 +354,8 @@
    "catalyst_id": null,
    "found_by": "search: FDA approves",
    "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
+   "move_pct": -1.15,
+   "close": 59.49
   },
   {
    "ticker": "CGON",
@@ -257,175 +369,7 @@
    "found_by": "search: Phase 3 trial met primary endpoint",
    "move_date": "2026-11-17",
    "move_pct": -6.89,
-   "close": 78.94
-  },
-  {
-   "ticker": "BAYRY",
-   "title": "Bayer (XTRA:BAYN) Wins FDA Approval For SUNHARBO, Is The Stock Still Cheap?",
-   "publisher": "Simply Wall St",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdzJwZ1JIMVh6WnE2d0xzblVvWnprcW92Y2lqM0Y5VFdoR3owYlFMYkhmc1FCMnVaV0lmNHFfdEVSQTJGQkNnajN1a3FUNUw4LUt1cldUS2JYYlR2UkI1a0Jfam10ZnJvMUJ1NW4zYVNseGswMk8xLUx6amxJUlQwVjdjOTV0Wkd0RmxpLUJpZUtESlJmdTdCbm9SVHUxdWRsUjQ5N0d0eVdoaVBad0hmX2w3ZG5GYjV4R0lDQTRTUnFwbFhudE02N3U5c0NaMXloTUpERVk1YXdHbkXSAeABQVVfeXFMTVA3Q211S2FxR2JtMFdHaUJUU2d2aUV2QjN4cXFCb1hhMGVOa3lBc1hUYWMtZk9oaUhYRjVTc3h4cGpVVV83VUM2UTh1ZW9Ec0laN0hTMHpQMXNHLURrNVVHUlV5Zk95aGNQSjVHVTk1Sy1EUTJ4eEJpZ2NjY3NEd29RUklYZDh2cV9hVDZpLVlVZGd2NW5ENjFpTlhIaFkyb3ZYS2IzVGpLUjZVcGJ4TXBCamZ0ZHE2Y2FJZ2dnMWNaTkxVNS1faXExS2JjeW85V194RHZNQTNQSVhHTzcxank?oc=5",
-   "published": "2026-11-17T01:11:16+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approval biotech",
-   "move_date": "2026-11-17",
-   "move_pct": -1.03,
-   "close": 15.44
-  },
-  {
-   "ticker": "SMMT",
-   "title": "Summit Therapeutics sinks 16% after the FDA rejects ivonescimab over survival data",
-   "publisher": "Quantisnow",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSGZ3b1p2QWFMQ0lSaUx5QjFtS2tPVDFja1FkdFJGQVNiZzZUaU8weUluODFyTC0yYzhrZDU2RjFMNHotcTRqejBsLURDendxaF9JVS1VdE5VT0NhZGZZMjdFTktXZ3FrT2RjdXJmNy1OU0VBbnFoV1hNZFNIak5DaXRoM2Y1VlltMWRjbGh1ZG44a2VCR1dBdUVwUktmZnBnZE41S2V3WV9MSVFVdGc?oc=5",
-   "published": "2026-11-17T00:39:00+00:00",
-   "type_guess": "CRL",
-   "result_guess": "negative",
-   "catalyst_id": null,
-   "found_by": "search: complete response letter FDA",
-   "move_date": "2026-11-17",
-   "move_pct": -9.73,
-   "close": 10.67
-  },
-  {
-   "ticker": "RHHBY",
-   "title": "FDA approves Roche's breast cancer pill giredestrant, sold as Wilserdly, for tumors with ESR1 mutations",
-   "publisher": "MLQ.ai",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc2JWNEZjUUdfZEVlU2J2QmVQektOOXFoOTQxZjE1YkpTZEVJeWJ2NENaRFVZem5GNnloWUZSMFg3cjBHejNxcjVJeTdBQmZwV1NZTG12enhuckVlZU03Zi1kc0Iyc3R3Ymt4U195MVZzTzM2SnpmaUxYRkdNalltZGdGNWRIMmtVckNnRTdLR0k4OXgzQUNvUWlCR0JacGl0TWEtclRXZ0l4YnlaT3FHeTRFdHdaenIwTVhJN3VR?oc=5",
-   "published": "2026-11-16T22:27:18+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approval biotech",
-   "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
-  },
-  {
-   "ticker": "UNCY",
-   "title": "Block & Leviton investigates Unicycive after second FDA CRL",
-   "publisher": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPajhxQjFPb0p2bkQ0a2k0RFhlV3VwZGdSeW9KR21oczRrWm5jVHhQd3NVY1g1MU56Y29WWW9xZTNHWVN1SkZyOVlidHMxRExlYWRrWkRZSU1mNlRVU3lxQ0pGVzBnMUhIYjJ2akdnaGxscGQzNXNEUHNPRUY0d18yNzZmTnU0QTJjVm1SbjlsM1BqMFktZ1E4OVllUlh6TEdaVTNXZVp6NlJSLXZ2T3ZuSm1QbDNHUGhFWjRiUmlkV1pIcmZzMDZlUXpxRjdYbzMzekE?oc=5",
-   "published": "2026-11-16T21:45:35+00:00",
-   "type_guess": "CRL",
-   "result_guess": "negative",
-   "catalyst_id": null,
-   "found_by": "search: complete response letter FDA",
-   "move_date": "2026-11-17",
-   "move_pct": 0.0,
-   "close": 3.7
-  },
-  {
-   "ticker": "RHHBY",
-   "title": "FDA approves new breast cancer drug, providing new option for some patients, boost for Roche",
-   "publisher": "STAT",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbnN2NHJJemRBVU9jMmZ4dGxRQUFfamM0b1d4TmF1dGI0VEUyVTQyczJXckk0VTZSeW9KSzc0d3VnZ1NxUmNjQlQ0MUh2aXI3cFpfb19ZRUwwSTdCNmdubnR3YTZ1NVpWYjh1NE9hdzNHS25kN3h1NjRLWXdmNXJVRk9BRXY?oc=5",
-   "published": "2026-11-16T21:01:49+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approves",
-   "move_date": "2026-11-17",
-   "move_pct": -1.1,
-   "close": 60.28
-  },
-  {
-   "ticker": "RHHBY",
-   "title": "US FDA approves Roche's oral treatment for advanced breast cancer",
-   "publisher": "Reuters",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSms5YU82MmpDRXFMeFduTDF3WUM5cjFIOGM4QU1lX3ZxSHBUNWY1endvNHp2bkkyODF1S0lUNDJPTE13ZDM2cGxsY0QtVVBKZWdlY1VNanEtV3U5U1hWdExMQjJnSnFISHZibWhiRWoza0JXNVRWTkR2YTZpOHJnamgyOEY3TUpwU2FTMXhTZV83Q2NqamRGNFVoNDl5UkdqRDNhYWkxWFhNTXRmWDdXQ0d4OHpIYW9oajhSdGphTmNJOHJHQkNUenRNWHQ?oc=5",
-   "published": "2026-11-16T20:46:00+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approves",
-   "move_date": "2026-11-16",
-   "move_pct": 1.08,
-   "close": 60.28
-  },
-  {
-   "ticker": "SMMT",
-   "title": "Summit Therapeutics Shares Plunge to 52-Week Low After FDA Rejects Ivonescimab Lung Cancer Application",
-   "publisher": "BigGo Finance",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qNk94bFFubTFmcWc0Ym5aYk9ZSGdveGtZWmxJRXBzRS1qQ1ZKdW04SGlFS09OdlRVWmpGNU9IOHZVYUQyUWQxeE1qMjkwMTNCVlF5LVkteTBGVFZSQ3d5ZEY1TFd2VkotWEJUMnN5MWhqRzhmY1E?oc=5",
-   "published": "2026-11-16T18:15:00+00:00",
-   "type_guess": "CRL",
-   "result_guess": "negative",
-   "catalyst_id": null,
-   "found_by": "search: complete response letter FDA",
-   "move_date": "2026-11-16",
-   "move_pct": -16.47,
-   "close": 10.67
-  },
-  {
-   "ticker": "RHHBY",
-   "title": "FDA Approves Roche's Obinutuzumab (Gazyva) for Membranous Nephropathy",
-   "publisher": "BioPharm International",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdFQtUlFBemVjWmdzSlcwdWlFSXdXNC1vVDBYV1NzNFdMZlZjbHY4Q3dkSTI4ZThMYlFjbzZHNXgyWWNUdWRUeVJkalIyWUJXMnpKTmJnZmlOVnJLeWJsVXpJNy1BaUYxb0lwVktQLWhYaVJFSTNqNjVaWnUyWWs0dWQ2cnNHRkpHZjlvQU4xVjJBNnBMeUcyWHljZzh6MnRwWHNfWTJkTEJONXBTdG1reHl3?oc=5",
-   "published": "2026-11-16T18:01:41+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approves",
-   "move_date": "2026-11-16",
-   "move_pct": 1.08,
-   "close": 60.28
-  },
-  {
-   "ticker": "SMMT",
-   "title": "FDA rejects Summit Therapeutics\u2019 ivonescimab lung cancer drug",
-   "publisher": "Manufacturing Chemist",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV2NZSXRveXp5Z0RHNUkwRDZqcXBwSVJ0b042VnJMUU1KejZFNG1jOWVJZGlZdW94WWphR0doczlZY1JLb1IxUmdsb19jUVlCVHVQcHJNUV9vRjR1azEyZW9fZWNWRlM2V0l5UGFLTE15TjZWQ0dfZnFpS1FIcGpSMHpfOFhRVWl3S0NEZXVpNHVPUQ?oc=5",
-   "published": "2026-11-16T15:01:16+00:00",
-   "type_guess": "CRL",
-   "result_guess": "negative",
-   "catalyst_id": null,
-   "found_by": "search: complete response letter FDA",
-   "move_date": "2026-11-16",
-   "move_pct": -16.47,
-   "close": 10.67
-  },
-  {
-   "ticker": "BTAI",
-   "title": "US FDA approves at-home use of BioXcel's agitation drug",
-   "publisher": "Reuters",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORVd4OEJUd09KSXFnWjdqRDhmZjlWdVdOMlJmNC1paThFS1JqNThuUEFpVl9xYlNYbmRNTDZCaWVtLWhnWnYzZm02WXViMmJXaFBmYmRZblBFdjlnRHBJWm5GZzBJRnMwOVphclM5MlJiT25ySHdWZllsRTdENnA2VWVvQkN2NmhEOTB6bGljc0w3LWdVSEd3X1o3eml2Zi1nTVktdGVtMA?oc=5",
-   "published": "2026-11-16T14:55:24+00:00",
-   "type_guess": "FDA approval",
-   "result_guess": "positive",
-   "catalyst_id": null,
-   "found_by": "search: FDA approves",
-   "move_date": null,
-   "move_pct": null,
-   "close": null
-  },
-  {
-   "ticker": "SMMT",
-   "title": "FDA Rejects Summit Therapeutics\u2019 Ivonescimab BLA Over Missing Survival Benefit",
-   "publisher": "Minichart",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNnZoRm1kanpBMjctbmI1cXltRkszUjR2U0tvd081aVBOVV9EaTJYWGNZZnJkTDJYaThXeE5qQ3pLSXBsZkY5emc0dmkwam53Nm5DWDlBTVVPRFZncFEtY1NDS1R5LV8xRlg0Ml9uZWdJdUZyNlU1emhPOUF6b19peTBnNHhLd01NVnRwSzFwd2lSaWZaLVhTd1BRNFBTVUtfTWloeFdDc3ZwWnVYMVZOQ2NhdlpSVFgwc0E?oc=5",
-   "published": "2026-11-16T14:05:00+00:00",
-   "type_guess": "CRL",
-   "result_guess": "negative",
-   "catalyst_id": null,
-   "found_by": "search: complete response letter FDA",
-   "move_date": "2026-11-16",
-   "move_pct": -16.47,
-   "close": 10.67
-  },
-  {
-   "ticker": "SMMT",
-   "title": "Summit Therapeutics Receives FDA Complete Response Letter for Ivonescimab",
-   "publisher": "TipRanks",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZW9nWE1tVjltLXBCVlJkLTNYV3ExTkJWdnBJUTAzaDcwTHhIeHNGRk1sVGl2S0hLUGZnN2tJOG9NTXYtTFoxTTNUakp3MW5qTGtvZDhqRXEwSDhRYm5sdTZGUk5Ycm95ckpsM3Z1blVveDRjSEFhOEtWTjZmNnlaNlh2UksybGpQLTNZZjdsTTJIcWFxSHNpRDF5eXlrTWk3b3JXcU1pMlFfRWRHZWlSQ0wxV1RIOTNPTXZXNXd0Q01kaWM?oc=5",
-   "published": "2026-11-16T12:04:14+00:00",
-   "type_guess": "CRL",
-   "result_guess": "negative",
-   "catalyst_id": null,
-   "found_by": "search: complete response letter FDA",
-   "move_date": "2026-11-16",
-   "move_pct": -16.47,
-   "close": 10.67
+   "close": 80.0
   }
  ]
 }

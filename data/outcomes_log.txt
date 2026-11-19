@@ -1,6 +1,3 @@
-$NUVL: possibly delisted; no price data found  (1d 2026-11-10 -> 2026-11-20)
-
-1 Failed download:
-['NUVL']: possibly delisted; no price data found  (1d 2026-11-10 -> 2026-11-20)
-NUVL   2026-11-27  Approved       reaction None%  window None%  | FDA Approves Neladalkib in Advanced ALK+ Non–Small Cell Lung Cancer
-Checked 1 events; 7 outcomes saved. (news searches: 7 via Google, 0 via Bing, 0 failed)
+CAPR   2026-11-22  Approved       reaction -4.52%  window -28.43%  | CAPR Stock Has Retail’s Attention After SLS Rally — Here Are 2 Drugs With Better
+SNY    2026-11-25  Approved       reaction -0.86%  window -2.58%  | US FDA approves Sanofi's genetic disorder drug
+Checked 2 events; 9 outcomes saved. (news searches: 6 via Google, 0 via Bing, 0 failed)
