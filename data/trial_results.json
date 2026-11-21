@@ -29,9 +29,10 @@
  },
  "NCT06126224-2026-12-09": {
   "seen": [
-   "bristolmyerssquibbbmysharesearlypositivedataonalzheimerspsyc"
+   "bristolmyerssquibbbmysharesearlypositivedataonalzheimerspsyc",
+   "bristolmyerssquibbpresentsfirstclinicaldatafromtwophase3stud"
   ],
-  "last_found": "2026-11-19"
+  "last_found": "2026-11-21"
  },
  "NCT06585787-2026-11-24": {
   "seen": [
@@ -45,5 +46,11 @@
    "ionispresentsnewlongtermdatasupportingdurableefficacyanddise"
   ],
   "last_found": "2026-11-20"
+ },
+ "NCT06829823-2026-11-01": {
+  "seen": [
+   "immunitybioannouncesanktivaplusbcgmeetsprimaryendpointinbcgn"
+  ],
+  "last_found": "2026-11-21"
  }
 }

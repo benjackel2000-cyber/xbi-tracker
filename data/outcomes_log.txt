@@ -1,1 +1,3 @@
-Checked 0 events; 8 outcomes saved. (news searches: 8 via Google, 0 via Bing, 0 failed)
+CAPR   2026-11-22  CRL            reaction None%  window -32.35%  | US FDA declines to approve Capricor's Duchenne treatment citing unreliable trial
+SVRA   2026-11-22  Extended       reaction -18.23%  window -14.63%  | FDA delays decision on Savara’s autoimmune PAP treatment By Investing.com
+Checked 2 events; 10 outcomes saved. (news searches: 8 via Google, 0 via Bing, 0 failed)
