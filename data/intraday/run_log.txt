@@ -9,8 +9,6 @@ First rows of holdings sheet:
 5          MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.318563       -      1103892             USD
 6           BIOGEN INC                                  BIIB   09062X103  2455965  1.909334       -       710227             USD
 7  TG THERAPEUTICS INC                                  TGTX   88322Q108  B828K63  1.871596       -      2743320             USD
-  CABA: 0 search results, none recent and naming 'Cabaletta Bio'
-  BBOT: 0 search results, none recent and naming 'Bridgebio Oncology Therapeut'
-  KOD: 2 search results, none recent and naming 'Kodiak Sciences' (e.g. 'Kodiak Sciences (Nasdaq:KOD) - Stock Analysis')
-  CRSP: 6 search results, none recent and naming 'Crispr Therapeutics' (e.g. 'Crispr Therapeutics Stock Price Forecast. Should You Buy CRSP?')
-2026-11-23 10:59 AM PT: XBI 146.5 (+4.51%), 2 checkpoints, 14 movers (news searches: 4 via Google, 0 via Bing, 0 failed)
+  REPL: 2 search results, none recent and naming 'Replimune Group' (e.g. 'Replimune Group Stock Price Forecast. Should You Buy REPL?')
+  CRSP: 5 search results, none recent and naming 'Crispr Therapeutics' (e.g. 'Crispr Therapeutics Stock Price Forecast. Should You Buy CRSP?')
+2026-11-23 12:18 PM PT: XBI 146.35 (+4.40%), 3 checkpoints, 13 movers (news searches: 3 via Google, 0 via Bing, 0 failed)
