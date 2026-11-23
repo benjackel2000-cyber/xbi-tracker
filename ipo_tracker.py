@@ -257,7 +257,7 @@ def main() -> int:
     for r in sorted(ipos.values(), key=lambda x: x["ipo_date"], reverse=True):
         t, offer = r.get("ticker"), r.get("offer_price")
         row = {"id": f"ipo-{norm(r['company']).replace(' ', '-')}", "status": "priced", "company": r["company"], "ticker": t or "",
-               "ipo_date": r["ipo_date"], "offer_price": offer, "raised_musd": r.get("raised_musd"), "exchange": r.get("exchange", ""),
+               "ipo_date": r["ipo_date"], "first_trade_date": None, "offer_price": offer, "raised_musd": r.get("raised_musd"), "exchange": r.get("exchange", ""),
                "first_close": None, "day1_pct": None, "last_close": None, "last_date": None, "return_pct": None,
                "xbi_same_period_pct": None, "vs_xbi_pct": None, "high_close": None, "low_close": None, "days_trading": None}
         if t and t in px.columns and offer:
@@ -270,7 +270,7 @@ def main() -> int:
                 xbi_base = float(xbi_base.iloc[-1]) if len(xbi_base) else float(xbi.iloc[0])
                 ret = (float(s.iloc[-1]) / offer - 1) * 100
                 xret = (float(xbi.iloc[-1]) / xbi_base - 1) * 100
-                row.update({"first_close": round(float(s.iloc[0]), 2), "day1_pct": round((float(s.iloc[0]) / offer - 1) * 100, 1),
+                row.update({"first_trade_date": first_day.strftime("%Y-%m-%d"), "first_close": round(float(s.iloc[0]), 2), "day1_pct": round((float(s.iloc[0]) / offer - 1) * 100, 1),
                             "last_close": round(float(s.iloc[-1]), 2), "last_date": s.index[-1].strftime("%Y-%m-%d"),
                             "return_pct": round(ret, 1), "xbi_same_period_pct": round(xret, 1), "vs_xbi_pct": round(ret - xret, 1),
                             "high_close": round(float(s.max()), 2), "low_close": round(float(s.min()), 2), "days_trading": int(len(s))})
