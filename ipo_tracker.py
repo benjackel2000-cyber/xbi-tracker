@@ -332,6 +332,14 @@ def main() -> int:
                      "filed_date": r["filed_date"], "raised_musd": r["raised_musd"], "deal_status": det["deal_status"],
                      "expected_date": det["expected_trade_date"] if det["expected_trade_date"] and det["expected_trade_date"] >= date.today().isoformat() else ""})
 
+    # Hand-written notes (e.g. a postponement Nasdaq doesn't flag), matched by company name.
+    notes_file = ROOT / "ipo_notes.json"
+    notes = {norm(k): v for k, v in json.loads(notes_file.read_text()).items()} if notes_file.exists() else {}
+    for row in rows:
+        n = notes.get(norm(row["company"]))
+        if n:
+            row["note"], row["note_url"] = n.get("note", ""), n.get("note_url", "")
+
     # "$1,000 in every biotech IPO at its offer price" vs the same money put into XBI or the IPO ETF
     # on each IPO's first trading day. Buy and hold, no rebalancing; returns are on total money invested.
     xbi = px["XBI"].dropna()
