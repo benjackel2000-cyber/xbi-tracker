@@ -11,4 +11,7 @@ Nasdaq calendar 2026-10: 17 priced, 0 upcoming, 29 filed
 Nasdaq calendar 2026-11: 5 priced, 0 upcoming, 14 filed
 Nasdaq calendar 2026-12: 0 priced, 0 upcoming, 0 filed
 31 IPOs, 31 with tickers: ADRX AGMB AKTS ALMR APMD ASPE ATTO AVLN BBTX BLSM BRVE COAG CTY EIKN ETRA GENB IAM KARD KLRA LTGO LYCA MANE ODTX PBLS RTSN SCTX SGP SPTX TRXB VOGX WWB
-Prices through 2026-11-23: 31 priced IPOs with prices (13 above offer), 0 upcoming, 3 filed. Every IPO at offer: 27.46% vs same money in XBI 4.41%, IPO ETF -9.55%.
+  filed NuvOx Therapeutics, Inc.: {'deal_status': 'Filed', 'expected_trade_date': ''}
+  filed BirchBioMed Inc.: {'deal_status': 'Filed', 'expected_trade_date': ''}
+  filed Rezera Inc.: {'deal_status': 'Filed', 'expected_trade_date': ''}
+Prices through 2026-11-23: 31 priced IPOs with prices (13 above offer), 0 upcoming, 3 filed. Every IPO at offer: 27.46% vs same money in XBI 4.49%, IPO ETF -9.55%.
