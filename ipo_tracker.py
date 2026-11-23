@@ -111,6 +111,42 @@ def classify(desc: str, name: str) -> bool:
     return bool(BIO.search(name) and not NOT_BIO.search(name))
 
 
+def deal_details(deal_id: str) -> dict:
+    """Status and expected date from a deal's Nasdaq overview (field names vary, so search by label)."""
+    out = {"deal_status": "", "expected_trade_date": ""}
+    if not deal_id:
+        return out
+    try:
+        time.sleep(0.25)
+        o = requests.get(f"https://api.nasdaq.com/api/ipo/overview/?dealId={deal_id}", headers=UA, timeout=30).json().get("data") or {}
+    except Exception as exc:
+        print(f"  details failed for {deal_id}: {exc}")
+        return out
+    pairs = []
+
+    def walk(x, key=""):
+        if isinstance(x, dict):
+            if "label" in x and "value" in x:
+                pairs.append((str(x.get("label")), str(x.get("value"))))
+            for k, v in x.items():
+                if isinstance(v, (dict, list)):
+                    walk(v, k)
+                elif k not in ("label", "value"):
+                    pairs.append((k, str(v)))
+        elif isinstance(x, list):
+            for v in x:
+                walk(v, key)
+
+    walk(o.get("poOverview") or o)
+    for label, value in pairs:
+        l = label.lower()
+        if "status" in l and value and not out["deal_status"]:
+            out["deal_status"] = value.strip()
+        if ("expected" in l or "ipo date" in l) and "date" in l and value and not out["expected_trade_date"]:
+            out["expected_trade_date"] = _iso(value)
+    return out
+
+
 def from_nasdaq() -> tuple[list[dict], list[dict], list[dict]]:
     """Returns (priced, upcoming, filed) biotech deals from Nasdaq's calendar."""
     priced, upcoming, filed, withdrawn = [], [], [], set()
@@ -139,13 +175,13 @@ def from_nasdaq() -> tuple[list[dict], list[dict], list[dict]]:
         for r in u:
             name = r.get("companyName") or ""
             if is_biotech(r, cache):
-                upcoming.append({"company": name, "ticker": (r.get("proposedTickerSymbol") or "").strip(),
+                upcoming.append({"company": name, "deal_id": r.get("dealID") or "", "ticker": (r.get("proposedTickerSymbol") or "").strip(),
                                  "expected_date": _iso(r.get("expectedPriceDate")), "price_range": r.get("proposedSharePrice") or "",
                                  "raised_musd": _m(r.get("dollarValueOfSharesOffered")), "exchange": r.get("proposedExchange") or ""})
         for r in f:
             name = r.get("companyName") or ""
             if is_biotech(r, cache):
-                filed.append({"company": name, "ticker": (r.get("proposedTickerSymbol") or "").strip(),
+                filed.append({"company": name, "deal_id": r.get("dealID") or "", "ticker": (r.get("proposedTickerSymbol") or "").strip(),
                               "filed_date": _iso(r.get("filedDate")), "raised_musd": _m(r.get("dollarValueOfSharesOffered"))})
     CLASS_FILE.write_text(json.dumps(cache, indent=0))
     done = {norm(x["company"]) for x in priced} | withdrawn
@@ -280,15 +316,21 @@ def main() -> int:
         rows.append(row)
 
     for r in upcoming:
+        det = deal_details(r.get("deal_id"))
+        print(f"  upcoming {r['company']}: {det}")
         rows.append({"id": f"up-{norm(r['company']).replace(' ', '-')}", "status": "upcoming", "company": r["company"], "ticker": r["ticker"],
-                     "expected_date": r["expected_date"], "price_range": r["price_range"], "raised_musd": r["raised_musd"], "exchange": r["exchange"]})
+                     "expected_date": det["expected_trade_date"] or r["expected_date"], "price_range": r["price_range"],
+                     "raised_musd": r["raised_musd"], "exchange": r["exchange"], "deal_status": det["deal_status"]})
     seen = {norm(r["company"]) for r in rows}
     for r in filed:
         if norm(r["company"]) in seen:
             continue
         seen.add(norm(r["company"]))
+        det = deal_details(r.get("deal_id"))
+        print(f"  filed {r['company']}: {det}")
         rows.append({"id": f"filed-{norm(r['company']).replace(' ', '-')}", "status": "filed", "company": r["company"], "ticker": r["ticker"],
-                     "filed_date": r["filed_date"], "raised_musd": r["raised_musd"]})
+                     "filed_date": r["filed_date"], "raised_musd": r["raised_musd"], "deal_status": det["deal_status"],
+                     "expected_date": det["expected_trade_date"] if det["expected_trade_date"] and det["expected_trade_date"] >= date.today().isoformat() else ""})
 
     # "$1,000 in every biotech IPO at its offer price" vs the same money put into XBI or the IPO ETF
     # on each IPO's first trading day. Buy and hold, no rebalancing; returns are on total money invested.
