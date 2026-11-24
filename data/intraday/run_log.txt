@@ -1,3 +1,6 @@
+
+1 Failed download:
+['PTGX']: OperationalError('database is locked')
 Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29742 bytes
 First rows of holdings sheet:
                      0                                     1           2        3         4       5            6               7
@@ -9,6 +12,7 @@ First rows of holdings sheet:
 5          MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.410019       -      1084664             USD
 6           BIOGEN INC                                  BIIB   09062X103  2455965  1.876862       -       697853             USD
 7  GILEAD SCIENCES INC                                  GILD   375558103  2369174  1.807703       -      1011458             USD
+Retrying prices for: PTGX
   BBOT: 0 search results, none recent and naming 'Bridgebio Oncology Therapeut'
-  IMNM: 1 search results, none recent and naming 'Immunome' (e.g. '(IMNM) Volatility Zones as Tactical Triggers')
-2026-11-24 10:18 AM PT: XBI 155.99 (+6.00%), 2 checkpoints, 14 movers (news searches: 6 via Google, 0 via Bing, 0 failed)
+  PRAX: 4 search results, none recent and naming 'Praxis Precision Medicines' (e.g. 'Praxis Precision Medicines, Inc. (PRAX) stock price, news, quote and h')
+2026-11-24 12:18 PM PT: XBI 156.41 (+6.29%), 3 checkpoints, 15 movers (news searches: 6 via Google, 0 via Bing, 0 failed)
