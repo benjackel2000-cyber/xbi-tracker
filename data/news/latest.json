@@ -1,54 +1,297 @@
 {
- "generated_at": "2026-11-23T23:51:38+00:00",
- "covers_since": "2026-11-20T23:51:23+00:00",
+ "generated_at": "2026-11-24T22:24:30+00:00",
+ "covers_since": "2026-11-21T22:24:14+00:00",
  "sources": {
   "BioPharma Dive": "10 items, 1 kept",
   "Fierce Biotech": "25 items, 0 kept",
-  "PR Newswire (health)": "20 items, 2 kept",
+  "PR Newswire (health)": "20 items, 0 kept",
   "Google News: site:endpts.com deal OR licensing OR acquire OR raises": "0 items, 0 kept",
-  "Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing": "26 items, 1 kept",
-  "Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing": "5 items, 0 kept",
-  "Google News: site:biospace.com deal OR acquisition OR financing": "61 items, 13 kept",
-  "Google News: biotech license agreement upfront milestone": "5 items, 4 kept",
-  "Google News: pharma to acquire biotech per share": "53 items, 9 kept",
-  "Google News: biotech collaboration agreement upfront": "4 items, 1 kept",
-  "Google News: biotech Series A financing": "21 items, 3 kept",
-  "Google News: biotech Series B financing": "9 items, 4 kept",
-  "Google News: biotech Series C financing": "5 items, 3 kept",
-  "Google News: biotech IPO prices": "6 items, 3 kept",
-  "Google News: biotech raises million financing": "15 items, 4 kept"
+  "Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing": "23 items, 1 kept",
+  "Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing": "12 items, 1 kept",
+  "Google News: site:biospace.com deal OR acquisition OR financing": "100 items, 16 kept",
+  "Google News: biotech license agreement upfront milestone": "4 items, 2 kept",
+  "Google News: pharma to acquire biotech per share": "25 items, 12 kept",
+  "Google News: biotech collaboration agreement upfront": "3 items, 0 kept",
+  "Google News: biotech Series A financing": "24 items, 5 kept",
+  "Google News: biotech Series B financing": "9 items, 2 kept",
+  "Google News: biotech Series C financing": "5 items, 1 kept",
+  "Google News: biotech IPO prices": "21 items, 4 kept",
+  "Google News: biotech raises million financing": "29 items, 8 kept"
  },
- "count": 40,
+ "count": 48,
  "items": [
   {
-   "title": "AbbVie's RINVOQ\u00ae (upadacitinib) Approved as the First Systemic Therapy in the U.S. to Treat Adult and Pediatric Patients With Nonsegmental Vitiligo",
-   "publisher": "PR Newswire (health)",
-   "feed": "PR Newswire (health)",
-   "link": "https://www.prnewswire.com/news-releases/abbvies-rinvoq-upadacitinib-approved-as-the-first-systemic-therapy-in-the-us-to-treat-adult-and-pediatric-patients-with-nonsegmental-vitiligo-302948650.html",
-   "published": "2026-11-23T20:55:00+00:00",
-   "summary": "RINVOQ is the first and only FDA-approved targeted systemic therapy for nonsegmental vitiligo (NSV), offering a new option for people living with this chronic autoimmune disease In Phase 3 studies, RINVOQ demonstrated statistically significant improvements for both co-primary endpoints of...",
+   "title": "Apiary Therapeutics raises $7.3 million for engineered stem cell therapies",
+   "publisher": "BetaKit",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcFI0TUJxQjJLcTY2MXdVMDBrZk9KUnFsMVEwSmhvVGdMSUs0MHcyNWxidXVxQ3BPSVBpSzNOeWgyZzcwa0ttNXhGUktuZGZSVk9XSnd5cVYwUkJmeUFSZzJTckVmcktobVdXUzNBS0Z1bFpIRVZfdnFzWXRYaTNsM2cxd0lsMVJlcm15VkZueFZSMXZZOV9Pdm13?oc=5",
+   "published": "2026-11-24T22:19:22+00:00",
+   "summary": "Apiary Therapeutics raises $7.3 million for engineered stem cell therapies &nbsp;&nbsp; BetaKit",
    "kinds": [
-    "deal"
+    "funding"
    ]
   },
   {
-   "title": "Ferrum Health Selected as Enterprise Imaging AI Partner for Allegheny Health Network, Part of Highmark Health",
-   "publisher": "PR Newswire (health)",
-   "feed": "PR Newswire (health)",
-   "link": "https://www.prnewswire.com/news-releases/ferrum-health-selected-as-enterprise-imaging-ai-partner-for-allegheny-health-network-part-of-highmark-health-302948541.html",
-   "published": "2026-11-23T19:27:00+00:00",
-   "summary": "AHN is launching its enterprise-wide Imaging AI Program to bring AI to clinicians faster while maintaining best-in-class patient care. Built on the Ferrum Health platform, the initiative will bring together FDA-cleared AI models and internally developed tools powered by the latest...",
+   "title": "Korean biotech firms struggle to raise funds as share prices fall",
+   "publisher": "Chosunbiz",
+   "feed": "Google News: biotech Series A financing",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUDZZcW5mb2tBQVhQXzNFcFRUVDMxWjYyQUlObzh3VmRMYjVuX0FhV29hdi1yWHBlalh6U3ZnTUstVWwtU3ZsQWcyYWw0cXVxeEVOUEs0TF9YNVplSTFacC1SOHdmZWxCNzhKbWtmemQ4N1JUTkFEbndDTy1WbXRDdNIBlAFBVV95cUxPU2VJUW90Um5xa3Z2OVFtRXc1V3A2ZUJHUTM0ZnA0QWtwdzlacWxZV3VlUThUZTZVNFBsTTJzazR3bFFpTE8zS1NXSHFuSUxHVWtmUTVqSDdQUGVVN21rdWlZYUJ6Yk9aSVBqWEJadHg2cDBYeW9RSUNTX0ROTEt1RzFQMnc2X2hqQXJxQnlRcEtTcGYw?oc=5",
+   "published": "2026-11-24T21:38:00+00:00",
+   "summary": "Korean biotech firms struggle to raise funds as share prices fall &nbsp;&nbsp; Chosunbiz",
    "kinds": [
-    "deal"
+    "funding"
    ]
   },
   {
-   "title": "Ahead of Phase 2 CALMA Topline Readout, Ascendiant Capital Markets Raises IGC Pharma Price Target to $6.25",
-   "publisher": "Newswire",
+   "title": "Undara Bio raises \u20ac4.15M seed to fight brain cancer",
+   "publisher": "Dealroom",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS1M2SDZ2bnFtcDFTY1RwMHd2T2F3bGw3NDBmRG14RTM2SmZBZ0FFZmhQOVAtdVU5b2ZPWm4tbFB3VGxUYWVsOVJVcUZTQUZRUWxMYXpFWTVXeHpadlFOeGpxcWo3X010Z0dQajYzd1k4d2FIMGFaallwSFo4bVhEU25MS1RKT2pvb1lJUw?oc=5",
+   "published": "2026-11-24T20:42:38+00:00",
+   "summary": "Undara Bio raises \u20ac4.15M seed to fight brain cancer &nbsp;&nbsp; Dealroom",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Moderna Jumps as Sanofi's $41 Billion Insmed Deal Sparks Biotech Rotation",
+   "publisher": "BigGo Finance",
    "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbkxHNEljcVluWHYzaXJzbDdvQXpRLURWN3pNME1udktEcVhvQmVsN1lra1VkRG02OW9DODNjbHRhN0RSdTdQWmw0d3NBdHc3U3BHdmVyMERyOHlpWEJJZkdFRHJweUtPejBCcDlac1FESzA0bDVlTDFlU3BXaFFYdkp2OFdGZjhWRFB3NjRRS1Jva0NiZXdYeU9LNXpnM2UyRUl0OGItTQ?oc=5",
-   "published": "2026-11-23T18:30:00+00:00",
-   "summary": "Ahead of Phase 2 CALMA Topline Readout, Ascendiant Capital Markets Raises IGC Pharma Price Target to $6.25 &nbsp;&nbsp; Newswire",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE03NmxtMlNkcEs1MHhIX1k0LXQ3YW9vb0VXNXI4a0FUTUxJRHhtdlN1Uld0OWNIYi1ubjlyUFJ5ZkZsMWlGdi1nakVwZE1NeVBPbE9BOTNyVU9McUVMWWluYjRSRF84aldUU2xJQUl6b2ZGclkyR1E?oc=5",
+   "published": "2026-11-24T20:05:00+00:00",
+   "summary": "Moderna Jumps as Sanofi's $41 Billion Insmed Deal Sparks Biotech Rotation &nbsp;&nbsp; BigGo Finance",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Leash Biosciences Raises $11M to Build Training Grounds for Scientific AI",
+   "publisher": "Wowtale",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaUVdDNTgzVnJGaUFpbGV4T1E0eEV2WUFKSklHWkJOcFBPcVYteU5aMUlWcEdnV0JPWTNURC1Od2dZZXJyUmxYc1NLTjhOSlUtOGg4?oc=5",
+   "published": "2026-11-24T19:19:52+00:00",
+   "summary": "Leash Biosciences Raises $11M to Build Training Grounds for Scientific AI &nbsp;&nbsp; Wowtale",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Sanofi, with $41B Insmed buy, inks year\u2019s biggest biopharma acquisition",
+   "publisher": "BioPharma Dive",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaXFIbFVLMUs0dllpWkEtUGhDdWc4ekFjdFg3eVdPOXdyLWpNM1FOcm4tQkgzXzlTVWcxRTYtRjI4NGdOOUk3US1Ndjhtdk50ZUc0QzBlR3ZyQ2w1Sk9EM3g1ZFM5Wll6UXd0WU83VE81dDQ2eDhFdjN4eGdSX080RWVpcDhlT2lWU1lTUzIxTVlia2NJM3Q0MzBzUzNidw?oc=5",
+   "published": "2026-11-24T17:05:33+00:00",
+   "summary": "Sanofi, with $41B Insmed buy, inks year\u2019s biggest biopharma acquisition &nbsp;&nbsp; BioPharma Dive",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Sanofi SA to Acquire Biotech Growth Trust Portfolio Holding Insmed Inc. for $41 Billion",
+   "publisher": "kalkine.co.uk",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOS0NwSU9ZR2cwcFV5RkNGaW5nNVh3NzRZZHgwenlHSnREMUMwUW9GZS1lbTNqYzVHWTV0Q3p6UDJPcHNBRXRSTXd6aVRaMm1ieER5c01SSWR2NmcyTDc0TGVBbHpKMU5oUXBPNmx2aUlub2ZwZVgyZS1jR05rdE9DVUNOUG9wTGRQc3p6VjBwT1dZWFdRcFFQTW9GX0RuMzFERWxnYjF0U04tc0ppUUotblBvcHNQVHFjYTNSYVdMOS1LMURo?oc=5",
+   "published": "2026-11-24T16:32:00+00:00",
+   "summary": "Sanofi SA to Acquire Biotech Growth Trust Portfolio Holding Insmed Inc. for $41 Billion &nbsp;&nbsp; kalkine.co.uk",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Cosette Pharmaceuticals\u00ae Establishes Oncology Franchise Through Acquisition of MARGENZA\u00ae (margetuximab-cmkb) from TerSera\u00ae Therapeutics",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOdG9ZQXA2SFJxVmc1NVdIOWxEQjZ6VWw0UFdNc0M5ZnlJdmR5LXo1V0J1aWV5T0tSdHIySnhITXdsSDBuQU9VamRpVE00TXMwbEdpb0gxZEo1Rjg3Wmp1dUhPOTlsaTVuVXY2eE9sT01EalB1c0Z3NDByTW1Bdk5ZUUk5WEY3TE51OC04T0FoRWZjNzJ4b0tBYzdEb1VEVlpSV1RMakIyN1ZPajlZc0hELS1rb253UmFkYUtMcENmTHFMRFYtRVJOVEUtU1FCSjdBN1hYOXMtZjJDU1RJQkFUX21TVEdfYkwxRW1WMTlnbkwwbEJQLXJGSGVnZHZaS2c?oc=5",
+   "published": "2026-11-24T16:23:58+00:00",
+   "summary": "Cosette Pharmaceuticals\u00ae Establishes Oncology Franchise Through Acquisition of MARGENZA\u00ae (margetuximab-cmkb) from TerSera\u00ae Therapeutics &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Sanofi\u2019s new CEO Garijo strikes 2026\u2019s largest pharma deal with $41B for Insmed",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYkxpTDhOX2pTQWpPTmRBTXh6SHRLMC1wb0VZbk5RYlY2eWxCUGFMTTNtSnRoWGJneDF4YVpyNjU2V2NkOHdYWDliSmVCNG5ldDVFSVROMU5ESEtzZ01IRWRkZk15a1plU1dEZnNkckVpWk4zNG52VnhOTnhEd25NMzNCcDFxNzc3dzROcEItclpmZFpQbi1GWlVFQUVyOHpYdG15MGtVcGxabXNBRlFV?oc=5",
+   "published": "2026-11-24T16:05:34+00:00",
+   "summary": "Sanofi\u2019s new CEO Garijo strikes 2026\u2019s largest pharma deal with $41B for Insmed &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Radiology Partners Completes Acquisition of Everlight Radiology",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcVBwcWVmYXdONWtVQWlDa1NWY0ZUSVI1a2tneThBVFNZU2lpRGRqUmtZS21zOVJmaXpBZGpXYW1laDR2Uzlzbnd4TFBvVldFNTVyYlZzeEUzNXZjM29FQ1dnZFEzaVh2elRIUTVqSEU0VFA0TEJNNE9ZVnQyNll6YUFHOW52SDBRN0Vfb204eUJoWlRZcWVMWUE0WkhhT29ERlI0OGd3?oc=5",
+   "published": "2026-11-24T15:40:15+00:00",
+   "summary": "Radiology Partners Completes Acquisition of Everlight Radiology &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "The biggest biotech deal in nearly three years carries a hefty $41 billion price tag",
+   "publisher": "MarketWatch",
+   "feed": "Google News: biotech IPO prices",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM3A1NlZXcW1pQUJjMzZBd3RBRlY5d3YySGxiM0dSeS14akJkRmk2aDVzR2wxUjAxVEZkeWZEZzdIS0lpVnNzbHBqYk45ekRnN3lMbklfMlZJb3lub3dEV3FtNkRNV1JtTkJjOTh1OWoyOF9qYjlFamM1UEcyN2Vic2RIUzdTeVdxYXY3Z1FJdzZmUVVNV054bm0wQk9pNURzMmNrRFJ4eVFjWklhMV9XZzdob0xZbVJXTUZLY2JxSlhabWhN?oc=5",
+   "published": "2026-11-24T15:21:00+00:00",
+   "summary": "The biggest biotech deal in nearly three years carries a hefty $41 billion price tag &nbsp;&nbsp; MarketWatch",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Ellipses eyes London listing; Isomorphic adds MSD deal after $5B raise; Adcendo reports sarcoma responses",
+   "publisher": "European Biotechnology Magazine",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObDZMYVpKdmswczI3MVlGYmNxSFoybzA5QXE4bEJGYWV6RHEyUGx6dy13UV9XZ3U4UFpURXh4UDktN0JyelhScDd0MlAwUG5aOHhUVmRuVE5WUjZqbzlVd1oxQkJlRzl1SE56Tm1zbFFkV1B2Rkc2LTE2X0NOTmk5VWxyQVJhVDdxdWV1MmI0ZUJOc3V0dGdPQkZuWENYOWUtcnlzZ3BuTTBtV0NpcXBhMVc3bzJPYlEyWm1aYnpTeWJweklSOGhRbWpiVWtFM0ZpbmVFRmRaOG1MNXUxTzV6c0pLcnA?oc=5",
+   "published": "2026-11-24T15:15:57+00:00",
+   "summary": "Ellipses eyes London listing; Isomorphic adds MSD deal after $5B raise; Adcendo reports sarcoma responses &nbsp;&nbsp; European Biotechnology Magazine",
+   "kinds": [
+    "deal",
+    "funding"
+   ]
+  },
+  {
+   "title": "Ritzey Therapeutics Raises $112.5M in Series A Funding",
+   "publisher": "FinSMEs",
+   "feed": "Google News: biotech Series A financing",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV0ZIZG9URkZla3JMSDVnSEdNNjJhMkw0SjVRTzQtQzBtTW5PTndVRG1wRmE0LWVBLWlFelBVaU44UjcwWXprM01HYmdtNGhpTFByVncwdVJUNF9Vb2M4czNsMGZWaHAwdmwzanpqR3pmYXY5U0NmMjlQM3JPeEx2d0R2TkUwNmFwa1FKTEVKb25DcTUw?oc=5",
+   "published": "2026-11-24T15:10:47+00:00",
+   "summary": "Ritzey Therapeutics Raises $112.5M in Series A Funding &nbsp;&nbsp; FinSMEs",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "Inhaled Respiratory Drugs Drive Sanofi\u2019s $41B Insmed Acquisition",
+   "publisher": "PharmTech.com",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ0lxOVRDem5UajFJdWRiRndzN2pIRDNtOXNRWDVTbVM4aUU4ODM5RGdBM3BqT3hxanpLLTNzNWY4SXRQdkl1dlBUNDNnb1lOZVFmLWplc3FBRWRSekQ2M2EzQW5Oa0JHaGY0WEctTk00aC1rX0FGQkhYbGpDaVFaSXMwY1ZOcHhBTzhjanpsbUxOejdrOHk1dg?oc=5",
+   "published": "2026-11-24T15:08:35+00:00",
+   "summary": "Inhaled Respiratory Drugs Drive Sanofi\u2019s $41B Insmed Acquisition &nbsp;&nbsp; PharmTech.com",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Leash Bio lands $11M seed to feed AI drug design with its own data",
+   "publisher": "Dealroom",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQclNOeEMzc0NZbVNmSXdCSGluRlB3c2dIRGItWGVSNVNlWjdOaW5BWmVFVTF6Y0dZMmtzX2xrbUx1UjNPMS1yZkdpSkUyV0p6bmVBWV9IdEYtX3d2VTJKeGRkQlZmRHc1VzQzNDBrMjFDYWVCNDdod2Q0LUhRN3B0WU1pRks5amUzU1pIbVpMN2RQWXVmR2ZTeEVmTGZ3ZEJo?oc=5",
+   "published": "2026-11-24T12:46:32+00:00",
+   "summary": "Leash Bio lands $11M seed to feed AI drug design with its own data &nbsp;&nbsp; Dealroom",
+   "kinds": [
+    "funding"
+   ]
+  },
+  {
+   "title": "TG Therapeutics Announces FDA Acceptance of Supplemental Biologics License Application for BRIUMVI Single Dose Initiation Schedule",
+   "publisher": "Business Wire",
+   "feed": "Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZjllZUhmaTJhaFRXM2hnMU5Xdmg0SkllMC1TS05VdUw2cEJYeHU3VUZ4SUxvRzNmYUdPLTgxU3R3ZkNDMFJMQXpWeEphdnl5bTJMazgxdXVuOWh1dUpOLXZsZk1WRjkxVmNhWU5jQUZhdFh2djU2Q3BDWGUyWWtxdUZBUEJueXZlaFpweUVsLWhqWWR0YXJhOXZhSTRBR1ZKRXVRWnJENHlhTWNUdFBwcDhBNnF3LTFJTVZTQkxzdHY1REEweU9xWTdUcWRvb1V3UkNVMUMzS2Y4bjJsdGVYWGdDMnAzQjlwVncyaHpVMGEtZzllRDRHMmFsT3N6dXdxOUVSVm9UWV9ydUE2eUVTQlBINTE5QQ?oc=5",
+   "published": "2026-11-24T12:30:00+00:00",
+   "summary": "TG Therapeutics Announces FDA Acceptance of Supplemental Biologics License Application for BRIUMVI Single Dose Initiation Schedule &nbsp;&nbsp; Business Wire",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Press Release: Sanofi to acquire Insmed in strategic step that strengthens long-term future",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQY0lodUtXUmpWNVRoVlM3eXZIb0tXREw1TkNwU2hGc1BPYk1wRDB0c0JyT2NtaUswSkhSOGRyZ01aUE9TcGE5a1lndE95d2Z3ZDRJZzB6VllveDVQLWlfTUxPZGUwa1JZRHktNFF5UFRJQWZGR0I2NTl3NmEzWlVMNFYtRlFRTXVJV1VRYXdsUEl5aG5Udm9mNGtiT3FMV0dMaXZEb2dDa0ZlaHd0RDlub3g1bVdfSzRMamQ4TUo2WG1FamN2a29uQllR?oc=5",
+   "published": "2026-11-24T12:14:53+00:00",
+   "summary": "Press Release: Sanofi to acquire Insmed in strategic step that strengthens long-term future &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Why many European biotechs license their science instead of scaling it",
+   "publisher": "MarketScale",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSklQdU9UcFBQb0d3elNHRFNSYjFWWmdoc3hMZkd4U0lmZi0wV2R6NXFvZ1oyWXdydkRQY1Y4Q09OUmFIT19aUWpPTU1VR1NINmhyd2l5SS1HdFh2VVdubUpHd29lMHZ2cWU5NGN2di1hemZONWswYnBTbFVvRmI3d3h3T05wMGF1NUNJTkJQamllMHo2djdLd29HUklLdWZyYUo5WnFRNjBOQWpaV0pnSy1GMERCZTZTZXc?oc=5",
+   "published": "2026-11-24T12:11:00+00:00",
+   "summary": "Why many European biotechs license their science instead of scaling it &nbsp;&nbsp; MarketScale",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Sanofi Agrees US$41bn Deal to Acquire US Biotech Insmed",
+   "publisher": "Healthcare Digital",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQmFBMzN0Y1MyNUZ0N1phdU9zRzdhXzlPU1VsS0JudDFSQVd4QVBFX1JVaGVETDFiaEVqcEZlRlpWNllDYmtaaUJtcmhhMlRzOTIxU1U5Ym5uUVpRZEd3dXBZcmZnT29EVDlvRXVMQ2hVamZTRkE3Z2Q5WURMdGRuWHhqdkUwUy04V1g2amd5MUJReGFDZnc?oc=5",
+   "published": "2026-11-24T12:01:58+00:00",
+   "summary": "Sanofi Agrees US$41bn Deal to Acquire US Biotech Insmed &nbsp;&nbsp; Healthcare Digital",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "French pharma firm Sanofi to acquire US biotech Insmed in $41B deal",
+   "publisher": "Anadolu Ajans\u0131",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM3M4ZVpPRENnLWpEMjB1LUJrTTlzWU1jT2dPMUp0aTJGN2tpTWNCTDNvMXItUnN5NVJzTS1qZE5VY0xraUtFR2YwWmZRN0tvY0RRUTlYWUJudnZBNDZuWUVUMS0yNWZpTmhBRWxkc2JjX19hUnlnUEJ1TFRaeGFNVm9DZlpsWmtJc2RqVnR1dkdUYXR4djItRURocldjWm1pRnJvYg?oc=5",
+   "published": "2026-11-24T11:43:23+00:00",
+   "summary": "French pharma firm Sanofi to acquire US biotech Insmed in $41B deal &nbsp;&nbsp; Anadolu Ajans\u0131",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma\u2019s biggest deal in three years",
+   "publisher": "CNBC",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mSVdLNmxnYXl4a2VvR1BfV202ZXZBckFZWVI5WWtGNkFxQ3d0NDRLd0JNdjJUMWJQVzV4NVNGVWNhZ0I2Rml2NWZXTlNFcDhfaE9kUnVpZkxWWEh1RDk5YV9fTWhqcUZyUzVjLWo5ZnlKN0pkM3Rr0gF8QVVfeXFMT2ZKcnhlaEFlTUtDQ3NnYnlrd1g3d3dZTms3YnM4Yk40ZlJ1eG10N3MzSFZiVUFCQ3lkQUtSYzBNTUx0dks4SkF6azhjaVFpb3p2UTFxYnV4d1RNZFJDZ2hxV1hOTHlSMHNPeHNBQTEyVnBsRnpKRVdxTE1wZA?oc=5",
+   "published": "2026-11-24T09:59:10+00:00",
+   "summary": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma\u2019s biggest deal in three years &nbsp;&nbsp; CNBC",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Sanofi Shares Rise on $41B Deal to Acquire U.S. Drugmaker Insmed; INSM Stock Soars",
+   "publisher": "TipRanks",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcTlfZGN0cXd1a1MweEZMem9JSkZVbXNuelN3NFRKUkxkLWVnSzRfMXllLWFLOFpBa0l6VG9Pei13TndEUElDX0l4RG42ZnpXUFlpLWxrdWE4U0RoS0lWYlNHcmJkSWw4SWplMS0weXFESlBqUDVMVDZtZjd5bzQtcHV0TWlvbk9HOTNvRTF4Q2F4U0d1ejd5UkFySTcxVEx1UmtkZy1qNVpBSEU?oc=5",
+   "published": "2026-11-24T09:02:27+00:00",
+   "summary": "Sanofi Shares Rise on $41B Deal to Acquire U.S. Drugmaker Insmed; INSM Stock Soars &nbsp;&nbsp; TipRanks",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Sanofi inks massive $41B Insmed buyout for post-Dupixent growth drivers",
+   "publisher": "Fierce Pharma",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWWFFZkdqclBUTTlSOHJKLXM4b2c0ODdoOC1lUVdodDVMd1RqU3U1QUcwbkFuY29BV2dTXzdFVU9iUkRTMEVBQ1ZsQkMtNWVlMGhZYno4b20zNHN6bVpucy1kMDJmajVaQ3dXenRyYzBnU04yQ1dnMEt0VGhEWXdhWmludG4zQjdtczhSb01ZOWt0LUFVWkE3OVRn?oc=5",
+   "published": "2026-11-24T09:00:00+00:00",
+   "summary": "Sanofi inks massive $41B Insmed buyout for post-Dupixent growth drivers &nbsp;&nbsp; Fierce Pharma",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "French pharmaceutical company Sanofi to acquire biotech firm Insmed for $41 billion \u2014 STAT News",
+   "publisher": "UA.NEWS",
+   "feed": "Google News: pharma to acquire biotech per share",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMnRfR2gtTjdNdnN4Y1U3V0ZIZmtBT0p1UXhDTktpZ2NGX21mcTY4SVgxdWliTmphVDA1SzFreHdWVTNDeGp6Nk5sQVY1WGxNZjllZmgxU2wtOUJMYVVqaTJKdjdJUmEzQmh3d3BzekZRcUdMejQ5MTU5WkVXbTBHdHE2ZHRMSVdxbGx1OE5xUVhtOWR6WjJObjZWWGF0VEhfa2VXdkZIU0ZlQ0poWGtPMFZDN2p4NlFwWkg1dUZ2ZmFad1g2WkRjVw?oc=5",
+   "published": "2026-11-24T08:12:38+00:00",
+   "summary": "French pharmaceutical company Sanofi to acquire biotech firm Insmed for $41 billion \u2014 STAT News &nbsp;&nbsp; UA.NEWS",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Neurodegenerative Drug Developer Threebrooks Therapeutics Raises USD 5.7M in Pre-SeriesA Funding",
+   "publisher": "Wowtale",
+   "feed": "Google News: biotech raises million financing",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ncnVsbjRZcTU4anFibmJGRHI2MnZ5eEZrRF9rcEd0T2padHdxQXAwWWxGRjVPekRwWGlLQzk3d2pmTlFOalN6bDQyV0RUSWdyWmZz?oc=5",
+   "published": "2026-11-24T08:02:32+00:00",
+   "summary": "Neurodegenerative Drug Developer Threebrooks Therapeutics Raises USD 5.7M in Pre-SeriesA Funding &nbsp;&nbsp; Wowtale",
    "kinds": [
     "funding"
    ]
@@ -60,17 +303,6 @@
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNmEwNlk5MUVkcnR4SEE2MVY5UFNYTHZVdmFoTDFRVkJyckZTSHNhZ2ZUWFdJTE96XzZsNHVMQkVpTzJrTElva2pkLTh1S0E5eWN4WGRjM3pLMGVISzlXeVZxcnFfVnUxWDFob1ZTa1h6X0dXVWRiNXBONkNEMzhOMmt3Uk8xUldxUldJMVo5azJLTV9ZT2d0cGxsdi13Y2s?oc=5",
    "published": "2026-11-23T18:23:16+00:00",
    "summary": "Apiary Therapeutics Raises C$7.3 Million To Advance Engineered B Cell Therapies &nbsp;&nbsp; Pulse 2.0",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "City Therapeutics\u2019 IPO Cash Sets the Clock for Its First Clinical Proof Points",
-   "publisher": "AlphaStreet",
-   "feed": "Google News: biotech IPO prices",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMmY5ZThTUW45RDdjSDl3eDFSX3FtVFdqSGZ2M0xWa2tsUVBrNTlkdjFBSXNMLWRiT3FhZE4zQTBNZGVYSmxKNnhUUUxJbnl1REZMbkZITWU1OFNGZlpNTEVkVjRxNlZENG41YS1Qd3lNd2tWTV9FR1M3Ym9BOTVWTjFlUGtFNnV3dkVtX3ladHljNDlJMFREZGdJemhNdkRSNHFOcXlqQUFYbFXSAasBQVVfeXFMTjJmOWU4U1FuOUQ3Y0g5d3gxUl9xbVRXakhmdjNMVmtrbFFQazU5ZHYxQUlzTC1kYk9xYWROM0EwTWRlWEpsSjZ4VFFMSW55dURGTG5GSE1lNThTRmZaTUxFZFY0cTZWRDRuNWEtUHd5TXdrVk1fRUdTN2JvQTk1Vk4xZVBrRTZ1d3ZFbV95WnR5YzQ5STBURGRnSXpoTXZEUjRxTnF5akFBWGxV?oc=5",
-   "published": "2026-11-23T17:55:18+00:00",
-   "summary": "City Therapeutics\u2019 IPO Cash Sets the Clock for Its First Clinical Proof Points &nbsp;&nbsp; AlphaStreet",
    "kinds": [
     "funding"
    ]
@@ -131,43 +363,10 @@
    ]
   },
   {
-   "title": "M&A News: Eli Lilly (LLY) Acquires LoQus23 Therapeutics for $725 Million",
-   "publisher": "TipRanks",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenhxMUwxRGJ5UF93UUgwSzVqaHB2dG4wTmZQYmhZUkdDSnhqME9pNS1ZMU5ISTFVRVdlV21MZTZ6Rm9RRC1WR0paeGotcmp3MXVvejUtNmE3dzkyVENEOTdpbF9YMjFqRGcwM01OUUQ3bXZxYXhxRDN3aW14T1RseXRCTFZaYzNWRzM0SVhsQ2E3UEdWWXZSNmNEVmphZw?oc=5",
-   "published": "2026-11-23T15:43:18+00:00",
-   "summary": "M&A News: Eli Lilly (LLY) Acquires LoQus23 Therapeutics for $725 Million &nbsp;&nbsp; TipRanks",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Ernexa Therapeutics Nears Transformational Clinical Milestone Following Completion of Key ERNA-101 Manufacturing Activities; IND Filing on Track Before Year-End",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNaWp1WklFTm9URTZmZmVOUm9xSXNYWTMyVmN1VFlMeDd6LXVoQkNzUmcxLW5DbWJ4QjcybHFxR05sTzIwZDFmS00xa0thMkVBeFRRTlhOTnZtNDI1blJsZ3BWNUVDd1dUanZOeUtpYmdoZnBmQVFOWjZzdkN0MkFxS2xfelFlUXVnNGlwSlkwM1JQRENXaXVTSEwwMzR6LVY3dlNnWnRTU3N1d2ROUzNrRnFrUzNyUUNGWnhTZ0xJYW1mQ2xYVGpPMGxTQkU5d05tSGhUVjFfbDdMR2NnOWM5dU1hRE5mdkJKVTgxSXVOeFZFbUJzYW1tSVpjS1BWZ2FsNWt6bW5FbVdvX0lZNUpETi1lY3FrQUVsbS1pczljMnhDZ2hvSVE?oc=5",
-   "published": "2026-11-23T15:43:13+00:00",
-   "summary": "Ernexa Therapeutics Nears Transformational Clinical Milestone Following Completion of Key ERNA-101 Manufacturing Activities; IND Filing on Track Before Year-End &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Neumirna Therapeutics Selected to Receive up to EUR12.5 Million Funding from the EIC Accelerator to Advance NMT.001 into the Clinic for Drug-Resistant Epilepsy",
-   "publisher": "BioSpace",
-   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNYkxxX3dlZmN3a0pNSTdKQ2ZKd1c0WmRoUlpmYkJNZmJULUtvUXkzNFpYdGJTaUZmRkVBRGlwV2pKQmdBa09QaC1CNVBBTW9MeTRtLURsSEJ2czU0cHIxbVlBSnpOWElidjRabEM3M3pqTFVncWJTUm1KYmNIOXBGQzRpVVp2dmo3VWJtUjVFSEdxTUJiUjVuUGE4c0dDSzJsRVU3SF9JUWNYYk1HZ2hKZC1KN2RIdDUycUlNZDQ0eGNGTnJNa0o5Q05TYWdCU1Jkbnlpcm5FT2lXOG50M3BuU01uV2RnSW1xeWlEWHRjMTJES3JZaXdDbHdoMjdBWjlDMXFFdHlGcDBsc0t6emRHRE1SWWpyUmxpRXJid1otdXZZS3paa0E?oc=5",
-   "published": "2026-11-23T14:43:35+00:00",
-   "summary": "Neumirna Therapeutics Selected to Receive up to EUR12.5 Million Funding from the EIC Accelerator to Advance NMT.001 into the Clinic for Drug-Resistant Epilepsy &nbsp;&nbsp; BioSpace",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
    "title": "Option and Evaluation Deals in Pharmaceuticals and",
    "publisher": "GlobeNewswire",
    "feed": "Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing",
-   "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxNMXNjbmY2WHZXb0JlTTRJd2RSalcwZVRDRU52UEVLMjRncHVKUENISWI2Mmk1SVdnNW5sWFB5NXk1Ym5TR3g4Nk91R080NUxKYnEzblJRX1o0eWp0WGJTeE5jRnJlVzVYM09NOHFkOFBjYWhOLUd6dlpqQW1qT2NRcDVqZDNLcHlfaEh0QkhQdTIxS3ZvS3ZPX1JiVk1GWVBoYVVpU3JhTUNrcEt2OVdvVUpOTlYzS1EzNkVSb1ZXTzVrVml6ZGpYV000Ry1NSi1RZTRBcnZ1c29ycHBXRjdjamR6Q25zV3VoYWJJN3R1clR2TV9RQmJoTURxMWJST3NjQU9BOVBkdk1PZ0xsdHlGd3h6VlpEUTZ5aU1FbTh6OU83aUt4WXdPX3pzUUh4S1RZdDlZb2gzSnYta1RhakE4ZnpDc3MyZjVwdzd2MXZpdTdsNnpJRkxSSER0TGtGbDlvcHpycXdab2NueEl1M3M1cUtn?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOeGh2VWFFbWh3VVdSQm1fVUFsTTRVeUZIOEZZRlBzd0tqWW13OTNYUE84akdPbDVmM2pmOU9jVTdobVhxS0psU25mb2xORkxTcW1hQzd6T1l5M3JyZmluSU4yTUVYazJ1WkcyZHBWbFBieWRMYVgtRXVOS2F0cy0zQXJhTWxKNG5zYXJhTlE5ZTBHc0c4MWZvWVAzcU0tdW44RDR3VFlBSXVLcEFxZzdEd1A3M3VMdkRtZVZCaDlmOU1pTU1waWRQODd6N3JKSk1NLTA1d2xudDNHZE84bm9jM3VVSGtuQzJCWWdJaTU0eW1aV3ZORnRXTE5JTXowQmh1VXdXZGpncEhkX01TdVQ2T1Y2OVdSLXYxRWp6ZTZ4NGl2Rl8zdzJNZEtMSkxVbnkyYnBIclhEVEFXRGs4bWY4VEhHTXlxTm1iWk9INy14ZmZVMW9xVW1ZbHFydzl3T0ZmQUk3OEJUZVBqM085?oc=5",
    "published": "2026-11-23T14:38:38+00:00",
    "summary": "Option and Evaluation Deals in Pharmaceuticals and &nbsp;&nbsp; GlobeNewswire",
    "kinds": [
@@ -197,6 +396,17 @@
    ]
   },
   {
+   "title": "Immunocine Advances Scientific Collaboration with Publication of Multi-Cancer Immunotherapy Case Series in Frontiers in Immunology",
+   "publisher": "BioSpace",
+   "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPLTI0SVJacUE3dmxGb2E1aEhhTUlLemtXRlQwbWlUUHRRSXo1eHF6MlYxcU5LQzFpMDgxT2ozQmcyLTh4VUVUV3BUM011aVRqLUt6Z3FiNFdZbHdnZm1sSl9DMXpqd2lTcHRJc3VKM1oyQm9rUEhjSTJNSmFPWGhibTFUVXhST01CNnJfZ3FGUjBNRktWVTljeXZYdjlZb3FVTDBNaWxlVGp4cGdETW1RZDJOaThhNzB5ZzNfalZWb3F2NUYzTGRWdXZJT3N6aDMxbFBOZjVRWDVqc29jSlhES1Z3ZGUzeW5oQVF1bzF1WjFzbkdQbk5fWFFzamp5NWs?oc=5",
+   "published": "2026-11-23T14:17:44+00:00",
+   "summary": "Immunocine Advances Scientific Collaboration with Publication of Multi-Cancer Immunotherapy Case Series in Frontiers in Immunology &nbsp;&nbsp; BioSpace",
+   "kinds": [
+    "deal"
+   ]
+  },
+  {
    "title": "CytoSorbents Announces Closing of $6.25 Million Common Stock Financing and Concurrent Restructuring of Avenue Credit Facility",
    "publisher": "BioSpace",
    "feed": "Google News: site:biospace.com deal OR acquisition OR financing",
@@ -205,17 +415,6 @@
    "summary": "CytoSorbents Announces Closing of $6.25 Million Common Stock Financing and Concurrent Restructuring of Avenue Credit Facility &nbsp;&nbsp; BioSpace",
    "kinds": [
     "funding"
-   ]
-  },
-  {
-   "title": "Fapon Biopharma Licenses Nanobody to MediLink",
-   "publisher": "Wisevoter",
-   "feed": "Google News: biotech license agreement upfront milestone",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV0RhT3RFSHpyMjdoLXRUVURXMHRkRTI2UEJLSnNQQ3V0RzJ4RmVfdVkzb2FyZnlnSFZZTDhsYVRGRHhsUnU2aE1JLXJkeExTMWJVRWNYYk5mZGJrS1c2dnNhMEt3YWZpb1d3SDFDZktkTE9pWTFjTGd5M3NicktrbVF5cDZtRmQx?oc=5",
-   "published": "2026-11-23T14:10:53+00:00",
-   "summary": "Fapon Biopharma Licenses Nanobody to MediLink &nbsp;&nbsp; Wisevoter",
-   "kinds": [
-    "deal"
    ]
   },
   {
@@ -254,23 +453,12 @@
   {
    "title": "Lilly buys preclinical LoQus23 in $725M deal to zero in on Huntington\u2019s target",
    "publisher": "Fierce Biotech",
-   "feed": "Google News: pharma to acquire biotech per share",
+   "feed": "Google News: biotech Series A financing",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTWZrUVJSNTNpVzNiMUdqQ3hXS0pEVENrSFBLcGE2Z0FoYXloc0wtX3FUR1BHSWhXNVM1a0VNVHhRUkh0N0V3YW1vc2psb1UzT2V1dkdUM1ExQlFDZXQyUGxpRWlxdTFRTEthZThiaVpNZUVieGQ2V3ZOQ1BWdG5CYnRDWmg1QkVMQTE0cXp1dzM0TjZrRkNsbG5B?oc=5",
    "published": "2026-11-23T10:20:00+00:00",
    "summary": "Lilly buys preclinical LoQus23 in $725M deal to zero in on Huntington\u2019s target &nbsp;&nbsp; Fierce Biotech",
    "kinds": [
     "deal"
-   ]
-  },
-  {
-   "title": "Korean biotech Aptabio's Apta-16 selected for preclinical funding",
-   "publisher": "\ub354\ud30c\ub9c8\ub274\uc2a4",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1COHY2eEpacEhkUVY5eTlNS1ZwUjJ2VXRCckluY2RZMTFkMDBIMU9Sa2VuMUJHM2FOWGJaWWVWcnVNOTZJWVB1QjQxOEhpZ0lsd21zWmtMNE5Zam00MVQ2M0JSa1ZpM3NoaWl1cnhqaTJ6UQ?oc=5",
-   "published": "2026-11-23T08:36:21+00:00",
-   "summary": "Korean biotech Aptabio's Apta-16 selected for preclinical funding &nbsp;&nbsp; \ub354\ud30c\ub9c8\ub274\uc2a4",
-   "kinds": [
-    "funding"
    ]
   },
   {
@@ -342,42 +530,9 @@
    ]
   },
   {
-   "title": "Arnatar raises $55M Series B to push RNA drugs into global trials",
-   "publisher": "Dealroom",
-   "feed": "Google News: biotech Series B financing",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd2NaOHZWeHdJWmlnQURoM0wtd3l6SGFDM3JlVUxYTllOZHYxbTdVN3RtNDBXTUdlRWJoS2c1RFIxd0U4MU9XUlJkOTRSaTNlekVubDRpa2RwaURPcVhkUlM0UXUzSm9mb0ZaVWJ6cEYtNUk2UVFMUFo3TVRrMUNwRXFQUnFfUkNJUXk0NHdnZF9TUTNKRVVaTHkycEp4UDg?oc=5",
-   "published": "2026-11-23T04:30:15+00:00",
-   "summary": "Arnatar raises $55M Series B to push RNA drugs into global trials &nbsp;&nbsp; Dealroom",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Neuren Pharmaceuticals (ASX:NEU) Shares in Focus: Why Does the ASX 200 Biotech's Japan Partnering Deal Matter Now?",
-   "publisher": "Kalkine Media",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcjdwbDA3eUZmLUV2Qm5YMFZFOFhudnRpVms2ZVZxejJxVm5jSXlCOWRuOUY4N3RZZm1yTjl3VTNYaThncUtGN213cGJ0U2hBaXFUTFU3VEZxUWM3UEdpcGFrX1ZqWHFlVlVGSHhIMjNxcXF6a1Y3NjA1MWpqMGt2b1FNU0k1eUNaRW1pSUdtbkJURFgxR2hJMXF1OTJZQmhBay1Ydm1NOWZ3X2ZZa2d5VDhiRy1HSUlxTDEwbmV5QnlKTzFuSVdUMlhHbmZpcjhmUzRlVVUzVXBkRWVBVXA5UmhJc29Hckk5RUE?oc=5",
-   "published": "2026-11-23T00:12:00+00:00",
-   "summary": "Neuren Pharmaceuticals (ASX:NEU) Shares in Focus: Why Does the ASX 200 Biotech's Japan Partnering Deal Matter Now? &nbsp;&nbsp; Kalkine Media",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Alamar Biosciences Raises 2026 Revenue Guidance",
-   "publisher": "Wisevoter",
-   "feed": "Google News: biotech raises million financing",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRmFVVHBtdmZCOWFXMHNUdXlBaGdWUGE1Z1BsX1hSRFFXblcwaFNHTmM4OU5COTdaYjAyVVhtTnd0RkdNNVBDVFdvNzFrOGxrOGFOQkc5aWpSVXVTSUNDbTlJV2E5VnlmbGNIM2VDRFBPYXBoeG5IZmRWbk5uNVUySTZwV090c2Z6QTFIUklEWHIyVUE?oc=5",
-   "published": "2026-11-22T23:03:40+00:00",
-   "summary": "Alamar Biosciences Raises 2026 Revenue Guidance &nbsp;&nbsp; Wisevoter",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
    "title": "StockWatch: Insmed Jumps on Report of Takeover Interest by Sanofi, as Analysts Conclude a Deal Would Make Sense",
    "publisher": "Genetic Engineering and Biotechnology News",
-   "feed": "Google News: pharma to acquire biotech per share",
+   "feed": "Google News: biotech IPO prices",
    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOOFhDRFZYS1hVak1CWUxEUWwwZDNLT3NJMWlEdFB5T0d3ZVpncm4zaGJGd3Z0dzg0d0o0Unl2UDNFZElzREtpRFlLUm16VDZlZDFpSU5HdW9HT1NEeHhvclM1eURpQklLWjhyM2J6YXZ6QkZmdi1sS2c1VjZMM0czbm5YWVN2ZDZKQkw2LUZKRzl2b002WEtIYzZIU1ZrVF9YZkJ6eC0zSHhXSE9FUTZVdlJPRm01Vm5iVXJJNUhJcmxBTzluN0tKc2Y2ZWZiRUV5YzZONkpDSUVsN09IaVZPRlM2T1phNmlqMloyZi11Qkx5a2JGdmN3OEhZNA?oc=5",
    "published": "2026-11-22T18:52:58+00:00",
    "summary": "StockWatch: Insmed Jumps on Report of Takeover Interest by Sanofi, as Analysts Conclude a Deal Would Make Sense &nbsp;&nbsp; Genetic Engineering and Biotechnology News",
@@ -392,72 +547,6 @@
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQW04WDAyUnBqLWxHdEVnWmxwb254STdpak1fMlc5cFB3cGc0czl5elYxYVlrVTZValZOSXhHREFITml2ZGQ2RG04WnI2LW9MS21IRWc3c3BXVy0td2s3bzh4QXZhdTRtaWQ2WVVlTXRjVURYSjFENlZiUnQ0NnJPOVA3X3NRcmk1Rk9VeXJ3bE1WRFpCbl9mYlY2Wl8xUER6ZWNOcEhqcEw3UWd1c0lkbzBid2dZWDYxbmZfQVQwRm5LUC1MU3dB?oc=5",
    "published": "2026-11-22T18:33:30+00:00",
    "summary": "Innogen Licenses GLP-1 Therapy to Arcera in Deal Potentially Worth Over US$1 Billion &nbsp;&nbsp; BioPharma APAC",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Abivax re-engages Centerview for Big Pharma takeover talks",
-   "publisher": "scanx.trade",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTWtVY3c5QjRDUEdXZnRYX0NkbXpjaEJxZ1pKOWtORFViNmhsSW1UblFNQXNoc0Q2NGNvRXNoTGhJUE9wMFRFRkJhZ3pMWHdsdGxoTV9neFZZNV9pNXM2YkhBWVhvcHdPREhMa1VFNV96ODdTT1ZldEFEWFZsbm1ZcEVGNkw4cHdsWktFdjE2aHJJMXEtZHFEampNNENDTnZVc3VLN1V4ZTh4UzFGS0p5b05ZQmNJZw?oc=5",
-   "published": "2026-11-22T08:18:56+00:00",
-   "summary": "Abivax re-engages Centerview for Big Pharma takeover talks &nbsp;&nbsp; scanx.trade",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Arcera and Innogen seal global licensing deal to expand access to next-gen diabetes and obesity drug",
-   "publisher": "Indian Pharma Post",
-   "feed": "Google News: biotech license agreement upfront milestone",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSmpvdVMyWWk1d3pzTnVLRUtWMGh5dWJZUnA2Q0gwQ0l0Ul9uTC1OSXhfc0tCbDZrYmVORURDNkgyc3pKRVRLRnliNjF0a0xEaDBSTVhKNUlVbk1DbDZuNGFZUEFYdkNXWEVYU011Wm1wbUxWWmk2TjM2TzZ1dGEyMzNzMUNzZmhXc2hYaVFvRlhnNDJvNFZ2ZXlrOTZnQzBPOG5zQWJ0LUV4aHRKVWVpbGR6V2N6VG4wbGZva05HYVdYaUZyQTNQME1TZkY1bmhfcEFuYU5PZ2sxNldD0gHjAUFVX3lxTE9vNHh3U25faEIzTjJ3VWIwOHdyVGZPb3A3OGZxY2k1eWJGdlVZSk96eHdjalpVUzFMTG5wbXd5Mld1NGVqLVFnVENRMlh5RENMZjVBRTYxWkxOSFF5S1pfdHc3T0Vtb1BzUDlvakRzNXRrSlVBc0dnTGZXSXhuNjZSb09qOXlQR0ZtMC1OcVg5LUx1eUpnZEc3TnlaZE9RNDhkSVI3SjZHNl9sekxyRFhVd1d3Zk5PN2J5a3JzTFhZLTBsU0RBdThmYVpMQm16eVBxYXJOMFYza1Bfajhuc2d2cm1Z?oc=5",
-   "published": "2026-11-22T03:45:20+00:00",
-   "summary": "Arcera and Innogen seal global licensing deal to expand access to next-gen diabetes and obesity drug &nbsp;&nbsp; Indian Pharma Post",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Isomorphic's $5b haul, Leo Pharma delays IPO, Lilly keeps shopping",
-   "publisher": "Axios",
-   "feed": "Google News: biotech Series B financing",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHlxMzlnRUlzMUFfR2lJWG94ZG5xZ0MydHF6ZXhnS0VYSWFYQTg0X2xFTmpJSG9QYkxBc2Y2UmJmVjA4NFI5OUk3UnZhaThJZF9ONWZRSDRzZFNQdjM4ZVUweDkzQVhFT1A0bl9zbXgzMHBMM1Rta3E5SnJUNGpyUTlfS1U4V0lOeG50ZWVYakJwZlhQ?oc=5",
-   "published": "2026-11-21T12:57:39+00:00",
-   "summary": "Isomorphic's $5b haul, Leo Pharma delays IPO, Lilly keeps shopping &nbsp;&nbsp; Axios",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Eli Lilly (LLY) Backed An $87 Million Lyme Disease Vaccine Funding Round",
-   "publisher": "Simply Wall St",
-   "feed": "Google News: biotech Series C financing",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZGRiSXJHeW5ubTlDU1FJeGV5YXlLanYwanNlZWhHYkR5cDI3WTRLekxnNlhsV1RwdDB2SGIwaWsxYm1xLVFYSGN2M2NzU2RPeEZPMHNKb2NaTjJ3empuZ1ZQUFNSVkJGUGZzTUtSNkNmTEFoMHlFa1VRQ0JLQWlnZEQzb0Fld3I0N2tyZFg5azdPWFVFMkdiU0VZVjlLZTdENXlwWUdWWUtlYWVHVjVfT3dQS1lqRjdjeFBGREF6NGo3SkJGYjVNV0txaEZOWDRXRE9tTlNKNFY1dEhD0gHcAUFVX3lxTE5kZGJJckd5bm5tOUNTUUl4ZXlheUtqdjBqc2VlaEdiRHlwMjdZNEt6TGc2WGxXVHB0MHZIYjBpazFibXEtUVhIY3YzY3NTZE94Rk8wc0pvY1pOMnd6am5nVlBQU1JWQkZQZnNNS1I2Q2ZMQWgweUVrVVFDQktBaWdkRDNvQWV3cjQ3a3JkWDlrN09YVUUyR2JTRVlWOUtlN0Q1eXBZR1ZZS2VhZUdWNV9Pd1BLWWpGN2N4UEZEQXo0ajdKQkZiNU1XS3FoRk5YNFdET21OU0o0VjV0SEM?oc=5",
-   "published": "2026-11-21T11:09:14+00:00",
-   "summary": "Eli Lilly (LLY) Backed An $87 Million Lyme Disease Vaccine Funding Round &nbsp;&nbsp; Simply Wall St",
-   "kinds": [
-    "funding"
-   ]
-  },
-  {
-   "title": "Pharma Co. Restructures Royalties Refocuses on Rare Disease Drug After Poor Trial Results",
-   "publisher": "Streetwise Reports",
-   "feed": "Google News: pharma to acquire biotech per share",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYnpUT2R6aGczVkFSN1YybUJFR1hzWTVlUlJPTDkxOUxxNExHT0FfYjhETmh4ZVdhREJ2cWQtNnlTazFxQXpRMHU2VFFZamp6blJOZ2hnMlpSR2U2V3J3Z2dFNWhOeW10TkQzVzRIcjRhSnU2VzZnQVZCQzdqaXdjMTMyLUc3X1ZOVFJDNkFUMEtFS21iUkR3RmFqM0pnZEctRUtSVDlwT0JwNFhvQWhzVl9ZSzNaanFjek1taXhxeFR2RVNVZkRhekpxalBycnJiMUstblo5X1lQaTQzNmtZ?oc=5",
-   "published": "2026-11-21T11:05:24+00:00",
-   "summary": "Pharma Co. Restructures Royalties Refocuses on Rare Disease Drug After Poor Trial Results &nbsp;&nbsp; Streetwise Reports",
-   "kinds": [
-    "deal"
-   ]
-  },
-  {
-   "title": "Formation Bio launches $600 million fund to buy or license stalled drug candidates",
-   "publisher": "Digg",
-   "feed": "Google News: biotech raises million financing",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtSmtkb0g1RHl2Rnoxc0JLQ3hJYXhEWDNKMEJoZnNEa1czam1UcnFZaVU1aFJ3TVFIenQyWEppcUYwV1hoVmNRaW1yeUFyLThZNmc?oc=5",
-   "published": "2026-11-21T03:00:17+00:00",
-   "summary": "Formation Bio launches $600 million fund to buy or license stalled drug candidates &nbsp;&nbsp; Digg",
    "kinds": [
     "deal"
    ]
