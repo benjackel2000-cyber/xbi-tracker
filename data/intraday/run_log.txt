@@ -9,8 +9,4 @@ First rows of holdings sheet:
 5          MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.420807       -      1106400             USD
 6           INSMED INC                                  INSM   457669307  2614487  1.910122       -      1166631             USD
 7  TG THERAPEUTICS INC                                  TGTX   88322Q108  B828K63  1.855492       -      2749536             USD
-  JBIO: 1 search results, none recent and naming 'Jade Biosciences' (e.g. 'Weekly Recap: JADE101 cuts IgA nearly 70% and Guggenheim trims target')
-  CBIO: 2 search results, none recent and naming 'Crescent Biopharma' (e.g. 'Two days, two cities: Crescent Biopharma management is scheduled to sp')
-  GLUE: 7 search results, none recent and naming 'Monte Rosa Therapeutics' (e.g. 'Edgewise Therapeutics, Inc. (EWTX) Stock Price, News, Quote & History')
-  TNGX: 1 search results, none recent and naming 'Tango Therapeutics' (e.g. 'Layoff Tracker: Orca lays off employees, focuses on launch of newly ap')
-2026-11-25 10:19 AM PT: XBI 156.03 (-0.50%), 1 checkpoints, 14 movers (news searches: 14 via Google, 0 via Bing, 0 failed)
+2026-11-25 12:18 PM PT: XBI 156.51 (-0.20%), 2 checkpoints, 13 movers (news searches: 6 via Google, 0 via Bing, 0 failed)
