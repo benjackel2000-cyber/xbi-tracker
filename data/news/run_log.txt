@@ -1,16 +1,16 @@
-BioPharma Dive: 10 items, 2 kept
-Fierce Biotech: 25 items, 0 kept
-PR Newswire (health): 20 items, 3 kept
+BioPharma Dive: 10 items, 1 kept
+Fierce Biotech: failed (403 Client Error: Forbidden for url: https://www.fiercebiotech.com/rss/xml)
+PR Newswire (health): 20 items, 1 kept
 Google News: site:endpts.com deal OR licensing OR acquire OR raises: 0 items, 0 kept
-Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing: 31 items, 1 kept
-Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing: 11 items, 1 kept
-Google News: site:biospace.com deal OR acquisition OR financing: 100 items, 18 kept
-Google News: biotech license agreement upfront milestone: 8 items, 6 kept
-Google News: pharma to acquire biotech per share: 55 items, 21 kept
+Google News: site:globenewswire.com therapeutics license agreement OR acquisition OR financing: 10 items, 0 kept
+Google News: site:businesswire.com therapeutics license agreement OR acquisition OR financing: 12 items, 1 kept
+Google News: site:biospace.com deal OR acquisition OR financing: 93 items, 20 kept
+Google News: biotech license agreement upfront milestone: 10 items, 6 kept
+Google News: pharma to acquire biotech per share: 24 items, 14 kept
 Google News: biotech collaboration agreement upfront: 1 items, 0 kept
-Google News: biotech Series A financing: 52 items, 11 kept
-Google News: biotech Series B financing: 19 items, 4 kept
-Google News: biotech Series C financing: 8 items, 3 kept
-Google News: biotech IPO prices: 48 items, 7 kept
-Google News: biotech raises million financing: 43 items, 15 kept
-Saved 76 deal/funding headlines from the last 3 days. (news searches: 12 via Google, 0 via Bing, 0 failed)
+Google News: biotech Series A financing: 41 items, 12 kept
+Google News: biotech Series B financing: 16 items, 4 kept
+Google News: biotech Series C financing: 9 items, 4 kept
+Google News: biotech IPO prices: 52 items, 4 kept
+Google News: biotech raises million financing: 31 items, 14 kept
+Saved 62 deal/funding headlines from the last 3 days. (news searches: 12 via Google, 0 via Bing, 0 failed)
