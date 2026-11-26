@@ -1,6 +1,6 @@
 
 1 Failed download:
-['CADL']: OperationalError('database is locked')
+['AMGN']: OperationalError('database is locked')
 Holdings download: HTTP 200, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, 29756 bytes
 First rows of holdings sheet:
                      0                                     1           2        3         4       5            6               7
@@ -12,5 +12,5 @@ First rows of holdings sheet:
 5          MODERNA INC                                  MRNA   60770K107  BGSXTS3  2.420807       -      1106400             USD
 6           INSMED INC                                  INSM   457669307  2614487  1.910122       -      1166631             USD
 7  TG THERAPEUTICS INC                                  TGTX   88322Q108  B828K63  1.855492       -      2749536             USD
-Retrying prices for: CADL
+Retrying prices for: AMGN
 Latest price bar is 2026-11-25, not today (2026-11-26) — market closed or not open yet. Nothing to do.
