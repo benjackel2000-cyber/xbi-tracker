@@ -44,6 +44,28 @@
   "final": true
  },
  {
+  "id": "VRTX-povetacicept-2026-11-30",
+  "ticker": "VRTX",
+  "company": "Vertex",
+  "drug": "Povetacicept",
+  "indication": "IgA nephropathy",
+  "pdufa_date": "2026-11-30",
+  "outcome": "Extended",
+  "confirmed": true,
+  "decision_date": "2026-11-25",
+  "headline": "Vertex Announces Extension of PDUFA Target Action Date by up to Three Months as FDA Completes Review of the Biologics License Application for Povetacicept in IgA Nephropathy",
+  "source_name": "Business Wire",
+  "source_url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNcEdmWXhZVmQ3cGVsbGVBYXNTMzF0VkNUbDdvZ00tQzVldDdYMVpvMXlLZWJBclZ0XzhkS0czc1R3WFhjZ3hfeDZnUHJUOUF3SG1KQXR6OXgtdnpxeWtCa0hKZTNzcEJxV3ljRGpaaElmOGdmU211RlloUzJsdUk3Wi0wM3dCOUY1bDhRVjhNckxIdTZBUGZnRXhRY3NGTGdWM2lxSXhlM292YTRtR0NLQjF3dHNDNHUzRmJEVzd4VktKVmVHRzhsc0dxSnpzalVHVG5UUUEwblZ1RGRGMlVqT3lETVBSRzFRc08tRjl3OWRxZkltNUd1SGl2V0F4b09KbmM2RXlrVV91VG1IZW9uZDc3MXAxa0E5VmNkNGtXS2ozam8zTDE1aHpFVWE1d2pZV0ZlYXlVaWZWTWFLYndTa25EbHJyZlBFWXBzX3V5dw?oc=5",
+  "unconfirmed_headline": null,
+  "reaction_date": null,
+  "reaction_pct": null,
+  "window_pct": 8.35,
+  "biggest_day": "2026-11-24",
+  "biggest_day_pct": 4.71,
+  "checked_at": "2026-11-26T03:42:39+00:00",
+  "final": false
+ },
+ {
   "id": "PYPD-d-plex-100-2026-11-28",
   "ticker": "PYPD",
   "company": "PolyPid",
@@ -167,10 +189,10 @@
   "unconfirmed_headline": null,
   "reaction_date": "2026-11-20",
   "reaction_pct": -18.23,
-  "window_pct": -8.82,
+  "window_pct": -8.02,
   "biggest_day": "2026-11-20",
   "biggest_day_pct": -18.23,
-  "checked_at": "2026-11-25T04:29:12+00:00",
+  "checked_at": "2026-11-26T03:42:37+00:00",
   "final": false
  },
  {

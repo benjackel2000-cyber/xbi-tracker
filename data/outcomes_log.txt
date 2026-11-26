@@ -1,4 +1,3 @@
-SVRA   2026-11-22  Extended       reaction -18.23%  window -8.82%  | FDA delays decision on Savara’s autoimmune PAP treatment By Investing.com
-PYPD   2026-11-28  Approved       reaction -3.9%  window -15.21%  | US FDA approves PolyPid's treatment to reduce infections after colorectal surger
-COGT   2026-11-30  Approved       reaction 17.43%  window 19.0%  | US FDA approves Cogent Biosciences' combination treatment for advanced stomach c
-Checked 3 events; 14 outcomes saved. (news searches: 5 via Google, 0 via Bing, 0 failed)
+SVRA   2026-11-22  Extended       reaction -18.23%  window -8.02%  | FDA delays decision on Savara’s autoimmune PAP treatment By Investing.com
+VRTX   2026-11-30  Extended       reaction None%  window 8.35%  | Vertex Announces Extension of PDUFA Target Action Date by up to Three Months as 
+Checked 2 events; 15 outcomes saved. (news searches: 3 via Google, 0 via Bing, 0 failed)
