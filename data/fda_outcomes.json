@@ -62,7 +62,7 @@
   "window_pct": 8.35,
   "biggest_day": "2026-11-24",
   "biggest_day_pct": 4.71,
-  "checked_at": "2026-11-26T03:42:39+00:00",
+  "checked_at": "2026-11-27T03:44:23+00:00",
   "final": false
  },
  {
@@ -131,6 +131,28 @@
   "final": true
  },
  {
+  "id": "RPRX-partner-drug-royalty-2026-11-27",
+  "ticker": "RPRX",
+  "company": "Royalty Pharma",
+  "drug": "Partner drug (royalty)",
+  "indication": "See filing",
+  "pdufa_date": "2026-11-27",
+  "outcome": "No news found",
+  "confirmed": false,
+  "decision_date": null,
+  "headline": null,
+  "source_name": null,
+  "source_url": null,
+  "unconfirmed_headline": null,
+  "reaction_date": null,
+  "reaction_pct": null,
+  "window_pct": 2.98,
+  "biggest_day": "2026-11-24",
+  "biggest_day_pct": 2.49,
+  "checked_at": "2026-11-27T03:44:22+00:00",
+  "final": false
+ },
+ {
   "id": "SNY-venglustat-2026-11-25",
   "ticker": "SNY",
   "company": "Sanofi",
@@ -183,16 +205,16 @@
   "outcome": "Extended",
   "confirmed": true,
   "decision_date": "2026-11-20",
-  "headline": "FDA delays decision on Savara\u2019s autoimmune PAP treatment By Investing.com",
-  "source_name": "Investing.com Canada",
-  "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdndIME85OS03NzM1alpOdnotY1VzMGhKR2VybHpuUVBidHM4Umd4eWltckpzZDVtQnY5aUFwR0VHdG9Val9YVWNTZWlPZk8wemRGU19zS2ctZVVjTUdVcWpyZmZCN3BZVVhjR3Q4OHpzSUZOZ0swZVdVc28xSlVHVDBWc1Fiek0zTV81VTZsRXJpdF9kSEoyek5yeG9ac1VzUzAzM3lSY2ZTQnVEdTBpWllJWUNIMm8?oc=5",
+  "headline": "FDA delays decision on Savara\u2019s autoimmune PAP treatment",
+  "source_name": "Investing.com",
+  "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTjVjY3FSanVpYnF1cUVJbVgzanpma3N5Nk9MLTlwdi1pVFUyRUZUcUJmTkZiSXMySHoxOTZvTUIyczBzUDVfU1dOV2lJZlJPbk93ay16aDFBMUMxcG1oclhzQUNDRWpDRTJfMWNtTEl2UXFRYWdzVy1ES2lPU0dHNUVyNFA2X2VGYW50RTNTZVVBNGFyZXVway01aGM0UnJkRm9Mc0p5a1U2TkZsN3FQSWhB?oc=5",
   "unconfirmed_headline": null,
   "reaction_date": "2026-11-20",
   "reaction_pct": -18.23,
   "window_pct": -8.02,
   "biggest_day": "2026-11-20",
   "biggest_day_pct": -18.23,
-  "checked_at": "2026-11-26T03:42:37+00:00",
+  "checked_at": "2026-11-27T03:44:20+00:00",
   "final": false
  },
  {

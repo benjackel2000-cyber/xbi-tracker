@@ -10,7 +10,7 @@ First rows of holdings sheet:
 6           INSMED INC                                  INSM   457669307  2614487  1.910122       -      1166631             USD
 7  TG THERAPEUTICS INC                                  TGTX   88322Q108  B828K63  1.855492       -      2749536             USD
 Parsed 157 holdings; weights sum to 99.9%
-  SPRY: 1 search results, none recent and naming 'Ars Pharmaceuticals' (e.g. 'SPRY Stock Alert: Halper Sadeh LLC Investigates ARS Pharmaceuticals, I')
+  SPRY: 0 search results, none recent and naming 'Ars Pharmaceuticals'
   CRVS: 0 search results, none recent and naming 'Corvus Pharmaceuticals'
 Movers with headlines: 10/12 (news searches: 12 via Google, 0 via Bing, 0 failed)
 2026-11-25: 157/157 holdings priced; sum of contributions -3.9 bps vs XBI -0.14%
