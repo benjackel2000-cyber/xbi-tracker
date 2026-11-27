@@ -10,5 +10,5 @@ First rows of holdings sheet:
 6               INSMED INC                                  INSM   457669307  2614487  1.912719       -      1181591             USD
 7  KYMERA THERAPEUTICS INC                                  KYMR   501575104  BMPRZV5  1.820268       -      1102089             USD
   ALLO: 2 search results, none recent and naming 'Allogene Therapeutics' (e.g. 'Allogene Therapeutics (ALLO) Stock Price, News & Analysis')
-  ABSI: 4 search results, none recent and naming 'Absci' (e.g. "Absci (NASDAQ:ABSI) Shares Up 11.1% - Here's What Happened")
-2026-11-27 10:18 AM PT: XBI 157.6 (+0.64%), 2 checkpoints, 14 movers (news searches: 8 via Google, 0 via Bing, 0 failed)
+  ABSI: 3 search results, none recent and naming 'Absci' (e.g. "Absci (NASDAQ:ABSI) Shares Down 8.7% - Here's What Happened")
+2026-11-27 12:18 PM PT: XBI 158.5 (+1.21%), 3 checkpoints, 14 movers (news searches: 3 via Google, 0 via Bing, 0 failed)
