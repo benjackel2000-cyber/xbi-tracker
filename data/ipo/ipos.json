@@ -681,5 +681,15 @@
   "expected_date": "",
   "note": "Postponed its IPO on Nov 13",
   "note_url": "https://www.renaissancecapital.com/IPO-Center/News/122702/inflammatory-disease-biotech-rezera-postpones-200-million-ipo"
+ },
+ {
+  "id": "filed-kalohexis",
+  "status": "filed",
+  "company": "Kalohexis, Inc.",
+  "ticker": "KHXS",
+  "filed_date": "2026-11-25",
+  "raised_musd": 34.5,
+  "deal_status": "Filed",
+  "expected_date": ""
  }
 ]
