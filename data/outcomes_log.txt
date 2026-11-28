@@ -1,4 +1,4 @@
-SVRA   2026-11-22  Extended       reaction -18.23%  window -8.02%  | FDA delays decision on Savara’s autoimmune PAP treatment
-RPRX   2026-11-27  No news found  reaction None%  window 2.98%  | 
-VRTX   2026-11-30  Extended       reaction None%  window 8.35%  | Vertex Announces Extension of PDUFA Target Action Date by up to Three Months as 
+SVRA   2026-11-22  Extended       reaction -18.23%  window -8.02%  | FDA delays decision on Savara’s autoimmune PAP treatment By Investing.com
+RPRX   2026-11-27  No news found  reaction None%  window 3.41%  | 
+VRTX   2026-11-30  Extended       reaction -5.24%  window 2.67%  | Vertex Announces Extension of PDUFA Target Action Date by up to Three Months as 
 Checked 3 events; 16 outcomes saved. (news searches: 3 via Google, 0 via Bing, 0 failed)
