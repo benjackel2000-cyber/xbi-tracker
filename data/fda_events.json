@@ -18,15 +18,6 @@
   "notes": "Accelerated approval sought"
  },
  {
-  "id": "AGIO-mitapivat-2026-11-01",
-  "date": "2027-02-01",
-  "ticker": "AGIO",
-  "company": "Agios",
-  "drug": "Mitapivat",
-  "indication": "Sickle cell disease",
-  "notes": "Label expansion \u00b7 Extended"
- },
- {
   "id": "BTAI-igalmi-2026-11-14",
   "date": "2026-11-14",
   "ticker": "BTAI",
@@ -124,15 +115,6 @@
   "drug": "Bezuclastinib + sunitinib",
   "indication": "GIST after imatinib",
   "notes": "Priority review"
- },
- {
-  "id": "VRTX-povetacicept-2026-11-30",
-  "date": "2026-11-30",
-  "ticker": "VRTX",
-  "company": "Vertex",
-  "drug": "Povetacicept",
-  "indication": "IgA nephropathy",
-  "notes": "Partner: Zai Lab (ZLAB)"
  },
  {
   "id": "RHHBY-giredestrant-2026-11-30",
@@ -270,6 +252,15 @@
   "notes": "Label expansion"
  },
  {
+  "id": "AGIO-mitapivat-2026-11-01",
+  "date": "2027-02-01",
+  "ticker": "AGIO",
+  "company": "Agios",
+  "drug": "Mitapivat",
+  "indication": "Sickle cell disease",
+  "notes": "Label expansion \u00b7 Extended"
+ },
+ {
   "id": "GILD-lenacapavir-300-mg-tablets-2027-02-02",
   "date": "2027-02-02",
   "ticker": "GILD",
@@ -322,6 +313,15 @@
   "drug": "Zipalertinib",
   "indication": "EGFR exon 20 NSCLC",
   "notes": ""
+ },
+ {
+  "id": "VRTX-povetacicept-2026-11-30",
+  "date": "2027-02-28",
+  "ticker": "VRTX",
+  "company": "Vertex",
+  "drug": "Povetacicept",
+  "indication": "IgA nephropathy",
+  "notes": "Partner: Zai Lab (ZLAB) \u00b7 Extended Nov 25 by up to 3 months; Feb 28, 2027 = extended goal date (original Nov 30, 2026)"
  },
  {
   "id": "APMD-ad109-2027-02-28",
@@ -538,5 +538,14 @@
   "drug": "Bezuclastinib",
   "indication": "Advanced systemic mastocytosis",
   "notes": "NDA accepted"
+ },
+ {
+  "id": "TGTX-briumvi-sdi-2027-07-10",
+  "date": "2027-07-10",
+  "ticker": "TGTX",
+  "company": "TG Therapeutics",
+  "drug": "Briumvi single-dose initiation",
+  "indication": "Relapsing multiple sclerosis",
+  "notes": "sBLA accepted Nov 24, 2026"
  }
 ]

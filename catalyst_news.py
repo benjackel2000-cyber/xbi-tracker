@@ -27,6 +27,7 @@ import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urlencode
 
@@ -290,6 +291,8 @@ def main() -> int:
         out.append({
             "ticker": t, "title": it["title"], "publisher": it["publisher"], "link": it["link"],
             "published": it["published"].isoformat() if it["published"] else None,
+            # The US Eastern day the story came out; the dashboard dates rows by this, not the run day.
+            "news_date": it["published"].astimezone(ZoneInfo("America/New_York")).date().isoformat() if it["published"] else None,
             "type_guess": typ, "result_guess": guess_result(it["title"], typ),
             "catalyst_id": it["catalyst_id"], "found_by": it["found_by"],
             **cache[(t, it["published"])],

@@ -72,6 +72,38 @@ TRUSTED = re.compile(
 )
 
 
+STOP = {"and", "the", "for", "with", "of", "in", "or", "to", "a", "an", "plus", "disease", "patients", "treatment", "therapy",
+        "cancer", "tumor", "tumors", "adult", "adults", "pediatric", "fda", "sbla", "snda", "bla", "nda"}
+SYNONYMS = {"early": ["early", "adjuvant", "early-stage"], "advanced": ["advanced", "metastatic", "late-stage"],
+            "metastatic": ["metastatic", "advanced"], "adjuvant": ["adjuvant", "early", "early-stage"]}
+
+
+def words(text: str | None) -> set[str]:
+    return {w for w in re.split(r"[^a-z0-9-]+", (text or "").lower()) if len(w) >= 3 and w not in STOP}
+
+
+def distinct_terms(ev: dict, events: list[dict]) -> tuple[set[str], set[str]]:
+    """Words that tell this event apart from the same sponsor's other FDA events (same ticker),
+    e.g. Roche's giredestrant in early breast cancer vs giredestrant + everolimus in advanced
+    disease. Returns (this event's distinctive words, the siblings' distinctive words)."""
+    mine = words(ev.get("drug")) | words(ev.get("indication"))
+    others: set[str] = set()
+    for o in events:
+        if o is not ev and o["ticker"] == ev["ticker"]:
+            others |= words(o.get("drug")) | words(o.get("indication"))
+    return mine - others, others - mine
+
+
+def about_this_event(title: str, own: set[str], sibling: set[str]) -> bool:
+    """False when a headline names a sibling event's drug/indication and nothing specific to this
+    one, so one sponsor's decision is not credited to its other application."""
+    if not sibling:
+        return True
+    t = title.lower()
+    has = lambda terms: any(re.search(rf"\b{re.escape(x)}\b", t) for w in terms for x in SYNONYMS.get(w, [w]))
+    return not has(sibling) or has(own)
+
+
 def headlines(company: str, ticker: str, drug: str, start: pd.Timestamp, end: pd.Timestamp) -> list[dict]:
     short = re.sub(r"\b(Inc|Corp|Ltd|Plc|N\.?V\.?|S\.?A\.?|SE|AG|Holdings?|Co)\b\.?", "", company, flags=re.I).strip()
     terms = [f'"{short}"', f'"{ticker}"']
@@ -168,11 +200,13 @@ def main() -> int:
         if not (today - pd.Timedelta(days=LOOKBACK_DAYS) <= pdufa <= today + pd.Timedelta(days=LOOKAHEAD_DAYS)):
             continue
         prev = saved.get(ev["id"])
+        own, sibling = distinct_terms(ev, events)
         if prev and (prev.get("final") or prev.get("manual")):
             continue  # manual = corrected by hand; never overwritten
         start = (pdufa - pd.Timedelta(days=BEFORE_DAYS)).tz_localize("UTC")
         end = min(pdufa + pd.Timedelta(days=AFTER_DAYS), today).tz_localize("UTC")
         items = headlines(ev["company"], ev["ticker"], ev["drug"], start, end)
+        items = [h for h in items if about_this_event(h["title"], own, sibling)]
         outcome, hit, confirmed = classify(items)
         decided = outcome != "No news found"
         if pdufa > today and not decided:
